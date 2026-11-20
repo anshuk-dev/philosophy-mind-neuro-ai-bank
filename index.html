@@ -603,6 +603,44 @@
               </button>
             </div>
           </div>
+
+          <!-- Mock Paper 5 Card -->
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-amber-500 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 uppercase tracking-wider">Mock Exam 05</span>
+                <span class="text-xs text-slate-400 font-medium">Timed 45 Mins</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Mind, Neurophilosophy & AI Frontiers</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-400">
+                Covers Smart's topic-neutrality, Jackson vs. Lewis's Ability Hypothesis, Tononi's Exclusion Postulate, Anil Seth's Beast Machine, Weiskrantz's Blindsight Dissociation, Searle's Observer-Relative Syntax, LeCun's JEPA, and Yampolskiy's AI Confinement.
+              </p>
+            </div>
+            <div class="pt-6">
+              <button onclick="startMockExam('MOCK5')" class="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-sm transition-all shadow-md shadow-amber-600/20">
+                Launch Mock Exam 05
+              </button>
+            </div>
+          </div>
+
+          <!-- Mock Paper 6 Card -->
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-indigo-500 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 uppercase tracking-wider">Mock Exam 06</span>
+                <span class="text-xs text-slate-400 font-medium">Timed 45 Mins</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Explanation, XAI & AI Ethics Frontiers</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-400">
+                Covers Salmon-Dowe Conserved Quantities, Lipton's Loveliest vs. Likeliest, Pearl's Causal Markov & Faithfulness, Barocas & Selbst's Big Data Disparate Impact, Susser & Nissenbaum's Epistemic Autonomy Manipulation, Precautionary Principle, Couldry's Data Colonialism, and Citron's Due Process.
+              </p>
+            </div>
+            <div class="pt-6">
+              <button onclick="startMockExam('MOCK6')" class="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm transition-all shadow-md shadow-indigo-600/20">
+                Launch Mock Exam 06
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1645,6 +1683,12 @@
       } else if (examKey === 'MOCK4') {
         examQuestions = appData.questions.filter(q => q.filename === 'Mock_Exam_04_Advanced_Frontiers.md');
         examTitle = "Mock 04: Advanced Frontiers & Dialectics";
+      } else if (examKey === 'MOCK5') {
+        examQuestions = appData.questions.filter(q => q.filename === 'Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md');
+        examTitle = "Mock 05: Mind, Neuro & AI Frontiers";
+      } else if (examKey === 'MOCK6') {
+        examQuestions = appData.questions.filter(q => q.filename === 'Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md');
+        examTitle = "Mock 06: Explanation, XAI & AI Ethics Frontiers";
       } else {
         // Fallback: take random 20
         examQuestions = [...appData.questions].slice(0, 20);

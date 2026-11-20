@@ -383,3 +383,194 @@ Dennett's framework dissolves the metaphysical dilemma of intentionality by show
 - **(D) is incorrect**: Conflates Dennett's predictive stances with Freudian psychoanalytic developmental stages (Oral, Anal, Phallic).
 
 **Primary Textual Reference**: Daniel C. Dennett, *The Intentional Stance* (MIT Press / Bradford Books, 1987), Chapters 1 and 2; Daniel C. Dennett, "True Believers: The Intentional Strategy and Why It Works", in *Scientific Explanation*, ed. A. F. Heath (Oxford University Press, 1981).
+
+---
+
+### Question 11: Donald Davidson's Anomalous Monism and the Causal Paradox of the Mental
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Donald Davidson ("Mental Events", 1970)
+
+In his seminal paper *"Mental Events"* (1970), Donald Davidson presents three premises that appear to form an inconsistent triad:
+1. **The Principle of Causal Interaction**: At least some mental events interact causally with physical events.
+2. **The Principle of the Nomological Character of Causality**: Where there is causality, there must be a strict, exceptionless, deterministic law (*strict nomological law*).
+3. **The Anomalism of the Mental**: There are no strict deterministic laws on the basis of which mental events can be predicted and explained.
+
+How does Davidson's theory of **Anomalous Monism** resolve this apparent contradiction?
+
+- (A) By distinguishing between *events* as concrete individuals and *descriptions* of events: every individual mental event is token-identical to a physical event (*Token Identity*), but events instantiate strict causal laws only when picked out under their physical descriptions, not under their mental descriptions, because the mental vocabulary is governed by constitutive principles of rationality and coherence.
+- (B) By denying that mental events interact with the physical world, embracing pure epiphenomenalism.
+- (C) By demonstrating that modern quantum physics contains no strict deterministic laws, thereby dissolving the second premise.
+- (D) By asserting that type-identity holds, meaning every mental property corresponds one-to-one with a unique neurochemical property.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Donald Davidson's **Anomalous Monism** (1970) is one of the most sophisticated non-reductive physicalist positions in analytic philosophy:
+1. **The Apparent Contradiction**:
+   - If mental events cause physical events (Principle 1), and causation requires strict laws (Principle 2), it seems mental events must fall under strict laws. Yet Davidson defends the Anomalism of the Mental (Principle 3).
+2. **The Resolution**:
+   - Davidson insists that causality is an extensional relation between **concrete token events** in spacetime. If event $m$ causes event $p$, that causal link holds regardless of how the events are described.
+   - However, **laws are linguistic/intensional**: an event falls under a law only when described in a particular vocabulary.
+   - When event $e$ is described in physical terms (e.g., neural firings, voltages), it falls under a strict, closed physical law.
+   - When that same token event $e$ is described in mental terms (e.g., belief, desire, intention), it cannot fall under strict laws because the attribution of mental states is governed by the **constitutive principle of rationality** (the Principle of Charity).
+3. **Conclusion**:
+   - Metaphysically, every mental event is identical to a physical event (hence **Monism**).
+   - Conceptually, psychological predicates cannot be translated or reduced via bridge laws to physical predicates (hence **Anomalous**).
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Davidson takes mental causation as his first non-negotiable premise; he does not reject causal interaction.
+- **(C) is incorrect**: While quantum physics is probabilistic, Davidson's argument relies on the conceptual disparity between the normative space of reasons and the descriptive space of physics, not on quantum mechanics.
+- **(D) is incorrect**: Davidson explicitly rejects Type Identity Physicalism; Anomalous Monism entails *Token Identity* without *Type Identity*.
+
+**Primary Textual Reference**: Donald Davidson, "Mental Events", in *Experience and Theory*, ed. L. Foster and J. W. Swanson (University of Massachusetts Press, 1970); reprinted in *Essays on Actions and Events* (Oxford University Press, 1980), pp. 207–225.
+
+---
+
+### Question 12: Saul Kripke's Modal Argument against Type Physicalism
+**Format**: Modal Logic & Analytic Argument (Format C)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Saul Kripke (*Naming and Necessity*, 1980, Lecture III)
+
+In Lecture III of *Naming and Necessity* (1980), Saul Kripke formulates a famous modal argument against the Type Identity Theory (e.g., the claim that *"Pain is C-fiber stimulation"*). Why cannot the physicalist explain away the apparent contingency of "Pain is C-fiber stimulation" in the same way science explains away the apparent contingency of "Heat is molecular motion"?
+
+- (A) Because both "pain" and "C-fiber stimulation" are **rigid designators** picked out by their essential properties; while heat is an objective phenomenon picked out by an accidental epistemic appearance (the sensation of heat, which could have been caused by something else), pain is picked out by the very sensation of pain itself, meaning the appearance of pain is identical to the reality of pain ($A \equiv 	ext{Pain}$), leaving no room for a contingent wedge between the feeling and the phenomenon.
+- (B) Because Kripke proved that physical fibers do not exist in any possible world where human language is spoken.
+- (C) Because "pain" is a non-rigid designator that changes its reference depending on whether an agent is asleep or awake.
+- (D) Because identity statements in empirical science are always logically contingent and can be refuted by a single counterexample.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Saul Kripke's modal refutation of Identity Physicalism in *Naming and Necessity* rests on his theory of **Rigid Designators**:
+1. **The Necessity of Identity**:
+   - If $X$ and $Y$ are rigid designators (designating the same object in all possible worlds where that object exists), then if $X = Y$ is true, it is **necessarily true** ($X = Y \implies \Box(X = Y)$).
+2. **The Scientific Paradigm (Heat = Molecular Motion)**:
+   - "Heat = Molecular Motion" is a necessary a posteriori truth. Why did it seem contingent to us?
+   - Because we initially identified "heat" by its contingent epistemic intermediary: *the sensation it produces in human skin*. We can conceive of a world where creatures feel the sensation of heat from something other than molecular motion, or where molecular motion does not cause that sensation.
+3. **The Asymmetry with Pain**:
+   - Can we do the same for "Pain = C-fiber stimulation"? **No.**
+   - Pain is not picked out by a contingent intermediary sensation; pain is picked out by *the feeling of pain itself*.
+   - To be in pain *is* to feel pain. There is no appearance/reality distinction for pain: if it feels like pain, it is pain.
+   - Since we can clearly conceive of C-fiber stimulation occurring without any feeling of pain (a philosophical zombie), and we can conceive of pain occurring without C-fibers (multiple realizability), and both terms are rigid designators, the identity statement cannot be necessarily true. And if it is not necessarily true, it cannot be true at all!
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Kripke does not deny the physical existence of C-fibers; he denies the metaphysical identity between mental qualia and physical fibers.
+- **(C) is incorrect**: Kripke's central thesis is precisely that "pain" *is* a rigid designator, not a non-rigid description.
+- **(D) is incorrect**: Kripke proved that theoretical identity statements between rigid designators (like "Water is $H_2O$") are *necessary a posteriori*, not contingent.
+
+**Primary Textual Reference**: Saul A. Kripke, *Naming and Necessity* (Harvard University Press, 1980), Lecture III, pp. 144–155; Christopher Hill, *Sensations: A Defense of Type Materialism* (Cambridge University Press, 1991).
+
+---
+
+### Question 13: Tyler Burge's Anti-Individualism and Social Externalism
+**Format**: Thought Experiment Analysis (Format B)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Tyler Burge ("Individualism and the Mental", 1979)
+
+In his classic paper *"Individualism and the Mental"* (1979), Tyler Burge presented the **"Arthritis" thought experiment** to establish **Social Externalism** (Anti-Individualism). A patient, Bert, correctly believes that he has had arthritis in his joints for years, but mistakenly believes that his arthritis has spread to his thigh. In a counterfactual society, the medical word "arthritis" is defined by the linguistic community to include rheumatoid ailments of the thigh as well as joints. Bert's internal neurophysiology and physical history are atom-for-atom identical in both worlds. What is Burge's philosophical conclusion?
+
+- (A) Bert in the counterfactual world does not have the belief that arthritis has spread to his thigh, because the concept he possesses is determined by the linguistic practices and norms of his community; therefore, mental content does not supervene on the internal physical states of the individual subject ("wide content").
+- (B) Bert's internal mental state is completely determined by the firings of his sensory cortex, proving that social communities have no impact on intentionality.
+- (C) Bert has committed a category mistake in Ryle's sense, proving that pain does not exist.
+- (D) Bert's language is a private language in Wittgenstein's sense, proving that medical terminology is logically impossible.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Tyler Burge expanded Hilary Putnam's semantic externalism ("'meanings' just ain't in the head!") from natural kind terms (water/$XYZ$) to **propositional attitude content and social linguistic conventions**:
+1. **The Scenario**:
+   - In the actual world ($W_1$), Bert fears that *"arthritis has spread to my thigh"*. Since arthritis is medically defined strictly as an inflammation of the joints, Bert has a false belief about arthritis.
+   - In the counterfactual world ($W_2$), the medical community uses the word "thromcart" (or homophonically "arthritis") to include thigh ailments. Bert has the exact same internal physical brain states and psychological dispositions, but his community's linguistic conventions differ.
+   - In $W_2$, Bert does *not* have the concept *arthritis* (the actual joint disease), but a distinct concept (*tharthr*). When he utters the sentence, his belief is true!
+2. **The Metaphysical Conclusion**:
+   - Since Bert's internal physical state is identical in $W_1$ and $W_2$, but the content of his propositional attitude (his belief) differs, **mental content does not supervene on the internal constitution of the organism**.
+   - Mental states are fundamentally relational, constitutively dependent on the linguistic division of labor and communal social norms (**Anti-Individualism**).
+
+#### Distractor Analysis:
+- **(B) is incorrect**: This is the internalist/individualist thesis (held by Jerry Fodor and early Noam Chomsky) which Burge’s thought experiment decisively refutes.
+- **(C) is incorrect**: Bert makes an ordinary factual/conceptual error about medical diagnosis, not a Rylean category mistake.
+- **(D) is incorrect**: Burge relies on the communal nature of public language, explicitly rejecting the coherence of private language.
+
+**Primary Textual Reference**: Tyler Burge, "Individualism and the Mental", *Midwest Studies in Philosophy* 4, no. 1 (1979): 73–121; Tyler Burge, *Foundations of Mind: Philosophical Essays, Volume 2* (Oxford University Press, 2007).
+
+---
+
+### Question 14: Jaegwon Kim's Supervenience Argument and the Causal Exclusion Problem
+**Format**: Formal Dialectical Argument (Format C)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Jaegwon Kim (*Mind in a Physical World*, 1998)
+
+Jaegwon Kim formulated the **Causal Exclusion Argument** to show that Non-Reductive Physicalism faces an inescapable dilemma between epiphenomenalism and overdetermination. Consider a mental event with property $M$ that causes another mental event with property $M^*$. Assume:
+1. $M^*$ supervenes on a physical property $P^*$.
+2. **The Principle of Causal Closure of the Physical**: Every physical event has a sufficient physical cause.
+3. **The Principle of Causal Exclusion**: No single event can have more than one sufficient cause occurring at the same time, unless it is a genuine case of overdetermination.
+
+What is Kim's conclusion regarding the causal power of $M$?
+
+- (A) To cause $M^*$, $M$ must cause its supervenience base $P^*$; but by physical closure, $P^*$ already has a sufficient physical cause $P$; therefore, by the exclusion principle, the physical cause $P$ excludes the mental cause $M$, reducing $M$ to a causally impotent epiphenomenon unless $M$ is strictly identical to $P$ (Reductive Physicalism).
+- (B) Mental events operate through telekinesis to violate the laws of physics and overwrite neural firings in the cerebral cortex.
+- (C) The exclusion principle proves that the physical world does not exist and that only mental properties have causal efficacy.
+- (D) Every event in the universe is causally overdetermined by an infinite chain of non-physical angels.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Jaegwon Kim's Supervenience / Exclusion Argument (*Mind in a Physical World*, 1998; *Physicalism, or Something Near Enough*, 2005) is the most formidable challenge to non-reductive physicalism:
+1. **The Setup**:
+   - Non-reductive physicalists claim that mental property $M$ is distinct from physical property $P$, yet $M$ causes another mental property $M^*$.
+2. **The Downward Step**:
+   - $M^*$ is realized by physical base $P^*$. To bring about $M^*$, $M$ must bring about its realizer $P^*$ (downward causation).
+3. **The Causal Clash**:
+   - By the **Causal Closure of the Physical**, $P^*$ must have a fully sufficient antecedent physical cause, $P$.
+   - Now we have two purported causes of $P^*$: the physical event $P$ and the mental event $M$.
+4. **The Exclusion Principle**:
+   - Is $P^*$ systematically overdetermined (like two bullets striking a victim's heart at the exact same millisecond)? No; mental causation cannot be a pervasive cosmic coincidence of double-causation.
+   - Therefore, the physical cause $P$ preempts and excludes the mental property $M$.
+   - **The Dilemma**: Non-reductive physicalists must either surrender mental causation (conceding Epiphenomenalism) or identify $M$ with $P$ (surrendering Non-Reductionism).
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Violates the principle of physical closure, which Kim accepts as fundamental to physicalism.
+- **(C) is incorrect**: Reverses the conclusion; Kim’s argument shows the dominance of physical causation over mental causation, not vice-versa.
+- **(D) is incorrect**: Kim explicitly rejects pervasive causal overdetermination as metaphysically absurd.
+
+**Primary Textual Reference**: Jaegwon Kim, *Mind in a Physical World: An Essay on the Mind-Body Problem and Mental Causation* (MIT Press, 1998), Chapter 2 & 3; Jaegwon Kim, *Physicalism, or Something Near Enough* (Princeton University Press, 2005).
+
+---
+
+### Question 15: Daniel Dennett's Intentional Stance and Mild Realism
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Daniel Dennett (*The Intentional Stance*, 1987)
+
+In *The Intentional Stance* (1987), Daniel Dennett proposes a pragmatic, interpretivist strategy for predicting and explaining the behavior of complex systems. He outlines three predictive stances:
+1. The **Physical Stance** (using physics and chemistry).
+2. The **Design Stance** (using functional purposes and engineering blueprints).
+3. The **Intentional Stance** (treating the system as a rational agent with beliefs, desires, and goals).
+
+What is Dennett's position on the ontological status of beliefs and desires (**"Mild Realism"**)?
+
+- (A) Beliefs and desires are not discrete, language-like neurological objects etched into the cerebral cortex (as Jerry Fodor’s Language of Thought maintains), but real, objective patterns in the observable behavior of an agent that can be reliably detected and predicted from the intentional stance, analogous to centers of gravity in physics.
+- (B) Beliefs and desires are completely fictitious illusions with no predictive validity, and should be eliminated from scientific language immediately.
+- (C) Beliefs are immaterial Cartesian substances that exist in a spiritual realm beyond the reach of scientific prediction.
+- (D) The intentional stance can only be applied to adult human beings who have passed a written test in propositional logic.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Daniel Dennett's *The Intentional Stance* (1987) and "Real Patterns" (1991) navigate a careful middle path between Fodorian hyper-realism and Churchlandian eliminativism:
+1. **The Three Stances**:
+   - To predict an alarm clock or a falling boulder, we use the *physical stance*.
+   - To predict a computer running software or a biological heart, we use the *design stance*.
+   - To predict a chess-playing computer, a thermostat, a dog, or a human being, we adopt the *intentional stance*: we attribute the beliefs and desires the system *ought* to have given its place in the world, and assume it will act rationally to satisfy them.
+2. **Mild Realism vs. Industrial-Strength Realism**:
+   - Jerry Fodor argued that beliefs are physically discrete sentence-tokens in a neurobiological "Language of Thought" (Mentalese). Dennett rejects this.
+   - But Dennett also rejects Eliminative Materialism: beliefs are not fictions.
+   - Instead, beliefs are **real patterns**: just as a "center of gravity" is an abstract mathematical reality that genuinely explains and predicts planetary motion without being a physical marble inside the planet, beliefs are real behavioral patterns visible only from the intentional stance.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: This is Paul and Patricia Churchland's radical Eliminative Materialism, which Dennett explicitly disputes.
+- **(C) is incorrect**: Dennett is a staunch physicalist; he utterly rejects Cartesian dualism.
+- **(D) is incorrect**: Dennett applies the intentional stance to thermostats, chess computers, and animals, not exclusively to human logicians.
+
+**Primary Textual Reference**: Daniel C. Dennett, *The Intentional Stance* (MIT Press, 1987); Daniel C. Dennett, "Real Patterns", *Journal of Philosophy* 88, no. 1 (1991): 27–51.

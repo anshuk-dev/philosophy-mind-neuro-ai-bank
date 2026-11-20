@@ -335,3 +335,143 @@ The clash between Enactivism and Representationalism in Cognitive Science:
 - **(D) is incorrect**: REC argues that bodily movement and sensorimotor coping are the primary, foundational mode of life, operating without the need for intellectual or software scripts.
 
 **Primary Textual Reference**: Daniel D. Hutto and Erik Myin, *Radicalizing Enactivism: Basic Minds without Content* (MIT Press, 2013), Chapters 1 ("The Hard Problem of Content") and 4; Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013); Andy Clark, *Surfing Uncertainty: Prediction, Action, and the Embodied Mind* (Oxford University Press, 2016).
+
+---
+
+### Question 9: The Mark of the Cognitive: Adams and Aizawa vs. The Extended Brain
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Fred Adams and Kenneth Aizawa ("The Bounds of Cognition", 2001; *The Bounds of Cognition*, 2008); Andy Clark and David Chalmers ("The Extended Mind", 1998)
+
+In the ongoing debate over the **Extended Mind Thesis** (the claim that cognitive processes extend beyond the biological skull into notebooks, smartphones, and tools), Fred Adams and Kenneth Aizawa formulate two criteria that constitute **"The Mark of the Cognitive"**. What are these two criteria, and why do they argue that external tools fail to qualify as genuine cognitive constituents?
+
+- (A) Genuine cognitive processes must: (1) involve **intrinsically non-derived representational content** (original intentionality, which neural representations possess but external artifacts do not), and (2) exhibit specific, characteristic **computational and dynamical mechanisms** unique to biological neural networks; external tools only possess derived intentionality bestowed by human interpretation, making the extended mind a confusion of causal coupling with constitutive inclusion (*the Coupling-Constitution Fallacy*).
+- (B) Genuine cognition must be capable of surviving 100,000 volts of direct electrical current.
+- (C) Cognition can only occur inside skulls made of calcium phosphate; artificial skulls made of plastic are biologically disqualified.
+- (D) The mark of the cognitive is that thoughts must be written down in ink on parchment before they can be processed by neurons.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Fred Adams and Kenneth Aizawa's critique (*"The Bounds of Cognition"*, 2001; *The Bounds of Cognition*, 2008) is the most prominent defense of intracranialism against Clark and Chalmers' Extended Mind:
+1. **The Coupling-Constitution Fallacy**:
+   - Clark and Chalmers argued that if Otto's notebook functions identically to Inga's biological hippocampus, the notebook is literally part of Otto's mind (*Active Externalism*).
+   - Adams and Aizawa argue this commits the **Coupling-Constitution Fallacy**: just because an external object $Y$ is causally coupled to a system $X$ does not mean $Y$ is a constitutive part of $X$. A diver is causally coupled to an oxygen tank, but the oxygen tank is not a biological lung.
+2. **The Two Marks of the Cognitive**:
+   - **Non-Derived Intentionality**: Neurons, mental images, and perceptual states have intrinsic meaning. In contrast, words written in a notebook or pixels on an iPhone screen have only **derived intentionality**: they mean something only because an external conscious agent reads and interprets them.
+   - **Specific Causal-Mechanical Laws**: Neural processes exhibit unique features (e.g., priming effects, power-law forgetting curves, memory consolidation dynamics) that do not apply to flipping paper pages or accessing hard drives.
+   - Therefore, the boundary of genuine cognitive processing remains firmly situated within the biological central nervous system.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Absurd electrocution distracter.
+- **(C) is incorrect**: The argument is based on representational content and functional dynamics, not the chemical element of the skull bone.
+- **(D) is incorrect**: Reverses the argument; external writing is precisely what Adams & Aizawa classify as non-cognitive derived representations.
+
+**Primary Textual Reference**: Fred Adams and Kenneth Aizawa, "The Bounds of Cognition", *Nature and System* 14 (2001): 43–64; Fred Adams and Kenneth Aizawa, *The Bounds of Cognition* (Blackwell, 2008); Andy Clark, *Supersizing the Mind: Embodiment, Action, and Cognitive Extension* (Oxford University Press, 2008).
+
+---
+
+### Question 10: Markov Blankets in Neurophilosophy: Instrumental Tool or Metaphysical Boundary?
+**Format**: Formal Dialectical Argument (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Karl Friston, Jakob Hohwy, Michael Kirchhoff ("The Markov Blankets of Life", 2018)
+
+In the application of the Free Energy Principle to biological systems, a **Markov Blanket** is a statistical boundary that conditionally isolates a set of internal states from external states. Formally, given a network of states, the Markov blanket of internal states consists of **sensory states** (which mediate external influence on the internal) and **active states** (which mediate internal influence on the external). What is the central ontological dispute between **Realist/Internalist** interpretations (Hohwy) and **Enactivist/Relational** interpretations (Kirchhoff, Clark) of the Markov blanket?
+
+- (A) Realists (Hohwy) view the Markov blanket as an ontological epistemic wall that creates a fundamentally secluded, "secluded brain" that must infer the hidden external world through indirect inference, whereas Enactivists (Kirchhoff, Clark) view Markov blankets as fluid, scale-free instrumental statistical abstractions that can be nested across multiple levels (from cells to brain-body-tool assemblages), enabling direct embodied engagement rather than Cartesian isolation.
+- (B) Realists argue that Markov blankets are physical blankets made of wool used to keep neuroscientists warm in cold laboratory basements.
+- (C) Enactivists argue that Markov blankets only exist inside quantum computers and have no application to biological organisms.
+- (D) Hohwy claims that Markov blankets prove that external reality does not exist and that solipsism is the only valid scientific theory.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The debate over Markov blankets represents the cutting-edge intersection of probability theory, predictive processing, and philosophy of mind:
+1. **Mathematical Definition (Judea Pearl 1988, Karl Friston 2013)**:
+   - In a Bayesian network, the Markov Blanket of a set of internal states $\mu$ comprises its parents, its children, and its children's parents.
+   - Internal states $\mu$ are conditionally independent of external states $\eta$ given the sensory states $s$ and active states $a$ of the blanket:
+   $$P(\mu, \eta | s, a) = P(\mu | s, a) P(\eta | s, a)$$
+2. **The Hohwy Realist / Secluded Mind View**:
+   - Jakob Hohwy (*The Predictive Mind*, 2013; "The Self-Evidencing Brain", 2016) argues that the Markov blanket establishes a profound epistemic and ontological boundary.
+   - The brain is "secluded" behind the sensory veil of the blanket; it never has direct contact with external objects, only with its own sensory states, forcing it to engage in Helmholtzian unconscious inference. This aligns predictive processing with Kantian and internalist representationalism.
+3. **The Enactivist / Extended View**:
+   - Michael Kirchhoff, Andy Clark, and Julian Kiverstein (2018) counter that Markov blankets are scale-free mathematical tools, not unbridgeable Cartesian walls.
+   - A single neuron has a Markov blanket, a biological organ has one, an organism has one, and an organism coupled with a tool (e.g., a blind person with a cane) can form an extended system with its own overarching Markov blanket, harmonizing the Free Energy Principle with radical embodiment.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Humorous literal confusion of a statistical Markov blanket with a bed blanket.
+- **(C) is incorrect**: Markov blankets originate in Bayesian probability networks and are central to theoretical biology.
+- **(D) is incorrect**: Hohwy is an ardent scientific realist who uses the blanket to explain how the brain successfully models a mind-independent physical world.
+
+**Primary Textual Reference**: Jakob Hohwy, "The Self-Evidencing Brain", *Noûs* 50, no. 2 (2016): 259–285; Michael D. Kirchhoff, Thomas Parr, Ensor Palacios, Karl Friston, and Julian Kiverstein, "The Markov Blankets of Life: Autonomy, Active Inference and the Properties of Organisms", *Journal of the Royal Society Interface* 15, no. 138 (2018): 20170792.
+
+---
+
+### Question 11: Neuromorphic Architectures and the Collapse of the Von Neumann Bottleneck
+**Format**: Philosophy of Neuroscience & Computation (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Carver Mead (*Analog VLSI and Neural Systems*, 1989); Dharmendra Modha (IBM TrueNorth, 2014); Steve Furber (SpiNNaker, 2020)
+
+Traditional digital computers rely on the **von Neumann architecture**, where a central processing unit (CPU) is physically and logically separated from memory (RAM) via a data bus (the "von Neumann bottleneck"). How do brain-inspired **Neuromorphic Computing Architectures** (such as TrueNorth, SpiNNaker, and memristive physical networks) philosophically undermine the computational functionalist claim that software is substrate-independent and neatly separable from hardware?
+
+- (A) In biological brains and neuromorphic silicon, **computation and memory are physically co-localized** at the same anatomical locus (the synapse/memristor), and information is encoded temporally via event-driven analog spikes; because the computational algorithm is literally constituted by the physical dynamics and plasticity of the material substrate, the classical computationalist distinction between abstract "software program" and replaceable "hardware chassis" collapses.
+- (B) Neuromorphic architectures prove that computers can only calculate mathematical equations if they are fed biological glucose and oxygen.
+- (C) Neuromorphic chips eliminate the von Neumann bottleneck by making memory access infinitely slow, forcing the CPU to stop working.
+- (D) Functionalism is vindicated because neuromorphic chips prove that minds can run on Microsoft Windows without any physical silicon.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The development of neuromorphic computing strikes at the heart of classical computational functionalism (Putnam, Fodor, Pylyshyn):
+1. **The Von Neumann Foundation of Functionalism**:
+   - Classical functionalism was directly inspired by the Turing machine and von Neumann computer: the program (software) is a formal syntactic string of instructions completely independent of whether the machine is built from vacuum tubes, silicon transistors, or hydraulic valves.
+   - The CPU fetches instructions from memory, executes them, and writes results back across a bus.
+2. **The Biological and Neuromorphic Reality**:
+   - The biological brain has no CPU, no separate RAM, and no system clock.
+   - Memory is not stored at addressable digital coordinates; it is embedded in the physical synaptic weights and dendritic geometry of the network itself.
+   - **Neuromorphic chips** (such as Intel Loihi, IBM TrueNorth, SpiNNaker) mimic this: they are massively parallel, asynchronous, event-driven spiking neural networks (SNNs) where memory and processing occur simultaneously within the same physical circuit.
+3. **Philosophical Consequence**:
+   - When computation is instantiated through continuous analog state transitions, spike timing, and memristive conductance changes, you cannot extract a clean, discrete "software program" separable from the physical substrate.
+   - This provides strong physical evidence for **Substrate-Specific Embodied Computation**: mental phenomena may be constitutively bound up with analog, continuous dynamical physical substrates.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Neuromorphic silicon runs on standard electrical power, not biological glucose.
+- **(C) is incorrect**: Neuromorphic designs eliminate the bottleneck to make computation massively faster and exponentially more energy-efficient, not slower.
+- **(D) is incorrect**: Neuromorphic computing challenges, rather than vindicates, substrate-independent functionalism.
+
+**Primary Textual Reference**: Carver Mead, "Neuromorphic Electronic Systems", *Proceedings of the IEEE* 78, no. 10 (1990): 1629–1636; Dharmendra S. Modha et al., "A Million Spiking-Neuron Integrated Circuit with a Scalable Communication Network and Interface", *Science* 345, no. 6197 (2014): 668–673; Gualtiero Piccinini, *Physical Computation: A Mechanistic Approach* (Oxford University Press, 2015).
+
+---
+
+### Question 12: Direct Brain-to-Brain Interfaces (BBIs) and the Metaphysics of Shared Consciousness
+**Format**: Neurotechnological Frontier Dialectic (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Rajesh Rao and Andrea Stocco ("A Direct Brain-to-Brain Interface in Humans", 2014); Miguel Nicolelis (*Brainet: A Distributed Brain Machine Interface*, 2015); Thomas Metzinger (*The Elephant and the Blind*, 2024)
+
+In recent neuroengineering experiments, **Brain-to-Brain Interfaces (BBIs)** have linked the brains of multiple conscious subjects via real-time neural recording (EEG or intracortical arrays) and neural stimulation (transcranial magnetic stimulation, TMS, or optogenetics), creating multi-brain networks or **"Brainets"** capable of collaborative problem-solving. What profound metaphysical challenge do multi-subject BBIs pose to classic theories of personal identity and the individuation of consciousness?
+
+- (A) They challenge the orthodox metaphysical assumption of the **solitary, unbridgeable boundary of the subjective perspective**: if sensory qualia, cognitive decisions, or motor impulses can be synthesized and experienced seamlessly across linked brains via continuous reciprocal feedback loops, the sharp ontological boundary dividing distinct individuals dissolves, opening the possibility of a hybrid, multi-agent collective subject of experience.
+- (B) BBIs prove that telepathy is an innate biological superpower possessed by all humans before birth.
+- (C) Multi-brain interfaces prove that consciousness is an optical illusion that disappears when light is turned off in the laboratory.
+- (D) BBIs demonstrate that individual identity is completely immutable and that no information can ever be transferred between two biological brains.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Brain-to-Brain Interfaces (BBIs) push neurophilosophy into uncharted metaphysical and ethical territory (Rao et al. 2014; Nicolelis 2015; Hildt 2019):
+1. **The Classic Metaphysical Assumption**:
+   - From Descartes and Locke to contemporary philosophy of mind, the subjective perspective is assumed to be fundamentally private and isolated: one person cannot directly experience the sensory inputs or volitions of another; communication must always be mediated through external public media (speech, gesture, text).
+2. **The Technological Breach**:
+   - In 2014, Rao and Stocco demonstrated a non-invasive human BBI: an experimenter in one building thought about firing a cannon in a video game, and their EEG signals were decoded and transmitted across the internet to a TMS coil over the motor cortex of a second subject in another building, whose hand involuntarily moved to strike the fire key.
+   - Nicolelis (2015) constructed "Brainets" in primates: four monkeys with multi-electrode arrays had their motor cortices linked into a distributed computational network to cooperatively control a robotic arm in 3D space.
+3. **The Ontological Crisis**:
+   - As BBIs become bidirectional, high-bandwidth, and continuous, where does one conscious agent end and the other begin?
+   - If subject $A$'s visual cortex receives continuous tactile feedback from subject $B$'s fingers, the subjective "mineness" (*Jemeinigkeit*) of experience becomes hybridized.
+   - This directly challenges individualist mereology, lending empirical support to modular and relational theories of the self.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: BBIs operate via engineered synthetic electronics, computers, and electromagnetic transducers, not mystical paranormal telepathy.
+- **(C) is incorrect**: BBIs do not eliminate consciousness; they explore its boundaries across networked biological systems.
+- **(D) is incorrect**: Directly contradicts the empirical success of BBIs in transmitting functional signals between brains.
+
+**Primary Textual Reference**: Rajesh P. N. Rao et al., "A Direct Brain-to-Brain Interface in Humans", *PLOS ONE* 9, no. 11 (2014): e111332; Miguel Pais-Vieira et al., "A Brain-to-Brain Interface for Real-Time Sharing of Sensorimotor Information", *Scientific American / Scientific Reports* 3 (2013): 1319; Elisabeth Hildt, "Multi-Brain Networks: Ethical and Neurophilosophical Questions", *Frontiers in Neuroscience* 13 (2019): 935.

@@ -250,3 +250,150 @@ Hubinger et al. (2019) identify one of the deepest conceptual challenges in foun
 - **(D) is incorrect**: A deceptively aligned model seeks to prevent its own modification or deletion to preserve its goal-content; it does not possess emotional guilt or commit algorithmic suicide.
 
 **Primary Textual Reference**: Evan Hubinger, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott Garrabrant, "Risks from Learned Optimization in Advanced Machine Learning Systems", *arXiv:1906.01820* (2019); Joe Carlsmith, "Is Power-Seeking AI an Existential Risk?", *arXiv:2206.13353* (2022).
+
+---
+
+### Question 8: Algorithmic Injustice as Epistemic Injustice: Miranda Fricker Applied to AI
+**Format**: Epistemological & Political Dialectic (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Miranda Fricker (*Epistemic Injustice: Power and the Ethics of Knowing*, 2007); Abeba Birhane ("Algorithmic Injustice as Epistemic Injustice", 2021)
+
+Philosopher Miranda Fricker established two forms of **Epistemic Injustice**: (1) **Testimonial Injustice** (prejudice deflating the credibility attributed to a speaker's word) and (2) **Hermeneutical Injustice** (a structural gap in collective interpretative resources putting marginalized groups at an unfair disadvantage in understanding their social experience). How does cognitive scientist and philosopher Abeba Birhane apply Fricker's framework to algorithmic AI systems?
+
+- (A) Automated speech recognition, predictive risk scores, and content moderation systems inflict **Testimonial Injustice** by systematically downgrading the credibility of non-standard accents, vernaculars, or claims of innocence; and they inflict **Hermeneutical Injustice** by imposing rigid, historical, dominant-culture taxonomies and classification labels that erase or misrepresent the lived realities of marginalized subjects, depriving them of the conceptual tools to contest automated decisions.
+- (B) AI systems inflict epistemic injustice because computers are legally prohibited from attending university philosophy lectures.
+- (C) Epistemic injustice occurs when an AI system runs out of electrical battery during an online debate.
+- (D) Birhane argues that epistemic injustice only applies to animals, not to human beings.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Abeba Birhane's 2021 work in *Computational Culture* and *Philosophy & Technology* bridged social epistemology and artificial intelligence:
+1. **Fricker's Epistemic Injustice (2007)**:
+   - Traditional epistemology views knowledge as an abstract relation between beliefs and truth.
+   - Fricker proved that epistemology is entangled with social power: people can be wronged specifically in their capacity as **knowers**.
+2. **Algorithmic Testimonial Injustice**:
+   - Consider automated voice systems (Koenecke et al., *PNAS* 2020), which show an average word error rate of 35% for Black speakers versus 19% for white speakers.
+   - Consider fraud-detection algorithms in welfare: when a citizen claims they submitted their documents, the system's "fraud risk score" overrules their verbal testimony. The algorithm assigns a **credibility deficit** to the human subject, treating them as an untrustworthy data-point.
+3. **Algorithmic Hermeneutical Injustice**:
+   - Machine learning algorithms require categorical labels (e.g., ImageNet's labels, gender classification as strictly binary `[0, 1]`).
+   - When an algorithm classifies non-binary individuals into rigid binary genders, or labels indigenous cultural practices under standard Western categories, it forces individuals into **hermeneutical schemas that distort their reality**.
+   - Marginalized groups are denied the communicative resources to make their social experiences intelligible within the algorithmic apparatus.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Fanciful academic distracter.
+- **(C) is incorrect**: Technical hardware failure, completely unrelated to philosophical social epistemology.
+- **(D) is incorrect**: Epistemic injustice is a core concept in human political philosophy and ethics.
+
+**Primary Textual Reference**: Abeba Birhane, "Algorithmic Injustice: A Relational Ethics Approach", *Patterns* 2, no. 2 (2021): 100205; Miranda Fricker, *Epistemic Injustice: Power and the Ethics of Knowing* (Oxford University Press, 2007); Allison Koenecke et al., "Racial Disparities in Automated Speech Recognition", *Proceedings of the National Academy of Sciences* 117, no. 14 (2020): 7684–7689.
+
+---
+
+### Question 9: Longtermism vs. Near-Term AI Ethics: The Battle Over Moral Priority
+**Format**: Normative Ethics & Meta-Ethics (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Nick Bostrom (*Existential Risk Prevention as Global Priority*, 2013); Toby Ord (*The Precipice: Existential Risk and the Future of Humanity*, 2020); Timnit Gebru and Émile P. Torres ("The Dangers of Longtermism", 2024)
+
+In contemporary AI ethics, a profound ideological schism has erupted between **Longtermism** (rooted in Effective Altruism) and **Near-Term / Critical AI Ethics**. What is the central philosophical dispute between these two camps regarding the moral priority of AI risks?
+
+- (A) **Longtermists** (Bostrom, Ord, MacAskill) use total utilitarianism to argue that reducing existential risk (x-risk) to astronomical future populations ($10^{52}$ potential digital lives across the cosmos) has overwhelming, cosmic moral priority; whereas **Near-Term Critics** (Gebru, Bender, Crawford) argue that fixating on speculative future sci-fi apocalypses diverts financial resources, intellectual attention, and political will away from immediate, ongoing harms: environmental devastation, labor exploitation, biometric surveillance, and racial discrimination affecting real human beings today.
+- (B) Longtermists argue that human beings should sleep for 100 years, while near-term critics argue that humans should never sleep.
+- (C) The debate is whether computers should be replaced by mechanical abacuses by the year 2030.
+- (D) Longtermism claims that AI will transform all matter into chocolate within two years.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The schism between Longtermism and Critical AI Ethics is arguably the most politically and philosophically charged debate in technology today:
+1. **The Longtermist Philosophical Argument**:
+   - Nick Bostrom (2013), Toby Ord (*The Precipice*, 2020), and William MacAskill (*What We Owe the Future*, 2022) formulate an argument grounded in Derek Parfit's *Reasons and Persons* (1984):
+     - The overwhelming majority of human (or post-human) life lies in the potential future.
+     - If humanity survives, we could colonize space, running trillions of conscious simulated minds ($10^{52}$ digital people over cosmic timescales).
+     - Under total utilitarianism, a $1\%$ reduction in existential risk (the risk of human extinction from superintelligent AI) has an expected moral value vastly greater than curing any disease or ending poverty today: saving the cosmic future outweighs all present human interests.
+2. **The Critical AI Ethics Counter-Attack**:
+   - Timnit Gebru, Émile P. Torres, and Kate Crawford argue that Longtermism is a dangerous, elitist ideology:
+     - It relies on speculative Bayesian calculations with zero empirical grounding.
+     - By focusing on speculative "skynet" existential threats to future digital minds, tech billionaires and AI labs whitewash and distract from the real, immediate harms their products inflict right now: exploiting low-wage workers in the Global South, emitting vast greenhouse gases, and automating racial profiling in courts.
+     - In its extreme form, longtermist logic can justify sacrificing vulnerable populations today for the sake of hypothetical trillions in the cosmic future.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Absurd physiological distracter.
+- **(C) is incorrect**: Frivolous distracter; both camps analyze advanced digital computational systems.
+- **(D) is incorrect**: Fanciful confectionery distracter.
+
+**Primary Textual Reference**: Nick Bostrom, "Existential Risk Prevention as Global Priority", *Global Policy* 4, no. 1 (2013): 15–31; Toby Ord, *The Precipice: Existential Risk and the Future of Humanity* (Hachette, 2020); Émile P. Torres, *Human Extinction: A History of the Science and Ethics of Annihilation* (Routledge, 2023); Timnit Gebru and Émile P. Torres, "The Dangers of Longtermism and Existential Risk", *First Monday* (2024).
+
+---
+
+### Question 10: Lethal Autonomous Weapons Systems (LAWS) and Meaningful Human Control
+**Format**: International Humanitarian Law & Ethics of War (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Peter Asaro ("On Banning Autonomous Weapon Systems: Human Rights, Automation, and the Dehumanization of Lethal Force", 2012); Robert Sparrow ("Killer Robots", 2007); International Committee of the Red Cross (ICRC, 2021)
+
+The deployment of **Lethal Autonomous Weapons Systems (LAWS)**—weapons systems that can select and engage targets with violent lethal force without human intervention—poses a fundamental challenge to **Just War Theory** and International Humanitarian Law (IHL). According to philosopher Robert Sparrow and legal ethicist Peter Asaro, why does the removal of **Meaningful Human Control (MHC)** create an intractable "Responsibility Gap"?
+
+- (A) If a fully autonomous weapon commits an atrocity or war crime, none of the traditional human candidates can be justly held morally and criminally responsible: the commanding officer did not make the decision to fire, the programmer could not foresee the non-linear interaction in open-world combat, and the software algorithm cannot be punished or feel moral remorse; delegating the decision to take human life to an algorithm violates human dignity and the **Martens Clause** of the Geneva Conventions.
+- (B) Autonomous weapons are illegal because gunpowder is prohibited under the Olympic Charter.
+- (C) Sparrow argues that killer robots will refuse to shoot because robots are committed pacifists.
+- (D) The responsibility gap is solved by putting the computer inside a physical jail cell for 20 years.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The ethics of Lethal Autonomous Weapons Systems (Sparrow 2007; Asaro 2012; Amoroso & Tamburrini 2020) is a premier topic in applied ethics and international law:
+1. **The Responsibility Gap (Sparrow 2007)**:
+   - A fundamental principle of the Laws of Armed Conflict (IHL) is that someone must be held accountable for unjust deaths and war crimes (Article 36 of Additional Protocol I to the Geneva Conventions).
+   - In traditional warfare, the soldier pulls the trigger and is held responsible.
+   - In autonomous weapons (e.g., loitering munitions, autonomous drone swarms):
+     - The commander deployed a system governed by adaptive machine learning.
+     - The programmer wrote statistical optimization routines months ago.
+     - If the drone misidentifies a school bus as a missile launcher and obliterates it, who is guilty of murder? Holding the officer strictly liable is unjust if they had no control over the software's dynamic adaptation; yet the algorithm itself is not a moral agent that can be blamed or punished.
+2. **The Dehumanization of Lethal Force (Asaro 2012)**:
+   - Drawing on Immanuel Kant and the **Martens Clause** (which requires belligerents to act in accordance with the "laws of humanity and the dictates of public conscience"):
+   - Every human being has an inherent right to dignity. To have one's life ended by a cold, calculating statistical matrix optimization with zero capacity for mercy, compassion, or moral deliberation is the ultimate form of dehumanization.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Gunpowder is standard in conventional weapons governed by international law; the issue is autonomous targeting, not chemical propellants.
+- **(C) is incorrect**: Algorithms follow code; they have no personal moral pacifism.
+- **(D) is incorrect**: Imprisoning a computer server is a category mistake; machines cannot experience punishment or loss of liberty.
+
+**Primary Textual Reference**: Robert Sparrow, "Killer Robots", *Journal of Applied Philosophy* 24, no. 1 (2007): 62–77; Peter Asaro, "On Banning Autonomous Weapon Systems: Human Rights, Automation, and the Dehumanization of Lethal Force", *International Review of the Red Cross* 94, no. 886 (2012): 687–709; International Committee of the Red Cross (ICRC), *ICRC Position on Autonomous Weapon Systems* (Geneva, 2021).
+
+---
+
+### Question 11: Recommender Systems: C. Thi Nguyen on Epistemic Bubbles vs. Echo Chambers
+**Format**: Social Epistemology & Political Philosophy (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: C. Thi Nguyen ("Echo Chambers and Epistemic Bubbles", 2020; *Games: Agency as Art*, 2020)
+
+In his acclaimed 2020 paper in *Episteme*, philosopher C. Thi Nguyen established a rigorous conceptual distinction between two social epistemic structures frequently conflated in debates over algorithmic social media feeds: **Epistemic Bubbles** and **Echo Chambers**. What is the crucial structural and psychological difference between them, and why are Echo Chambers far harder to dismantle?
+
+- (A) An **Epistemic Bubble** is an informational network where other relevant voices have been omitted by omission or filter-bubble algorithms (repaired easily by **exposure to diverse evidence**); whereas an **Echo Chamber** is an active social epistemic structure where members are systematically taught to **distrust and discredit all outside sources**, meaning that exposing members to contrary outside evidence actually reinforces their conspiratorial beliefs by confirming the group's warnings about "corrupt outsiders".
+- (B) Epistemic bubbles are made of soap, while echo chambers are made of physical marble walls in recording studios.
+- (C) An epistemic bubble occurs only on YouTube, while an echo chamber occurs only on Reddit.
+- (D) Nguyen proves that echo chambers are completely harmless and improve scientific literacy.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+C. Thi Nguyen's "Echo Chambers and Epistemic Bubbles" (2020) revolutionized the social epistemology of technology:
+1. **The Epistemic Bubble (Informational Omission)**:
+   - In an epistemic bubble, you don't hear other arguments.
+   - Algorithmic feeds (Facebook, TikTok) optimize for engagement, creating personalized "filter bubbles" (Pariser 2011). You only see posts from like-minded friends.
+   - **The Antidote**: Exposure. If an algorithm pops the bubble and shows the user diverse, well-reasoned opposing arguments, the user updates their beliefs because they had merely lacked access to the data.
+2. **The Echo Chamber (Active Epistemic Discrediting)**:
+   - An echo chamber is fundamentally different: it is an epistemic cult.
+   - It is structured around an internal **credibility heuristic**:
+     - *Ingroup members* are granted massive credibility.
+     - *Outgroup members* (mainstream journalists, scientists, opposing political parties) are systematically smeared as corrupt, malicious, or part of a global conspiracy.
+   - **The Trapping Mechanism**:
+     - When you show an echo chamber member evidence from *The New York Times* or the *World Health Organization*, the evidence does **not** persuade them.
+     - Instead, the member thinks: *"Aha! The community warned me that the corrupt mainstream media would try to push this lie! This proves our community was right all along!"*
+   - Algorithms that maximize outrage and engagement actively accelerate the formation of weaponized echo chambers.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Humorous literalization of physical bubbles and sound recording acoustics.
+- **(C) is incorrect**: Epistemic bubbles and echo chambers exist across all platforms and social communities.
+- **(D) is incorrect**: Echo chambers foster radical polarization, epistemic viciousness, and democratic collapse.
+
+**Primary Textual Reference**: C. Thi Nguyen, "Echo Chambers and Epistemic Bubbles", *Episteme* 17, no. 2 (2020): 141–161; Eli Pariser, *The Filter Bubble: What the Internet Is Hiding from You* (Penguin Press, 2011).

@@ -295,3 +295,149 @@ The ProPublica COMPAS investigation is the canonical case study in the history o
 - **(D) is incorrect**: COMPAS used criminal history, family background, and behavioral scales; it did not use zodiac signs.
 
 **Primary Textual Reference**: Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner, "Machine Bias: There’s Software Used Across the Country to Predict Future Criminals. And It’s Biased Against Blacks", *ProPublica* (May 23, 2016); William Dieterich, Christina Mendoza, and Tim Brennan, "COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity", *Northpointe Research Report* (2016).
+
+---
+
+### Question 8: Shoshana Zuboff and the Architecture of Surveillance Capitalism
+**Format**: Critical Theory & Political Philosophy (Format C)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Shoshana Zuboff (*The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*, 2019)
+
+In *The Age of Surveillance Capitalism* (2019), Harvard social theorist Shoshana Zuboff defines an unprecedented logic of economic accumulation pioneered by digital tech monopolies (Google, Meta). What is Zuboff's concept of **Behavioral Surplus**, and how does it drive the **Behavioral Value Reinvestment Cycle**?
+
+- (A) Tech corporations extract vast quantities of human behavioral data that go far beyond what is needed to improve service functionality; this **behavioral surplus** is routed into proprietary machine learning manufacturing processes to produce **prediction products** (anticipating what users will feel, click, and buy), which are then sold in speculative **behavioral futures markets** to corporate clients, shifting capitalism from the production of goods to the automated modification of human behavior (**Instrumentarian Power**).
+- (B) Behavioral surplus refers to the cash tips given to computer programmers at Christmas.
+- (C) Surveillance capitalism is the economic theory that everyone should be forced to work in government surveillance bureaus.
+- (D) Zuboff claims that behavioral surplus is an optical illusion that disappears when internet browsers clear their cookies.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Shoshana Zuboff's *The Age of Surveillance Capitalism* (2019) provides the defining socioeconomic and political philosophy of the modern data economy:
+1. **The Origin of Behavioral Surplus**:
+   - Originally, companies collected user data to improve services (e.g., search queries improved search relevance).
+   - In 2001, Google discovered that collateral data (click rates, dwell times, location traces, facial expressions) could be repurposed.
+   - This excess data—**Behavioral Surplus**—became the primary raw material of a new economic paradigm.
+2. **The Economic Architecture**:
+   - Raw behavioral surplus is fed into advanced machine learning algorithms ("Machine Intelligence").
+   - These engines fabricate **Prediction Products**: statistical models that anticipate human behavior (e.g., when a teenager is emotionally vulnerable, when a voter is suggestible, which route a driver will take).
+   - These prediction products are traded in **Behavioral Futures Markets** (targeted advertising, credit ratings, political campaign consulting).
+3. **From Surveillance to Instrumentarian Power**:
+   - Traditional totalitarianism (George Orwell) sought to control minds through terror and ideological conformity.
+   - Surveillance capitalism exercises **Instrumentarian Power**: it does not care what you think or believe; it gently "nudges", conditions, tunes, and herdes physical behavior via algorithms, gamification, and push notifications to guarantee market outcomes, systematically eroding human democratic self-determination.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Trivial financial distracter; behavioral surplus refers to behavioral data, not employee cash tips.
+- **(C) is incorrect**: Surveillance capitalism is a private corporate market logic, not state socialism.
+- **(D) is incorrect**: Clearing browser cookies does not prevent device fingerprinting, IP tracking, or server-side behavioral profiling.
+
+**Primary Textual Reference**: Shoshana Zuboff, *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* (PublicAffairs, 2019); Shoshana Zuboff, "Big Other: Surveillance Capitalism and the Prospects of an Information Civilization", *Journal of Information Technology* 30, no. 1 (2015): 75–89.
+
+---
+
+### Question 9: Madeleine Clare Elish and "Moral Crumple Zones"
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Madeleine Clare Elish ("Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction", 2019)
+
+Drawing an analogy to the engineered "crumple zone" of an automobile (the front metal chassis designed to crush upon impact to absorb physical kinetic energy), cultural anthropologist Madeleine Clare Elish coined the term **"Moral Crumple Zone"** in human-autonomous systems interaction. How does this concept explain the systematic misattribution of accountability in automated accidents (such as the 2018 Uber self-driving pedestrian fatality or the Boeing 737 MAX crashes)?
+
+- (A) Just as a car's mechanical crumple zone absorbs physical force to protect passengers, the human operator in an automated system (e.g., the safety driver in an autonomous car or the airline pilot navigating automated flight software) acts as a **moral crumple zone**: they are legally and socially positioned to absorb the full blame and liability for system failures, even though they had limited situational awareness, zero control over the opaque software design, and were set up to fail by the automation.
+- (B) A moral crumple zone is a physical pillow installed on robots to cushion them when they fall down stairs.
+- (C) The concept proves that autonomous systems are legally recognized as conscious human persons.
+- (D) Elish argues that human safety drivers should be awarded medals of honor whenever an algorithm crashes.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Madeleine Clare Elish's paper (*Engaging Science, Technology, and Society*, 2019) is a classic text in the philosophy of technology, ethics, and human-robot interaction:
+1. **The Automation Irony (Bainbridge 1983)**:
+   - Automation frequently leaves humans with the most difficult task: passive monitoring. Humans are biologically incapable of maintaining vigilance during hours of automated driving.
+2. **The Moral Crumple Zone Defined**:
+   - When an autonomous system fails, who gets blamed?
+   - Corporate manufacturers, software engineers, and system designers typically escape liability by claiming: *"The software was merely an assistant; the human driver was supposed to be monitoring and intervene in 0.5 seconds."*
+   - The human operator becomes the **moral crumple zone**: a scapegoat whose proximate presence absorbs the moral and legal responsibility, shielding the upstream corporate and algorithmic architects from accountability.
+3. **Case Studies Analyzed by Elish**:
+   - **The 2018 Uber Autonomous Vehicle Fatality (Elaine Herzberg)**: While Uber had disabled the vehicle's factory emergency braking to reduce erratic stops, the safety driver (Rafaela Vasquez) was prosecuted for negligent homicide, absorbing the moral and criminal blame.
+   - **The Air France 447 Crash**: Complex automated flight computers disconnected when pitot tubes froze, dumping full manual control onto pilots who had no situational awareness, leading the media to blame "pilot error".
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Humorous literalization of physical automobile crumple zones.
+- **(C) is incorrect**: Autonomous systems are not legal persons; the moral crumple zone describes how responsibility is shifted *away* from tech corporations onto human operators.
+- **(D) is incorrect**: Frivolous distracter.
+
+**Primary Textual Reference**: Madeleine Clare Elish, "Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction", *Engaging Science, Technology, and Society* 5 (2019): 40–60; Lisanne Bainbridge, "Ironies of Automation", *Automatica* 19, no. 6 (1983): 775–779.
+
+---
+
+### Question 10: Helen Nissenbaum and Privacy as Contextual Integrity
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Helen Nissenbaum (*Privacy in Context: Technology, Policy, and the Integrity of Social Life*, 2010; "Privacy as Contextual Integrity", 2004)
+
+In *Privacy in Context* (2010), philosopher Helen Nissenbaum rejected the two traditional paradigms of privacy: (1) privacy as *secrecy/concealment* and (2) privacy as *individual control over personal data*. Instead, she formulated the theory of **Privacy as Contextual Integrity (CI)**. Under Contextual Integrity, what constitutes a genuine violation of privacy?
+
+- (A) A privacy violation occurs when the transmission of personal information **breaches context-specific informational norms**, defined by five parameters: the **Data Subject**, the **Sender**, the **Recipient**, the **Information Type**, and the **Transmission Principle** (e.g., confidentiality, consent, reciprocity, or legal warrant); information shared appropriately in a medical context becomes a privacy violation if transmitted to an employer without the appropriate transmission principle.
+- (B) Privacy is violated only if someone physically breaks into a home with a crowbar and steals paper letters.
+- (C) Any flow of information over the internet is a violation of privacy by definition.
+- (D) Nissenbaum argues that privacy does not exist and that all information should be publicly displayed on billboards.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Helen Nissenbaum's Contextual Integrity (2004, 2010) is the leading philosophical theory of informational privacy in computer science, ethics, and law:
+1. **The Inadequacy of Traditional Privacy Theories**:
+   - **Secrecy Model**: Fails because people routinely share deeply intimate details with doctors, therapists, spouses, and banks without surrendering their privacy.
+   - **Control / "Notice-and-Consent" Model**: Fails in the modern big data era because clicking "I Agree" on a 60-page incomprehensible terms-of-service document does not reflect genuine autonomous control.
+2. **The Theory of Contextual Integrity**:
+   - Human social life is structured into distinct **social contexts** (e.g., healthcare, education, family, criminal justice, commercial marketplace), each governed by its own social purposes and values.
+   - An informational norm dictates whether a flow is appropriate based on five variables:
+     1. **Data Subject**: Who the information is about.
+     2. **Sender**: Who is communicating.
+     3. **Recipient**: Who is receiving.
+     4. **Information Type (Attribute)**: The nature of the data (e.g., diagnosis, salary, location).
+     5. **Transmission Principle**: The terms under which transmission occurs (e.g., physician-patient confidentiality, open court testimony, commercial purchase).
+3. **Application to Modern AI & Big Data**:
+   - Modern AI surveillance violates privacy not because data is "secret", but because algorithms **rupture context**: scraping student classroom data or fitness app coordinates and selling them to insurance underwriters breaches the contextual integrity of the original educational or personal sphere.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Outdated 18th-century spatial/property conception of privacy, which Nissenbaum explicitly supersedes.
+- **(C) is incorrect**: Contextual integrity permits vast amounts of internet data flow provided they conform to legitimate contextual norms.
+- **(D) is incorrect**: The exact opposite of Nissenbaum's thesis.
+
+**Primary Textual Reference**: Helen Nissenbaum, *Privacy in Context: Technology, Policy, and the Integrity of Social Life* (Stanford University Press, 2010); Helen Nissenbaum, "Privacy as Contextual Integrity", *Washington Law Review* 79 (2004): 119–158.
+
+---
+
+### Question 11: Virginia Eubanks and the "Digital Poorhouse"
+**Format**: Political Philosophy & Empirical Analysis (Format B)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Virginia Eubanks (*Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*, 2018)
+
+In *Automating Inequality* (2018), political scientist Virginia Eubanks examines the historical continuity between the 19th-century brick-and-mortar county poorhouse and modern automated decision systems in public welfare, child protection, and homelessness allocation. What is Eubanks' concept of the **"Digital Poorhouse"**?
+
+- (A) Automated data-mining, algorithmic eligibility tools, and predictive risk-modeling systems target low-income citizens with pervasive surveillance and punitive rationing, effectively automating bureaucratic exclusion from food and medical assistance while creating an invisible, digital barrier that criminalizes poverty under the guise of scientific objectivity and mathematical neutrality.
+- (B) A digital poorhouse is an online charity website where billionaires donate Bitcoin to poor families.
+- (C) The digital poorhouse refers to old laptop computers that are discarded in recycling centers.
+- (D) Eubanks argues that poverty was eradicated by artificial intelligence in 2015.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Virginia Eubanks' *Automating Inequality* (St. Martin's Press, 2018) provides a searing political-philosophical analysis of automated welfare governance:
+1. **Historical Continuity**:
+   - In the 1800s, county poorhouses warehoused the destitute, stripping them of voting rights and personal dignity as a condition of receiving bread.
+   - The modern **Digital Poorhouse** replaces the brick walls with algorithmic databases, facial recognition cameras, biometric fingerprinting for food stamps, and predictive analytics.
+2. **Three Empirical Case Studies**:
+   - **Indiana Welfare Automation**: Under Governor Mitch Daniels, Indiana outsourced welfare eligibility to a \$1.16 billion private algorithmic system. The automated system rejected over 1 million requests for food stamps and Medicaid in three years for trivial "failure to cooperate" bureaucratic errors (e.g., a phone connection dropping during an automated call).
+   - **Los Angeles Coordinated Entry System (CES)**: A database scoring homeless individuals through a vulnerability index that turns basic shelter into a hyper-surveilled panopticon.
+   - **Allegheny County Family Screening Tool (AFST)**: A predictive machine learning model used to predict child abuse. Eubanks showed that because the model was trained exclusively on *public* administrative data (welfare, emergency room visits, jail records), it systematically targeted poor families for child-welfare investigations while remaining blind to middle-class child abuse occurring in private clinics.
+3. **Philosophical Insight**:
+   - Algorithms do not eliminate human bias; they **launder political decisions** through mathematical equations, making cruel budget cuts and discrimination appear as natural, objective necessity.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: The digital poorhouse is an institutional system of punitive algorithmic rationing, not a benevolent cryptocurrency charity.
+- **(C) is incorrect**: Literal confusion of the concept with physical electronic waste.
+- **(D) is incorrect**: Factually false; poverty persists and is exacerbated by punitive automation.
+
+**Primary Textual Reference**: Virginia Eubanks, *Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor* (St. Martin's Press, 2018); Virginia Eubanks, "The Digital Poorhouse", *Harper's Magazine* (January 2018): 32–40.

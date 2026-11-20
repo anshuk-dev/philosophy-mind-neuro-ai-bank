@@ -328,3 +328,180 @@ Russellian Monism identifies a blind spot in 400 years of physics:
 - **(D) is incorrect**: Russellian Monism is a general metaphysical thesis about the intrinsic categorical grounds of all physical structure, not a specific claim about clockwise electron spin.
 
 **Primary Textual Reference**: Bertrand Russell, *The Analysis of Matter* (Kegan Paul, 1927), Chapter 36 ("The Interpretation of Physics"); Arthur Eddington, *The Nature of the Physical World* (Cambridge University Press, 1928); David J. Chalmers, "Panpsychism and Panprotopsychism", in *The Conscious Mind in Action*, ed. G. Bruntrup and L. Jaskolla (Oxford University Press, 2013).
+
+---
+
+### Question 9: Integrated Information Theory (IIT 4.0) and the Unfolding Argument
+**Format**: Formal Dialectical Argument (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Giulio Tononi, Larissa Albantakis (*IIT 4.0*, 2023); Michael Herzog, Adrien Doerig, Aaron Schurger ("The Unfolding Argument", 2019)
+
+**Integrated Information Theory (IIT)** posits that consciousness is an intrinsic, fundamental property of physical systems, quantitatively measured by integrated information ($\Phi^{	ext{max}}$), which requires non-zero feedback and causal recurrence. In 2019, Doerig, Schurger, Hessinger, and Herzog published **"The Unfolding Argument"** challenging IIT's scientific testability. What is the core mathematical and philosophical thrust of the Unfolding Argument?
+
+- (A) Any recurrent neural network (which IIT claims has high $\Phi$ and is conscious) can be mathematically unfolded into an input-output equivalent purely feedforward neural network (which IIT dictates has $\Phi = 0$ and is completely non-conscious); therefore, unless IIT assumes consciousness is independent of all input-output behavior, IIT's claims about consciousness are either unfalsifiable or dissociate consciousness completely from empirical cognitive function.
+- (B) The unfolding argument proves that feedforward networks violate the laws of thermodynamics when calculating matrix multiplications.
+- (C) IIT 4.0 proves that the human cerebellum has a higher $\Phi$ than the cerebral cortex, demonstrating that motor coordination is the supreme form of consciousness.
+- (D) The unfolding argument shows that consciousness can only emerge in biological carbon compounds, ruling out silicon computers a priori.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The debate between IIT (Tononi et al.) and the Unfolding Argument (Doerig et al., *PNAS* 2019) is one of the most fierce contemporary disputes in neurophilosophy:
+1. **IIT's Postulate**:
+   - IIT 4.0 asserts that consciousness is identical to the maximal intrinsic cause-effect structure of a system ($\Phi^{	ext{max}}$).
+   - Recurrent architectures with complex feedback loops generate high $\Phi$. Feedforward networks (which have no causal loops) have $\Phi = 0$, meaning they possess zero phenomenal experience, regardless of how intelligently they act.
+2. **The Unfolding Theorem**:
+   - According to classical automata theory and the Krohn-Rhodes theorem, for any discrete-time recurrent neural network (RNN) operating over a finite time horizon, there exists a feedforward network (FFN) that reproduces the exact same input-output mapping.
+   - Doerig et al. argue that if an experimenter tests a system via psychophysical reports, tasks, or behavior, the RNN and unfolded FFN will behave identically.
+   - If the theorist claims the RNN is conscious while the unfolded FFN is a non-conscious zombie, this attribution can never be verified by any behavioral, functional, or cognitive test.
+3. **The Dilemma for IIT**:
+   - IIT must either accept that consciousness has no necessary connection to input-output function (embracing a radical form of non-functionalist panpsychism/isolationism) or admit that $\Phi$ is not empirically testable via standard scientific methodology.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: The unfolding theorem is an established theorem of computational automata theory, having nothing to do with thermodynamic violations.
+- **(C) is incorrect**: IIT famously notes that the cerebellum has 4 times more neurons than the cortex but lacks consciousness precisely because its architecture is largely feedforward with low $\Phi$; this is an IIT claim, not the unfolding argument.
+- **(D) is incorrect**: IIT is substrate-independent; it allows consciousness in silicon provided it has recurrent intrinsic cause-effect integration ($\Phi > 0$).
+
+**Primary Textual Reference**: Adrien Doerig, Aaron Schurger, Kathryn Hessinger, and Michael H. Herzog, "The Unfolding Argument: Why IIT and Other Causal Structure Theories Cannot Explain Consciousness", *Proceedings of the National Academy of Sciences* 116, no. 49 (2019): 24397–24404; Larissa Albantakis et al., "Integrated Information Theory (IIT) 4.0: Formulating the Properties of Phenomenal Existence in Physical Terms", *PLOS Computational Biology* 19, no. 10 (2023): e1011465.
+
+---
+
+### Question 10: Global Neuronal Workspace vs. Posterior Hot Zone: The Adversarial Collaboration
+**Format**: Empirical-Dialectical Evaluation (Format B)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Stanislas Dehaene (GNWT), Christof Koch (IIT), Cogitate Consortium (*Nature / Science*, 2023)
+
+In 2023, the **Cogitate Consortium** released the first results of an internationally preregistered **Adversarial Collaboration** directly pitting **Global Neuronal Workspace Theory (GNWT)** against **Integrated Information Theory (IIT)** to localize the neural substrates of visual consciousness. What was the central point of anatomical and temporal divergence between the two theories, and how did the empirical data challenge GNWT?
+
+- (A) GNWT predicts that consciousness requires late (300–400 ms) ignition and sustained activity in the **prefrontal cortex (PFC)** with frontoparietal broadcasting, whereas IIT predicts that consciousness is generated continuously in a **"posterior hot zone"** (parieto-occipital-temporal sensory areas); the empirical findings failed to detect sustained prefrontal representation of stimulus content during continuous conscious perception, delivering a major challenge to classic GNWT.
+- (B) GNWT predicted that consciousness is localized in the spinal cord, while IIT predicted it resides in the olfactory bulb.
+- (C) The experiment proved that visual qualia do not exist, and that both theories are completely false.
+- (D) The empirical data showed that prefrontal ignition occurs at 10 milliseconds, far faster than synaptic transmission allows.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The Cogitate Consortium (Melloni et al., *Nature* 2023) represents a milestone in the philosophy and cognitive neuroscience of consciousness:
+1. **The Opposing Hypotheses**:
+   - **GNWT (Dehaene, Changeux)**: Visual experience occurs when perceptual representations are "broadcast" globally via long-range axons to the prefrontal cortex (PFC). Critical predictions: (1) An ignition marker ($P3b$ wave at $\sim 300	ext{–}400$ ms); (2) Sustained prefrontal decoding of the conscious content throughout the duration of the percept; (3) Frontoparietal synchronization.
+   - **IIT (Koch, Tononi)**: Consciousness is determined by maximum cause-effect power, which anatomical grid structures in the **posterior cortical hot zone** (temporo-parieto-occipital areas) possess, while the prefrontal cortex mediates task-monitoring, motor planning, and verbal reporting rather than the experience itself.
+2. **The 2023 Empirical Outcome**:
+   - Using multimodal fMRI, MEG, and intracranial electrophysiology (iEEG) across multiple independent laboratories:
+   - The posterior hot zone showed sustained, robust encoding of visual contents across time, supporting IIT.
+   - In contrast, the prefrontal cortex showed transient onset and offset responses, but **failed to maintain sustained content decoding** during continuous perception, challenging the core GNWT claim that sustained prefrontal broadcasting constitutes the conscious state.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Neither theory locates consciousness in the spinal cord or olfactory bulb; both focus on neocortical networks.
+- **(C) is incorrect**: The experiment was designed to test rival neural theories of consciousness, not to claim qualia do not exist.
+- **(D) is incorrect**: Synaptic transmission cannot occur at 10 ms for cortical broadcasting; GNWT’s marker is the $P3b$ wave occurring around 300–400 ms.
+
+**Primary Textual Reference**: The Cogitate Consortium et al., "An Adversarial Collaboration to Critically Evaluate Theories of Consciousness", *bioRxiv / Nature* (2023); Stanislas Dehaene, *Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts* (Viking, 2014); Christof Koch, *The Feeling of Life Itself: Why Consciousness Is Widespread but Can't Be Computed* (MIT Press, 2019).
+
+---
+
+### Question 11: The Combination Problem for Panpsychism and Cosmopsychic Monism
+**Format**: Metaphysical Dialectic (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: William James (*The Principles of Psychology*, 1890); David J. Chalmers ("The Combination Problem for Panpsychism", 2016); Philip Goff (*Consciousness and Fundamental Reality*, 2017)
+
+The most formidable objection to constitutive micro-panpsychism is **The Combination Problem**, first posed by William James (1890) and formalized by David Chalmers (2016). Chalmers decomposes it into three distinct sub-problems:
+1. The **Subject Combination Problem**: How do billions of distinct micro-subjects combine to form a single unified macro-subject ($10^{11}$ micro-minds $	o$ 1 human mind)?
+2. The **Quality Combination Problem**: How do micro-qualities (e.g., proto-charge qualia) combine to yield macro-qualities (e.g., the taste of wine)?
+3. The **Structural Combination Problem**: How does the micro-structure combine into macro-phenomenal structure?
+
+How does **Cosmopsychism** (defended by Philip Goff and Yujin Nagasawa) solve the Subject Combination Problem by inverting the direction of ontological priority?
+
+- (A) Instead of building a macro-conscious subject bottom-up out of trillions of micro-subjects, Cosmopsychism asserts that the entire universe (*the Cosmos*) is the single, fundamental, primary subject of consciousness, and individual human minds derive their consciousness via **top-down differentiation / de-combination** (analogous to how multiple alters dissociate within a single mind in dissociative identity disorder), completely avoiding the bottom-up combination problem.
+- (B) Cosmopsychism solves the problem by denying that human beings have conscious experiences, claiming that only stars and black holes are conscious.
+- (C) It claims that micro-subjects combine mechanically through covalent chemical bonding in the cerebral ventricles.
+- (D) It asserts that consciousness is an emergent illusion produced by digital computing algorithms running on alien supercomputers.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The Combination Problem is widely regarded as the "Hard Problem" for panpsychism:
+1. **The Classic Jamesian Objection (1890)**:
+   - William James wrote: *"Take a hundred of them, shuffle them and pack them as close together as you can (whatever that may mean); still each remains the same it was... Where the hundredth ceases, the ninety-ninth begins. There is no aggregate there, in the hundred, which was not in each of the individuals."*
+   - Two people sitting next to each other do not combine into a third, overarching supra-person. Why should billions of micro-experiential particles combine into a single human conscious subject?
+2. **The Cosmopsychist Solution (Top-Down Monism)**:
+   - Drawing on Spinozistic and Schafferian Priority Monism, **Cosmopsychism** inverts the fundamental mereology.
+   - The fundamental ontological entity is not the micro-particle, but the whole universe: **The Cosmos**.
+   - The cosmos as a whole is a conscious subject. Human beings and other conscious creatures are not bottom-up aggregates of atomic minds; rather, they are localized, semi-dissociated aspects or modes of the cosmic subject (**The De-Combination / Differentiation Problem**).
+   - Resolving how a single unified mind dissociates into localized perspectives (a phenomenon with empirical precedent in clinical dissociation and split-brain phenomena) is widely considered far more metaphysically tractable than explaining how distinct subjects fuse into one.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Cosmopsychists do not deny human consciousness; their goal is precisely to provide a metaphysical ground for human experience.
+- **(C) is incorrect**: Chemical bonding describes physical valence interactions between atoms; it does nothing to explain the metaphysical fusion of subjective points of view.
+- **(D) is incorrect**: This is the Simulation Hypothesis (Nick Bostrom), not metaphysical cosmopsychism.
+
+**Primary Textual Reference**: David J. Chalmers, "The Combination Problem for Panpsychism", in *Panpsychism: Contemporary Perspectives*, ed. Godehard Brüntrup and Ludwig Jaskolla (Oxford University Press, 2016), pp. 179–214; Philip Goff, *Consciousness and Fundamental Reality* (Oxford University Press, 2017); Yujin Nagasawa, *Maximal God: A New Defence of Perfect Being Theism* (Oxford University Press, 2017).
+
+---
+
+### Question 12: Radical Enactivism and the "Hard Problem of Content"
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Daniel D. Hutto and Erik Myin (*Radicalizing Enactivism*, 2013; *Evolving Enactivism*, 2017)
+
+In *Radicalizing Enactivism* (2013), Daniel Hutto and Erik Myin formulate **The Hard Problem of Content** to challenge both traditional cognitivism and moderate forms of enactivism (e.g., Alva Noë, Francisco Varela). What is the Hard Problem of Content, and how does Radical Enactivism (REC) address it?
+
+- (A) Informational covariation (natural information, such as tree rings indicating age or smoke indicating fire) does not possess truth-conditions, reference, or semantic accuracy; teleosemantics and biological functionalism fail to naturalize semantic content because biological selection operates on successful action, not truth. Therefore, basic cognition is completely non-representational and non-contentful (**Ur-Intentionality**), with contentful representations emerging only later through socially scaffolded, socio-cultural linguistic practices.
+- (B) The problem of how to compress multi-gigabyte video files into neural synapses without loss of visual resolution.
+- (C) The claim that all biological cells possess innate understanding of Shakespearean English.
+- (D) The mathematical proof that neural networks cannot perform backpropagation without symbolic programming languages.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Daniel Hutto and Erik Myin's Radical Enactive Cognition (REC) presents a major challenge to representational cognitive science:
+1. **The Failure of Naturalized Teleosemantics**:
+   - For decades, physicalists (Ruth Millikan, Fred Dretske, Jerry Fodor) attempted to naturalize representational content via teleosemantics (selection history) and informational tracking.
+   - Hutto and Myin argue that this fails to generate **semantic content**. A thermostat or a tree ring covaries with temperature, but it does not represent the world *as* being a certain way—it has no truth-conditions, cannot make claims, and cannot be mistaken in a semantic sense.
+2. **The Hard Problem of Content**:
+   - How can purely physical, covariance-based biological systems ever generate genuine representational content with truth-evaluable conditions?
+   - REC's radical answer: **They don't.** Basic biological perception and action are entirely **non-representational**.
+   - An animal running from a predator is not evaluating propositions or consulting internal mental maps; it is engaged in direct, extensive, embodied, sensorimotor engagement with its environment (**Ur-Intentionality** or intentionality without content).
+3. **Where Content Comes From**:
+   - Genuine representational content arrives only with the evolutionary advent of public, socio-cultural, language-involving conventions and institutional practices.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Conflates philosophical semantic content (meaning, truth-conditions) with computer file compression.
+- **(C) is incorrect**: Absurd caricature; REC denies that even basic human perceptions have innate semantic content, let alone biological cells.
+- **(D) is incorrect**: Irrelevant technical distracter; REC is a philosophical critique of the representational foundation of cognitive science.
+
+**Primary Textual Reference**: Daniel D. Hutto and Erik Myin, *Radicalizing Enactivism: Basic Minds without Content* (MIT Press, 2013); Daniel D. Hutto and Erik Myin, *Evolving Enactivism: Basic Minds Meet Content* (MIT Press, 2017).
+
+---
+
+### Question 13: The Phenomenal Intentionality Research Program (PIRP)
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Terry Horgan, John Tienson, George Graham ("Phenomenal Intentionality and the Brain in a Vat", 2004); Galen Strawson (*Mental Reality*, 1994)
+
+The **Phenomenal Intentionality Research Program (PIRP)** directly challenges the prevailing externalist consensus in philosophy of mind (Putnam, Burge, Dretske) by defending **Internalism about Original Intentionality**. Consider Terry Horgan and John Tienson's thought experiment of the **Phenomenal Duplicate Brain-in-a-Vat (BIV)**: a brain maintained in a vat whose phenomenal experiences are introspectively and qualitatively indistinguishable from your own. What does PIRP deduce about the intentionality of this BIV?
+
+- (A) The BIV possesses genuine, rich, original intentionality directed at its phenomenally constituted world; original mental aboutness is fundamentally grounded in and constituted by phenomenal consciousness (*phenomenal intentionality*), proving that phenomenal consciousness is ontologically prior to and independent of external causal and tracking relations.
+- (B) The BIV possesses absolutely zero intentional states, thoughts, or beliefs because it is not physically situated in an external social community.
+- (C) The BIV proves that consciousness is impossible without a biological spinal cord and digestive tract.
+- (D) The BIV's thoughts are identical to the electrical oscillations of the life-support machine, showing that computers have identical minds to humans.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The Phenomenal Intentionality Research Program (PIRP) is one of the most significant 21st-century revivals of internalist intentionality (Horgan & Tienson 2002; Kriegel 2011; Bourget & Mendelovici 2014):
+1. **The Externalist Dogma Challenged**:
+   - Externalists (Dretske, Fodor, Millikan) argue that intentionality is constituted by causal tracking relations between the brain and external objects. Under strict externalism, a newly created BIV or Swampman has no tracking history and therefore has no beliefs, thoughts, or representational content whatsoever.
+2. **PIRP's Counter-Intuition**:
+   - Imagine a duplicate brain in a vat that has phenomenal experiences identical to yours: it feels the warmth of the sun, sees a red apple, deliberates about a mathematical proof, and yearns for friendship.
+   - To say that this creature has *no thoughts*, *no intentional directedness*, and *no mental aboutness* is phenomenologically and conceptually unconvincing.
+   - It possesses rich **phenomenal intentionality**: the aboutness that is intrinsic to the subjective character of the phenomenal experience itself.
+3. **The Core Thesis of PIRP**:
+   - **Original Intentionality** is grounded in **Phenomenal Consciousness**.
+   - Any intentionality that is non-phenomenal (such as the "intentionality" of sentences in a book, computer databases, or unconscious cognitive tracking) is merely derivative or secondary, borrowing its significance from the phenomenal intentionality of conscious subjects.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: This is the extreme externalist verdict, which PIRP presents as an intolerable reductio ad absurdum of tracking externalism.
+- **(C) is incorrect**: PIRP specifically uses the BIV to show that phenomenal intentionality can be isolated from the rest of the body.
+- **(D) is incorrect**: Conflates original phenomenal intentionality with external machine tracking.
+
+**Primary Textual Reference**: Terry Horgan and John Tienson, "The Intentionality of Phenomenology and the Phenomenology of Intentionality", in *Philosophy of Mind: Classical and Contemporary Readings*, ed. D. J. Chalmers (Oxford University Press, 2002), pp. 520–533; Terry Horgan, John Tienson, and George Graham, "Phenomenal Intentionality and the Brain in a Vat", in *The Externalist Challenge*, ed. Richard Schantz (de Gruyter, 2004), pp. 297–318; Uriah Kriegel (ed.), *Phenomenal Intentionality* (Oxford University Press, 2013).

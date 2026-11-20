@@ -409,3 +409,169 @@ Panpsychism / Panexperientialism provides a radical alternative to both physical
 - **(D) is incorrect**: Panexperientialism asserts that experience is primordial and universal, existing from the beginning of time, not an invention of human industrialization.
 
 **Primary Textual Reference**: Alfred North Whitehead, *Process and Reality: An Essay in Cosmology* (Macmillan, 1929 / Free Press, 1978); William James, *The Principles of Psychology* (Henry Holt, 1890), Chapter 6 ("The Mind-Stuff Theory"); Galen Strawson, "Realistic Monism: Why Physicalism Entails Panpsychism", *Journal of Consciousness Studies* 13, no. 10–11 (2006): 3–31.
+
+---
+
+### Question 13: Baruch Spinoza's Dual-Aspect Monism and Psychophysical Parallelism
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Baruch Spinoza (*Ethics*, 1677)
+
+In Part II of the *Ethics* (Proposition 7), Baruch Spinoza famously declares: *"The order and connection of ideas is the same as the order and connection of things"* (*Ordo et connexio idearum idem est ac ordo et connexio rerum*). How does Spinoza's **Dual-Aspect Monism** resolve Descartes' mind-body interaction problem without falling into materialism or idealism?
+
+- (A) Spinoza argues that there is only one infinite substance (*Substantia sive Deus sive Natura*), and thought (*cogitatio*) and extension (*extensio*) are not two distinct interacting substances, but two infinite attributes expressing the exact same metaphysical reality from different perspectives, meaning bodily events and mental ideas correspond in parallel without any direct causal interaction between the attributes.
+- (B) Spinoza claims that physical extended matter is an illusion created by the human imagination, and that only mental thoughts exist in the mind of God.
+- (C) Spinoza asserts that physical bodies causally produce mental ideas via mechanical contact in the cerebral ventricles, but thoughts cannot exert retroactive causal power on matter.
+- (D) Spinoza posits that whenever a human wills an action, God steps in as an external divine intermediary to mechanically move the physical limbs.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Baruch Spinoza's Dual-Aspect Monism (*Ethics*, 1677) provides the definitive 17th-century alternative to Cartesian interactionism:
+1. **Substance Monism**:
+   - Spinoza proves in *Ethics* Part I that there can only be one self-caused, infinite substance in the universe: *Deus sive Natura* (God or Nature).
+   - Descartes committed a category error by defining mind (*res cogitans*) and body (*res extensa*) as two independent finite substances.
+2. **Two Attributes of One Substance**:
+   - Thought and Extension are two of the infinite **attributes** through which God/Nature is perceived.
+   - A human mind is a finite mode of the attribute of Thought; the human body is the exact same finite mode conceived under the attribute of Extension.
+3. **Psychophysical Parallelism (*Ethics* II, Prop 7)**:
+   - Because Thought and Extension are conceptually independent, there is no causal cross-talk across attributes (*"The body cannot determine the mind to thinking, nor can the mind determine the body to motion"*, *Ethics* III, Prop 2).
+   - Instead, the sequence of physical causes in the body and the sequence of mental reasons in the mind correspond perfectly because they are the same ontological event unfolding under two distinct attributes.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: This describes subjective or subjective-idealist monism (such as George Berkeley), not Spinoza's realist dual-aspect ontology.
+- **(C) is incorrect**: This describes epiphenomenalism (T.H. Huxley), where physical processes cause mental events unidirectionally; Spinoza denies causal interaction between attributes entirely.
+- **(D) is incorrect**: This describes Malebranche's **Occasionalism**, where God intervenes on every "occasion" of a mental volition, an externalist theological solution Spinoza explicitly rejected.
+
+**Primary Textual Reference**: Baruch Spinoza, *Ethics*, Part II ("On the Nature and Origin of the Mind"), Proposition 7 and Scholium; Part III, Proposition 2; Edwin Curley, *Behind the Geometrical Method: A Reading of Spinoza's Ethics* (Princeton University Press, 1988).
+
+---
+
+### Question 14: G.W. Leibniz's Mill Argument and Pre-Established Harmony
+**Format**: Thought Experiment Analysis (Format B)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Gottfried Wilhelm Leibniz (*Monadology*, 1714)
+
+In Section 17 of the *Monadology* (1714), Gottfried Wilhelm Leibniz introduces his celebrated **Mill Argument** (*Leibniz's Mill*): *"Supposing there were a machine so constructed as to produce thought, feeling, and having perception, we could imagine it increased in size while keeping the same proportions, so that one could enter into it as into a mill. On going inside it we would find only parts pushing one another, but never anything which could explain a perception."* What fundamental conclusion does Leibniz draw from this thought experiment?
+
+- (A) Perception, thought, and qualitative consciousness can never be explained by purely mechanical or material causes (figures, shapes, and movements), proving that mental states belong exclusively to simple, indivisible, immaterial monads.
+- (B) Human cognition operates precisely like a watermill, demonstrating that feelings are identical to the mechanical momentum of physical fluid dynamics.
+- (C) If a machine becomes sufficiently large and possesses enough mechanical gears, subjective consciousness spontaneously emerges as a secondary property of mechanical friction.
+- (D) Perception is an optical illusion caused by the refraction of light through the crystalline lens of the human eye.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Leibniz's Mill (*Monadology* §17) is widely recognized as the historical ancestor of both John Searle's Chinese Room and Frank Jackson's Knowledge Argument:
+1. **The Argument Against Mechanism**:
+   - Leibniz lived in an era dominated by Cartesian and corpuscularian mechanistic physics, which claimed that all natural phenomena could be reduced to the shapes, sizes, and motions of material particles.
+   - Leibniz constructs a thought experiment: expand a thinking machine to the size of a mill and walk inside. You will observe cogs, gears, levers, and pulleys pushing against one another.
+   - No matter how exhaustively you inspect the mechanical collisions of the parts, you will find only spatial trajectories and physical pushes—you will never encounter an experience, a sensation of redness, or a subjective feeling of pain.
+2. **Metaphysical Consequence**:
+   - Therefore, perception and consciousness cannot be explained by mechanical causes (*"Perception and what depends upon it cannot be explained by mechanical causes, that is, by figures and movements"*).
+   - Mind must be grounded in an immaterial, simple substance—the **Monad**—which possesses internal perceptual states (*perceptions*) and transitions between them (*appetitions*).
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Directly contradicts Leibniz’s explicit conclusion; the mill is invoked precisely to demonstrate that mechanical systems *cannot* explain perception.
+- **(C) is incorrect**: Leibniz explicitly rejects emergent materialism; he argues that scaling up or adding gears adds only more complexity of motion, never subjective experience.
+- **(D) is incorrect**: Trivializes a fundamental metaphysical argument into an ophthalmological observation.
+
+**Primary Textual Reference**: Gottfried Wilhelm Leibniz, *Monadology* (1714), §17; Nicholas Rescher, *G. W. Leibniz's Monadology: An Edition for Students* (University of Pittsburgh Press, 1991).
+
+---
+
+### Question 15: Epiphenomenalism and T.H. Huxley's Locomotive Analogy
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Thomas Henry Huxley ("On the Hypothesis that Animals are Automata, and Its History", 1874)
+
+In his 1874 address to the British Association for the Advancement of Science, Thomas Henry Huxley proposed the doctrine of **Epiphenomenalism** to account for consciousness in a physicalist universe. Which of the following best captures Huxley's thesis regarding the causal efficacy of mental states?
+
+- (A) Consciousness is a mere collateral product (*epiphenomenon*) of neural mechanisms, much like the steam whistle of a locomotive engine is a byproduct of its machinery; conscious states are caused by physical brain events but have zero reciprocal causal effect on physical behavior.
+- (B) Mental states and physical brain states are identical in substance and causal powers, meaning thoughts causally direct the flow of blood through the cardiovascular system.
+- (C) The physical brain does not exist; only conscious ideas flowing through a divine mental ether constitute reality.
+- (D) Consciousness is an active metaphysical force that violates the principle of conservation of energy to steer physical neural impulses in the cerebral cortex.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+T.H. Huxley introduced the classic formulation of epiphenomenalism in "On the Hypothesis that Animals are Automata, and Its History" (1874):
+1. **The Causal Asymmetry**:
+   - The physical world is causally closed: bodily movements and neural firings are fully determined by antecedent neurophysiological processes.
+   - Subjective experiences (sensations, emotions, volitions) are real, but they are purely one-way effects of neurobiological machinery.
+2. **The Locomotive Analogy**:
+   - Huxley writes: *"The consciousness of brutes would appear to be related to the mechanism of their body simply as a collateral product of its working, and to be as completely without any power of modifying that working as the steam-whistle which accompanies the work of a locomotive engine is without influence upon its machinery."*
+   - Just as the sound of the steam whistle does not move the locomotive, a feeling of thirst or a conscious intention does not cause the arm to reach for a glass of water—it is the underlying neurochemistry that causes both the sensation and the motor reach.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: This is Mind-Brain Identity Theory (Smart, Place, Armstrong), which gives mental states full physical causal efficacy by identifying them with brain states.
+- **(C) is incorrect**: This is subjective idealism (Berkeley), denying the existence of the physical brain.
+- **(D) is incorrect**: This describes interactionist substance dualism (Descartes, Popper, Eccles), which Huxley explicitly rejected to preserve the mechanical laws of physics.
+
+**Primary Textual Reference**: Thomas Henry Huxley, "On the Hypothesis that Animals are Automata, and Its History", *Fortnightly Review* 16 (1874): 555–580; William Robinson, *Understanding Epiphenomenalism* (MIT Press, 2004).
+
+---
+
+### Question 16: Type Identity Theory: U.T. Place and the "Is" of Composition
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: U.T. Place ("Is Consciousness a Brain Process?", 1956), J.J.C. Smart ("Sensations and Brain Processes", 1959)
+
+In his landmark paper *"Is Consciousness a Brain Process?"* (1956), U.T. Place launched modern Type Identity Physicalism by refuting the "phenomenological fallacy." Crucial to his argument was distinguishing between two different senses of the copula **"is"**. What was Place's distinction, and why was it vital for mind-brain identity theory?
+
+- (A) He distinguished the "is" of definition (analytic necessity, e.g., "a triangle is a three-sided plane figure") from the "is" of composition or empirical constitution (contingent empirical discovery, e.g., "a cloud is a mass of water droplets" or "lightning is an electrical discharge"), arguing that "consciousness is a brain process" is an empirical scientific identity, not an analytic truth.
+- (B) He distinguished the "is" of existence from the "is" of predication, arguing that consciousness does not exist while the brain does exist.
+- (C) He argued that "is" in English always implies a permanent substance, whereas consciousness is an immaterial temporal flow of spiritual energy.
+- (D) He claimed that mental terms can be translated without remainder into behavioral dispositions without needing any reference to physical neurobiology.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+U.T. Place's 1956 paper was written to counter the reigning philosophical orthodoxy of ordinary language philosophy and logical behaviorism (Wittgenstein, Ryle):
+1. **The Semantic Trap**:
+   - Philosophers had argued that "pain cannot be a brain process" because when an ordinary speaker says "I have a headache", they do not mean "My neural fibers are firing." The terms have completely different linguistic meanings, so they cannot be identical.
+2. **The "Is" of Definition vs. The "Is" of Composition**:
+   - Place identified this as a logical fallacy. In sentences like *"A square is an equilateral rectangle"*, the "is" is definitional/analytic: its truth is verified by linguistic analysis alone.
+   - But in sentences like *"Her table is an old packing case"*, *"A cloud is a mass of suspended water droplets"*, or *"Lightning is a motion of electrical charges"*, the "is" is one of **composition/empirical identity**.
+   - You cannot discover that lightning is an electrical discharge by looking up the word "lightning" in a dictionary; it requires empirical scientific investigation.
+3. **Application to Mind**:
+   - The statement *"Consciousness is a pattern of neural activity"* is not an a priori conceptual claim, but an empirical hypothesis supported by neuroscientific discovery.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Place is an ontological identity theorist; he asserts that consciousness exists and *is* identical to brain processes.
+- **(C) is incorrect**: Conflates Place's physicalist analysis with process metaphysics or Bergsonian spiritualism.
+- **(D) is incorrect**: This describes Gilbert Ryle and Carl Hempel's **Logical Behaviorism**, which Place was explicitly challenging because behaviorism fails to accommodate internal introspective consciousness.
+
+**Primary Textual Reference**: U.T. Place, "Is Consciousness a Brain Process?", *British Journal of Psychology* 47, no. 1 (1956): 44–50; J.J.C. Smart, "Sensations and Brain Processes", *Philosophical Review* 68, no. 2 (1959): 141–156.
+
+---
+
+### Question 17: Gilbert Ryle on "Knowing-How" vs. "Knowing-That"
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Gilbert Ryle (*The Concept of Mind*, 1949, Chapter 2)
+
+In *The Concept of Mind* (1949), Gilbert Ryle mounts an attack on the "Intellectualist Legend"—the Cartesian view that an action is intelligent only if the agent first silently executes an internal mental act of considering a theoretical rule or proposition. How does Ryle refute this doctrine using his distinction between **Knowing-That** (*propositional knowledge*) and **Knowing-How** (*procedural skill/competence*)?
+
+- (A) He demonstrates that if intelligent performance required a prior theoretical contemplation of a proposition, then the act of contemplating that proposition would itself be an action; if it is to be done intelligently, it would require a prior contemplation of a proposition, generating a vicious infinite regress (*Ryle's Regress*).
+- (B) He proves that knowing-how can be completely reduced to a list of true declarative sentences encoded in computer memory.
+- (C) He argues that knowing-how is an innate divine gift that cannot be acquired through physical training, habituation, or bodily practice.
+- (D) He claims that theoretical knowledge (knowing-that) does not exist, and that science is merely an accidental collection of bodily reflexes.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Gilbert Ryle's refutation of the Intellectualist Legend in Chapter 2 of *The Concept of Mind* (1949) is a foundational text in 20th-century epistemology and philosophy of action:
+1. **The Intellectualist Thesis**:
+   - Intellectualism posits that practical execution (e.g., playing chess, telling a witty joke, tying a knot, walking) is "intelligent" only because an unobserved internal mental operation (*knowing-that* rule $P$) preceded and guided the bodily execution.
+2. **Ryle's Infinite Regress Argument**:
+   - To apply a rule or proposition intelligently, one must apply it *correctly* (rather than stupidly or inappropriately).
+   - If applying a rule requires a prior internal theoretical rule to instruct the agent on *how* to apply the first rule, then applying that second rule requires a third rule, ad infinitum.
+   - Therefore, intelligence cannot consist primarily in the contemplation of propositions. **Knowing-How** is epistemologically and ontologically prior to **Knowing-That**. Practical mastery, skill, and dispositions to act intelligently are irreducible to theoretical propositional contemplation.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: This is the Intellectualist position (revived in contemporary epistemology by Jason Stanley and Timothy Williamson), which Ryle is explicitly arguing against.
+- **(C) is incorrect**: Ryle argues that knowing-how is learned through practice, training, and habituated dispositions in the physical world, not innate mysticism.
+- **(D) is incorrect**: Ryle does not deny knowing-that; he simply denies that it is the ontological foundation of practical intelligence.
+
+**Primary Textual Reference**: Gilbert Ryle, *The Concept of Mind* (Hutchinson, 1949), Chapter 2 ("Knowing How and Knowing That"); Jason Stanley and Timothy Williamson, "Knowing How", *Journal of Philosophy* 98, no. 8 (2001): 411–444.

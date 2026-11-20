@@ -324,3 +324,154 @@ In post-hoc Explainable AI for deep neural networks, two foundational methodolog
 - **(D) is incorrect**: Deep networks are non-linear; perturbation methods evaluate non-linear sensitivity, they do not reduce networks to linear functions.
 
 **Primary Textual Reference**: Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman, "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps", *ICLR Workshop* (2014); Mukund Sundararajan, Ankur Taly, and Qiqi Yan, "Axiomatic Attribution for Deep Networks", *ICML* (2017): 3319–3328; Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin, "'Why Should I Trust You?': Explaining the Predictions of Any Classifier", *KDD* (2016).
+
+---
+
+### Question 9: Carl Hempel's Deductive-Nomological (DN) Model of Explanation
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Carl G. Hempel and Paul Oppenheim ("Studies in the Logic of Explanation", 1948); Carl G. Hempel (*Aspects of Scientific Explanation*, 1965)
+
+In their 1948 paper, Carl Hempel and Paul Oppenheim formulated the **Deductive-Nomological (DN) Model** (the "Covering Law" model) of scientific explanation. Under this model, an explanation is a valid deductive argument where the conclusion (the *Explanandum*, $E$) is deduced from premises (the *Explanans*, containing general laws $L_1, L_2, \dots, L_r$ and initial conditions $C_1, C_2, \dots, C_k$). Which of the following is one of Hempel's four essential **Conditions of Adequacy** for a sound DN explanation?
+
+- (A) The explanans must contain at least one genuine universal law of nature (*lex generalis*) essentially required for the deduction, the explanandum must follow deductively from the explanans, the sentences in the explanans must have empirical content (be empirically testable), and the sentences constituting the explanans must be true.
+- (B) The explanation must be written in poetic rhyming couplets to guarantee intuitive aesthetic plausibility.
+- (C) The explanandum must causally precede the Big Bang by at least one million years.
+- (D) The explanation must be accepted unanimously by every living human citizen in a global referendum.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Carl Hempel's Deductive-Nomological (DN) model (1948, 1965) is the classical starting point of modern 20th-century philosophy of science and explanation:
+1. **The Four Conditions of Adequacy**:
+   - **Logical Condition 1 (Deductive Validity)**: The explanandum ($E$) must be a logical consequence of the explanans: $\text{Explanans} \vdash E$.
+   - **Logical Condition 2 (Universal Law)**: The explanans must contain at least one general law ($L$), and this law must be indispensable to the derivation.
+   - **Logical Condition 3 (Empirical Content)**: The explanans must have empirical content; it must be capable, in principle, of being tested by experiment or observation.
+   - **Empirical Condition 4 (Truth)**: The sentences constituting the explanans must be empirically true. (If they are merely well-confirmed, Hempel called it a *potential explanation*).
+2. **The Symmetry Thesis**:
+   - Hempel famously argued for the **Structural Identity / Symmetry Thesis**: explanation and prediction have the identical logical structure. If an argument is provided *after* the event occurs, it is an explanation; if provided *before*, it is a prediction.
+3. **Relevance to Modern AI**:
+   - Modern explainable AI (XAI) continually wrestles with Hempel's framework: does an explanation require universal covering laws, or does deep learning require a non-nomological, causal-mechanical or contrastive model of explanation?
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Aesthetic poetic criteria play no role in logical empiricist philosophy of science.
+- **(C) is incorrect**: Explanations explain physical events within the spacetime of the universe.
+- **(D) is incorrect**: Hempel insisted on objective semantic and logical conditions of truth and validity, explicitly rejecting subjective or sociological definitions of explanation.
+
+**Primary Textual Reference**: Carl G. Hempel and Paul Oppenheim, "Studies in the Logic of Explanation", *Philosophy of Science* 15, no. 2 (1948): 135–175; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965).
+
+---
+
+### Question 10: Wesley Salmon on Statistical Relevance and the Failures of the DN Model
+**Format**: Counterexample & Dialectical Analysis (Format B)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Wesley C. Salmon (*Statistical Explanation and Statistical Relevance*, 1971; *Scientific Explanation and the Causal Structure of the World*, 1984)
+
+Wesley Salmon and other critics formulated famous counterexamples to demonstrate that Hempel's Deductive-Nomological (DN) and Inductive-Statistical (IS) models confuse **logical deduction** with genuine **explanatory relevance**. Consider Salmon's celebrated **"Birth Control Pills for Men"** counterexample:
+- *Premise 1*: Anyone who regularly takes birth control pills avoids getting pregnant.
+- *Premise 2*: John Jones is a biological male who regularly takes his wife's birth control pills.
+- *Conclusion*: Therefore, John Jones avoids getting pregnant.
+
+Why is this logically valid deductive argument a devastating refutation of the DN model?
+
+- (A) The argument satisfies every single formal condition of Hempel's DN model (deductive validity, universal law, true premises), yet it completely fails as an explanation because taking birth control pills has **zero causal and statistical relevance** to John's failure to get pregnant (biological males do not get pregnant regardless of pill consumption).
+- (B) It fails because birth control pills are illegal to manufacture under international medical law.
+- (C) It fails because John Jones did not swallow the pills with warm water.
+- (D) It fails because the word "pill" cannot be defined in first-order predicate logic.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Wesley Salmon's critique of the covering-law model in the 1970s and 1980s led to the birth of the **Causal-Mechanical (CM)** and **Statistical Relevance (SR)** paradigms:
+1. **The Defect of Pure Logical Deduction**:
+   - Hempel assumed that explanation is simply subsumption under a general regular law.
+   - But Salmon produced devastating counterexamples:
+     - **The Hexed Salt**: A wizard casts a spell on table salt ("hexed salt"). Law: *"All hexed salt dissolves in water."* Premise: *"This salt was hexed."* Conclusion: *"It dissolves."* It satisfies the DN model, but the hexing is completely non-explanatory because salt dissolves due to its chemical polar structure, not the hex.
+     - **Birth Control Pills for Men**: Taking birth control pills ($C$) does not change the probability of a male becoming pregnant ($E$):
+     $$P(E | C) = P(E | \neg C) = 0$$
+2. **The Statistical Relevance Criterion**:
+   - An explanation is genuinely explanatory only if the cited factor makes an objective **difference** to the probability of the outcome:
+     $$P(E | C) \neq P(E)$$
+   - Salmon later realized that even statistical relevance is insufficient: genuine explanation requires tracing physical causal processes and interactions (**Causal-Mechanical model**).
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Birth control medications are legally approved pharmaceuticals.
+- **(C) is incorrect**: Trivial irrelevant detail that has nothing to do with philosophical logic.
+- **(D) is incorrect**: The argument is easily formalized in first-order logic; its failure is metaphysical and causal, not syntactic.
+
+**Primary Textual Reference**: Wesley C. Salmon, *Statistical Explanation and Statistical Relevance* (University of Pittsburgh Press, 1971); Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984).
+
+---
+
+### Question 11: James Woodward's Interventionist Theory of Explanation
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: James Woodward (*Making Things Happen: A Theory of Causal Explanation*, 2003)
+
+In *Making Things Happen* (2003), James Woodward developed the **Interventionist / Manipulability Theory** of causal explanation, which has become the dominant philosophical framework in modern AI causality and explainability. According to Woodward, what makes an explanation genuinely explanatory?
+
+- (A) An explanation explains an explanandum by showing how it depends on cited variables, specifically by providing systematic answers to **"what-if-things-had-been-different" questions ($w$-questions)**: it exhibits a relationship between variables that is **invariant under hypothetical ideal interventions**, showing how intervening to manipulate variable $X$ would alter the value of variable $Y$.
+- (B) An explanation must prove that the phenomenon was predestined by God before the creation of the physical cosmos.
+- (C) An explanation is explanatory only if it reduces all phenomena to the movements of subatomic gluons.
+- (D) An explanation must be verified by polling a sample of at least 10,000 ordinary citizens.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+James Woodward's *Making Things Happen* (2003) revolutionized contemporary philosophy of science:
+1. **The Inadequacy of Deductive and Causal-Mechanical Models**:
+   - Hempel's DN model is too broad (allows irrelevant deductions like hexed salt).
+   - Salmon's causal-mechanical model (continuous spacetime causal lines and conserved quantity transfer) is too narrow: it cannot explain causation in economics, psychology, macro-biology, or computer software where physical energy transfer is irrelevant.
+2. **The Interventionist Core**:
+   - Woodward grounds explanation in **manipulation and control**:
+     - Variable $X$ causally explains $Y$ if there is an ideal intervention $I$ on $X$ such that changing the value of $X$ changes the value of $Y$.
+   - **Answering $w$-questions ("what-if-things-had-been-different")**:
+     - An explanation is not just a single factual correlation; it provides a map of counterfactual dependencies. It tells us: *"If $X$ had taken value $x_1$ instead of $x_0$, $Y$ would have taken value $y_1$ instead of $y_0$."*
+3. **Invariance**:
+   - The explanatory generalization does not need to be a strict, exceptionless, universal law of fundamental physics; it merely needs to be **invariant under a range of interventions** within a specific domain.
+   - This framework directly grounds modern Explainable AI (XAI), particularly feature attribution and counterfactual explanations.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Woodward provides a naturalistic, secular, empirical framework of causal intervention.
+- **(C) is incorrect**: Woodward explicitly defends non-reductive macro-explanations (in neuroscience, economics, and sociology), rejecting radical micro-reductionism.
+- **(D) is incorrect**: Epistemic validity is grounded in objective interventionist invariance, not popular opinion polls.
+
+**Primary Textual Reference**: James Woodward, *Making Things Happen: A Theory of Causal Explanation* (Oxford University Press, 2003); James Woodward, "Explanation and Invariance in the Special Sciences", *British Journal for the Philosophy of Science* 51, no. 2 (2000): 197–254.
+
+---
+
+### Question 12: SHAP and Cooperative Game Theory: The Shapley Value Axioms
+**Format**: Mathematical & Conceptual Foundations (Format C)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Scott M. Lundberg and Su-In Lee ("A Unified Approach to Interpreting Model Predictions", 2017); Lloyd S. Shapley ("A Value for n-Person Games", 1953)
+
+In Explainable AI, **SHAP (SHapley Additive exPlanations)** calculates the marginal contribution of each input feature to the output prediction of a complex machine learning model. SHAP is uniquely grounded in Lloyd Shapley's Nobel Prize-winning work in **Cooperative Game Theory** (1953). Which of the following correctly describes the four classical **Shapley Axioms** that guarantee a unique, mathematically fair distribution of feature attribution?
+
+- (A) **Efficiency** (the sum of feature attributions equals the difference between the model output and the expected base value), **Symmetry** (two features that contribute identically to all possible subsets receive equal attribution), **Dummy / Null Player** (a feature that has zero impact on all subsets receives zero attribution), and **Additivity / Linearity** (the attribution of a feature across an ensemble of models is the sum of its attributions in each model).
+- (B) **Profit**, **Market Share**, **Advertising**, and **Monopoly**.
+- (C) **Speed**, **Memory Consumption**, **GPU Temperature**, and **Clock Frequency**.
+- (D) **Subjectivity**, **Ambiguity**, **Randomness**, and **Opacity**.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Lundberg and Lee's SHAP framework (NeurIPS 2017) resolved a major crisis in XAI by proving that among all additive feature attribution methods, only Shapley values satisfy desirable axiomatic properties:
+1. **The Analogy**:
+   - In cooperative game theory, a coalition of $N$ players works together to generate a total payout $v(S)$. How should the payout be divided fairly among the players based on their contributions?
+   - In machine learning:
+     - The "players" are the input features $x_i$ ($i \in \{1, \dots, M\}$).
+     - The "coalition game" is the prediction function $f(x)$ evaluated over feature subsets.
+2. **The Four Shapley Axioms**:
+   - **Efficiency**: $\sum_{i=1}^M \phi_i(f, x) = f(x) - \mathbb{E}[f(X)]$. The sum of attributions must account completely for the gap between the prediction and the baseline expected prediction.
+   - **Symmetry**: If feature $i$ and feature $j$ contribute identically to every possible subset of other features $S \subseteq N \setminus \{i, j\}$ ($f(S \cup \{i\}) = f(S \cup \{j\})$), then $\phi_i = \phi_j$.
+   - **Dummy (Null Player)**: If feature $i$ contributes nothing to any subset ($f(S \cup \{i\}) = f(S)$ for all $S$), then $\phi_i = 0$.
+   - **Additivity**: If a model is formed by summing two models $f + g$, then $\phi_i(f + g) = \phi_i(f) + \phi_i(g)$.
+3. **The Uniqueness Theorem**:
+   - Lloyd Shapley (1953) proved mathematically that the Shapley value is the **one and only** attribution formula that simultaneously satisfies these four axioms.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Commercial corporate concepts completely unrelated to cooperative game-theoretic axioms.
+- **(C) is incorrect**: Hardware performance metrics, not mathematical attribution axioms.
+- **(D) is incorrect**: The exact opposite of Shapley's goal, which was to establish objective, unique, mathematically rigorous attribution.
+
+**Primary Textual Reference**: Scott M. Lundberg and Su-In Lee, "A Unified Approach to Interpreting Model Predictions", *Advances in Neural Information Processing Systems (NeurIPS)* 30 (2017): 4765–4774; Lloyd S. Shapley, "A Value for n-Person Games", in *Contributions to the Theory of Games II*, ed. H. W. Kuhn and A. W. Tucker (Princeton University Press, 1953), pp. 307–317.

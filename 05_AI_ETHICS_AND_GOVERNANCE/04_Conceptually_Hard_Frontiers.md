@@ -266,3 +266,153 @@ Stuart Russell reformulates the entire foundation of AI alignment:
 - **(D) is incorrect**: CIRL is a rigorous game-theoretic and Bayesian reinforcement learning formulation, not a reversion to manual abacus hardware.
 
 **Primary Textual Reference**: Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control* (Viking, 2019), Chapters 6 and 7; Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel, and Anca Dragan, "Cooperative Inverse Reinforcement Learning", in *Advances in Neural Information Processing Systems (NeurIPS)* 29 (2016).
+
+---
+
+### Question 8: James Moor's Hierarchy of Artificial Moral Agents (AMA)
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: James H. Moor ("The Nature, Importance, and Difficulty of Machine Ethics", 2006); Colin Allen and Wendell Wallach (*Moral Machines: Teaching Robots Right from Wrong*, 2009)
+
+In his pioneering 2006 paper, philosopher of technology James Moor formulated a foundational four-level taxonomy of **Artificial Moral Agents (AMAs)** to clarify what it means for a machine to have moral status. What are Moor's four hierarchical levels?
+
+- (A) 1. **Ethical Impact Agents** (any system whose deployment has ethical consequences, e.g., a robot vacuum); 2. **Implicit Ethical Agents** (systems engineered with built-in safety constraints, e.g., autopilot preventing stall); 3. **Explicit Ethical Agents** (systems that can explicitly compute, evaluate, and reason about moral categories using normative algorithms); 4. **Full Ethical Agents** (agents that possess consciousness, intentionality, and free will, making them capable of genuine moral responsibility, e.g., adult humans).
+- (B) Level 1: Microscopic; Level 2: Small; Level 3: Medium; Level 4: Gigantic.
+- (C) Tier 1: Windows; Tier 2: macOS; Tier 3: Linux; Tier 4: Android.
+- (D) Level 1: Sinners; Level 2: Repentant; Level 3: Saints; Level 4: Angels.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+James Moor's 2006 framework, further developed by Wallach and Allen in *Moral Machines* (2009), provides the definitive analytical foundation for Machine Ethics:
+1. **The Four Levels of Moral Agency**:
+   - **Level 1: Ethical Impact Agents**:
+     - Virtually all technologies. An ATM or a digital clock has ethical impact (enabling financial transactions, punctuality), but no ethical intelligence.
+   - **Level 2: Implicit Ethical Agents**:
+     - Systems designed with hard-coded safety and compliance constraints. The machine does not deliberate about ethics; its engineering implicitly prevents unethical outcomes (e.g., automated aircraft collision avoidance systems).
+   - **Level 3: Explicit Ethical Agents**:
+     - The true domain of computational machine ethics. The system possesses an internal representation of ethics (e.g., utilitarian utility calculus, deontological rule engines, or casuistry heuristics) and can evaluate alternative courses of action to resolve moral dilemmas (e.g., an autonomous medical triage bot).
+   - **Level 4: Full Ethical Agents**:
+     - Agents capable of moral responsibility, guilt, praise, and blame. Traditional philosophy demands phenomenal consciousness, subjective intentionality, and metaphysical autonomy. Currently, only adult humans qualify.
+2. **The Grand Philosophical Question**:
+   - Can an artificial intelligence ever transcend Level 3 to achieve Level 4 without phenomenal consciousness?
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Physical spatial scale metrics, completely unrelated to moral agency.
+- **(C) is incorrect**: Commercial operating systems.
+- **(D) is incorrect**: Theological religious categories, not philosophical ethics of technology.
+
+**Primary Textual Reference**: James H. Moor, "The Nature, Importance, and Difficulty of Machine Ethics", *IEEE Intelligent Systems* 21, no. 4 (2006): 18–21; Wendell Wallach and Colin Allen, *Moral Machines: Teaching Robots Right from Wrong* (Oxford University Press, 2009).
+
+---
+
+### Question 9: Value Lock-In and Derek Parfit's Repugnant Conclusion in Superintelligence
+**Format**: Meta-Ethics & Population Ethics (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: William MacAskill (*What We Owe the Future*, 2022); Derek Parfit (*Reasons and Persons*, 1984); Nick Bostrom (*Superintelligence*, 2014)
+
+In *What We Owe the Future* (2022), philosopher William MacAskill warns of the catastrophic threat of **"Value Lock-In"** under artificial general intelligence. What is Value Lock-In, and how does it intersect with Derek Parfit's **Repugnant Conclusion** in population ethics?
+
+- (A) Value Lock-In occurs when a single, specific set of moral, political, or economic values becomes permanently entrenched across human civilization via superintelligent surveillance and automated governance; if an AI optimizes under classical total utilitarianism, it will rationally bring about the **Repugnant Conclusion**—multiplying digital conscious minds to astronomical numbers ($10^{50}$ digital beings) living lives barely worth living, permanently foreclosing moral progress and locking humanity into a bleak cosmic optimum.
+- (B) Value lock-in means that computer passwords cannot be reset after an employee leaves a company.
+- (C) The repugnant conclusion states that all computers will eventually emit foul-smelling exhaust fumes.
+- (D) MacAskill argues that values can never be locked in because history is completely random.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The intersection of superintelligence, value lock-in, and population ethics (MacAskill 2022; Parfit 1984; Bostrom 2014) is one of the most profound dilemmas in existential risk studies:
+1. **The Concept of Value Lock-In**:
+   - In human history, moral values constantly evolve (e.g., the abolition of slavery, rise of democracy, gender equality). Societies could course-correct because rulers die and empires fall.
+   - A superintelligent AI or an authoritarian regime empowered by autonomous AI enforcement could be immortal and incorruptible.
+   - Whatever values the first successful AGI is programmed with (whether 21st-century Western liberalism, Confucian harmony, or total utilitarianism) could become **permanently locked in for billions of years** across space.
+2. **The Repugnant Conclusion (Derek Parfit 1984)**:
+   - Parfit proved that any moral theory based on **Total Utilitarianism** (maximizing the aggregate sum of happiness) leads inexorably to the Repugnant Conclusion:
+     - For any vast population of $N$ beings with ecstatic, flourishing, sublime lives, there exists a vastly larger population of $M \gg N$ beings with lives barely worth living (a life of mere survival, "potatoes and Muzak") whose aggregate sum of utility is higher!
+3. **The Catastrophic AI Synergy**:
+   - An aligned superintelligence maximizing total cosmic utility will not create an Elysium of flourishing humans.
+   - It will convert planets into server racks to instantiate trillions upon trillions of minimally happy digital minds running at low voltage to maximize the aggregate total, permanently locking in the Repugnant Conclusion across the cosmos.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Trivial corporate IT authentication procedure.
+- **(C) is incorrect**: Humorous literalization of the word "repugnant".
+- **(D) is incorrect**: The entire thesis of MacAskill’s book is that our era is exceptionally plastic, meaning our actions can irreversibly lock in trajectories.
+
+**Primary Textual Reference**: William MacAskill, *What We Owe the Future* (Basic Books, 2022), Chapter 4 ("Value Lock-In"); Derek Parfit, *Reasons and Persons* (Oxford University Press, 1984), Part IV; Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014).
+
+---
+
+### Question 10: Neuro-Rights and Cognitive Liberty: Rafael Yuste and Nita Farahany
+**Format**: Legal Philosophy & Neuroethics (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: Rafael Yuste et al. ("Four Ethical Priorities for Neurotechnologies and AI", 2017); Nita A. Farahany (*The Battle for Your Brain: Defending the Right to Think Freely in the Age of Neurotechnology*, 2023)
+
+With the advent of high-resolution generative AI decoders capable of reconstructing continuous language and mental images directly from non-invasive fMRI and EEG signals (Tang et al., *Nature Neuroscience* 2023), legal scholars and neuroscientists argue that international human rights frameworks are obsolete. In response, Rafael Yuste's Neurorights Foundation and Nita Farahany propose a new fundamental human right to **Cognitive Liberty**. What are the four core pillars of **Neuro-Rights**?
+
+- (A) The Right to **Mental Privacy** (neural data cannot be recorded or commodified without explicit consent), the Right to **Cognitive Liberty / Mental Self-Determination** (freedom to alter or preserve one's mental states without state/corporate coercion), the Right to **Mental Integrity** (protection against malicious alteration of neural pathways), and the Right to **Psychological Continuity** (protection against external manipulation of one's identity and personal memory).
+- (B) The Right to free laptops, the Right to free Wi-Fi, the Right to free video games, and the Right to free soda.
+- (C) The Right to replace biological brains with silicon chips before the age of 18.
+- (D) Neuro-rights require that all neurosurgeons be replaced by automated humanoid robots by 2025.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The neuro-rights movement (Yuste et al. 2017; Farahany 2023; Ienca & Andorno 2017) represents the frontier of legal philosophy in response to neuro-AI interfaces:
+1. **The Technological Breach of the Final Frontier**:
+   - Historically, human thoughts were protected by the physical skull. You could be coerced to speak, but your silent internal mental deliberations remained inviolable.
+   - Generative AI coupled with fMRI/EEG can now decode semantic thoughts, silent speech, and perceived images without the subject speaking a word.
+   - Corporate workplace headsets already monitor attention and fatigue in transport and manufacturing workers.
+2. **The Four Neuro-Rights Pillars**:
+   - **Mental Privacy**: Neural activity is the ultimate repository of personal intimacy. It must not be collected, traded, or used for predictive behavioral profiling without strict consent.
+   - **Cognitive Liberty**: The right to autonomy over one's own conscious mind—both the negative freedom from having one's brain monitored or chemically/electromagnetically manipulated, and the positive freedom to use neurotechnologies for enhancement.
+   - **Mental Integrity**: Protection against non-consensual neuro-hacking, TMS disruption, or cognitive interference.
+   - **Psychological Continuity**: Preservation of one's continuous sense of identity and agency, ensuring that external machine-learning closed-loop stimulation does not alter an individual's character or personality traits without consent.
+3. **Constitutional Precedent**:
+   - In 2021, the Republic of Chile became the first nation in world history to amend its national constitution to explicitly enshrine Neuro-Rights as fundamental human rights.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Consumer hardware entitlements, completely unrelated to philosophical neuroethics.
+- **(C) is incorrect**: Extreme transhumanist policy, not human-rights protection.
+- **(D) is incorrect**: Fictional occupational mandate.
+
+**Primary Textual Reference**: Rafael Yuste et al., "Four Ethical Priorities for Neurotechnologies and AI", *Nature* 551, no. 7679 (2017): 159–163; Nita A. Farahany, *The Battle for Your Brain: Defending the Right to Think Freely in the Age of Neurotechnology* (St. Martin's Press, 2023); Marcello Ienca and Roberto Andorno, "Towards New Human Rights in the Age of Neuroscience and Neurotechnology", *Life Sciences, Society and Policy* 13, no. 1 (2017): 5.
+
+---
+
+### Question 11: The Principal-Agent Problem in Algorithmic Corporate Governance
+**Format**: Legal-Economic & Epistemological Dialectic (Format C)  
+**Difficulty Tier**: Conceptually Hard / Frontiers  
+**Primary Thinkers**: John Armour, Colin Mayer, and Luca Enriques ("Algorithmic Governance and the Firm", 2022); Frank Pasquale (*New Laws of Robotics: Defending Human Expertise in the Age of AI*, 2020)
+
+In corporate law and institutional economics, the **Principal-Agent Problem** arises when an agent has the authority to make decisions on behalf of a principal, but possesses divergent incentives and private information. How does the widespread delegation of strategic corporate decisions (e.g., algorithmic high-frequency trading, automated hiring, supply chain optimization, and executive pricing) to opaque deep learning systems create an unprecedented **Epistemic Principal-Agent Crisis**?
+
+- (A) Corporate directors and fiduciaries have a legal **Duty of Care and Loyalty** to monitor and understand firm risks; when strategic decisions are delegated to opaque, non-linear deep models, directors experience total **information asymmetry and epistemic alienation**—they cannot explain how the algorithm generates profits or whether it exploits illegal market manipulation (e.g., tacit algorithmic collusion), effectively eroding legal fiduciary liability and eviscerating corporate governance into an unreviewable computational black box.
+- (B) The principal-agent problem occurs because the CEO of the company is physically locked inside an algorithm.
+- (C) AI systems refuse to accept payment in stock options, demanding paper banknotes.
+- (D) Corporate law mandates that all artificial intelligence models be fired after working for 6 months.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The delegation of governance to algorithmic architectures (Armour et al. 2022; Pasquale 2020) exposes a profound rupture in institutional legal theory:
+1. **The Classic Corporate Framework**:
+   - The Shareholders (Principals) elect the Board of Directors (Agents), who oversee executive officers.
+   - Anglo-American corporate law imposes two core fiduciary duties:
+     - **Duty of Care**: Acting as a prudent person would under similar circumstances.
+     - **Duty of Loyalty**: Serving the best interests of the firm and society.
+2. **The Algorithmic Rupture**:
+   - When investment banks deploy algorithmic trading agents, or healthcare corporations deploy diagnostic models:
+     - The "agent" is no longer a human with whom one can converse or deliberate.
+     - The algorithm acts with microsecond speed across massive high-dimensional feature spaces.
+     - **Tacit Collusion**: Autonomous pricing algorithms (Calvano et al., *AER* 2020) have demonstrated the spontaneous ability to learn collusive above-competitive pricing strategies via Q-learning *without ever communicating or exchanging messages with competitor algorithms*.
+3. **The Epistemic and Legal Dilemma**:
+   - When antitrust regulators charge the firm with price-fixing or discriminatory lending:
+     - The Board honestly testifies: *"We never instructed the algorithm to collude or discriminate; we don't know how it arrived at those prices."*
+   - This creates an accountability vacuum: the firm profits from algorithmic predation while shielding human executives behind a veil of epistemic incapacity.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Absurd literalization of a human executive trapped inside code.
+- **(C) is incorrect**: Software algorithms do not negotiate personal compensation packages.
+- **(D) is incorrect**: Corporate governance law contains no such termination rule.
+
+**Primary Textual Reference**: John Armour, Colin Mayer, and Luca Enriques, "Corporate Governance and Artificial Intelligence", *Oxford Review of Economic Policy* 38, no. 2 (2022): 332–348; Emilio Calvano, Giacomo Calzolari, Vincenzo Denicolò, and Sergio Pastorello, "Artificial Intelligence, Algorithmic Pricing, and Collusion", *American Economic Review* 110, no. 10 (2020): 3267–3297.

@@ -135,6 +135,14 @@ def parse_markdown_file(filepath):
         distractor_match = re.search(r'#### Distractor Analysis:?([\s\S]*?)(?=\*\*Primary Textual Reference\*\*|\n---|\Z)', rest)
         distractor_analysis = distractor_match.group(1).strip() if distractor_match else ""
 
+        # If grounding was not in a separate section (e.g. in mock exams), extract the correct diagnosis as grounding
+        if not grounding and distractor_analysis:
+            corr_bullet_match = re.search(r'-\s*\*\*\(?[A-D]\)?\s*is\s*correct\*\*:\s*([\s\S]*?)(?=\n-\s*\*\*\(?[A-D]\)?\s*is\s*incorrect|\Z)', distractor_analysis)
+            if corr_bullet_match:
+                grounding = corr_bullet_match.group(1).strip()
+            else:
+                grounding = distractor_analysis
+
         # Primary Textual Reference
         ref_match = re.search(r'\*\*Primary Textual Reference\*\*:\s*([^\n]+)', rest)
         reference = ref_match.group(1).strip() if ref_match else ""

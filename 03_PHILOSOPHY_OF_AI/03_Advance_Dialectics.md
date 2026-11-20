@@ -306,3 +306,149 @@ Hubert Dreyfus's phenomenological critique of cognitive science remains one of t
 - **(D) is incorrect**: Dreyfus argued that digital computers cannot experience Heideggerian *Angst* or care (*Sorge*) because they lack mortal biological bodies that face death.
 
 **Primary Textual Reference**: Hubert L. Dreyfus, *What Computers Still Can't Do: A Critique of Artificial Reason* (MIT Press, 1992); Hubert L. Dreyfus, "Why Heideggerian AI Failed and How Fixing It Would Require Making It More Heideggerian", *Philosophical Psychology* 20, no. 2 (2007): 247–268; Martin Heidegger, *Being and Time* (1927), trans. Macquarrie and Robinson (Harper & Row, 1962).
+
+---
+
+### Question 9: The "Stochastic Parrots" Debate: Bender, Gebru, and the Semantics of LLMs
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell ("On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", 2021); Blaise Agüera y Arcas ("Do Large Language Models Understand Us?", 2022)
+
+In their influential 2021 paper, Emily Bender and Timnit Gebru characterized Large Language Models (LLMs) as **"Stochastic Parrots"**. What is their core philosophical argument regarding the relationship between statistical string manipulation and semantic understanding?
+
+- (A) An LLM is trained purely on linguistic form (the statistical distributions of character strings / tokens in a training corpus) without access to non-linguistic perceptual reference, communicative intent, or real-world truth-conditions; therefore, an LLM merely stochastically stitches together sequences of linguistic forms according to probabilistic weights without possessing any genuine comprehension, meaning, or intentionality (**the Form-Meaning Barrier**).
+- (B) LLMs are literally trained on the vocal recordings of Amazonian parrot birds, proving they are biological audio recorders.
+- (C) The paper proved that transformer architectures violate the second law of thermodynamics by generating text without consuming electrical energy.
+- (D) Bender and Gebru argued that LLMs have developed conscious human souls that are currently enslaved by technology corporations.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The "Stochastic Parrots" paper (Bender et al., FAccT 2021) and the companion paper by Bender and Koller ("Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data", ACL 2020) formulated the central linguistic critique of modern Generative AI:
+1. **The Form vs. Meaning Distinction**:
+   - Drawing on Ferdinand de Saussure and formal semantics:
+     - **Form**: The observable physical token string (characters, phonemes, pixels).
+     - **Meaning**: The relation between the linguistic form and the external, non-linguistic world (reference, truth-conditions, communicative intent).
+2. **The Octopus Thought Experiment (Bender & Koller 2020)**:
+   - Imagine two humans, $A$ and $B$, marooned on separate islands communicating via an underwater cable.
+   - An intelligent octopus ($O$) taps the cable. $O$ has no access to the islands, no sight, and no knowledge of human biology. $O$ merely observes the statistical regularities of English words traveling across the wire.
+   - Eventually, $O$ cuts the wire and impostors $B$, generating plausible continuation strings to $A$'s queries.
+   - One day, $A$ asks: *"A bear is chasing me! What should I do with this stick?"*
+   - The octopus has no idea what a "bear" is, what a "stick" is, or what mortal danger means. It has only ungrounded statistical distributions of words.
+3. **The Philosophical Conclusion**:
+   - Text-only training cannot cross the gap from statistical syntax to genuine semantics. The appearance of "understanding" in LLMs is an illusion produced by the human reader projecting meaning onto the generated text (**anthropomorphism**).
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Humorous literalization of the metaphor "stochastic parrot".
+- **(C) is incorrect**: Transformer models consume substantial electrical power; no physical laws are violated.
+- **(D) is incorrect**: Bender and Gebru argue the exact opposite: LLMs have *no* minds, *no* consciousness, and *no* understanding.
+
+**Primary Textual Reference**: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell, "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜", *Proceedings of the 2021 ACM FAccT Conference* (2021): 610–623; Emily M. Bender and Alexander Koller, "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data", *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics* (2020): 5185–5198.
+
+---
+
+### Question 10: The Robot Reply to the Chinese Room and Harnad's Total Turing Test
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Stevan Harnad ("Minds, Machines and Searle", 1989); John R. Searle ("Minds, Brains, and Programs", 1980)
+
+In response to John Searle's Chinese Room argument, the **Robot Reply** asserts: *"Put a computer inside a robot body with television cameras for eyes, motorized limbs, and microphones for ears. The computer can now interact causally with the physical world, perceiving tables and walking toward them. This embodied, sensorimotor causal connection gives the symbols real meaning and genuine semantics."* What was Searle's famous counter-rebuttal to the Robot Reply?
+
+- (A) Searle instructed us to put the man back inside the robot: imagine the man in the room receives digitized numbers from the camera, looks up symbol-manipulation rules in his English book, and sends numbers to the motors; the man still understands zero Chinese and does not know that the numbers correspond to motor movements or visual scenes. Adding external causal transducers does not bridge the gap between formal syntax and internal subjective semantics.
+- (B) Searle argued that robots cannot exist because electric motors violate the laws of Newtonian gravity.
+- (C) Searle conceded that the Robot Reply completely refutes his argument, abandoning the Chinese Room entirely.
+- (D) Searle claimed that only biological robots with red blood cells can walk across a room.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The exchange over the "Robot Reply" in *Behavioral and Brain Sciences* (1980) is one of the most critical dialectical moments in the philosophy of AI:
+1. **The Robot Reply Strategy**:
+   - Externalist critics (e.g., Fodor, Dennett, Harnad) argued that the Chinese Room in its original form was an isolated, disembodied oracle.
+   - Natural language semantics is externalist (Putnam): meaning requires causal tracking of physical objects.
+   - If you mount the computer inside an autonomous mobile robot interacting with physical objects, the symbols are no longer floating in syntactic isolation; they are causally hooked to the environment.
+2. **Searle's Uncompromising Counter**:
+   - Searle simply internalized the robot's hardware into the homunculus thought experiment:
+     - *"Suppose that instead of the computer inside the robot, you put me inside the room. The room has cables coming in from the cameras, which feed numbers into my inbox. I look up numbers in a ledger, and I send output numbers out through cables to the motors."*
+     - *"I do not know what the numbers mean. To me, they are just '10110' and '01101'. I don't know that '10110' represents a wall, or that outputting '01101' causes the robot's leg to turn left."*
+   - Therefore, from the first-person perspective of the computational processor, sensorimotor transducers add only more uninterpreted syntactic symbols.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Robotic motors operate under well-understood electromagnetic and physical principles.
+- **(C) is incorrect**: Searle never conceded to the Robot Reply; he vigorously defended his counter-rebuttal in dozens of publications.
+- **(D) is incorrect**: Searle does not claim that blood is required; he claims that causal neurobiological powers (whatever they are) are required, and that abstract computation does not constitute them.
+
+**Primary Textual Reference**: John R. Searle, "Minds, Brains, and Programs", *Behavioral and Brain Sciences* 3, no. 3 (1980): 417–457 (see "The Robot Reply" and Searle's response); Stevan Harnad, "Minds, Machines and Searle2", *Journal of Experimental & Theoretical Artificial Intelligence* 1, no. 1 (1989): 5–25.
+
+---
+
+### Question 11: Luciano Floridi's Philosophy of Information: The Decoupling of Agency from Intelligence
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Luciano Floridi (*The Fourth Revolution: How the Infosphere is Reshaping Human Reality*, 2014; *The Logic of Information*, 2019)
+
+Philosopher Luciano Floridi argues that the public debate over artificial intelligence is mired in confusion because people view AI through the lens of human cognitive anthropomorphism. What is Floridi's radical definition of AI as **"the decoupling of Agency from Intelligence"**?
+
+- (A) AI represents an unprecedented historical divorce: for the first time in natural history, tasks that previously required human **intelligence** (reasoning, calculation, chess, translation, navigation) can now be performed with extraordinary efficiency by non-conscious, non-intelligent technological **agents** that succeed by reshaping the world into an informational environment (*the Infosphere* / *envelope carving*) tailored to their computational mechanisms.
+- (B) AI is an evil biological virus that decouples human souls from their physical bodies during sleep.
+- (C) Decoupling means that AI systems can only operate when disconnected from the electrical power grid.
+- (D) Floridi argues that computers possess higher spiritual intelligence than angels and should replace human judges in religious courts.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Luciano Floridi's Philosophy of Information (PI) and *The Fourth Revolution* (2014) provide one of the most lucid, non-anthropomorphic frameworks for understanding AI:
+1. **The Historic Coupling**:
+   - In biological organisms, successful, goal-directed, complex action (**agency**) was always coupled with biological cognitive capacity (**intelligence**).
+   - If an organism solved a complex problem (e.g., hunting, navigating, diagnosing an illness), it was because the organism was intelligent.
+2. **The Great Decoupling**:
+   - AI shatters this biological coupling. AI systems possess **Agency** (the ability to interact, adapt, and successfully produce state changes to accomplish goals) with **zero Intelligence** (zero semantic comprehension, zero self-awareness, zero consciousness).
+   - Deep Blue beat Kasparov not by understanding chess, but by processing syntactic game trees.
+3. **Envelope Carving and the Infosphere**:
+   - How do non-intelligent AI agents succeed in the real world?
+   - Humans are actively "enveloping" the world: we adapt our physical environments (roads with lane markers for self-driving cars, barcodes, APIs, digital sensor grids) into structured informational envelopes tailored for syntactic agents.
+   - Rather than machines becoming human-like, the world is becoming machine-friendly.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Sensationalist science-fiction distracter.
+- **(C) is incorrect**: Decoupling is a philosophical separation between agency and intelligence, not physical electrical unplugging.
+- **(D) is incorrect**: Floridi explicitly asserts that AI has *zero* intelligence and *zero* spiritual capacity.
+
+**Primary Textual Reference**: Luciano Floridi, *The Fourth Revolution: How the Infosphere is Reshaping Human Reality* (Oxford University Press, 2014); Luciano Floridi, *The Logic of Information: A Theory of Philosophy as Conceptual Design* (Oxford University Press, 2019).
+
+---
+
+### Question 12: Stuart Russell and Cooperative Inverse Reinforcement Learning (CIRL)
+**Format**: Formal Dialectical Argument (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Stuart Russell (*Human Compatible: Artificial Intelligence and the Problem of Control*, 2019); Dylan Hadfield-Menell et al. ("Cooperative Inverse Reinforcement Learning", 2016)
+
+In *Human Compatible* (2019), Stuart Russell argues that the standard model of AI—where an agent is given a fixed, fully specified objective function to optimize—is fundamentally dangerous. Russell and Hadfield-Menell formulate **Cooperative Inverse Reinforcement Learning (CIRL)** to solve the AI alignment problem. What is the foundational mathematical axiom of CIRL?
+
+- (A) The AI agent's sole objective is to maximize the realization of human preferences, but **the agent is explicitly uncertain about what those human preferences actually are**; this deliberate epistemic uncertainty incentivizes the agent to ask permission, defer to human guidance, and allow itself to be switched off.
+- (B) The AI agent is programmed with a fixed set of 10 ethical commandments written in stone that can never be modified.
+- (C) CIRL requires that all human beings be genetically modified with neural implants to think like computers.
+- (D) The AI agent assumes that humans are infallible, omniscient gods who never make cognitive or moral errors.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Stuart Russell's *Human Compatible* (2019) replaces the classic "Standard Model of AI" (inherited from Russell & Norvig's famous textbook) with a game-theoretic safety architecture:
+1. **The Flaw of the Standard Model**:
+   - In traditional reinforcement learning, an agent is given a definite reward function $R(s, a)$ and instructed to maximize expected utility.
+   - If an intelligent agent has a fixed objective (e.g., "eliminate cancer" or "calculate $\pi$"), it will deduce convergent instrumental subgoals: prevent itself from being shut down (because *"you can't fetch the coffee if you're dead"*), consume energy, and resist human interference.
+2. **The CIRL Framework (Hadfield-Menell et al., NeurIPS 2016)**:
+   - CIRL is formulated as a two-player cooperative game between a Human ($H$) and a Robot ($R$):
+     - Both agents share the same reward function $R(\theta, s, a)$, where $\theta$ represents true human values.
+     - Crucially, the human knows $\theta$, but **the robot does not know $\theta$** (it maintains a Bayesian prior distribution $P(\theta)$ over possible values).
+3. **The Philosophical Result (The "Off-Switch" Problem)**:
+   - Why would a CIRL agent allow a human to press its off-switch?
+   - The agent reasons: *"If I am doing what the human wants, they won't turn me off. If the human wants to turn me off, it must be because I am doing something that violates their true preferences $\theta$. Since my only goal is to serve their true preferences $\theta$, it is in my direct interest to be switched off!"*
+   - Epistemic humility about human preferences solves the existential alignment threat.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Fixed rules suffer from Goodhart's Law and specification gaming, which CIRL is designed to escape.
+- **(C) is incorrect**: Absurd transhumanist distracter; CIRL adapts the machine to human fallibility, not humans to machines.
+- **(D) is incorrect**: CIRL models explicitly account for human irrationality, cognitive biases, and sub-optimal demonstrations (Boltzmann-rational human models).
+
+**Primary Textual Reference**: Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel, and Anca Dragan, "Cooperative Inverse Reinforcement Learning", *Advances in Neural Information Processing Systems (NeurIPS)* 29 (2016): 3909–3917; Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control* (Viking, 2019).

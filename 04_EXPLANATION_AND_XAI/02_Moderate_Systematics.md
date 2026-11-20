@@ -301,3 +301,145 @@ LIME is one of the most widely implemented post-hoc explainers in the history of
 - **(D) is incorrect**: The black box remains non-linear globally; LIME only approximates local tangent behavior around a specific point.
 
 **Primary Textual Reference**: Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin, "'Why Should I Trust You?': Explaining the Predictions of Any Classifier", *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (2016): 1135–1144.
+
+---
+
+### Question 9: Bas van Fraassen's Pragmatic Theory of Explanation
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Bas C. van Fraassen (*The Scientific Image*, 1980, Chapter 5)
+
+In *The Scientific Image* (1980), constructive empiricist Bas van Fraassen formulated the **Pragmatic Theory of Explanation**, challenging the view that explanation is a pure two-place syntactic relation between a theory and a fact. How does van Fraassen analyze an explanation as an answer to a context-dependent **"Why-Question"**?
+
+- (A) An explanation is an answer to a why-question formally specified as a triple $Q = \langle P_k, X, R \rangle$, where $P_k$ is the **Topic** (the fact to be explained), $X = \{P_1, P_2, \dots, P_k, \dots\}$ is the **Contrast Class** (the set of alternative possibilities), and $R$ is the **Relevance Relation** determined by context; an explanation succeeds only by providing a reason why the Topic occurred *rather than* the other members of the Contrast Class with respect to the chosen Relevance Relation.
+- (B) An explanation is an emotional therapy session that removes anxiety from the mind of the questioning scientist.
+- (C) Van Fraassen claims that why-questions are scientifically meaningless and that scientists should only ask "How much does it cost?".
+- (D) An explanation is valid if and only if it is deduced from the religious doctrines of the Roman Catholic Church.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Bas van Fraassen's Chapter 5 of *The Scientific Image* (1980) is one of the most celebrated works in 20th-century epistemology of science:
+1. **The Pragmatic Shift**:
+   - Logical empiricists treated explanation as an objective, context-free relation: $\text{Theory} \to \text{Fact}$.
+   - Van Fraassen demonstrated that explanation is fundamentally **pragmatic**: it is a three-place relation between a theory, a fact, and **an epistemic context / audience**.
+2. **The Anatomy of a Why-Question**:
+   - Every request for an explanation is an implicit why-question: $Q = \langle P_k, X, R \rangle$:
+     - **The Topic ($P_k$)**: The statement of what happened (e.g., *"Why did Adam eat the apple?"*).
+     - **The Contrast Class ($X$)**: The background set of alternatives. Notice how shifting the linguistic emphasis completely changes the contrast class:
+       - *"Why did **Adam** eat the apple?"* (Contrast class: Adam rather than Eve, the serpent, or the birds).
+       - *"Why did Adam eat the **apple**?"* (Contrast class: The apple rather than the pear, fig, or pomegranate).
+       - *"Why did Adam **eat** the apple?"* (Contrast class: Eating it rather than throwing it or painting it).
+     - **The Relevance Relation ($R$)**: The contextual criterion determining what kind of factors count as relevant answers (e.g., biological hunger, psychological rebellion, divine command).
+3. **Application to Modern XAI**:
+   - When a user asks an AI: *"Why was my loan application rejected?"*, the explanation is not a causal dump of all 50,000 weights; it is an answer to a pragmatic contrastive question: *"Why was I rejected rather than approved ($P_k$ vs. $P_{\text{approved}}$) given my financial profile?"*
+
+#### Distractor Analysis:
+- **(B) is incorrect**: While van Fraassen acknowledges psychological satisfaction, his analysis is a formal semantic and pragmatic structure of question-answering.
+- **(C) is incorrect**: Van Fraassen provides a thorough, rigorous formal semantics for why-questions.
+- **(D) is incorrect**: Absurd religious distracter; constructive empiricism is an anti-metaphysical philosophy of science.
+
+**Primary Textual Reference**: Bas C. van Fraassen, *The Scientific Image* (Oxford University Press, 1980), Chapter 5 ("The Pragmatics of Explanation"); Alan Garfinkel, *Forms of Explanation: Rethinking the Questions in Social Theory* (Yale University Press, 1981).
+
+---
+
+### Question 10: Sandra Wachter et al. on Counterfactual Explanations in XAI
+**Format**: Legal-Philosophical & Algorithmic Analysis (Format B)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Sandra Wachter, Brent Mittelstadt, and Chris Russell ("Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR", 2017)
+
+In their influential 2017 paper, Sandra Wachter, Brent Mittelstadt, and Chris Russell introduced **Counterfactual Explanations** as the ideal regulatory and philosophical solution for algorithmic transparency under the European Union's General Data Protection Regulation (GDPR). What is a Counterfactual Explanation in machine learning, and why is it legally and practically superior to inspecting deep network weights?
+
+- (A) It specifies the **minimal, actionable changes** to an individual's input features that would flip the algorithm's decision from an undesirable outcome to a desirable outcome (e.g., *"If your annual income were \$10,000 higher and your credit card debt were \$2,000 lower, your loan would have been approved"*); it provides direct guidance for autonomous human contestability without requiring users to understand incomprehensible neural weights or exposing proprietary corporate code.
+- (B) It explains decisions by generating fictional fairy tales about Greek gods deciding who receives a mortgage.
+- (C) It requires banks to reveal the full source code and passwords of all their internal database servers.
+- (D) It forces machine learning models to approve 100% of all loan applications regardless of credit score.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Wachter, Mittelstadt, and Russell (Harvard Journal of Law & Technology, 2018) bridged the gap between David Lewis's counterfactual metaphysics, algorithmic optimization, and international law:
+1. **The GDPR Transparency Dilemma**:
+   - The EU GDPR (Articles 13–15, 22) mandates a "right to obtain meaningful information about the logic involved" in automated decision-making.
+   - Traditional approaches attempted to open the "black box": printing out complex decision trees, gradient saliency maps, or mathematical matrices. These are cognitively uninterpretable to average citizens and violate corporate trade secrets.
+2. **The Counterfactual Formulation**:
+   - Drawing on David Lewis's possible-world semantics (*Counterfactuals*, 1973): finding the closest possible world ($x^*$) where the decision is different:
+     $$\arg \min_{x^*} d(x, x^*) \quad \text{such that} \quad f(x^*) = y^*$$
+     where $d(x, x^*)$ is a distance metric measuring the effort/magnitude of change.
+3. **Three Core Merits**:
+   - **Actionability**: It tells the citizen exactly what to do to change the result in the real world.
+   - **Contestability**: It allows the citizen to spot errors (e.g., *"The model assumed my income was \$30,000, but my tax return proves it is \$60,000!"*).
+   - **Privacy/Proprietary Preservation**: It operates entirely "without opening the black box", protecting intellectual property while guaranteeing individual autonomy.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Mythological nonsense distracter.
+- **(C) is incorrect**: The primary advantage of Wachter's method is that it *does not* require opening the black box or revealing proprietary source code.
+- **(D) is incorrect**: Counterfactuals explain decisions; they do not dictate credit approval policies.
+
+**Primary Textual Reference**: Sandra Wachter, Brent Mittelstadt, and Chris Russell, "Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR", *Harvard Journal of Law & Technology* 31, no. 2 (2018): 841–887; David Lewis, *Counterfactuals* (Harvard University Press, 1973).
+
+---
+
+### Question 11: Cynthia Rudin's Critique: Stop Explaining Black Box Models!
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Cynthia Rudin ("Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead", 2019)
+
+In her landmark 2019 paper in *Nature Machine Intelligence*, computer scientist Cynthia Rudin issued a fundamental critique of the entire post-hoc Explainable AI (XAI) industry (including LIME, SHAP, and saliency maps). What is Rudin's core philosophical and methodological argument against post-hoc explanations for high-stakes decisions (e.g., criminal justice sentencing, healthcare, bail)?
+
+- (A) Post-hoc explanation methods create an unfaithful, simplified surrogate model that approximates the black box; by definition, **a post-hoc explanation cannot be 100% faithful to the original black box** (if it were, one would simply use the explanation as the model itself), creating dangerous illusions of understanding; in high-stakes domains, one must use **inherently interpretable models** (sparse decision trees, scoring systems) which achieve equal empirical accuracy to black boxes when carefully constructed.
+- (B) Rudin argues that machine learning should be completely banned worldwide and replaced with coin flips.
+- (C) Black box models are physically impossible to run on electronic computers because neural networks violate Ohm's Law.
+- (D) Post-hoc explanations are illegal under the laws of arithmetic.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Cynthia Rudin's 2019 paper caused a massive paradigm shift in the machine learning and XAI community:
+1. **The Myth of the Inevitable Accuracy-Interpretability Trade-off**:
+   - The AI community widely propagated the belief that complex black boxes (deep neural nets, gradient boosted trees) are fundamentally more accurate than interpretable models, meaning one *must* use a black box and then slap a post-hoc explainer (like LIME or SHAP) onto it.
+   - Rudin demonstrated that for structured, tabular data (which characterizes medicine, judicial sentencing, loan approvals, and finance), **inherently interpretable models perform with identical predictive accuracy** when trained with modern optimization techniques.
+2. **The Double Failure of Post-Hoc Explanations**:
+   - **Lack of Fidelity**: Post-hoc explainers construct a local linear surrogate. If the explainer says feature $X$ was the most important reason for a prison sentence, this is merely what the *surrogate* approximated, not how the deep non-linear black box actually computed the decision. Relying on an unfaithful explanation in a court of law violates basic human rights.
+   - **Perverse Incentives**: Post-hoc XAI gives engineers an excuse to deploy unverified, unaccountable black boxes under the false pretense that "it has been explained."
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Rudin champions machine learning; she advocates for *interpretable* machine learning algorithms (like Certifiably Optimal Rule Lists / CORELS), not coin flips.
+- **(C) is incorrect**: Absurd physics distracter; neural networks run on standard electronic hardware.
+- **(D) is incorrect**: Frivolous legalistic distracter.
+
+**Primary Textual Reference**: Cynthia Rudin, "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead", *Nature Machine Intelligence* 1, no. 5 (2019): 206–215; Cynthia Rudin and Joanna Radin, "Why Are We Using Black Box Models in AI When We Don't Need To?", *Harvard Data Science Review* 1, no. 2 (2019).
+
+---
+
+### Question 12: Epistemic Opacity: Paul Humphreys and Carlos Durán
+**Format**: Epistemological & Metascientific Analysis (Format B)  
+**Difficulty Tier**: Moderate / Systematic  
+**Primary Thinkers**: Paul Humphreys (*Extending Ourselves: Computational Science, Empiricism, and Scientific Method*, 2004); Juan M. Durán (*Computer Simulations in Science and Engineering*, 2018; "Epistemic Opacity and the Epistemic Justification of Machine Learning", 2021)
+
+Philosopher of science Paul Humphreys introduced the concept of **Epistemic Opacity** to explain how modern computational simulations transcend human cognitive capacities. How do Humphreys and Carlos Durán distinguish between **Accidental (Weak) Epistemic Opacity** and **Essential (Strong) Epistemic Opacity** in deep learning?
+
+- (A) A process is **accidentally opaque** if a human could in principle understand it given sufficient time, paper, and pencil (e.g., a million-line linear script); it is **essentially epistemically opaque** if the cognitive and computational architecture of the human mind is fundamentally incapable of surveying, grasping, or tracking the mathematical state transitions and high-dimensional parameter interactions ($10^{11}$ weights), making computational reliabilism necessary for epistemic justification.
+- (B) Accidental opacity occurs when dust settles on a computer monitor, while essential opacity occurs when the room's electric lights are turned off.
+- (C) Epistemic opacity proves that computers are conscious beings with free will.
+- (D) Humphreys argues that opaque computers cannot compute prime numbers.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The epistemology of computational science and machine learning (Humphreys 2004, 2009; Durán 2018, 2021) addresses the core philosophical question of scientific justification:
+1. **Humphreys' Definition of Epistemic Opacity**:
+   - A process is epistemically opaque relative to a cognitive agent at time $t$ if the agent does not possess the cognitive capacity to know all the epistemically relevant elements of the process.
+2. **Weak vs. Strong Opacity**:
+   - **Weak / Accidental Opacity**: Merely a matter of human cognitive processing speed or temporary lack of documentation. Given enough time or computational visualization, the human could comprehend the chain of reasoning.
+   - **Strong / Essential Opacity**: Deep neural networks with billions of distributed weights across hundreds of layers operating in non-linear Riemannian manifolds transcend the innate evolutionary bounds of human working memory ($7 \pm 2$ items) and spatial imagination (3 dimensions). No human can ever mentally survey the calculation.
+3. **The Epistemological Crisis (Computational Reliabilism)**:
+   - Traditional epistemology (Descartes, Locke) demanded that to be justified in believing a claim, the agent must be able to internally inspect and grasp the evidence (**Internalism**).
+   - If deep models are essentially opaque, internalist justification is impossible. We must embrace **Computational Reliabilism** (Durán & Formanek 2018): our justification rests on the empirical reliability of the computational process and its architectural verification, not on introspective human transparency.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Humorous literalization of optical dust on a glass monitor.
+- **(C) is incorrect**: Epistemic opacity describes the limits of human knowledge regarding a machine's operations, not the presence of consciousness in the machine.
+- **(D) is incorrect**: Computers compute prime numbers with total mathematical precision regardless of human opacity.
+
+**Primary Textual Reference**: Paul Humphreys, *Extending Ourselves: Computational Science, Empiricism, and Scientific Method* (Oxford University Press, 2004); Juan M. Durán and Nico Formanek, "Grounds for Trust: Essential Epistemic Opacity and Computational Reliabilism", *Minds and Machines* 28, no. 4 (2018): 645–666.

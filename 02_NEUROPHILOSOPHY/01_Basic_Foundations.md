@@ -302,3 +302,143 @@ Antonio Damasio revolutionized both neurobiology and the philosophy of practical
 - **(D) is incorrect**: "Somatic markers" are internal neurochemical and autonomic bodily signals (visceral tone, heart rate, electrodermal arousal), not physical cosmetic tattoos.
 
 **Primary Textual Reference**: Antonio R. Damasio, *Descartes' Error: Emotion, Reason, and the Human Brain* (G. P. Putnam's Sons, 1994); Antoine Bechara, Antonio R. Damasio, Hanna Damasio, and Steven W. Anderson, "Insensitivity to Future Consequences Following Damage to Human Prefrontal Cortex", *Cognition* 50, no. 1–3 (1994): 7–15; Antoine Bechara et al., "Deciding Advantageously Before Knowing the Advantageous Strategy", *Science* 275, no. 5304 (1997): 1293–1295.
+
+---
+
+### Question 9: Patricia Churchland's Co-Evolutionary Research Strategy
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Patricia Smith Churchland (*Neurophilosophy: Toward a Unified Science of the Mind-Brain*, 1986)
+
+In her foundational book *Neurophilosophy* (1986), Patricia Churchland introduced the concept of the **"Co-Evolutionary Research Strategy"** to define the relationship between psychology and neuroscience. How does this strategy critique both "pure autonomous psychology" (Fodor) and "naive step-by-step reductionism"?
+
+- (A) Rather than psychology operating in autonomous isolation from neuroscience, or neuroscience unilaterally dictating psychology from the bottom up, psychology and neuroscience must co-evolve: discoveries at the neural level reshape psychological taxonomies and categories, while psychological functional models guide where and what neuroscientists search for in neural circuitry.
+- (B) It claims that psychology should be completely abolished immediately and replaced exclusively with quantum physics formulas.
+- (C) It argues that biological evolution ended when human beings invented written language, making neuroscience irrelevant to modern mental health.
+- (D) It asserts that psychology must be subordinate to Cartesian theology and introspection.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Patricia Churchland's *Neurophilosophy* (1986) founded neurophilosophy as a rigorous academic subdiscipline:
+1. **The Autonomous Psychology Dogma**:
+   - In the 1970s and 1980s, classical functionalists (Jerry Fodor, Hilary Putnam) insisted that psychology is an autonomous special science. Because mental states are multiply realizable, studying neurobiology was dismissed as irrelevant to understanding cognition, just as studying computer silicon is irrelevant to understanding a software program.
+2. **The Co-Evolutionary Alternative**:
+   - Churchland rejected this functionalist segregation. High-level cognitive theory and low-level neurobiology are mutually constraining and mutually informing.
+   - Neurobiological discoveries (e.g., how the visual cortex decomposes edges, motion, and color via parallel streams) forced psychologists to abandon monolithic models of perception.
+   - Conversely, psychological behavioral paradigms define the functional phenomena that neurobiologists investigate.
+   - Scientific history shows that disciplines do not remain statically insulated; theories co-evolve, and their conceptual vocabularies interpenetrate until a unified explanatory framework emerges.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Co-evolution maintains the active contribution of top-down psychological paradigms, rather than naively reducing everything to quantum physics.
+- **(C) is incorrect**: Gross misunderstanding of biological evolution and cognitive neuroscience.
+- **(D) is incorrect**: Churchland is an ardent naturalist and materialist who vigorously opposes Cartesian dualism.
+
+**Primary Textual Reference**: Patricia Smith Churchland, *Neurophilosophy: Toward a Unified Science of the Mind-Brain* (MIT Press, 1986), Chapter 9 ("The Co-Evolutionary Research Strategy").
+
+---
+
+### Question 10: Benjamin Libet's Readiness Potential and the Timing of Conscious Volition
+**Format**: Empirical-Philosophical Analysis (Format B)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Benjamin Libet ("Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity", 1983)
+
+In his famous 1983 experiments on human voluntary action, neurophysiologist Benjamin Libet utilized an oscilloscope clock alongside electroencephalography (EEG) and electromyography (EMG). What was his central chronological finding regarding the relationship between the **Readiness Potential (*Bereitschaftspotential*)**, the subjective awareness of the urge to act ($W$-judgment), and actual muscle execution ($M$)?
+
+- (A) The cerebral readiness potential in the motor cortex initiated approximately 350 to 550 milliseconds **before** the subject became consciously aware of their intention or decision to act ($W$), indicating that the physical initiation of voluntary action begins unconsciously in the brain before conscious awareness occurs.
+- (B) Conscious awareness of intention ($W$) preceded all electrical activity in the brain by 2 full seconds, proving Cartesian interactionist dualism.
+- (C) The readiness potential only occurs when an individual is in deep non-REM sleep, having no connection to waking motor actions.
+- (D) Muscle execution ($M$) occurs before any brain activity begins, proving that motor control is located entirely in the fingernails.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Benjamin Libet's 1983 experiments ignited a fierce philosophical controversy over free will and neurobiology:
+1. **The Experimental Paradigm**:
+   - Subjects looked at a rapidly rotating cathode-ray oscilloscope clock and were instructed to perform a simple motor act (flicking a wrist or finger) whenever they felt the urge.
+   - They were asked to note the precise position of the clock dot when they first became aware of the urge/decision to move (the $W$-judgment).
+   - EEG electrodes monitored the **Readiness Potential (RP)** over the motor areas, while EMG electrodes monitored muscle activation.
+2. **The Temporal Sequence**:
+   - In freely voluntary, unprompted acts, the RP onset occurred approximately **$-550	ext{ ms}$** before muscle activation ($0	ext{ ms}$).
+   - The reported subjective awareness of the intention to move ($W$) occurred at approximately **$-200	ext{ ms}$**.
+   - Thus, the brain was actively preparing and initiating the physical movement $\sim 350	ext{ ms}$ *before* the conscious mind experienced the volition!
+3. **Libet's "Free Won't"**:
+   - Because $150	ext{ to }200	ext{ ms}$ remain between conscious awareness ($W$) and muscle movement ($M$), Libet suggested that while consciousness does not *initiate* action, it retains the power to **veto** the unconsciously initiated action during that final 150 ms window ("Free Won't").
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Conscious awareness lagged behind brain activity by several hundred milliseconds; it did not precede it.
+- **(C) is incorrect**: The readiness potential is a specific waking electrophysiological marker of voluntary motor preparation.
+- **(D) is incorrect**: Physically impossible and biologically absurd.
+
+**Primary Textual Reference**: Benjamin Libet, Curtis A. Gleason, Elwood W. Wright, and Dennis K. Pearl, "Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity (Readiness-Potential)", *Brain* 106, no. 3 (1983): 623–642; Benjamin Libet, *Mind Time: The Temporal Factor in Consciousness* (Harvard University Press, 2004).
+
+---
+
+### Question 11: Roger Sperry and Michael Gazzaniga's Split-Brain Studies
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Roger W. Sperry (Nobel Prize 1981), Michael Gazzaniga (*The Social Brain*, 1985; *Who's in Charge?*, 2011)
+
+In clinical patients who underwent surgical sectioning of the **corpus callosum** (corpus callosotomy) to treat intractable epilepsy, Roger Sperry and Michael Gazzaniga discovered striking behavioral dissociations when visual stimuli were presented to isolated visual hemifields. If an image of a spoon is flashed exclusively to the **left visual field** (which projects solely to the right cerebral hemisphere), how does the patient respond?
+
+- (A) The patient verbally claims to have seen nothing (because the left hemisphere, which controls linguistic speech, did not receive the stimulus), yet the patient's left hand (controlled by the right hemisphere) can correctly reach behind a screen and retrieve the spoon by touch alone.
+- (B) The patient immediately recites an eloquent linguistic poem about spoons using their verbal left hemisphere.
+- (C) The patient suffers total blindness in both eyes and loses all ability to control physical motor movements.
+- (D) The patient instantly faints because the human brain cannot function without continuous interhemispheric callosal traffic.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The Sperry and Gazzaniga split-brain experiments revolutionized the philosophy of personal identity and the unity of consciousness (Nagel 1971; Parfit 1984):
+1. **Neuroanatomy of Visual and Motor Pathways**:
+   - The left visual field projects exclusively to the right primary visual cortex.
+   - The left cerebral hemisphere is typically dominant for language comprehension and speech production (Broca's and Wernicke's areas).
+   - The right hemisphere controls the motor execution of the left hand.
+2. **The Classic Dissociation**:
+   - When a word or image (e.g., "spoon") is flashed to the left visual field, the sensory information reaches the right hemisphere, but cannot cross the severed corpus callosum to reach the left hemisphere.
+   - When asked: *"What did you see?"*, the patient speaks via the left hemisphere: *"Nothing."*
+   - However, when told: *"Reach behind the curtain with your left hand and pick up the object"*, the left hand unerringly selects the spoon!
+3. **Philosophical Implications**:
+   - Thomas Nagel argued in *"Brain Bisection and the Unity of Consciousness"* (1971) that split-brain cases shatter the Cartesian assumption that the conscious mind is an indivisible, unified spiritual unity. Does the split-brain subject possess two distinct conscious minds inhabiting a single skull, or one divided mind, or neither?
+
+#### Distractor Analysis:
+- **(B) is incorrect**: The left hemisphere (controlling speech) did not receive the visual image and therefore cannot speak about it.
+- **(C) is incorrect**: Split-brain patients live remarkably normal daily lives and are not blind; visual deficits appear only under tachistoscopic experimental isolation.
+- **(D) is incorrect**: Thousands of callosotomy patients have lived active, functional lives without callosal communication.
+
+**Primary Textual Reference**: Michael S. Gazzaniga, "The Split Brain in Man", *Scientific American* 217, no. 2 (1967): 24–29; Thomas Nagel, "Brain Bisection and the Unity of Consciousness", *Synthese* 22, no. 3/4 (1971): 396–413.
+
+---
+
+### Question 12: Paul Churchland and the Eliminative Materialist Critique of Folk Psychology
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Paul M. Churchland ("Eliminative Materialism and the Propositional Attitudes", 1981)
+
+In his landmark 1981 paper, Paul Churchland argues that our common-sense framework of propositional attitudes (beliefs, desires, hopes, fears)—known as **"Folk Psychology"**—is not an innate truth, but an empirical, explanatory theory. Why does Churchland argue that Folk Psychology is radically false and destined to be eliminated rather than smoothly reduced to neuroscience?
+
+- (A) Folk Psychology is a stagnant, degenerating research program that has failed to advance for two millennia, fails to explain critical cognitive phenomena (such as sleep, memory consolidation, mental illness, and learning dynamics), and relies on an internal sentential structure that is biologically incompatible with the parallel distributed architecture of the central nervous system.
+- (B) Folk Psychology is written in Latin, which makes it impossible for modern computers to compile.
+- (C) Churchland argues that human beings do not possess biological brains, only electromagnetic spirit vectors.
+- (D) Folk Psychology has been mathematically proven by neuroscientists to be 100% accurate in predicting every human action down to the single millisecond.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Paul Churchland's "Eliminative Materialism and the Propositional Attitudes" (1981) remains the classic defense of radical eliminativism:
+1. **Folk Psychology as an Empirical Theory**:
+   - Ordinary people predict and explain human behavior by positing internal states: *"John reached for the water because he had a desire for hydration and a belief that the glass contained water."*
+   - Churchland shows that this is an informal empirical theory, structured like a deductive-nomological framework with generalizations relating propositional attitudes to action.
+2. **Three Arguments for Elimination**:
+   - **Explanatory Failures**: Folk psychology has nothing insightful to say about sleep, dreaming, schizophrenia, autism, visual perception, memory encoding, or motor learning.
+   - **Historical Stagnancy**: Folk psychology has not made a single theoretical advance since the ancient Greeks; it is a stagnant, degenerating research program in Imre Lakatos's sense.
+   - **Coherence with Maturing Science**: While physics, chemistry, evolutionary biology, and neuroscience form an interlocking, mutually coherent web, folk psychology remains an isolated anomaly. Its assumption that thoughts are discrete sentential strings cannot be mapped onto the continuous, distributed vector spaces of neural networks.
+3. **Historical Analogy**:
+   - Just as the concepts of **phlogiston** (combustion), **caloric fluid** (heat), and **demonic possession** (epilepsy) were not "reduced" to modern science, but completely **eliminated** as ontological fictions, beliefs and desires will be eliminated once a mature computational neuroscience arrives.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Folk psychology is an informal cognitive framework across all human cultures, not a Latin programming language.
+- **(C) is incorrect**: Churchland is a radical materialist whose philosophy is entirely based on biological neuroscience.
+- **(D) is incorrect**: Directly contradicts Churchland’s thesis; Churchland argues that folk psychology is an abysmal, inaccurate explanatory theory.
+
+**Primary Textual Reference**: Paul M. Churchland, "Eliminative Materialism and the Propositional Attitudes", *Journal of Philosophy* 78, no. 2 (1981): 67–90; Paul M. Churchland, *A Neurocomputational Perspective: The Nature of Mind and the Structure of Science* (MIT Press, 1989).

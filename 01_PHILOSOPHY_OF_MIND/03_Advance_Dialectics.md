@@ -413,3 +413,182 @@ Uriah Kriegel’s Self-Representationalism provides a rigorous middle path betwe
 - **(D) is incorrect**: Rosenthal's HOT theory concerns mental, non-linguistic higher-order thoughts, not spoken telephone conversations.
 
 **Primary Textual Reference**: Uriah Kriegel, *Subjective Consciousness: A Self-Representational Theory* (Oxford University Press, 2009); Franz Brentano, *Psychology from an Empirical Standpoint* (1874; Routledge, 1973); David M. Rosenthal, *Consciousness and Mind* (Clarendon Press / Oxford University Press, 2005).
+
+---
+
+### Question 11: David Chalmers and Two-Dimensional Semantics: The Conceivability-Possibility Link
+**Format**: Modal Epistemology & Formal Dialectics (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: David J. Chalmers (*The Conscious Mind*, 1996; *The Character of Consciousness*, 2010)
+
+David Chalmers utilizes **Two-Dimensional Semantics** to defend the inference from the ideal conceivability of Philosophical Zombies ($P \land 
+eg Q$, where $P$ is all physical truth and $Q$ is phenomenal truth) to their metaphysical possibility. In two-dimensional modal logic, every proposition $S$ has two intensions:
+- The **Primary Intension** (1-intension): A function from worlds considered as *actual* to extensions (epistemic).
+- The **Secondary Intension** (2-intension): A function from worlds considered as *counterfactual* to extensions (subjunctive/metaphysical).
+
+Why does Kripke's necessary a posteriori (e.g., "Water is $H_2O$") fail to save physicalism from Chalmers' Zombie argument?
+
+- (A) For standard Kripkean scientific identities, the primary and secondary intensions come apart because our epistemic grasp of the concept (e.g., watery stuff) differs from its underlying metaphysical nature ($H_2O$); however, for phenomenal consciousness concepts ($Q$), primary and secondary intensions coincide (they are epistemically transparent), meaning that if $P \land 
+eg Q$ is ideally conceptually coherent (1-possible), it is necessarily metaphysically possible (2-possible).
+- (B) Because two-dimensional semantics proves that $H_2O$ is not the chemical formula for water in any possible world.
+- (C) Because zombies can be physically manufactured in an ordinary biology laboratory using CRISPR gene editing.
+- (D) Because Chalmers demonstrates that secondary intensions are meaningless in formal modal logic.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+David Chalmers' master argument in *The Conscious Mind* (1996) and *The Character of Consciousness* (2010) uses Two-Dimensional Semantics to refute "Type-B Materialism":
+1. **The Type-B Physicalist Defense**:
+   - Type-B materialists (e.g., Ned Block, Robert Stalnaker, Brian Loar) argue that just as we can conceive of water without $H_2O$ (because the identity was an empirical discovery), we can conceive of physical brain states without consciousness, but they are nevertheless metaphysically identical.
+2. **The 2D Semantics Rejoinder**:
+   - Chalmers shows that the conceivability of "Water is not $H_2O$" arises only because the **primary intension** of "water" (the watery stuff in our environment) differs from its **secondary intension** ($H_2O$ across all counterfactual worlds).
+   - In contrast, phenomenal concepts have no "accidental epistemic guise". The primary intension of *pain* is *the phenomenal experience of pain*. The secondary intension of *pain* is *the phenomenal experience of pain*.
+   - When primary and secondary intensions coincide, **epistemic possibility entails metaphysical possibility**.
+   - Therefore, if a complete physical replica of the universe lacking qualia ($P \land 
+eg Q$) is ideally conceivable, it is metaphysically possible. And if $P \land 
+eg Q$ is metaphysically possible, then phenomenal consciousness does not supervene with metaphysical necessity on the physical world, refuting physicalism.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Chalmers accepts that "Water is $H_2O$" is metaphysically necessary in the secondary intension; his argument relies on this exact Kripkean foundation.
+- **(C) is incorrect**: Zombies are philosophical thought experiments (microphysical duplicates lacking qualia), not biological mutants.
+- **(D) is incorrect**: 2D semantics relies heavily on secondary intensions (Kripkean counterfactual evaluation).
+
+**Primary Textual Reference**: David J. Chalmers, *The Conscious Mind: In Search of a Fundamental Theory* (Oxford University Press, 1996), Chapter 4; David J. Chalmers, "The Two-Dimensional Argument Against Materialism", in *The Character of Consciousness* (Oxford University Press, 2010), pp. 141–206.
+
+---
+
+### Question 12: Sydney Shoemaker's Subset Account of Realization and Causal Powers
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Sydney Shoemaker (*Physical Realization*, 2007)
+
+To defend non-reductive physicalism from Jaegwon Kim's Causal Exclusion Problem, Sydney Shoemaker proposed the **Subset Account of Realization**. How does defining property realization in terms of conditional causal powers resolve the threat of causal exclusion?
+
+- (A) A mental property $M$ is realized by a physical property $P$ if and only if the set of causal powers conferred by $M$ is a proper **subset** of the causal powers conferred by $P$; since $M$'s causal powers are literally included within $P$'s causal powers, the mental event does not compete with, exclude, or overdetermine the physical event.
+- (B) A mental property is realized by a physical property if and only if the mental property has zero causal powers in the physical realm.
+- (C) The subset account claims that physical properties are sub-components of spiritual consciousness, reversing the direction of physicalism.
+- (D) Shoemaker argues that causal powers do not exist, and that causation is merely David Hume's constant conjunction of unpowered events.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Sydney Shoemaker's *Physical Realization* (2007) represents one of the most prominent metaphysical solutions to Kim's exclusion problem:
+1. **The Causal Theory of Properties**:
+   - Shoemaker adopts a causal theory of properties: a property is individuated by the forward-looking and backward-looking causal powers it bestows on its possessor.
+2. **The Subset Relation**:
+   - Consider a mental property, such as *being in pain*. Pain confers a specific cluster of causal powers (e.g., disposition to wince, seek relief, withdraw limb).
+   - The realizing physical property, $P$ (e.g., a specific complex neural firing pattern), confers all of those pain-related causal powers *plus* additional physical powers (e.g., releasing specific endorphins, heating up local capillary tissue).
+   - Therefore, the causal powers of $M$ are a **proper subset** of the causal powers of $P$ ($	ext{Powers}(M) \subset 	ext{Powers}(P)$).
+3. **Resolving Exclusion**:
+   - Kim claimed that $M$ and $P$ are two distinct rival causes competing for the same effect.
+   - But if $M$'s causal powers are a subset of $P$'s powers, $M$'s exercise of causal power is not a separate, rival causal contribution! A part does not compete with the whole of which it is a constituent.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: If $M$ had zero causal powers, it would be an epiphenomenon, which Shoemaker's entire framework is designed to prevent.
+- **(C) is incorrect**: Shoemaker is a committed physicalist; physical properties realize mental properties, not vice-versa.
+- **(D) is incorrect**: Shoemaker is an ardent dispositional essentialist / causal realist about properties, explicitly rejecting Humean regularity theory.
+
+**Primary Textual Reference**: Sydney Shoemaker, *Physical Realization* (Oxford University Press, 2007); Sydney Shoemaker, "Realization and Mental Causation", in *Physicalism and Mental Causation*, ed. Sven Walter and Heinz-Dieter Heckmann (Imprint Academic, 2003), pp. 321–333.
+
+---
+
+### Question 13: Ned Block on Phenomenal vs. Access Consciousness
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Ned Block ("On a Confusion about a Function of Consciousness", 1995)
+
+In his landmark paper *"On a Confusion about a Function of Consciousness"* (1995), Ned Block argued that philosophers and cognitive scientists routinely conflate two radically different concepts of consciousness: **Phenomenal Consciousness (P-consciousness)** and **Access Consciousness (A-consciousness)**. What is the definitive criterion of A-consciousness?
+
+- (A) A state is A-conscious if its representational content is poised for direct use in reasoning, for the rational control of action, and for verbal report, whereas P-consciousness consists purely in the subjective, qualitative "what-it-is-likeness" of the experience.
+- (B) A state is A-conscious if it can be directly photographed using an electron microscope.
+- (C) A-consciousness refers to the unconscious reflexes of the spinal cord that bypass the cerebral cortex.
+- (D) P-consciousness and A-consciousness are identical by definition, and no dissociation between them is logically or empirically possible.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Ned Block's 1995 paper fundamentally restructured the cognitive science of consciousness:
+1. **The Definitions**:
+   - **P-Consciousness (Phenomenal)**: Experiential properties; the raw qualitative feel (qualia)—what it is like to see red, taste dark chocolate, or experience a migraine.
+   - **A-Consciousness (Access)**: Functional and computational availability. A representational state is A-conscious if it is:
+     1. Poised for free use in reasoning;
+     2. Poised for the rational control of action;
+     3. Poised for speech/verbal report.
+2. **Dissociations**:
+   - **A-consciousness without P-consciousness**: Philosophical zombies; super-blindsight (a patient who can spontaneously guess visual targets and act on them without any visual phenomenology).
+   - **P-consciousness without A-consciousness**: Sperling's visual persistence experiments (subjects phenomenally see all 12 letters in a tachistoscopic array, but access capacity limits report to 4); the continuous ticking of a background clock that one phenomenally hears all afternoon but only accesses when it stops.
+3. **The Philosophical Danger**:
+   - Functionalist and computationalist theories of mind (e.g., Dennett, Baars) often claim to "explain consciousness" when they have merely explained access consciousness (information routing), leaving the Hard Problem of P-consciousness completely untouched.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Access consciousness is a functional/computational specification, not a microscopic physical object.
+- **(C) is incorrect**: Spinal reflexes are non-conscious; they are neither A-conscious nor P-conscious.
+- **(D) is incorrect**: Denies Block's central thesis, which argues that conflating P-consciousness and A-consciousness is a major error in philosophy of mind.
+
+**Primary Textual Reference**: Ned Block, "On a Confusion about a Function of Consciousness", *Behavioral and Brain Sciences* 18, no. 2 (1995): 227–247.
+
+---
+
+### Question 14: Christopher Peacocke on Non-Conceptual Perceptual Content
+**Format**: Epistemological & Phenomenological Analysis (Format B)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Christopher Peacocke (*A Study of Concepts*, 1992; *Truly Understood*, 2008), John McDowell (*Mind and World*, 1994)
+
+In the debate over the nature of perceptual experience, Christopher Peacocke argues that perception possesses **Non-Conceptual Content**, whereas Conceptualists like John McDowell (*Mind and World*, 1994) maintain that perceptual experience is conceptual "all the way down". What is Peacocke's **"Finely Grained Phenomenology" argument** in favor of non-conceptual content?
+
+- (A) Human visual experience presents shades of color (e.g., hundreds of distinct shades of green in a lush forest) that vastly outstrip the finite stock of color concepts and linguistic demonstratives an agent possesses; therefore, the representational content of the experience cannot be constituted exclusively by the concepts the subject possesses.
+- (B) Human perception is identical to digital photography, operating via discrete pixel coordinates that require zero conceptual interpretation.
+- (C) Non-conceptual content refers exclusively to unconscious metabolic processes in the liver and spleen.
+- (D) Concepts can only be acquired after an individual has learned the formal syntax of first-order predicate calculus.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The debate between Conceptualism and Non-Conceptualism is central to contemporary epistemology and philosophy of perception:
+1. **Peacocke's Non-Conceptualism**:
+   - Peacocke (*A Study of Concepts*, 1992) argues that the content of perceptual experience is **non-conceptual**: a subject can be in a perceptual state with representational content without needing to possess the concepts required to specify that content.
+   - **The Richness / Fine-Grained Argument**: Look at a paint swatch or a mountain vista. Your visual experience discriminates between *Red$_{29}$* and *Red$_{30}$*. You do not have distinct conceptual categories or linguistic words for each minute shade, yet your perceptual experience accurately represents the difference.
+   - If perceptual experience were bounded by concept possession, your experience could only represent what your concepts classify.
+2. **McDowell's Conceptualist Counter**:
+   - John McDowell (*Mind and World*, 1994) countered that subjects possess demonstrative concepts (e.g., *"that specific shade of red"*), insisting that experience must be conceptual if it is to provide rational justification for empirical beliefs. Peacocke argues that demonstrative concepts presuppose the prior non-conceptual perceptual presentation.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Peacocke does not compare perception to raw digital camera pixels; non-conceptual content is still genuine *representational* content with accuracy conditions (scenario content).
+- **(C) is incorrect**: Non-conceptual content is a feature of conscious perception, not internal visceral metabolism.
+- **(D) is incorrect**: Peacocke does not place such absurd mathematical constraints on concept possession.
+
+**Primary Textual Reference**: Christopher Peacocke, *A Study of Concepts* (MIT Press, 1992); John McDowell, *Mind and World* (Harvard University Press, 1994); Christopher Peacocke, "Does Perception Have a Nonconceptual Content?", *Journal of Philosophy* 98, no. 5 (2001): 239–264.
+
+---
+
+### Question 15: Hempel's Dilemma and the Definition of Physicalism
+**Format**: Conceptual / Dialectical (Format C)  
+**Difficulty Tier**: Advance / Dialectical  
+**Primary Thinkers**: Carl Hempel ("Comments on Goodman's Ways of Worldmaking", 1980), Tim Crane and D.H. Mellor ("There is No Question of Physicalism", 1990)
+
+**Hempel's Dilemma** poses a fundamental challenge to anyone attempting to define the thesis of **Physicalism** (the claim that everything is ultimately physical). Carl Hempel argued that physicalism is either trivially false or hopelessly vacuous depending on how "physics" is defined. What are the two horns of this dilemma?
+
+- (A) If physicalism is defined in terms of **current physics**, it is almost certainly **false** (since current physics is admittedly incomplete and contains acknowledged anomalies); but if physicalism is defined in terms of an **ideal, future, complete physics**, it is **vacuous or empty** (since we have no idea what concepts an ideal physics will invoke, and it might even postulate mental or non-material entities to explain data).
+- (B) If physicalism is true, then mathematics is false; if mathematics is true, then physics is false.
+- (C) Physicalism can only be defined in English or German, making it culturally biased against ancient Sanskrit philosophies.
+- (D) If particles exist, fields cannot exist; if fields exist, particles cannot exist.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Carl Hempel formulated this dilemma in 1980, and it was powerfully developed by Tim Crane and D.H. Mellor in their 1990 paper *"There is No Question of Physicalism"*:
+1. **The First Horn (Current Physics)**:
+   - If physicalism asserts that the ontology of the world is exhausted by the entities and properties postulated by *current contemporary physics* (e.g., the Standard Model of particle physics and General Relativity), physicalism is almost certainly **false**.
+   - Physicists themselves agree that current physics is incomplete: General Relativity and Quantum Mechanics are mathematically incompatible at Planck scales, and dark matter/energy remains unexplained. Future science will inevitably discard or revolutionize parts of current physics.
+2. **The Second Horn (Future/Ideal Physics)**:
+   - If physicalism instead asserts that the world is exhausted by what *ideal, fully completed future physics* will discover, the thesis is **uninformative and empty**.
+   - We do not know what future physics will contain. If future physicists discover that conscious qualia or telepathic fields are required to unify cosmology, those would simply be baptized as "physical", making physicalism true by sheer definitional fiat.
+3. **The Impact on Philosophy of Mind**:
+   - Unless one can provide a principled "mark of the physical" (e.g., non-mentality, spatio-temporal location, mathematical tractability) that avoids both horns, the claim that "the mind is physical" lacks clear empirical and metaphysical content.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Hempel's dilemma concerns the definition of physics in physicalism, not the ontological status of platonist mathematics.
+- **(C) is incorrect**: The dilemma is logical and metaphysical, completely unrelated to linguistic nationalism.
+- **(D) is incorrect**: Conflates Hempel's dilemma with wave-particle duality in quantum mechanics.
+
+**Primary Textual Reference**: Carl G. Hempel, "Comments on Goodman's Ways of Worldmaking", *Synthese* 45, no. 2 (1980): 193–199; Tim Crane and D. H. Mellor, "There is No Question of Physicalism", *Mind* 99, no. 394 (1990): 185–206.
