@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOESIS | Mind, Neurophilosophy, AI & Science Question Bank & Simulator</title>
+  <meta name="description" content="Advanced Academic Question Bank & Timed Examination Simulator for Faculty Interviews (IITs, Central Universities, GATE, UGC NET) across Philosophy of Mind, Neurophilosophy, Philosophy of AI, Philosophy of Explanation & XAI, and AI Ethics.">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              800: '#0c4a6e',
+              900: '#082f49',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- KaTeX for LaTeX Math & Logic symbols -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .font-serif-title {
+      font-family: 'Merriweather', serif;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.05);
+    }
+    .dark .custom-scrollbar::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.05);
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(100, 116, 139, 0.3);
+      border-radius: 9999px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: rgba(100, 116, 139, 0.5);
+    }
+  </style>
+
+  <!-- Data Script -->
+  <script src="webapp_data.js"></script>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200">
+
+  <!-- TOP HEADER / NAVBAR -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur border-b border-slate-200 dark:border-slate-800 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo -->
+        <div class="flex items-center space-x-3 cursor-pointer" onclick="navigate('dashboard')">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-blue-700 flex items-center justify-center text-white font-bold text-xl shadow-md shadow-cyan-500/20">
+            Ν
+          </div>
+          <div>
+            <div class="font-bold text-lg tracking-tight bg-gradient-to-r from-cyan-600 to-blue-700 dark:from-cyan-400 dark:to-blue-300 bg-clip-text text-transparent">
+              NOESIS
+            </div>
+            <div class="text-[10px] text-slate-500 dark:text-slate-400 tracking-wider uppercase font-semibold">
+              Mind, Neuro & AI Hub
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Links (Desktop) -->
+        <nav class="hidden md:flex items-center space-x-1 lg:space-x-2">
+          <button onclick="navigate('dashboard')" id="nav-dashboard" class="nav-btn px-3 py-2 rounded-lg text-sm font-medium transition-colors text-cyan-600 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-950/50">
+            Dashboard
+          </button>
+          <button onclick="navigate('practice')" id="nav-practice" class="nav-btn px-3 py-2 rounded-lg text-sm font-medium transition-colors text-slate-600 dark:text-slate-300 hover:text-cyan-600 hover:bg-slate-100 dark:hover:bg-slate-800">
+            4-Tier Practice
+          </button>
+          <button onclick="navigate('mocks')" id="nav-mocks" class="nav-btn px-3 py-2 rounded-lg text-sm font-medium transition-colors text-slate-600 dark:text-slate-300 hover:text-cyan-600 hover:bg-slate-100 dark:hover:bg-slate-800">
+            Mock Simulator
+          </button>
+          <button onclick="navigate('search')" id="nav-search" class="nav-btn px-3 py-2 rounded-lg text-sm font-medium transition-colors text-slate-600 dark:text-slate-300 hover:text-cyan-600 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center space-x-1">
+            <span>Search</span>
+            <span id="nav-total-pill" class="text-xs px-1.5 py-0.5 rounded-full bg-slate-200 dark:bg-slate-700 font-mono text-slate-500 dark:text-slate-400">80</span>
+          </button>
+          <button onclick="navigate('bookmarks')" id="nav-bookmarks" class="nav-btn px-3 py-2 rounded-lg text-sm font-medium transition-colors text-slate-600 dark:text-slate-300 hover:text-cyan-600 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center space-x-1">
+            <span>Bookmarks</span>
+            <span id="nav-bookmark-count" class="text-xs px-1.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-400 font-bold">0</span>
+          </button>
+        </nav>
+
+        <!-- Right Controls -->
+        <div class="flex items-center space-x-2">
+          <!-- Dark mode toggle -->
+          <button onclick="toggleDarkMode()" class="p-2 rounded-lg text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Toggle theme">
+            <svg id="theme-icon-sun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9h-1m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+            <svg id="theme-icon-moon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+          </button>
+          
+          <!-- Mobile Menu Button -->
+          <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-lg text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 pt-2 pb-4 space-y-1">
+      <button onclick="navigate('dashboard'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Dashboard</button>
+      <button onclick="navigate('practice'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">4-Tier Practice</button>
+      <button onclick="navigate('mocks'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Mock Simulator</button>
+      <button onclick="navigate('search'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Search Bank</button>
+      <button onclick="navigate('bookmarks'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Saved Bookmarks</button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- 1. DASHBOARD VIEW -->
+    <section id="view-dashboard" class="space-y-8">
+      <!-- Hero Banner -->
+      <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-900 via-cyan-950 to-blue-950 text-white p-8 md:p-12 shadow-xl border border-slate-800">
+        <div class="relative z-10 max-w-3xl space-y-4">
+          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-400/30 text-cyan-300 text-xs font-semibold uppercase tracking-wider">
+            <span>IIT & Central University Faculty Calibration</span>
+          </div>
+          <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight font-serif-title leading-tight">
+            Advanced Question Bank & Simulation Hub
+          </h1>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            Rigorous philosophical problems spanning <strong>Philosophy of Mind</strong>, <strong>Neurophilosophy</strong>, <strong>Philosophy of AI</strong>, <strong>Philosophy of Explanation & XAI</strong>, and <strong>AI Ethics & Governance</strong>. Stratified across our 4-tier cognitive framework with exhaustive distractor analysis.
+          </p>
+          <div class="flex flex-wrap gap-3 pt-2">
+            <button onclick="navigate('practice')" class="px-5 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-cyan-500/30 flex items-center space-x-2">
+              <span>Start 4-Tier Practice</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </button>
+            <button onclick="navigate('mocks')" class="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm backdrop-blur transition-all border border-white/20">
+              Launch Timed Mock Exam
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Total Questions</div>
+          <div id="stat-total-q" class="text-2xl sm:text-3xl font-extrabold text-cyan-600 dark:text-cyan-400 mt-1">80</div>
+          <div class="text-xs text-slate-500 mt-1">Authentic primary sources</div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Core Domains</div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-blue-600 dark:text-blue-400 mt-1">5</div>
+          <div class="text-xs text-slate-500 mt-1">Mind, Neuro, AI, Science, Ethics</div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Difficulty Tiers</div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-indigo-600 dark:text-indigo-400 mt-1">4</div>
+          <div class="text-xs text-slate-500 mt-1">Basic to Conceptually Hard</div>
+        </div>
+        <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Mock Papers</div>
+          <div class="text-2xl sm:text-3xl font-extrabold text-amber-600 dark:text-amber-400 mt-1">2</div>
+          <div class="text-xs text-slate-500 mt-1">Timed exam simulations</div>
+        </div>
+      </div>
+
+      <!-- Domain Matrix Cards -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-slate-900 dark:text-white">Curriculum Domain Matrix</h2>
+          <button onclick="navigate('practice')" class="text-sm font-semibold text-cyan-600 dark:text-cyan-400 hover:underline">View All &rarr;</button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="domain-cards-container">
+          <!-- Dynamically populated by JS -->
+        </div>
+      </div>
+
+      <!-- Four-Tier Framework Explanation -->
+      <div class="bg-slate-100 dark:bg-slate-900/60 rounded-2xl p-6 border border-slate-200 dark:border-slate-800">
+        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">The Four-Tier Pedagogical Calibration</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400 mb-6">Every problem is strictly calibrated to evaluate specific cognitive depths demanded in higher academic selections:</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-slate-200 dark:border-slate-700">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">Tier 1: Basic</span>
+            <div class="font-bold text-sm text-slate-800 dark:text-slate-200 mt-1">Foundational Canon</div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Classical definitions, canonical thought experiments, primary historical axioms (Descartes, Hempel, Turing, Bostrom).</p>
+          </div>
+          <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-slate-200 dark:border-slate-700">
+            <span class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">Tier 2: Moderate</span>
+            <div class="font-bold text-sm text-slate-800 dark:text-slate-200 mt-1">Systematic Arguments</div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Premise-conclusion logic, formal objections, standard counterexamples (Block, Salmon, Harnad, Chouldechova).</p>
+          </div>
+          <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-slate-200 dark:border-slate-700">
+            <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">Tier 3: Advance</span>
+            <div class="font-bold text-sm text-slate-800 dark:text-slate-200 mt-1">Dialectical Tensions</div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Cross-paradigm critique, second-generation syntheses, edge-case failure modes (Kim, Woodward, Humphreys, Fricker).</p>
+          </div>
+          <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-slate-200 dark:border-slate-700">
+            <span class="text-xs font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">Tier 4: Frontiers</span>
+            <div class="font-bold text-sm text-slate-800 dark:text-slate-200 mt-1">Faculty Selection Caliber</div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Unfolding arguments, Rashomon sets, mechanistic superposition, digital moral patiency (IIT, Olah, Couldry).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. PRACTICE VIEW (TOPIC-WISE & 4-TIER FILTER) -->
+    <section id="view-practice" class="hidden space-y-6">
+      <!-- Filter Bar -->
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h2 class="text-xl font-bold text-slate-900 dark:text-white">4-Tier Topic Practice Hub</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Select domain and tier to test your conceptual mastery.</p>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span class="text-xs text-slate-500 dark:text-slate-400">Showing:</span>
+            <span id="practice-count-badge" class="px-2.5 py-1 rounded-full bg-cyan-100 dark:bg-cyan-950 text-cyan-700 dark:text-cyan-300 font-bold text-xs">0 Questions</span>
+          </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <!-- Domain Filter -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">Subject Domain</label>
+            <select id="filter-domain" onchange="renderPracticeQuestions()" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+              <option value="ALL">All 5 Domains</option>
+              <option value="Philosophy of Mind">01. Philosophy of Mind</option>
+              <option value="Neurophilosophy">02. Neurophilosophy</option>
+              <option value="Philosophy of AI">03. Philosophy of AI</option>
+              <option value="Philosophy of Explanation & XAI">04. Explanation & XAI</option>
+              <option value="AI Ethics & Governance">05. AI Ethics & Governance</option>
+            </select>
+          </div>
+
+          <!-- Tier Filter -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">Difficulty Tier</label>
+            <select id="filter-tier" onchange="renderPracticeQuestions()" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+              <option value="ALL">All 4 Tiers</option>
+              <option value="Tier 1: Basic / Foundational">Tier 1: Basic / Foundational</option>
+              <option value="Tier 2: Moderate / Systematic">Tier 2: Moderate / Systematic</option>
+              <option value="Tier 3: Advance / Dialectical">Tier 3: Advance / Dialectical</option>
+              <option value="Tier 4: Conceptually Hard / Frontiers">Tier 4: Conceptually Hard / Frontiers</option>
+            </select>
+          </div>
+
+          <!-- Mode / Type Filter -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">Source Category</label>
+            <select id="filter-source" onchange="renderPracticeQuestions()" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+              <option value="ALL">All Items (Topicwise + Mocks)</option>
+              <option value="TOPICWISE">Topicwise Modules Only</option>
+              <option value="MOCK">Mock Examination Items Only</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question Cards Stream -->
+      <div id="practice-questions-stream" class="space-y-6">
+        <!-- Injected by JS -->
+      </div>
+    </section>
+
+    <!-- 3. MOCK EXAM SIMULATOR VIEW -->
+    <section id="view-mocks" class="hidden space-y-6">
+      <!-- Mock Selector Header -->
+      <div id="mock-selection-screen" class="space-y-6">
+        <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Full-Length Timed Mock Simulator</h2>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">
+            Simulates the exact conditions of IIT and Central University faculty entrance and research aptitude tests. Standard marking scheme: <strong>+2 marks</strong> for correct, <strong>-0.66 marks</strong> negative marking for incorrect.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Mock Paper 1 Card -->
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-cyan-500 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-cyan-100 dark:bg-cyan-950 text-cyan-700 dark:text-cyan-300 uppercase tracking-wider">Mock Exam 01</span>
+                <span class="text-xs text-slate-400 font-medium">Timed 45 Mins</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Philosophy of Mind, Neurophilosophy & AI</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-400">
+                Covers Cartesian dualism, Causal pairing, Putnam's functionalism, Libet's readiness potential, Mele's intentional veto, Clark & Chalmers' extended mind, and Chinese Room arguments.
+              </p>
+            </div>
+            <div class="pt-6">
+              <button onclick="startMockExam('MOCK1')" class="w-full py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm transition-all shadow-md shadow-cyan-600/20">
+                Launch Mock Exam 01
+              </button>
+            </div>
+          </div>
+
+          <!-- Mock Paper 2 Card -->
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:border-cyan-500 transition-all flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 uppercase tracking-wider">Mock Exam 02</span>
+                <span class="text-xs text-slate-400 font-medium">Timed 45 Mins</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white">Philosophy of Explanation, XAI & AI Ethics</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-400">
+                Covers Hempel's DN model, Flagpole asymmetry, van Fraassen's contrastive erotetic logic, Woodward's interventionism, Rudin's black-box critique, Bostrom's theses, and Chouldechova's fairness proofs.
+              </p>
+            </div>
+            <div class="pt-6">
+              <button onclick="startMockExam('MOCK2')" class="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm transition-all shadow-md shadow-blue-600/20">
+                Launch Mock Exam 02
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Mock Test Active Arena -->
+      <div id="mock-active-arena" class="hidden space-y-6">
+        <!-- Top Sticky Test Status Bar -->
+        <div class="sticky top-16 z-30 bg-white/95 dark:bg-slate-900/95 backdrop-blur p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-md flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <span id="arena-exam-title" class="font-bold text-sm text-slate-800 dark:text-slate-200 hidden sm:inline">Mock Exam</span>
+            <span class="text-xs px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400" id="arena-q-index">Question 1 of 8</span>
+          </div>
+
+          <!-- Timer Display -->
+          <div class="flex items-center space-x-2">
+            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span id="arena-timer" class="font-mono font-bold text-lg text-slate-900 dark:text-white">45:00</span>
+          </div>
+
+          <!-- Submit Button -->
+          <button onclick="confirmSubmitMock()" class="px-4 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-wider transition-all">
+            Submit Test
+          </button>
+        </div>
+
+        <!-- Arena Main Layout: Question + Palette -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          <!-- Question Pane (Cols 1-3) -->
+          <div class="lg:col-span-3 space-y-4">
+            <div id="arena-question-card" class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-5">
+              <!-- Dynamically rendered question text and options -->
+            </div>
+
+            <!-- Arena Bottom Controls -->
+            <div class="flex items-center justify-between bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800">
+              <button onclick="prevArenaQuestion()" id="arena-prev-btn" class="px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-700 text-xs font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+                &larr; Previous
+              </button>
+              <div class="flex items-center space-x-2">
+                <button onclick="toggleReviewFlag()" id="arena-flag-btn" class="px-4 py-2 rounded-lg border border-amber-400 dark:border-amber-600 text-amber-600 dark:text-amber-400 text-xs font-semibold hover:bg-amber-50 dark:hover:bg-amber-950/40 transition-colors">
+                  Flag for Review
+                </button>
+                <button onclick="clearArenaSelection()" class="px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-700 text-xs font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 transition-colors">
+                  Clear Response
+                </button>
+              </div>
+              <button onclick="nextArenaQuestion()" id="arena-next-btn" class="px-4 py-2 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold transition-colors">
+                Next &rarr;
+              </button>
+            </div>
+          </div>
+
+          <!-- Question Palette (Col 4) -->
+          <div class="space-y-4">
+            <div class="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
+              <h3 class="text-sm font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider">Question Palette</h3>
+              
+              <div class="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-4 gap-2" id="arena-palette-grid">
+                <!-- Palette buttons injected by JS -->
+              </div>
+
+              <!-- Legend -->
+              <div class="border-t border-slate-200 dark:border-slate-800 pt-3 space-y-1.5 text-[11px] text-slate-500">
+                <div class="flex items-center space-x-2">
+                  <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span>
+                  <span>Answered</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <span class="w-3 h-3 rounded-full bg-amber-500 inline-block"></span>
+                  <span>Marked for Review</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                  <span class="w-3 h-3 rounded-full bg-slate-300 dark:bg-slate-700 inline-block"></span>
+                  <span>Not Answered</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mock Result Screen -->
+      <div id="mock-result-screen" class="hidden space-y-6">
+        <!-- Score Overview Card -->
+        <div class="bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm text-center space-y-4">
+          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-50 dark:bg-cyan-950 text-cyan-600 dark:text-cyan-400 text-xs font-bold uppercase tracking-wider">
+            Test Performance Evaluation
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white" id="result-score-title">
+            Score: 16.00 / 16.00
+          </h2>
+          <p class="text-sm text-slate-500 dark:text-slate-400 max-w-md mx-auto" id="result-summary-text">
+            Evaluation based on IIT Faculty Exam scoring criteria.
+          </p>
+
+          <!-- Metrics Row -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto pt-4">
+            <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+              <div class="text-[11px] text-slate-400 font-semibold uppercase">Correct</div>
+              <div class="text-xl font-bold text-emerald-600 dark:text-emerald-400" id="result-stat-correct">8</div>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+              <div class="text-[11px] text-slate-400 font-semibold uppercase">Incorrect</div>
+              <div class="text-xl font-bold text-rose-600 dark:text-rose-400" id="result-stat-incorrect">0</div>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+              <div class="text-[11px] text-slate-400 font-semibold uppercase">Accuracy</div>
+              <div class="text-xl font-bold text-cyan-600 dark:text-cyan-400" id="result-stat-accuracy">100%</div>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
+              <div class="text-[11px] text-slate-400 font-semibold uppercase">Time Taken</div>
+              <div class="text-xl font-bold text-indigo-600 dark:text-indigo-400" id="result-stat-time">12:45</div>
+            </div>
+          </div>
+
+          <div class="flex justify-center space-x-3 pt-4">
+            <button onclick="navigate('mocks')" class="px-5 py-2 rounded-xl bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 font-semibold text-xs transition-colors">
+              Return to Mocks
+            </button>
+            <button onclick="toggleMockDetailedSolutions()" class="px-5 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-semibold text-xs transition-colors">
+              Review Detailed Solutions
+            </button>
+          </div>
+        </div>
+
+        <!-- Result Review Stream -->
+        <div id="mock-solutions-stream" class="space-y-6">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SEARCH BANK VIEW -->
+    <section id="view-search" class="hidden space-y-6">
+      <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Curriculum Search Engine</h2>
+        <p class="text-xs text-slate-500 dark:text-slate-400">Search by primary thinker, technical concept, thought experiment, or argument name.</p>
+        
+        <div class="relative">
+          <input type="text" id="search-input" oninput="executeSearch()" placeholder="Type to search e.g. 'Multiple Realizability', 'Libet', 'Woodward', 'Rashomon', 'Mesa-optimizer'..." class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl px-4 py-3 pl-11 text-sm text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500 shadow-inner">
+          <svg class="w-5 h-5 text-slate-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+
+        <div class="flex items-center justify-between text-xs text-slate-500">
+          <span id="search-results-count">Type at least 2 letters to begin search.</span>
+        </div>
+      </div>
+
+      <!-- Search Results Stream -->
+      <div id="search-results-stream" class="space-y-6">
+        <!-- Results injected here -->
+      </div>
+    </section>
+
+    <!-- 5. BOOKMARKS VIEW -->
+    <section id="view-bookmarks" class="hidden space-y-6">
+      <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Saved Bookmarks for Revision</h2>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Review critical problems flagged for interview preparation.</p>
+        </div>
+        <button onclick="clearAllBookmarks()" class="px-3 py-1.5 rounded-lg border border-rose-300 dark:border-rose-800 text-rose-600 dark:text-rose-400 text-xs font-semibold hover:bg-rose-50 dark:hover:bg-rose-950/30 transition-colors">
+          Clear All
+        </button>
+      </div>
+
+      <!-- Bookmarks Stream -->
+      <div id="bookmarks-stream" class="space-y-6">
+        <!-- Injected by JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mt-auto border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-6 text-center text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 space-y-1">
+      <div><strong>NOESIS</strong> — Mind, Neurophilosophy, AI & Science Faculty Question Bank & Simulator</div>
+      <div>Designed for IIT & Central University Faculty Selections, GATE Philosophy & UGC-NET Paper II</div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT ENGINE -->
+  <script>
+    // --- STATE MANAGEMENT ---
+    let appData = window.MIND_AI_DATA || { questions: [], stats: {} };
+    let bookmarks = JSON.parse(localStorage.getItem('noesis_bookmarks') || '[]');
+    let currentView = 'dashboard';
+    
+    // Mock Exam Runtime State
+    let mockState = {
+      active: false,
+      examId: null,
+      questions: [],
+      currentIndex: 0,
+      userAnswers: {}, // index -> 'A' | 'B' | 'C' | 'D'
+      flags: {},       // index -> boolean
+      startTime: null,
+      timerInterval: null,
+      remainingSeconds: 45 * 60
+    };
+
+    // --- INITIALIZATION ---
+    document.addEventListener("DOMContentLoaded", () => {
+      initTheme();
+      updateBookmarkCountUI();
+      renderDashboard();
+      initKaTeX();
+    });
+
+    function initTheme() {
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+        document.getElementById('theme-icon-sun')?.classList.remove('hidden');
+        document.getElementById('theme-icon-moon')?.classList.add('hidden');
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.getElementById('theme-icon-sun')?.classList.add('hidden');
+        document.getElementById('theme-icon-moon')?.classList.remove('hidden');
+      }
+    }
+
+    function toggleDarkMode() {
+      if (document.documentElement.classList.contains('dark')) {
+        document.documentElement.classList.remove('dark');
+        localStorage.theme = 'light';
+        document.getElementById('theme-icon-sun')?.classList.add('hidden');
+        document.getElementById('theme-icon-moon')?.classList.remove('hidden');
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.theme = 'dark';
+        document.getElementById('theme-icon-sun')?.classList.remove('hidden');
+        document.getElementById('theme-icon-moon')?.classList.add('hidden');
+      }
+    }
+
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+
+    function initKaTeX() {
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    }
+
+    // --- NAVIGATION ---
+    function navigate(viewName) {
+      currentView = viewName;
+      const views = ['dashboard', 'practice', 'mocks', 'search', 'bookmarks'];
+      views.forEach(v => {
+        const el = document.getElementById(`view-${v}`);
+        if (el) el.classList.add('hidden');
+        const navBtn = document.getElementById(`nav-${v}`);
+        if (navBtn) {
+          navBtn.classList.remove('text-cyan-600', 'dark:text-cyan-400', 'bg-cyan-50', 'dark:bg-cyan-950/50');
+          navBtn.classList.add('text-slate-600', 'dark:text-slate-300');
+        }
+      });
+
+      const activeViewEl = document.getElementById(`view-${viewName}`);
+      if (activeViewEl) activeViewEl.classList.remove('hidden');
+
+      const activeNavBtn = document.getElementById(`nav-${viewName}`);
+      if (activeNavBtn) {
+        activeNavBtn.classList.add('text-cyan-600', 'dark:text-cyan-400', 'bg-cyan-50', 'dark:bg-cyan-950/50');
+        activeNavBtn.classList.remove('text-slate-600', 'dark:text-slate-300');
+      }
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      if (viewName === 'practice') {
+        renderPracticeQuestions();
+      } else if (viewName === 'bookmarks') {
+        renderBookmarks();
+      }
+
+      setTimeout(initKaTeX, 50);
+    }
+
+    // --- RICH TEXT RENDERING (ZERO STAR LEAKAGE) ---
+    function renderRich(text, inline = false) {
+      if (!text) return "";
+      
+      // Protect LaTeX blocks
+      const mathTokens = [];
+      let sanitized = text.replace(/(\$\$[\s\S]*?\$\$|\$[^\$]+?\$)/g, (match) => {
+        const placeholder = `___MATH_TOKEN_${mathTokens.length}___`;
+        mathTokens.push(match);
+        return placeholder;
+      });
+
+      // Escape raw HTML entities
+      sanitized = sanitized.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+      // Convert Markdown formatting
+      // Bold + Italic: ***text***
+      sanitized = sanitized.replace(/\*\*\*(.*?)\*\*\*/g, '<strong><em>$1</em></strong>');
+      // Bold: **text**
+      sanitized = sanitized.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      // Italic: *text*
+      sanitized = sanitized.replace(/\*(.*?)\*/g, '<em>$1</em>');
+      // Code: `code`
+      sanitized = sanitized.replace(/`([^`]+)`/g, '<code class="px-1 py-0.5 rounded bg-slate-100 dark:bg-slate-800 font-mono text-xs text-cyan-600 dark:text-cyan-400">$1</code>');
+
+      // If not inline, convert line breaks & lists
+      if (!inline) {
+        // Bullet lists
+        sanitized = sanitized.replace(/^\s*-\s+(.*)$/gm, '<li class="ml-4 list-disc">$1</li>');
+        sanitized = sanitized.replace(/(<li.*<\/li>)/s, '<ul class="space-y-1 my-2">$1</ul>');
+        
+        // Paragraphs
+        sanitized = sanitized.split(/\n\s*\n/).map(p => {
+          p = p.trim();
+          if (p.startsWith('<ul') || p.startsWith('<li')) return p;
+          return `<p class="my-2 leading-relaxed">${p}</p>`;
+        }).join('');
+      } else {
+        sanitized = sanitized.replace(/\n/g, ' ');
+      }
+
+      // Restore protected LaTeX blocks
+      mathTokens.forEach((math, idx) => {
+        sanitized = sanitized.replace(`___MATH_TOKEN_${idx}___`, math);
+      });
+
+      return sanitized;
+    }
+
+    // --- DASHBOARD RENDERING ---
+    function renderDashboard() {
+      const stats = appData.stats || {};
+      document.getElementById('stat-total-q').textContent = stats.total_questions || appData.questions.length;
+      document.getElementById('nav-total-pill').textContent = stats.total_questions || appData.questions.length;
+
+      const domainContainer = document.getElementById('domain-cards-container');
+      if (!domainContainer) return;
+
+      const domains = [
+        { name: "Philosophy of Mind", desc: "Substance dualism, physicalism, functionalism, qualia, and intentionality.", color: "from-blue-600 to-cyan-600" },
+        { name: "Neurophilosophy", desc: "Co-evolutionary research, neural correlates of consciousness (NCC), predictive processing, and volition.", color: "from-indigo-600 to-blue-600" },
+        { name: "Philosophy of AI", desc: "Turing test, Lady Lovelace objection, Chinese Room, symbol grounding, and world models.", color: "from-cyan-600 to-teal-600" },
+        { name: "Philosophy of Explanation & XAI", desc: "DN covering law, asymmetry, contrastive why-questions, interventionism, and black-box opacity.", color: "from-teal-600 to-emerald-600" },
+        { name: "AI Ethics & Governance", desc: "Orthogonality, instrumental convergence, fairness impossibility, responsibility gaps, and moral patiency.", color: "from-amber-600 to-rose-600" }
+      ];
+
+      domainContainer.innerHTML = domains.map(d => {
+        const count = appData.questions.filter(q => q.domain === d.name).length;
+        return `
+          <div onclick="selectDomainFromDashboard('${d.name}')" class="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-cyan-500/50 cursor-pointer transition-all flex flex-col justify-between group">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold uppercase tracking-wider text-cyan-600 dark:text-cyan-400 font-mono">${count} Questions</span>
+                <span class="w-8 h-8 rounded-lg bg-gradient-to-tr ${d.color} flex items-center justify-center text-white text-xs font-bold shadow-sm">Ψ</span>
+              </div>
+              <h3 class="text-base font-bold text-slate-900 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">${d.name}</h3>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-2 line-clamp-2 leading-relaxed">${d.desc}</p>
+            </div>
+            <div class="pt-4 flex items-center justify-between text-xs font-semibold text-slate-400 group-hover:text-cyan-600 dark:group-hover:text-cyan-400">
+              <span>Practice Domain &rarr;</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function selectDomainFromDashboard(domainName) {
+      navigate('practice');
+      const selectEl = document.getElementById('filter-domain');
+      if (selectEl) {
+        selectEl.value = domainName;
+        renderPracticeQuestions();
+      }
+    }
+
+    // --- 4-TIER PRACTICE ENGINE ---
+    function renderPracticeQuestions() {
+      const domainFilter = document.getElementById('filter-domain').value;
+      const tierFilter = document.getElementById('filter-tier').value;
+      const sourceFilter = document.getElementById('filter-source').value;
+
+      let filtered = appData.questions.filter(q => {
+        if (domainFilter !== 'ALL' && q.domain !== domainFilter) return false;
+        if (tierFilter !== 'ALL' && q.tier !== tierFilter) return false;
+        if (sourceFilter === 'TOPICWISE' && q.is_mock) return false;
+        if (sourceFilter === 'MOCK' && !q.is_mock) return false;
+        return true;
+      });
+
+      document.getElementById('practice-count-badge').textContent = `${filtered.length} Questions`;
+      const stream = document.getElementById('practice-questions-stream');
+
+      if (filtered.length === 0) {
+        stream.innerHTML = `
+          <div class="bg-white dark:bg-slate-900 p-12 rounded-2xl border border-slate-200 dark:border-slate-800 text-center space-y-3">
+            <div class="text-4xl">🔍</div>
+            <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">No questions match the selected filter criteria</h3>
+            <p class="text-xs text-slate-500">Try broadening your domain or difficulty tier filter selection.</p>
+          </div>
+        `;
+        return;
+      }
+
+      stream.innerHTML = filtered.map((q, idx) => createQuestionCardHTML(q, idx, 'practice')).join('');
+      setTimeout(initKaTeX, 50);
+    }
+
+    function createQuestionCardHTML(q, idx, context = 'practice') {
+      const isBookmarked = bookmarks.includes(q.id);
+      const tierBadgeColor = getTierBadgeColor(q.tier);
+
+      return `
+        <div id="qcard-${q.id}" class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden p-6 space-y-4">
+          <!-- Card Header & Metadata -->
+          <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 dark:border-slate-800 pb-3">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="text-xs font-mono font-bold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">#${idx + 1}</span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-full ${tierBadgeColor}">${q.tier}</span>
+              <span class="text-xs font-medium text-slate-500 dark:text-slate-400">${q.domain}</span>
+            </div>
+            
+            <button onclick="toggleBookmark('${q.id}')" id="bm-btn-${q.id}" class="p-1.5 rounded-lg text-slate-400 hover:text-amber-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Bookmark Question">
+              <svg class="w-5 h-5 ${isBookmarked ? 'fill-amber-500 text-amber-500' : 'text-slate-400'}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg>
+            </button>
+          </div>
+
+          <!-- Question Title & Thinkers -->
+          <div class="space-y-1">
+            <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">${renderRich(q.title, true)}</h3>
+            ${q.thinkers ? `<div class="text-xs text-slate-500 dark:text-slate-400"><strong>Thinkers:</strong> ${renderRich(q.thinkers, true)}</div>` : ''}
+          </div>
+
+          <!-- Question Stem / Prompt -->
+          <div class="text-sm text-slate-800 dark:text-slate-200 leading-relaxed bg-slate-50 dark:bg-slate-800/40 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+            ${renderRich(q.question)}
+          </div>
+
+          <!-- Options Grid -->
+          <div class="space-y-2 pt-1" id="opts-container-${q.id}">
+            ${['A', 'B', 'C', 'D'].map(optKey => {
+              const optText = q.options[optKey] || '';
+              if (!optText) return '';
+              return `
+                <button onclick="handleOptionSelect('${q.id}', '${optKey}')" id="opt-${q.id}-${optKey}" class="opt-btn w-full text-left p-3.5 rounded-xl border border-slate-200 dark:border-slate-700/80 hover:border-cyan-500 dark:hover:border-cyan-400 bg-white dark:bg-slate-800/60 transition-all flex items-start space-x-3 text-xs sm:text-sm">
+                  <span class="w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-700 font-bold flex items-center justify-center shrink-0 text-slate-700 dark:text-slate-300">${optKey}</span>
+                  <div class="flex-1 leading-relaxed text-slate-800 dark:text-slate-200">${renderRich(optText)}</div>
+                </button>
+              `;
+            }).join('')}
+          </div>
+
+          <!-- Solution Accordion (Grounding & Distractors) -->
+          <div id="sol-${q.id}" class="hidden pt-4 space-y-4 border-t border-slate-100 dark:border-slate-800">
+            <!-- Correct Answer Notice -->
+            <div class="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 flex items-center space-x-2 text-xs sm:text-sm text-emerald-800 dark:text-emerald-300">
+              <svg class="w-5 h-5 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span><strong>Correct Answer:</strong> Option (${q.correct_option})</span>
+            </div>
+
+            <!-- Philosophical Grounding -->
+            ${q.grounding ? `
+              <div class="space-y-1">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Philosophical Grounding & Demonstration:</h4>
+                <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+                  ${renderRich(q.grounding)}
+                </div>
+              </div>
+            ` : ''}
+
+            <!-- Distractor Analysis -->
+            ${q.distractor_analysis ? `
+              <div class="space-y-1">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Distractor Analysis:</h4>
+                <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+                  ${renderRich(q.distractor_analysis)}
+                </div>
+              </div>
+            ` : ''}
+
+            <!-- Reference -->
+            ${q.reference ? `
+              <div class="text-xs text-slate-500 dark:text-slate-400 italic">
+                <strong>Primary Reference:</strong> ${renderRich(q.reference, true)}
+              </div>
+            ` : ''}
+          </div>
+
+          <!-- Solution Toggle Footer -->
+          <div class="pt-2 flex justify-end">
+            <button onclick="toggleSolution('${q.id}')" id="toggle-btn-${q.id}" class="text-xs font-semibold text-cyan-600 dark:text-cyan-400 hover:underline">
+              Reveal Complete Analysis &darr;
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function getTierBadgeColor(tier) {
+      if (!tier) return "bg-slate-100 dark:bg-slate-800 text-slate-600";
+      if (tier.includes("Tier 1")) return "bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300";
+      if (tier.includes("Tier 2")) return "bg-blue-100 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300";
+      if (tier.includes("Tier 3")) return "bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300";
+      if (tier.includes("Tier 4")) return "bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300";
+      return "bg-slate-100 dark:bg-slate-800 text-slate-600";
+    }
+
+    function handleOptionSelect(qId, selectedOpt) {
+      const q = appData.questions.find(item => item.id === qId);
+      if (!q) return;
+
+      const isCorrect = (selectedOpt === q.correct_option);
+
+      ['A', 'B', 'C', 'D'].forEach(opt => {
+        const btn = document.getElementById(`opt-${qId}-${opt}`);
+        if (!btn) return;
+        btn.classList.remove('bg-emerald-50', 'dark:bg-emerald-950/40', 'border-emerald-500', 'bg-rose-50', 'dark:bg-rose-950/40', 'border-rose-500');
+        
+        if (opt === q.correct_option) {
+          btn.classList.add('bg-emerald-50', 'dark:bg-emerald-950/40', 'border-emerald-500');
+        } else if (opt === selectedOpt && !isCorrect) {
+          btn.classList.add('bg-rose-50', 'dark:bg-rose-950/40', 'border-rose-500');
+        }
+      });
+
+      // Automatically reveal explanation
+      const solEl = document.getElementById(`sol-${qId}`);
+      if (solEl && solEl.classList.contains('hidden')) {
+        toggleSolution(qId);
+      }
+    }
+
+    function toggleSolution(qId) {
+      const solEl = document.getElementById(`sol-${qId}`);
+      const btn = document.getElementById(`toggle-btn-${qId}`);
+      if (!solEl) return;
+
+      if (solEl.classList.contains('hidden')) {
+        solEl.classList.remove('hidden');
+        if (btn) btn.textContent = 'Hide Analysis ↑';
+        setTimeout(initKaTeX, 30);
+      } else {
+        solEl.classList.add('hidden');
+        if (btn) btn.textContent = 'Reveal Complete Analysis ↓';
+      }
+    }
+
+    // --- TIMED MOCK TEST ARENA ---
+    function startMockExam(examKey) {
+      document.getElementById('mock-selection-screen').classList.add('hidden');
+      document.getElementById('mock-result-screen').classList.add('hidden');
+      document.getElementById('mock-active-arena').classList.remove('hidden');
+
+      let examQuestions = [];
+      let examTitle = "";
+
+      if (examKey === 'MOCK1') {
+        examQuestions = appData.questions.filter(q => q.filename === 'Mock_Exam_01_Mind_Neuro_AI.md');
+        examTitle = "Mock 01: Mind, Neuro & AI";
+      } else if (examKey === 'MOCK2') {
+        examQuestions = appData.questions.filter(q => q.filename === 'Mock_Exam_02_XAI_Ethics_Frontiers.md');
+        examTitle = "Mock 02: Explanation, XAI & AI Ethics";
+      } else {
+        // Fallback: take random 20
+        examQuestions = [...appData.questions].slice(0, 20);
+        examTitle = "Comprehensive Mock Exam";
+      }
+
+      mockState = {
+        active: true,
+        examId: examKey,
+        examTitle: examTitle,
+        questions: examQuestions,
+        currentIndex: 0,
+        userAnswers: {},
+        flags: {},
+        startTime: Date.now(),
+        remainingSeconds: examQuestions.length * 150, // 2.5 mins per question
+        timerInterval: null
+      };
+
+      document.getElementById('arena-exam-title').textContent = examTitle;
+
+      // Start timer
+      startArenaTimer();
+      renderArenaQuestion();
+      renderArenaPalette();
+    }
+
+    function startArenaTimer() {
+      if (mockState.timerInterval) clearInterval(mockState.timerInterval);
+      
+      const timerEl = document.getElementById('arena-timer');
+      
+      mockState.timerInterval = setInterval(() => {
+        if (mockState.remainingSeconds <= 0) {
+          clearInterval(mockState.timerInterval);
+          submitMockExam();
+          return;
+        }
+        mockState.remainingSeconds--;
+        const mins = Math.floor(mockState.remainingSeconds / 60);
+        const secs = mockState.remainingSeconds % 60;
+        timerEl.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+      }, 1000);
+    }
+
+    function renderArenaQuestion() {
+      const q = mockState.questions[mockState.currentIndex];
+      if (!q) return;
+
+      document.getElementById('arena-q-index').textContent = `Question ${mockState.currentIndex + 1} of ${mockState.questions.length}`;
+
+      const card = document.getElementById('arena-question-card');
+      const selected = mockState.userAnswers[mockState.currentIndex];
+
+      card.innerHTML = `
+        <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
+          <div class="flex items-center space-x-2">
+            <span class="text-xs font-mono font-bold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800">Q${mockState.currentIndex + 1}</span>
+            <span class="text-xs font-bold px-2.5 py-0.5 rounded-full ${getTierBadgeColor(q.tier)}">${q.tier}</span>
+            <span class="text-xs text-slate-500">${q.domain}</span>
+          </div>
+          <div class="text-xs font-bold text-cyan-600 dark:text-cyan-400">+2.00 / -0.66 Marks</div>
+        </div>
+
+        <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">${renderRich(q.title, true)}</h3>
+
+        <div class="text-sm text-slate-800 dark:text-slate-200 leading-relaxed bg-slate-50 dark:bg-slate-800/40 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+          ${renderRich(q.question)}
+        </div>
+
+        <div class="space-y-2 pt-2">
+          ${['A', 'B', 'C', 'D'].map(optKey => {
+            const optText = q.options[optKey] || '';
+            if (!optText) return '';
+            const isChecked = (selected === optKey);
+            return `
+              <div onclick="selectArenaOption('${optKey}')" class="cursor-pointer p-3.5 rounded-xl border ${isChecked ? 'border-cyan-500 bg-cyan-50 dark:bg-cyan-950/40 ring-1 ring-cyan-500' : 'border-slate-200 dark:border-slate-700/80 bg-white dark:bg-slate-800/60'} hover:border-cyan-400 transition-all flex items-start space-x-3 text-xs sm:text-sm">
+                <span class="w-6 h-6 rounded-lg font-bold flex items-center justify-center shrink-0 ${isChecked ? 'bg-cyan-500 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300'}">${optKey}</span>
+                <div class="flex-1 leading-relaxed text-slate-800 dark:text-slate-200">${renderRich(optText)}</div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+
+      // Update flag button
+      const flagBtn = document.getElementById('arena-flag-btn');
+      if (mockState.flags[mockState.currentIndex]) {
+        flagBtn.classList.add('bg-amber-100', 'dark:bg-amber-950');
+        flagBtn.textContent = 'Unflag Question';
+      } else {
+        flagBtn.classList.remove('bg-amber-100', 'dark:bg-amber-950');
+        flagBtn.textContent = 'Flag for Review';
+      }
+
+      renderArenaPalette();
+      setTimeout(initKaTeX, 30);
+    }
+
+    function selectArenaOption(optKey) {
+      mockState.userAnswers[mockState.currentIndex] = optKey;
+      renderArenaQuestion();
+    }
+
+    function clearArenaSelection() {
+      delete mockState.userAnswers[mockState.currentIndex];
+      renderArenaQuestion();
+    }
+
+    function toggleReviewFlag() {
+      mockState.flags[mockState.currentIndex] = !mockState.flags[mockState.currentIndex];
+      renderArenaQuestion();
+    }
+
+    function prevArenaQuestion() {
+      if (mockState.currentIndex > 0) {
+        mockState.currentIndex--;
+        renderArenaQuestion();
+      }
+    }
+
+    function nextArenaQuestion() {
+      if (mockState.currentIndex < mockState.questions.length - 1) {
+        mockState.currentIndex++;
+        renderArenaQuestion();
+      }
+    }
+
+    function jumpToArenaQuestion(idx) {
+      mockState.currentIndex = idx;
+      renderArenaQuestion();
+    }
+
+    function renderArenaPalette() {
+      const palette = document.getElementById('arena-palette-grid');
+      if (!palette) return;
+
+      palette.innerHTML = mockState.questions.map((q, idx) => {
+        const isCurrent = (idx === mockState.currentIndex);
+        const isAnswered = (idx in mockState.userAnswers);
+        const isFlagged = mockState.flags[idx];
+
+        let bgClass = "bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300";
+        if (isFlagged) {
+          bgClass = "bg-amber-500 text-white font-bold";
+        } else if (isAnswered) {
+          bgClass = "bg-emerald-500 text-white font-bold";
+        }
+
+        const borderClass = isCurrent ? "ring-2 ring-cyan-500 dark:ring-cyan-400 scale-105" : "";
+
+        return `
+          <button onclick="jumpToArenaQuestion(${idx})" class="w-9 h-9 rounded-lg text-xs font-mono font-medium flex items-center justify-center transition-all ${bgClass} ${borderClass}">
+            ${idx + 1}
+          </button>
+        `;
+      }).join('');
+    }
+
+    function confirmSubmitMock() {
+      const answeredCount = Object.keys(mockState.userAnswers).length;
+      const total = mockState.questions.length;
+      if (confirm(`You have answered ${answeredCount} of ${total} questions. Are you sure you want to finish and submit?`)) {
+        submitMockExam();
+      }
+    }
+
+    function submitMockExam() {
+      if (mockState.timerInterval) clearInterval(mockState.timerInterval);
+
+      document.getElementById('mock-active-arena').classList.add('hidden');
+      document.getElementById('mock-result-screen').classList.remove('hidden');
+
+      // Compute statistics
+      let correct = 0;
+      let incorrect = 0;
+      let unattempted = 0;
+
+      mockState.questions.forEach((q, idx) => {
+        const userAns = mockState.userAnswers[idx];
+        if (!userAns) {
+          unattempted++;
+        } else if (userAns === q.correct_option) {
+          correct++;
+        } else {
+          incorrect++;
+        }
+      });
+
+      const totalMarks = (correct * 2.0) - (incorrect * 0.66);
+      const maxMarks = mockState.questions.length * 2.0;
+      const accuracy = (correct + incorrect > 0) ? Math.round((correct / (correct + incorrect)) * 100) : 0;
+      
+      const elapsedSecs = (mockState.questions.length * 150) - mockState.remainingSeconds;
+      const elapsedMins = Math.floor(elapsedSecs / 60);
+      const remSecs = elapsedSecs % 60;
+
+      document.getElementById('result-score-title').textContent = `Score: ${totalMarks.toFixed(2)} / ${maxMarks.toFixed(2)}`;
+      document.getElementById('result-stat-correct').textContent = correct;
+      document.getElementById('result-stat-incorrect').textContent = incorrect;
+      document.getElementById('result-stat-accuracy').textContent = `${accuracy}%`;
+      document.getElementById('result-stat-time').textContent = `${elapsedMins}:${remSecs.toString().padStart(2, '0')}`;
+
+      // Render Detailed Solutions
+      const solutionsStream = document.getElementById('mock-solutions-stream');
+      solutionsStream.innerHTML = mockState.questions.map((q, idx) => {
+        const userAns = mockState.userAnswers[idx] || "Unattempted";
+        const isCorrect = (userAns === q.correct_option);
+
+        return `
+          <div class="bg-white dark:bg-slate-900 rounded-2xl border ${isCorrect ? 'border-emerald-200 dark:border-emerald-800' : (userAns === 'Unattempted' ? 'border-slate-200 dark:border-slate-800' : 'border-rose-200 dark:border-rose-800')} p-6 space-y-4 shadow-sm">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold font-mono">Q${idx + 1}</span>
+              <span class="text-xs font-bold px-2 py-0.5 rounded ${isCorrect ? 'bg-emerald-100 text-emerald-800' : (userAns === 'Unattempted' ? 'bg-slate-100 text-slate-600' : 'bg-rose-100 text-rose-800')}">
+                Your Answer: ${userAns} | Correct: ${q.correct_option}
+              </span>
+            </div>
+            <h4 class="font-bold text-sm text-slate-900 dark:text-white">${renderRich(q.title, true)}</h4>
+            <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-300">${renderRich(q.question)}</div>
+
+            <!-- Grounding -->
+            <div class="text-xs sm:text-sm bg-slate-50 dark:bg-slate-800/60 p-4 rounded-xl border border-slate-100 dark:border-slate-800 space-y-2">
+              <div class="font-bold text-cyan-600 dark:text-cyan-400">Grounding & Distractor Diagnosis:</div>
+              <div>${renderRich(q.grounding)}</div>
+              ${q.distractor_analysis ? `<div class="mt-2 text-slate-600 dark:text-slate-400">${renderRich(q.distractor_analysis)}</div>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      setTimeout(initKaTeX, 30);
+    }
+
+    function toggleMockDetailedSolutions() {
+      const stream = document.getElementById('mock-solutions-stream');
+      stream.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // --- SEARCH ENGINE ---
+    function executeSearch() {
+      const query = document.getElementById('search-input').value.trim().toLowerCase();
+      const countEl = document.getElementById('search-results-count');
+      const stream = document.getElementById('search-results-stream');
+
+      if (query.length < 2) {
+        countEl.textContent = "Type at least 2 characters to search.";
+        stream.innerHTML = "";
+        return;
+      }
+
+      const results = appData.questions.filter(q => {
+        return (
+          q.title.toLowerCase().includes(query) ||
+          q.question.toLowerCase().includes(query) ||
+          (q.thinkers && q.thinkers.toLowerCase().includes(query)) ||
+          (q.grounding && q.grounding.toLowerCase().includes(query)) ||
+          Object.values(q.options).some(opt => opt.toLowerCase().includes(query))
+        );
+      });
+
+      countEl.textContent = `Found ${results.length} matching question${results.length === 1 ? '' : 's'}.`;
+
+      if (results.length === 0) {
+        stream.innerHTML = `
+          <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 text-center text-sm text-slate-500">
+            No questions found matching "${query}". Try searching for alternative philosophical terms or author names.
+          </div>
+        `;
+        return;
+      }
+
+      stream.innerHTML = results.map((q, idx) => createQuestionCardHTML(q, idx, 'search')).join('');
+      setTimeout(initKaTeX, 30);
+    }
+
+    // --- BOOKMARK ENGINE ---
+    function toggleBookmark(qId) {
+      if (bookmarks.includes(qId)) {
+        bookmarks = bookmarks.filter(id => id !== qId);
+      } else {
+        bookmarks.push(qId);
+      }
+      localStorage.setItem('noesis_bookmarks', JSON.stringify(bookmarks));
+      updateBookmarkCountUI();
+
+      const btn = document.getElementById(`bm-btn-${qId}`);
+      if (btn) {
+        const isBm = bookmarks.includes(qId);
+        const svg = btn.querySelector('svg');
+        if (isBm) {
+          svg.classList.add('fill-amber-500', 'text-amber-500');
+          svg.classList.remove('text-slate-400');
+        } else {
+          svg.classList.remove('fill-amber-500', 'text-amber-500');
+          svg.classList.add('text-slate-400');
+        }
+      }
+
+      if (currentView === 'bookmarks') {
+        renderBookmarks();
+      }
+    }
+
+    function updateBookmarkCountUI() {
+      const badge = document.getElementById('nav-bookmark-count');
+      if (badge) badge.textContent = bookmarks.length;
+    }
+
+    function renderBookmarks() {
+      const stream = document.getElementById('bookmarks-stream');
+      const bmQuestions = appData.questions.filter(q => bookmarks.includes(q.id));
+
+      if (bmQuestions.length === 0) {
+        stream.innerHTML = `
+          <div class="bg-white dark:bg-slate-900 p-12 rounded-2xl border border-slate-200 dark:border-slate-800 text-center space-y-3">
+            <div class="text-4xl">🔖</div>
+            <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">No bookmarked questions saved yet</h3>
+            <p class="text-xs text-slate-500">Click the bookmark icon on any question card during practice to save it here for targeted revision.</p>
+          </div>
+        `;
+        return;
+      }
+
+      stream.innerHTML = bmQuestions.map((q, idx) => createQuestionCardHTML(q, idx, 'bookmark')).join('');
+      setTimeout(initKaTeX, 30);
+    }
+
+    function clearAllBookmarks() {
+      if (confirm("Are you sure you want to remove all saved bookmarks?")) {
+        bookmarks = [];
+        localStorage.removeItem('noesis_bookmarks');
+        updateBookmarkCountUI();
+        renderBookmarks();
+      }
+    }
+  </script>
+</body>
+</html>
