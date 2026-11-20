@@ -114,3 +114,5 @@
 #### 06. Mock Test Series (`06_MOCK_EXAMINATIONS/`)
 1. [Mock_Exam_01_Mind_Neuro_AI.md](file:///Users/anshu_macmini/Downloads/Mind_Neuro_AI_Philosophy_Question_Bank/06_MOCK_EXAMINATIONS/Mock_Exam_01_Mind_Neuro_AI.md)
 2. [Mock_Exam_02_XAI_Ethics_Frontiers.md](file:///Users/anshu_macmini/Downloads/Mind_Neuro_AI_Philosophy_Question_Bank/06_MOCK_EXAMINATIONS/Mock_Exam_02_XAI_Ethics_Frontiers.md)
+3. [Mock_Exam_03_Comprehensive_Faculty_Selection.md](file:///Users/anshu_macmini/Downloads/Mind_Neuro_AI_Philosophy_Question_Bank/06_MOCK_EXAMINATIONS/Mock_Exam_03_Comprehensive_Faculty_Selection.md)
+4. [Mock_Exam_04_Advanced_Frontiers.md](file:///Users/anshu_macmini/Downloads/Mind_Neuro_AI_Philosophy_Question_Bank/06_MOCK_EXAMINATIONS/Mock_Exam_04_Advanced_Frontiers.md)

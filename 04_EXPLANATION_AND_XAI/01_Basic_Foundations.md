@@ -154,3 +154,173 @@ Lipton warns that when papers claim "our model is interpretable," they frequentl
 - **(D) is incorrect**: Lipton strongly advocates for rigorous auditing and ethical accountability; his goal is conceptual precision, not dismissing model safety or oversight.
 
 **Primary Textual Reference**: Zachary C. Lipton, "The Mythos of Model Interpretability", *Communications of the ACM* 61, no. 10 (2018): 36–43 (originally presented at ICML Workshop on Human Interpretability in Machine Learning, 2016).
+
+
+---
+
+### Question 5: Carl Hempel's Inductive-Statistical (IS) Model and the Paresis Paradox
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Carl G. Hempel (*Aspects of Scientific Explanation*, 1965), Michael Scriven (1959)
+
+In developing the **Inductive-Statistical (IS) Model** of scientific explanation for probabilistic phenomena, Carl Hempel insisted on the **Requirement of High Inductive Probability**: the explanans must confer a high inductive probability (close to 1) upon the explanandum. Why did Michael Scriven’s famous **Paresis Counterexample** decisively refute this high-probability requirement?
+
+- (A) Only about 8% to 10% of patients with untreated latent syphilis ever develop paresis (tertiary neurosyphilis), yet contracting syphilis is the **sole true scientific explanation** for why a patient developed paresis (no one gets paresis without syphilis); because the probability of developing paresis given syphilis is extremely low ($P < 0.1$), Hempel’s IS model must absurdly claim that syphilis cannot explain paresis, proving that genuine scientific explanations do not require high inductive probability.
+- (B) Paresis is an infectious disease transmitted exclusively by contaminated computer keyboards.
+- (C) Scriven proved that syphilis is caused by psychological anxiety rather than Treponema pallidum.
+- (D) The counterexample proves that medical pathology is an unscientific superstition.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+Hempel recognized that universal, exceptionless deterministic laws ($(\forall x)(Fx \to Gx)$) do not exist in genetics, medicine, or quantum mechanics. He formulated the **Inductive-Statistical (IS) Model**:
+$$\begin{array}{ll}
+L: & P(G \mid F) = r \quad (\text{where } r \text{ is close to } 1) \\
+C: & Fb \\
+\hline \hline [r] \\
+E: & Gb
+\end{array}$$
+Hempel insisted that the statistical probability $r$ must be **very high**: an explanation must show that the event was almost certain to happen.
+1. **Scriven's Devastating Counterexample (1959)**:
+   - Consider **Paresis** (general paresis of the insane, a severe neuropsychiatric degeneration caused by tertiary syphilis):
+     - Fact 1: Only a small minority (around 8–10%) of untreated syphilitic patients ever develop paresis.
+     - Fact 2: Syphilis is the **only known cause of paresis**. If someone has paresis, having had untreated syphilis is a necessary precondition.
+   - Now, a patient (Jones) asks his doctor: *"Why did I develop paresis?"*
+   - The doctor answers: *"Because you contracted untreated latent syphilis ten years ago."*
+   - Every physician and scientist agrees that **this is a completely valid, correct, and illuminating scientific explanation**.
+2. **The Collapse of Hempel's IS Model**:
+   - In Hempel's formal model: $P(\text{Paresis} \mid \text{Syphilis}) \approx 0.08$ (Low probability!).
+   - Under Hempel’s High Probability requirement, the doctor's explanation is **rejected as completely invalid**, because having syphilis made it 92% probable that Jones would *not* develop paresis!
+   - This proved that what makes a factor explanatory is **not high probability**, but **statistical relevance / causal difference-making**: syphilis dramatically raises the probability of paresis (from 0 to 0.08), making it the indispensable explanatory difference-maker.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Paresis is caused by the spirochete bacterium *Treponema pallidum*, not computer keyboards.
+- **(C) is incorrect**: Syphilis is a biological bacterial venereal disease, not a neurotic psychological anxiety.
+- **(D) is incorrect**: Scriven's argument is an analytical defense of genuine medical explanation against rigid, defective logical empiricist models.
+
+**Primary Textual Reference**: Michael Scriven, "Explanation and Prediction in Evolutionary Theory", *Science* 130, no. 3374 (1959): 477–482; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965), Chapter 3: "Inductive-Statistical Explanation".
+
+---
+
+### Question 6: The Barometer Counterexample to the DN Model: Common Cause and Screeners-Off
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Hans Reichenbach (*The Direction of Time*, 1956), Wesley C. Salmon (1984)
+
+Another classic counterexample that exposed the fundamental flaw of the Deductive-Nomological (DN) covering-law model is the **Barometer and the Storm Counterexample**. Consider the following valid deduction:
+1. *Law*: Whenever the pointer of an accurate barometer drops rapidly, a violent storm occurs within 6 hours.
+2. *Condition*: The pointer on this barometer dropped rapidly at 2:00 PM.
+3. *Conclusion*: Therefore, a violent storm occurred at 6:00 PM.
+
+Why does this satisfy Hempel's DN model perfectly, yet fail completely as a genuine scientific explanation?
+
+- (A) The barometer's falling needle and the impending storm are both collateral joint effects of a single hidden **common cause**—a drop in atmospheric air pressure; the drop in atmospheric pressure **screens off** the correlation between the barometer and the storm, proving that the barometer pointer does not explain the storm because it has zero causal efficacy in producing rain or wind.
+- (B) Barometers only function at sea level and fail on high-altitude mountains.
+- (C) The argument fails because storm predictions are protected by commercial weather channel copyrights.
+- (D) The conclusion is false because rain clouds are made of liquid helium that defies atmospheric pressure.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The Barometer problem illustrates the fatal vulnerability of the DN model to **spurious correlation resulting from a common cause**:
+1. **The Common Cause Structure (Reichenbach 1956)**:
+   ```
+                         [Drop in Atmospheric Pressure] (C)
+                                  /            \
+                                 /              \
+                                v                v
+            [Barometer Needle Drops] (A)     [Violent Storm Occurs] (B)
+   ```
+   - Event $A$ (needle drops) is strongly, reliably correlated with Event $B$ (storm).
+   - In fact, the correlation is so reliable that one can formulate a true, universal lawlike generalization: *"All rapidly falling barometers are followed by storms."*
+   - The argument satisfies every single formal condition of Hempel's DN model: true general law, true antecedent condition, and logically valid deduction.
+2. **Why It Is a Defective Explanation**:
+   - Any child knows that **the barometer does not cause the storm**. If you take a blowtorch and manually force the barometer needle to rise, the storm will still arrive!
+   - Event $A$ and Event $B$ are merely parallel symptoms of a common cause $C$ (low atmospheric pressure).
+3. **Reichenbach's Screener-Off Criterion**:
+   - A common cause $C$ **screens off** the correlation between $A$ and $B$:
+     $$P(B \mid A, C) = P(B \mid C)$$
+   - Once you condition on the true cause (air pressure $C$), knowing the state of the barometer needle $A$ provides **zero additional information** about the storm $B$.
+   - The DN model, relying solely on deductive subsumption under generalizations, cannot distinguish between genuine causes and screened-off collateral symptoms, proving once again that scientific explanation requires **objective causal networks**, not mere logical deductions.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Barometers function across elevations (with altitude pressure offsets); the philosophical counterexample holds identically in idealized isobaric meteorology.
+- **(C) is incorrect**: Commercial copyright has zero bearing on the logical empiricist philosophy of scientific explanation.
+- **(D) is incorrect**: Rain clouds are composed of condensed water vapor droplets ($H_2O$), not liquid helium.
+
+**Primary Textual Reference**: Hans Reichenbach, *The Direction of Time* (University of California Press, 1956), Section 19: "The Principle of the Common Cause"; Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984), Chapter 6.
+
+---
+
+### Question 7: Local vs. Global Interpretability in Machine Learning Epistemology
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Christoph Molnar (*Interpretable Machine Learning*, 2020), Zachary Lipton (2018)
+
+In the epistemology of Explainable AI (XAI), researchers strictly distinguish between **Local Interpretability** and **Global Interpretability**. What is the precise conceptual difference in scope between these two levels of explanation?
+
+- (A) **Local Interpretability** explains the causal or statistical reasoning behind a **single specific prediction or individual instance** (e.g., explaining why applicant $X$ was specifically denied a loan today); whereas **Global Interpretability** explains the comprehensive, overarching decision logic of the **entire model across the whole input space** (e.g., how the model weights features, interacts variables, and partitions the complete high-dimensional manifold).
+- (B) Local interpretability is for algorithms running on desktop computers, while Global interpretability is for algorithms running in outer space satellites.
+- (C) Local interpretability only works in languages spoken in Western Europe, while Global interpretability works worldwide.
+- (D) Global interpretability means printing all model weights onto physical paper rolls.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+The distinction between local and global explanation is fundamental to auditability, jurisprudence, and model governance:
+1. **Local Interpretability (Instance-Level Explanations)**:
+   - Target: A single decision on a single data point $\mathbf{x} = (x_1, x_2, \dots, x_d)$.
+   - Question: *"Why did the model classify Patient #4021 as having high stroke risk?"*
+   - Tools: Local surrogates (LIME), instance-level Shapley values (TreeSHAP / KernelSHAP), counterfactuals (*"If patient's blood pressure were 120 instead of 160, risk would be low"*), or integrated gradients.
+   - Advantage: Highly accessible to end-users (patients, loan applicants, judges); easy to approximate complex decision boundaries locally because almost any smooth non-linear function is approximately linear in a tiny neighborhood.
+2. **Global Interpretability (Model-Level Explanations)**:
+   - Target: The entire behavioral landscape of the model $f: \mathcal{X} \to \mathcal{Y}$.
+   - Question: *"How does this model behave in general across all possible inputs? What are its primary decision heuristics, edge cases, and feature interactions?"*
+   - Tools: Inherently transparent models (shallow decision trees, Generalized Additive Models / GAMs with pairwise splines, rule lists), partial dependence plots (PDP), permutation feature importance.
+   - Advantage: Essential for system developers, regulators, and auditors to verify safety, detect backdoor vulnerabilities, ensure fairness across demographic cohorts, and debug systemic algorithmic bias before deployment.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Uses a literal geographic/spatial interpretation of "local" and "global"; the distinction is mathematical and epistemological (point-level vs. function-level scope).
+- **(C) is incorrect**: Linguistic translation has nothing to do with instance-level vs. distribution-level algorithmic interpretability.
+- **(D) is incorrect**: Printing billions of weights on paper produces uninterpretable noise, not global understanding.
+
+**Primary Textual Reference**: Christoph Molnar, *Interpretable Machine Learning: A Guide for Making Black Box Models Explainable* (2nd ed., 2022), Chapter 2: "Interpretability"; Zachary C. Lipton, "The Mythos of Model Interpretability", *Communications of the ACM* 61, no. 10 (2018): 36–43.
+
+---
+
+### Question 8: Feature Attribution in Deep Learning: Gradient Saliency vs. Input Perturbation
+**Format**: Conceptual Multiple-Choice (Format A)  
+**Difficulty Tier**: Basic / Foundational  
+**Primary Thinkers**: Karen Simonyan et al. (2013), Marco Tulio Ribeiro et al. (2016), Mukund Sundararajan et al. (2017)
+
+In post-hoc Explainable AI for deep neural networks, two foundational methodological paradigms dominate feature attribution: **Gradient-based methods** (e.g., Vanilla Saliency Maps, Integrated Gradients) and **Perturbation-based methods** (e.g., Occlusion, LIME). What is the core technical difference in how these two paradigms compute the explanatory importance of an input feature?
+
+- (A) **Gradient-based methods** compute the partial derivatives of the model's output with respect to the input features ($\frac{\partial y}{\partial x_i}$) via backpropagation, measuring how infinitesimal changes in a feature modulate the prediction locally; whereas **Perturbation-based methods** systematically mask, remove, or alter input features (measuring the discrete drop in performance or change in output $\Delta y$) to calculate empirical feature dependence without inspecting internal network gradients.
+- (B) Gradient methods require physical water flowing down an incline, while perturbation methods require mechanical shaking of the computer motherboard.
+- (C) Gradient methods only work on text, while perturbation methods only work on audio files.
+- (D) Perturbation methods prove that all deep neural networks are linear functions with zero capacity.
+
+**Correct Answer**: **(A)**
+
+#### Philosophical Grounding & Demonstration:
+1. **Gradient-Based Attribution (White-Box Explanations)**:
+   - Introduced by Simonyan, Vedaldi, and Zisserman (2013, "Deep Inside Convolutional Networks").
+   - Exploits access to internal network architecture: computes the gradient of class score $S_c$ with respect to input image pixels $I$:
+     $$A_i = \left| \frac{\partial S_c}{\partial I_i} \right|$$
+   - **Integrated Gradients (Sundararajan et al. 2017)**: Solves the gradient saturation problem by integrating gradients along a straight line path from a neutral baseline $x'$ to input $x$:
+     $$\text{IG}_i(x) = (x_i - x'_i) \times \int_{0}^1 \frac{\partial F(x' + \alpha(x - x'))}{\partial x_i} d\alpha$$
+   - Advantage: Computationally very fast (requires only one or a few backpropagation passes).
+   - Limitation: Susceptible to gradient saturation, gradient noise, and adversarial fooling.
+2. **Perturbation-Based Attribution (Black-Box Explanations)**:
+   - Treats the model as an opaque oracle $f(x)$.
+   - Modifies the input directly: replaces a pixel patch with gray noise, deletes a word from a sentence, or samples points from a Gaussian distribution around $x$.
+   - Measures output difference: $\Delta y = f(x) - f(x_{\text{perturbed}})$.
+   - Advantage: Completely model-agnostic; does not require access to weights, gradients, or proprietary architecture.
+   - Limitation: Computationally expensive (requires thousands of forward passes per instance); perturbations often push inputs off the natural data manifold, creating out-of-distribution artifacts.
+
+#### Distractor Analysis:
+- **(B) is incorrect**: Uses a literal interpretation of "gradient" as a physical hill slope and "perturbation" as mechanical physical vibration.
+- **(C) is incorrect**: Both gradient and perturbation paradigms apply universally across vision, NLP, audio, and tabular data.
+- **(D) is incorrect**: Deep networks are non-linear; perturbation methods evaluate non-linear sensitivity, they do not reduce networks to linear functions.
+
+**Primary Textual Reference**: Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman, "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps", *ICLR Workshop* (2014); Mukund Sundararajan, Ankur Taly, and Qiqi Yan, "Axiomatic Attribution for Deep Networks", *ICML* (2017): 3319–3328; Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin, "'Why Should I Trust You?': Explaining the Predictions of Any Classifier", *KDD* (2016).
