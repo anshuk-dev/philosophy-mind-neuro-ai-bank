@@ -30,19 +30,225 @@
     }
   </script>
 
+  <!-- Google Fonts: Inter, Merriweather, Lora, Atkinson Hyperlegible, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+
   <!-- KaTeX for LaTeX Math & Logic symbols -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
   
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+    :root {
+      --reader-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --reader-font-scale: 1;
+      --reader-line-height: 1.65;
+    }
+
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: var(--reader-font-family);
+      transition: background-color 0.25s ease, color 0.25s ease;
     }
-    .font-serif-title {
-      font-family: 'Merriweather', serif;
+
+    /* Font Family Attributes */
+    body[data-font="academic"] {
+      --reader-font-family: 'Merriweather', Georgia, Cambria, serif;
     }
+    body[data-font="modern"] {
+      --reader-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    body[data-font="editorial"] {
+      --reader-font-family: 'Lora', Georgia, serif;
+    }
+    body[data-font="accessible"] {
+      --reader-font-family: 'Atkinson Hyperlegible', -apple-system, sans-serif;
+    }
+    body[data-font="logic"] {
+      --reader-font-family: 'JetBrains Mono', Menlo, Consolas, monospace;
+    }
+
+    /* Scalable Content Typography */
+    .question-text-scalable,
+    .opt-text-scalable,
+    .solution-text-scalable,
+    .preview-text-scalable {
+      font-size: calc(0.95rem * var(--reader-font-scale, 1)) !important;
+      line-height: var(--reader-line-height, 1.65) !important;
+    }
+
+    /* Reading Column Measure Focus Mode */
+    body[data-column="focus"] .main-content-constraint {
+      max-width: 52rem !important; /* ~832px optimal reading column */
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* KaTeX equation proportional sizing */
+    .katex {
+      font-size: 1.05em !important;
+    }
+
+    /* ======================================================== */
+    /* THEME 1: SEPIA / ACADEMIC PARCHMENT (KINDLE READER STYLE) */
+    /* ======================================================== */
+    html[data-theme="sepia"] {
+      color-scheme: light;
+    }
+    html[data-theme="sepia"] body {
+      background-color: #f7f3e8 !important;
+      color: #2b2318 !important;
+    }
+    html[data-theme="sepia"] .bg-slate-50,
+    html[data-theme="sepia"] .bg-slate-950,
+    html[data-theme="sepia"] .dark\:bg-slate-950 {
+      background-color: #f7f3e8 !important;
+    }
+    html[data-theme="sepia"] .bg-white,
+    html[data-theme="sepia"] .bg-white\/95,
+    html[data-theme="sepia"] .dark\:bg-slate-900,
+    html[data-theme="sepia"] .dark\:bg-slate-900\/95,
+    html[data-theme="sepia"] header,
+    html[data-theme="sepia"] footer {
+      background-color: #ede4cf !important;
+      color: #2b2318 !important;
+    }
+    html[data-theme="sepia"] .border-slate-200,
+    html[data-theme="sepia"] .border-slate-100,
+    html[data-theme="sepia"] .dark\:border-slate-800,
+    html[data-theme="sepia"] .dark\:border-slate-700\/80 {
+      border-color: #dbcaa9 !important;
+    }
+    html[data-theme="sepia"] .bg-slate-100,
+    html[data-theme="sepia"] .dark\:bg-slate-800,
+    html[data-theme="sepia"] .dark\:bg-slate-800\/40,
+    html[data-theme="sepia"] .dark\:bg-slate-800\/50,
+    html[data-theme="sepia"] .dark\:bg-slate-800\/60 {
+      background-color: #e2d6bc !important;
+      color: #2b2318 !important;
+    }
+    html[data-theme="sepia"] .text-slate-900,
+    html[data-theme="sepia"] .dark\:text-white,
+    html[data-theme="sepia"] .dark\:text-slate-100 {
+      color: #1e170e !important;
+    }
+    html[data-theme="sepia"] .text-slate-800,
+    html[data-theme="sepia"] .dark\:text-slate-200 {
+      color: #2c2216 !important;
+    }
+    html[data-theme="sepia"] .text-slate-700,
+    html[data-theme="sepia"] .dark\:text-slate-300 {
+      color: #423624 !important;
+    }
+    html[data-theme="sepia"] .text-slate-600,
+    html[data-theme="sepia"] .text-slate-500,
+    html[data-theme="sepia"] .dark\:text-slate-400 {
+      color: #6a573d !important;
+    }
+    html[data-theme="sepia"] .text-cyan-600,
+    html[data-theme="sepia"] .dark\:text-cyan-400 {
+      color: #b45309 !important; /* amber accent */
+    }
+    html[data-theme="sepia"] .bg-cyan-600 {
+      background-color: #b45309 !important;
+    }
+    html[data-theme="sepia"] .bg-cyan-50,
+    html[data-theme="sepia"] .dark\:bg-cyan-950\/50,
+    html[data-theme="sepia"] .dark\:bg-cyan-950\/40 {
+      background-color: #eeddbb !important;
+      color: #853702 !important;
+    }
+    html[data-theme="sepia"] .border-cyan-500,
+    html[data-theme="sepia"] .dark\:border-cyan-400 {
+      border-color: #b45309 !important;
+    }
+
+    /* ======================================================== */
+    /* THEME 2: OLED MIDNIGHT / TRUE BLACK (PITCH BLACK OLED)   */
+    /* ======================================================== */
+    html[data-theme="oled"] {
+      color-scheme: dark;
+    }
+    html[data-theme="oled"] body {
+      background-color: #000000 !important;
+      color: #f3f4f6 !important;
+    }
+    html[data-theme="oled"] .bg-slate-50,
+    html[data-theme="oled"] .bg-slate-950,
+    html[data-theme="oled"] .dark\:bg-slate-950 {
+      background-color: #000000 !important;
+    }
+    html[data-theme="oled"] .bg-white,
+    html[data-theme="oled"] .bg-white\/95,
+    html[data-theme="oled"] .dark\:bg-slate-900,
+    html[data-theme="oled"] .dark\:bg-slate-900\/95,
+    html[data-theme="oled"] header,
+    html[data-theme="oled"] footer {
+      background-color: #090909 !important;
+      color: #f3f4f6 !important;
+    }
+    html[data-theme="oled"] .border-slate-200,
+    html[data-theme="oled"] .border-slate-100,
+    html[data-theme="oled"] .dark\:border-slate-800,
+    html[data-theme="oled"] .dark\:border-slate-700\/80 {
+      border-color: #1e1e1e !important;
+    }
+    html[data-theme="oled"] .bg-slate-100,
+    html[data-theme="oled"] .dark\:bg-slate-800,
+    html[data-theme="oled"] .dark\:bg-slate-800\/40,
+    html[data-theme="oled"] .dark\:bg-slate-800\/50,
+    html[data-theme="oled"] .dark\:bg-slate-800\/60 {
+      background-color: #141414 !important;
+      color: #e5e7eb !important;
+    }
+
+    /* ======================================================== */
+    /* THEME 3: NORDIC FOREST / DEEP EMERALD PINE               */
+    /* ======================================================== */
+    html[data-theme="forest"] {
+      color-scheme: dark;
+    }
+    html[data-theme="forest"] body {
+      background-color: #06110f !important;
+      color: #ecfdf5 !important;
+    }
+    html[data-theme="forest"] .bg-slate-50,
+    html[data-theme="forest"] .bg-slate-950,
+    html[data-theme="forest"] .dark\:bg-slate-950 {
+      background-color: #06110f !important;
+    }
+    html[data-theme="forest"] .bg-white,
+    html[data-theme="forest"] .bg-white\/95,
+    html[data-theme="forest"] .dark\:bg-slate-900,
+    html[data-theme="forest"] .dark\:bg-slate-900\/95,
+    html[data-theme="forest"] header,
+    html[data-theme="forest"] footer {
+      background-color: #0c1f1b !important;
+      color: #ecfdf5 !important;
+    }
+    html[data-theme="forest"] .border-slate-200,
+    html[data-theme="forest"] .border-slate-100,
+    html[data-theme="forest"] .dark\:border-slate-800,
+    html[data-theme="forest"] .dark\:border-slate-700\/80 {
+      border-color: #193831 !important;
+    }
+    html[data-theme="forest"] .bg-slate-100,
+    html[data-theme="forest"] .dark\:bg-slate-800,
+    html[data-theme="forest"] .dark\:bg-slate-800\/40,
+    html[data-theme="forest"] .dark\:bg-slate-800\/50,
+    html[data-theme="forest"] .dark\:bg-slate-800\/60 {
+      background-color: #142e28 !important;
+      color: #d1fae5 !important;
+    }
+    html[data-theme="forest"] .text-cyan-600,
+    html[data-theme="forest"] .dark\:text-cyan-400 {
+      color: #34d399 !important; /* emerald accent */
+    }
+    html[data-theme="forest"] .bg-cyan-600 {
+      background-color: #059669 !important;
+    }
+
     .custom-scrollbar::-webkit-scrollbar {
       width: 6px;
       height: 6px;
@@ -99,7 +305,7 @@
           </button>
           <button onclick="navigate('search')" id="nav-search" class="nav-btn px-3 py-2 rounded-lg text-sm font-medium transition-colors text-slate-600 dark:text-slate-300 hover:text-cyan-600 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center space-x-1">
             <span>Search</span>
-            <span id="nav-total-pill" class="text-xs px-1.5 py-0.5 rounded-full bg-slate-200 dark:bg-slate-700 font-mono text-slate-500 dark:text-slate-400">80</span>
+            <span id="nav-total-pill" class="text-xs px-1.5 py-0.5 rounded-full bg-slate-200 dark:bg-slate-700 font-mono text-slate-500 dark:text-slate-400">200</span>
           </button>
           <button onclick="navigate('bookmarks')" id="nav-bookmarks" class="nav-btn px-3 py-2 rounded-lg text-sm font-medium transition-colors text-slate-600 dark:text-slate-300 hover:text-cyan-600 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center space-x-1">
             <span>Bookmarks</span>
@@ -108,14 +314,20 @@
         </nav>
 
         <!-- Right Controls -->
-        <div class="flex items-center space-x-2">
+        <div class="flex items-center space-x-1.5 sm:space-x-2">
+          <!-- Typography & Theme Settings Button -->
+          <button onclick="toggleTypographyModal()" class="px-2.5 py-1.5 rounded-lg text-slate-700 hover:text-slate-900 dark:text-slate-200 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center space-x-1.5 border border-slate-200 dark:border-slate-700/60 shadow-xs" title="Customize Font, Theme & Reading Typography">
+            <span class="font-serif font-black text-xs px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700">Aa</span>
+            <span class="hidden sm:inline text-xs font-semibold">Typography</span>
+          </button>
+
           <!-- GitHub Link Button -->
           <a href="https://github.com/anshuk-dev/philosophy-mind-neuro-ai-bank" target="_blank" rel="noopener noreferrer" class="p-2 rounded-lg text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center space-x-1.5" title="View Public GitHub Repository">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
             <span class="hidden sm:inline text-xs font-semibold">GitHub</span>
           </a>
 
-          <!-- Dark mode toggle -->
+          <!-- Dark mode quick toggle -->
           <button onclick="toggleDarkMode()" class="p-2 rounded-lg text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Toggle theme">
             <svg id="theme-icon-sun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9h-1m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
             <svg id="theme-icon-moon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
@@ -136,6 +348,10 @@
       <button onclick="navigate('mocks'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Mock Simulator</button>
       <button onclick="navigate('search'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Search Bank</button>
       <button onclick="navigate('bookmarks'); toggleMobileMenu()" class="block w-full text-left px-3 py-2 rounded-lg text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">Saved Bookmarks</button>
+      <button onclick="toggleTypographyModal(); toggleMobileMenu()" class="flex items-center space-x-2 w-full text-left px-3 py-2 rounded-lg text-base font-medium text-cyan-600 dark:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800">
+        <span class="font-serif font-bold text-sm px-1.5 py-0.5 rounded bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-200">Aa</span>
+        <span>Typography & Reader Themes</span>
+      </button>
       <a href="https://github.com/anshuk-dev/philosophy-mind-neuro-ai-bank" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 px-3 py-2 rounded-lg text-base font-medium text-cyan-600 dark:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800">
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
         <span>GitHub Public Repository &rarr;</span>
@@ -144,7 +360,7 @@
   </header>
 
   <!-- MAIN CONTAINER -->
-  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 main-content-constraint transition-all duration-300">
 
     <!-- 1. DASHBOARD VIEW -->
     <section id="view-dashboard" class="space-y-8">
@@ -574,6 +790,262 @@
     </div>
   </footer>
 
+  <!-- FLOATING QUICK TYPOGRAPHY BAR -->
+  <aside id="floating-typography-bar" class="fixed bottom-5 right-5 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-700 shadow-xl rounded-full px-3 py-1.5 flex items-center space-x-1.5 transition-all">
+    <button onclick="adjustFontSize(-0.05)" class="w-8 h-8 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center justify-center text-xs font-bold text-slate-700 dark:text-slate-300 transition-colors" title="Decrease font size (A-)">
+      A-
+    </button>
+    <button id="quick-font-scale-display" onclick="resetFontSize()" class="text-xs font-mono font-bold text-slate-500 dark:text-slate-400 px-1.5 py-0.5 rounded hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Reset to 100%">
+      100%
+    </button>
+    <button onclick="adjustFontSize(0.05)" class="w-8 h-8 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center justify-center text-sm font-bold text-slate-800 dark:text-slate-100 transition-colors" title="Increase font size (A+)">
+      A+
+    </button>
+    <div class="w-px h-5 bg-slate-200 dark:bg-slate-700 mx-0.5"></div>
+    <button onclick="toggleTypographyModal()" class="w-8 h-8 rounded-full bg-cyan-100 dark:bg-cyan-950/70 hover:bg-cyan-200 dark:hover:bg-cyan-900 text-cyan-800 dark:text-cyan-200 flex items-center justify-center text-xs font-black shadow-xs transition-colors" title="Open Typography & Theme Settings">
+      Aa
+    </button>
+  </aside>
+
+  <!-- TYPOGRAPHY & THEME CUSTOMIZATION MODAL -->
+  <div id="typography-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm transition-opacity">
+    <div class="bg-white dark:bg-slate-900 w-full max-w-xl max-h-[90vh] rounded-3xl border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col transition-all">
+      
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between p-5 border-b border-slate-100 dark:border-slate-800">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-cyan-600 to-blue-600 flex items-center justify-center text-white text-sm font-black font-serif shadow-xs">
+            Aa
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-900 dark:text-white">Reading Typography & Theme</h3>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400">Customize typeface, font scale, reading theme, and line measure.</p>
+          </div>
+        </div>
+        <button onclick="toggleTypographyModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <!-- Modal Body (Scrollable) -->
+      <div class="p-6 overflow-y-auto space-y-6 custom-scrollbar text-sm">
+        
+        <!-- SECTION 1: THEMES -->
+        <div class="space-y-2.5">
+          <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 flex items-center justify-between">
+            <span>Color Palette & Theme</span>
+            <span class="text-[11px] text-slate-400 font-normal">5 Curated Ambiances</span>
+          </label>
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5" id="theme-options-grid">
+            <!-- Modern Light -->
+            <button onclick="setTheme('light')" id="theme-btn-light" class="theme-btn p-3 rounded-2xl border text-left flex flex-col justify-between space-y-2 hover:border-cyan-500 transition-all bg-slate-50 border-slate-200 text-slate-800">
+              <div class="flex items-center justify-between">
+                <span class="w-5 h-5 rounded-full bg-white border border-slate-300 shadow-xs flex items-center justify-center text-[10px]">☀️</span>
+                <span class="theme-check-icon text-cyan-600 font-bold text-xs hidden">✓</span>
+              </div>
+              <div>
+                <div class="font-bold text-xs">Modern Light</div>
+                <div class="text-[10px] text-slate-500">Clean Slate</div>
+              </div>
+            </button>
+
+            <!-- Academic Sepia -->
+            <button onclick="setTheme('sepia')" id="theme-btn-sepia" class="theme-btn p-3 rounded-2xl border text-left flex flex-col justify-between space-y-2 hover:border-amber-600 transition-all bg-[#fbf8f1] border-[#e2d5bd] text-[#2b2318]">
+              <div class="flex items-center justify-between">
+                <span class="w-5 h-5 rounded-full bg-[#f4ede0] border border-[#d6c5a5] shadow-xs flex items-center justify-center text-[10px]">📜</span>
+                <span class="theme-check-icon text-amber-600 font-bold text-xs hidden">✓</span>
+              </div>
+              <div>
+                <div class="font-bold text-xs">Academic Sepia</div>
+                <div class="text-[10px] text-amber-800/80">Warm Parchment</div>
+              </div>
+            </button>
+
+            <!-- Oxford Dark -->
+            <button onclick="setTheme('dark')" id="theme-btn-dark" class="theme-btn p-3 rounded-2xl border text-left flex flex-col justify-between space-y-2 hover:border-cyan-500 transition-all bg-slate-900 border-slate-700 text-slate-100">
+              <div class="flex items-center justify-between">
+                <span class="w-5 h-5 rounded-full bg-slate-800 border border-slate-600 shadow-xs flex items-center justify-center text-[10px]">🌙</span>
+                <span class="theme-check-icon text-cyan-400 font-bold text-xs hidden">✓</span>
+              </div>
+              <div>
+                <div class="font-bold text-xs">Oxford Dark</div>
+                <div class="text-[10px] text-slate-400">Deep Navy Slate</div>
+              </div>
+            </button>
+
+            <!-- OLED Midnight -->
+            <button onclick="setTheme('oled')" id="theme-btn-oled" class="theme-btn p-3 rounded-2xl border text-left flex flex-col justify-between space-y-2 hover:border-sky-400 transition-all bg-black border-neutral-800 text-white">
+              <div class="flex items-center justify-between">
+                <span class="w-5 h-5 rounded-full bg-neutral-900 border border-neutral-700 shadow-xs flex items-center justify-center text-[10px]">🖤</span>
+                <span class="theme-check-icon text-sky-400 font-bold text-xs hidden">✓</span>
+              </div>
+              <div>
+                <div class="font-bold text-xs">OLED Midnight</div>
+                <div class="text-[10px] text-neutral-400">Pitch Black (0%)</div>
+              </div>
+            </button>
+
+            <!-- Nordic Forest -->
+            <button onclick="setTheme('forest')" id="theme-btn-forest" class="theme-btn p-3 rounded-2xl border text-left flex flex-col justify-between space-y-2 hover:border-emerald-400 transition-all bg-[#091512] border-[#1d3d34] text-emerald-100">
+              <div class="flex items-center justify-between">
+                <span class="w-5 h-5 rounded-full bg-[#102922] border border-[#275347] shadow-xs flex items-center justify-center text-[10px]">🌲</span>
+                <span class="theme-check-icon text-emerald-400 font-bold text-xs hidden">✓</span>
+              </div>
+              <div>
+                <div class="font-bold text-xs">Nordic Forest</div>
+                <div class="text-[10px] text-emerald-300/80">Deep Pine Green</div>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- SECTION 2: TYPEFACE / FONT FAMILY -->
+        <div class="space-y-2.5">
+          <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            Reading Typeface (Font Family)
+          </label>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="font-options-grid">
+            <!-- Academic Serif (Merriweather) -->
+            <button onclick="setFontFamily('academic')" id="font-btn-academic" class="font-select-btn p-3 rounded-xl border text-left border-slate-200 dark:border-slate-800 hover:border-cyan-500 dark:hover:border-cyan-400 transition-all flex items-center justify-between">
+              <div>
+                <div class="text-sm font-bold text-slate-900 dark:text-white" style="font-family: 'Merriweather', serif;">Academic Serif</div>
+                <div class="text-[11px] text-slate-500 dark:text-slate-400" style="font-family: 'Merriweather', serif;">Merriweather — Monograph prose</div>
+              </div>
+              <span class="font-check-icon text-cyan-600 dark:text-cyan-400 font-bold text-xs hidden">✓</span>
+            </button>
+
+            <!-- Modern Sans (Inter) -->
+            <button onclick="setFontFamily('modern')" id="font-btn-modern" class="font-select-btn p-3 rounded-xl border text-left border-slate-200 dark:border-slate-800 hover:border-cyan-500 dark:hover:border-cyan-400 transition-all flex items-center justify-between">
+              <div>
+                <div class="text-sm font-bold text-slate-900 dark:text-white" style="font-family: 'Inter', sans-serif;">Modern Sans</div>
+                <div class="text-[11px] text-slate-500 dark:text-slate-400" style="font-family: 'Inter', sans-serif;">Inter — Clean geometric clarity</div>
+              </div>
+              <span class="font-check-icon text-cyan-600 dark:text-cyan-400 font-bold text-xs hidden">✓</span>
+            </button>
+
+            <!-- Editorial Serif (Lora) -->
+            <button onclick="setFontFamily('editorial')" id="font-btn-editorial" class="font-select-btn p-3 rounded-xl border text-left border-slate-200 dark:border-slate-800 hover:border-cyan-500 dark:hover:border-cyan-400 transition-all flex items-center justify-between">
+              <div>
+                <div class="text-sm font-bold text-slate-900 dark:text-white" style="font-family: 'Lora', serif;">Editorial Serif</div>
+                <div class="text-[11px] text-slate-500 dark:text-slate-400" style="font-family: 'Lora', serif;">Lora — Literary cadence</div>
+              </div>
+              <span class="font-check-icon text-cyan-600 dark:text-cyan-400 font-bold text-xs hidden">✓</span>
+            </button>
+
+            <!-- High Legibility Accessible (Atkinson Hyperlegible) -->
+            <button onclick="setFontFamily('accessible')" id="font-btn-accessible" class="font-select-btn p-3 rounded-xl border text-left border-slate-200 dark:border-slate-800 hover:border-cyan-500 dark:hover:border-cyan-400 transition-all flex items-center justify-between">
+              <div>
+                <div class="text-sm font-bold text-slate-900 dark:text-white" style="font-family: 'Atkinson Hyperlegible', sans-serif;">High Legibility</div>
+                <div class="text-[11px] text-slate-500 dark:text-slate-400" style="font-family: 'Atkinson Hyperlegible', sans-serif;">Atkinson — Dyslexic/low-vision</div>
+              </div>
+              <span class="font-check-icon text-cyan-600 dark:text-cyan-400 font-bold text-xs hidden">✓</span>
+            </button>
+
+            <!-- Formal Logic Mono (JetBrains Mono) -->
+            <button onclick="setFontFamily('logic')" id="font-btn-logic" class="font-select-btn p-3 rounded-xl border text-left border-slate-200 dark:border-slate-800 hover:border-cyan-500 dark:hover:border-cyan-400 transition-all flex items-center justify-between sm:col-span-2">
+              <div>
+                <div class="text-sm font-bold text-slate-900 dark:text-white font-mono">Formal Logic Mono</div>
+                <div class="text-[11px] text-slate-500 dark:text-slate-400 font-mono">JetBrains Mono — Syllogisms, truth tables & proofs</div>
+              </div>
+              <span class="font-check-icon text-cyan-600 dark:text-cyan-400 font-bold text-xs hidden">✓</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- SECTION 3: FONT SIZE SCALING -->
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between">
+            <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              Font Size Scaling
+            </label>
+            <span id="modal-font-scale-display" class="font-mono font-bold text-xs text-cyan-600 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-950/60 px-2 py-0.5 rounded-full">
+              100%
+            </span>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <button onclick="adjustFontSize(-0.05)" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 font-bold text-xs text-slate-700 dark:text-slate-200 transition-colors">
+              A- Smaller
+            </button>
+            <div class="flex-1 grid grid-cols-4 gap-1">
+              <button onclick="setFontScale(0.90)" class="scale-btn py-1.5 rounded-lg border text-xs font-medium border-slate-200 dark:border-slate-800 hover:border-cyan-500 transition-colors" data-scale="0.9">90%</button>
+              <button onclick="setFontScale(1.0)" class="scale-btn py-1.5 rounded-lg border text-xs font-medium border-slate-200 dark:border-slate-800 hover:border-cyan-500 transition-colors" data-scale="1.0">100%</button>
+              <button onclick="setFontScale(1.15)" class="scale-btn py-1.5 rounded-lg border text-xs font-medium border-slate-200 dark:border-slate-800 hover:border-cyan-500 transition-colors" data-scale="1.15">115%</button>
+              <button onclick="setFontScale(1.30)" class="scale-btn py-1.5 rounded-lg border text-xs font-medium border-slate-200 dark:border-slate-800 hover:border-cyan-500 transition-colors" data-scale="1.3">130%</button>
+            </div>
+            <button onclick="adjustFontSize(0.05)" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800 font-bold text-xs text-slate-700 dark:text-slate-200 transition-colors">
+              A+ Larger
+            </button>
+          </div>
+        </div>
+
+        <!-- SECTION 4: LINE SPACING & READING COLUMN -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Line Spacing -->
+          <div class="space-y-2">
+            <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              Line Spacing (Leading)
+            </label>
+            <div class="grid grid-cols-3 gap-1.5" id="line-height-grid">
+              <button onclick="setLineHeight(1.45)" id="lh-btn-145" class="lh-btn py-2 px-1 text-center rounded-xl border border-slate-200 dark:border-slate-800 hover:border-cyan-500 text-xs font-medium transition-all">
+                Compact
+              </button>
+              <button onclick="setLineHeight(1.65)" id="lh-btn-165" class="lh-btn py-2 px-1 text-center rounded-xl border border-slate-200 dark:border-slate-800 hover:border-cyan-500 text-xs font-medium transition-all">
+                Balanced
+              </button>
+              <button onclick="setLineHeight(1.95)" id="lh-btn-195" class="lh-btn py-2 px-1 text-center rounded-xl border border-slate-200 dark:border-slate-800 hover:border-cyan-500 text-xs font-medium transition-all">
+                Spacious
+              </button>
+            </div>
+          </div>
+
+          <!-- Column Width -->
+          <div class="space-y-2">
+            <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              Reading Measure / Width
+            </label>
+            <div class="grid grid-cols-2 gap-1.5" id="column-width-grid">
+              <button onclick="setColumnWidth('standard')" id="col-btn-standard" class="col-btn py-2 px-2 text-center rounded-xl border border-slate-200 dark:border-slate-800 hover:border-cyan-500 text-xs font-medium transition-all">
+                Full Responsive
+              </button>
+              <button onclick="setColumnWidth('focus')" id="col-btn-focus" class="col-btn py-2 px-2 text-center rounded-xl border border-slate-200 dark:border-slate-800 hover:border-cyan-500 text-xs font-medium transition-all">
+                Focus Column
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 5: LIVE INTERACTIVE PREVIEW BOX -->
+        <div class="space-y-2">
+          <label class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            Live Interactive Typography Preview
+          </label>
+          <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/40 space-y-2">
+            <div class="text-xs font-bold text-cyan-600 dark:text-cyan-400">Question Demonstration Preview:</div>
+            <div class="question-text-scalable font-medium text-slate-800 dark:text-slate-200">
+              Princess Elisabeth of Bohemia famously questioned René Descartes: how can an immaterial, unextended thinking soul ($res\ cogitans$) causally impinge upon physical matter ($res\ extensa$) without spatial contiguity?
+            </div>
+            <div class="opt-text-scalable text-xs text-slate-600 dark:text-slate-400 pl-3 border-l-2 border-cyan-500">
+              &bull; (A) Causal interaction requires spatial proximity; immaterial minds lack coordinates, generating Jaegwon Kim's Causal Pairing Problem.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer Actions -->
+      <div class="p-4 bg-slate-50 dark:bg-slate-950/60 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+        <button onclick="resetTypographyDefaults()" class="text-xs font-semibold text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white transition-colors">
+          ↺ Reset to Defaults
+        </button>
+        <button onclick="toggleTypographyModal()" class="px-5 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs shadow-md shadow-cyan-600/20 transition-all">
+          Apply & Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+
   <!-- SCRIPT ENGINE -->
   <script>
     // --- STATE MANAGEMENT ---
@@ -596,37 +1068,244 @@
 
     // --- INITIALIZATION ---
     document.addEventListener("DOMContentLoaded", () => {
-      initTheme();
+      initTypographyAndTheme();
       updateBookmarkCountUI();
       renderDashboard();
       initKaTeX();
     });
 
-    function initTheme() {
-      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    // --- TYPOGRAPHY & THEME PREFERENCES ENGINE ---
+    const DEFAULT_TYPOGRAPHY_PREFS = {
+      theme: 'light', // 'light' | 'sepia' | 'dark' | 'oled' | 'forest'
+      fontFamily: 'modern', // 'academic' | 'modern' | 'editorial' | 'accessible' | 'logic'
+      fontScale: 1.0, // 0.85 to 1.35
+      lineHeight: 1.65, // 1.45 | 1.65 | 1.95
+      columnWidth: 'standard' // 'standard' | 'focus'
+    };
+
+    let typographyPrefs = { ...DEFAULT_TYPOGRAPHY_PREFS };
+
+    function initTypographyAndTheme() {
+      try {
+        const saved = localStorage.getItem('noesis_typography_prefs');
+        if (saved) {
+          typographyPrefs = { ...DEFAULT_TYPOGRAPHY_PREFS, ...JSON.parse(saved) };
+        } else if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          typographyPrefs.theme = 'dark';
+        }
+      } catch (e) {
+        console.error('Error loading typography preferences', e);
+      }
+      applyTypographyPrefs();
+    }
+
+    function saveTypographyPrefs() {
+      try {
+        localStorage.setItem('noesis_typography_prefs', JSON.stringify(typographyPrefs));
+      } catch (e) {
+        console.error('Error saving typography preferences', e);
+      }
+    }
+
+    function applyTypographyPrefs() {
+      applyTheme(typographyPrefs.theme);
+      applyFontFamily(typographyPrefs.fontFamily);
+      applyFontScale(typographyPrefs.fontScale);
+      applyLineHeight(typographyPrefs.lineHeight);
+      applyColumnWidth(typographyPrefs.columnWidth);
+      updateTypographyModalUI();
+    }
+
+    function setTheme(themeName) {
+      typographyPrefs.theme = themeName;
+      applyTheme(themeName);
+      saveTypographyPrefs();
+      updateTypographyModalUI();
+    }
+
+    function applyTheme(themeName) {
+      document.documentElement.setAttribute('data-theme', themeName);
+      const isDarkEquivalent = ['dark', 'oled', 'forest'].includes(themeName);
+      
+      if (isDarkEquivalent) {
         document.documentElement.classList.add('dark');
         document.getElementById('theme-icon-sun')?.classList.remove('hidden');
         document.getElementById('theme-icon-moon')?.classList.add('hidden');
+        localStorage.theme = 'dark';
       } else {
         document.documentElement.classList.remove('dark');
         document.getElementById('theme-icon-sun')?.classList.add('hidden');
         document.getElementById('theme-icon-moon')?.classList.remove('hidden');
+        localStorage.theme = 'light';
       }
     }
 
     function toggleDarkMode() {
-      if (document.documentElement.classList.contains('dark')) {
-        document.documentElement.classList.remove('dark');
-        localStorage.theme = 'light';
-        document.getElementById('theme-icon-sun')?.classList.add('hidden');
-        document.getElementById('theme-icon-moon')?.classList.remove('hidden');
+      if (['dark', 'oled', 'forest'].includes(typographyPrefs.theme)) {
+        setTheme('light');
       } else {
-        document.documentElement.classList.add('dark');
-        localStorage.theme = 'dark';
-        document.getElementById('theme-icon-sun')?.classList.remove('hidden');
-        document.getElementById('theme-icon-moon')?.classList.add('hidden');
+        setTheme('dark');
       }
     }
+
+    function setFontFamily(fontKey) {
+      typographyPrefs.fontFamily = fontKey;
+      applyFontFamily(fontKey);
+      saveTypographyPrefs();
+      updateTypographyModalUI();
+    }
+
+    function applyFontFamily(fontKey) {
+      document.body.setAttribute('data-font', fontKey);
+      const fontMap = {
+        'academic': "'Merriweather', Georgia, Cambria, serif",
+        'modern': "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
+        'editorial': "'Lora', Georgia, serif",
+        'accessible': "'Atkinson Hyperlegible', -apple-system, sans-serif",
+        'logic': "'JetBrains Mono', Menlo, Consolas, monospace"
+      };
+      document.documentElement.style.setProperty('--reader-font-family', fontMap[fontKey] || fontMap['modern']);
+    }
+
+    function setFontScale(scale) {
+      const clamped = Math.max(0.85, Math.min(1.4, Math.round(scale * 100) / 100));
+      typographyPrefs.fontScale = clamped;
+      applyFontScale(clamped);
+      saveTypographyPrefs();
+      updateTypographyModalUI();
+    }
+
+    function adjustFontSize(delta) {
+      setFontScale(typographyPrefs.fontScale + delta);
+    }
+
+    function resetFontSize() {
+      setFontScale(1.0);
+    }
+
+    function applyFontScale(scale) {
+      document.documentElement.style.setProperty('--reader-font-scale', scale);
+      const pct = Math.round(scale * 100) + '%';
+      const quickDisplay = document.getElementById('quick-font-scale-display');
+      if (quickDisplay) quickDisplay.textContent = pct;
+      const modalDisplay = document.getElementById('modal-font-scale-display');
+      if (modalDisplay) modalDisplay.textContent = pct;
+    }
+
+    function setLineHeight(val) {
+      typographyPrefs.lineHeight = parseFloat(val);
+      applyLineHeight(typographyPrefs.lineHeight);
+      saveTypographyPrefs();
+      updateTypographyModalUI();
+    }
+
+    function applyLineHeight(val) {
+      document.documentElement.style.setProperty('--reader-line-height', val);
+    }
+
+    function setColumnWidth(val) {
+      typographyPrefs.columnWidth = val;
+      applyColumnWidth(val);
+      saveTypographyPrefs();
+      updateTypographyModalUI();
+    }
+
+    function applyColumnWidth(val) {
+      document.body.setAttribute('data-column', val);
+    }
+
+    function resetTypographyDefaults() {
+      typographyPrefs = { ...DEFAULT_TYPOGRAPHY_PREFS };
+      applyTypographyPrefs();
+      saveTypographyPrefs();
+    }
+
+    function toggleTypographyModal() {
+      const modal = document.getElementById('typography-modal');
+      if (!modal) return;
+      modal.classList.toggle('hidden');
+      if (!modal.classList.contains('hidden')) {
+        updateTypographyModalUI();
+        setTimeout(initKaTeX, 30);
+      }
+    }
+
+    function updateTypographyModalUI() {
+      // 1. Theme UI highlights
+      const themes = ['light', 'sepia', 'dark', 'oled', 'forest'];
+      themes.forEach(t => {
+        const btn = document.getElementById(`theme-btn-${t}`);
+        if (!btn) return;
+        const check = btn.querySelector('.theme-check-icon');
+        if (typographyPrefs.theme === t) {
+          btn.classList.add('ring-2', 'ring-cyan-500', 'font-bold');
+          if (check) check.classList.remove('hidden');
+        } else {
+          btn.classList.remove('ring-2', 'ring-cyan-500', 'font-bold');
+          if (check) check.classList.add('hidden');
+        }
+      });
+
+      // 2. Font UI highlights
+      const fonts = ['academic', 'modern', 'editorial', 'accessible', 'logic'];
+      fonts.forEach(f => {
+        const btn = document.getElementById(`font-btn-${f}`);
+        if (!btn) return;
+        const check = btn.querySelector('.font-check-icon');
+        if (typographyPrefs.fontFamily === f) {
+          btn.classList.add('border-cyan-500', 'bg-cyan-50/50', 'dark:bg-cyan-950/40', 'ring-1', 'ring-cyan-500');
+          if (check) check.classList.remove('hidden');
+        } else {
+          btn.classList.remove('border-cyan-500', 'bg-cyan-50/50', 'dark:bg-cyan-950/40', 'ring-1', 'ring-cyan-500');
+          if (check) check.classList.add('hidden');
+        }
+      });
+
+      // 3. Font Scale Preset buttons
+      document.querySelectorAll('.scale-btn').forEach(btn => {
+        const s = parseFloat(btn.getAttribute('data-scale'));
+        if (Math.abs(s - typographyPrefs.fontScale) < 0.04) {
+          btn.classList.add('bg-cyan-600', 'text-white', 'border-cyan-600', 'font-bold');
+          btn.classList.remove('border-slate-200', 'dark:border-slate-800');
+        } else {
+          btn.classList.remove('bg-cyan-600', 'text-white', 'border-cyan-600', 'font-bold');
+          btn.classList.add('border-slate-200', 'dark:border-slate-800');
+        }
+      });
+
+      // 4. Line Height buttons
+      const lhs = [1.45, 1.65, 1.95];
+      lhs.forEach(lh => {
+        const btn = document.getElementById(`lh-btn-${Math.round(lh * 100)}`);
+        if (!btn) return;
+        if (Math.abs(typographyPrefs.lineHeight - lh) < 0.05) {
+          btn.classList.add('bg-cyan-600', 'text-white', 'border-cyan-600', 'font-bold');
+        } else {
+          btn.classList.remove('bg-cyan-600', 'text-white', 'border-cyan-600', 'font-bold');
+        }
+      });
+
+      // 5. Column Width buttons
+      ['standard', 'focus'].forEach(col => {
+        const btn = document.getElementById(`col-btn-${col}`);
+        if (!btn) return;
+        if (typographyPrefs.columnWidth === col) {
+          btn.classList.add('bg-cyan-600', 'text-white', 'border-cyan-600', 'font-bold');
+        } else {
+          btn.classList.remove('bg-cyan-600', 'text-white', 'border-cyan-600', 'font-bold');
+        }
+      });
+    }
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('typography-modal');
+        if (modal && !modal.classList.contains('hidden')) {
+          modal.classList.add('hidden');
+        }
+      }
+    });
 
     function toggleMobileMenu() {
       const menu = document.getElementById('mobile-menu');
@@ -832,7 +1511,7 @@
           </div>
 
           <!-- Question Stem / Prompt -->
-          <div class="text-sm text-slate-800 dark:text-slate-200 leading-relaxed bg-slate-50 dark:bg-slate-800/40 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+          <div class="text-sm text-slate-800 dark:text-slate-200 leading-relaxed bg-slate-50 dark:bg-slate-800/40 p-4 rounded-xl border border-slate-100 dark:border-slate-800 question-text-scalable">
             ${renderRich(q.question)}
           </div>
 
@@ -844,7 +1523,7 @@
               return `
                 <button onclick="handleOptionSelect('${q.id}', '${optKey}')" id="opt-${q.id}-${optKey}" class="opt-btn w-full text-left p-3.5 rounded-xl border border-slate-200 dark:border-slate-700/80 hover:border-cyan-500 dark:hover:border-cyan-400 bg-white dark:bg-slate-800/60 transition-all flex items-start space-x-3 text-xs sm:text-sm">
                   <span class="w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-700 font-bold flex items-center justify-center shrink-0 text-slate-700 dark:text-slate-300">${optKey}</span>
-                  <div class="flex-1 leading-relaxed text-slate-800 dark:text-slate-200">${renderRich(optText)}</div>
+                  <div class="flex-1 leading-relaxed text-slate-800 dark:text-slate-200 opt-text-scalable">${renderRich(optText)}</div>
                 </button>
               `;
             }).join('')}
@@ -862,7 +1541,7 @@
             ${q.grounding ? `
               <div class="space-y-1">
                 <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Philosophical Grounding & Demonstration:</h4>
-                <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+                <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800 solution-text-scalable">
                   ${renderRich(q.grounding)}
                 </div>
               </div>
@@ -872,7 +1551,7 @@
             ${q.distractor_analysis ? `
               <div class="space-y-1">
                 <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Distractor Analysis:</h4>
-                <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+                <div class="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed bg-slate-50 dark:bg-slate-800/50 p-4 rounded-xl border border-slate-100 dark:border-slate-800 solution-text-scalable">
                   ${renderRich(q.distractor_analysis)}
                 </div>
               </div>
@@ -1032,7 +1711,7 @@
 
         <h3 class="text-base font-bold text-slate-900 dark:text-white leading-snug">${renderRich(q.title, true)}</h3>
 
-        <div class="text-sm text-slate-800 dark:text-slate-200 leading-relaxed bg-slate-50 dark:bg-slate-800/40 p-4 rounded-xl border border-slate-100 dark:border-slate-800">
+        <div class="text-sm text-slate-800 dark:text-slate-200 leading-relaxed bg-slate-50 dark:bg-slate-800/40 p-4 rounded-xl border border-slate-100 dark:border-slate-800 question-text-scalable">
           ${renderRich(q.question)}
         </div>
 
@@ -1044,7 +1723,7 @@
             return `
               <div onclick="selectArenaOption('${optKey}')" class="cursor-pointer p-3.5 rounded-xl border ${isChecked ? 'border-cyan-500 bg-cyan-50 dark:bg-cyan-950/40 ring-1 ring-cyan-500' : 'border-slate-200 dark:border-slate-700/80 bg-white dark:bg-slate-800/60'} hover:border-cyan-400 transition-all flex items-start space-x-3 text-xs sm:text-sm">
                 <span class="w-6 h-6 rounded-lg font-bold flex items-center justify-center shrink-0 ${isChecked ? 'bg-cyan-500 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300'}">${optKey}</span>
-                <div class="flex-1 leading-relaxed text-slate-800 dark:text-slate-200">${renderRich(optText)}</div>
+                <div class="flex-1 leading-relaxed text-slate-800 dark:text-slate-200 opt-text-scalable">${renderRich(optText)}</div>
               </div>
             `;
           }).join('')}
