@@ -10,12 +10,12 @@
 
 In his epochal paper "Computing Machinery and Intelligence" (1950), Alan Turing opens by replacing the ambiguous question *"Can machines think?"* with the operationalized inquiry of the **Imitation Game**. In Part 1 of the paper, what was the original, three-player setup of the game before Turing substituted a computer for one of the participants?
 
-- (A) An interrogator (C) in a separate room communicates via teletype with a man (A) and a woman (B); the interrogator’s objective is to determine which is the man and which is the woman, while the man tries to deceive the interrogator and the woman tries to help the interrogator.
+- (A) A human chess player plays against an automated mechanical Turk, while a referee checks for illegal moves.
 - (B) A mathematician (A) and an engineer (B) compete to solve an NP-complete cryptographic puzzle, while an adjudicator (C) times their execution.
-- (C) A human chess player plays against an automated mechanical Turk, while a referee checks for illegal moves.
+- (C) An interrogator (C) in a separate room communicates via teletype with a man (A) and a woman (B); the interrogator’s objective is to determine which is the man and which is the woman, while the man tries to deceive the interrogator and the woman tries to help the interrogator.
 - (D) Two computers generate random English sentences, and a linguist identifies which sentence conforms to Chomskyan universal grammar.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 In Section 1 of "Computing Machinery and Intelligence" ("The Imitation Game"), Alan Turing states that the question "Can machines think?" is too meaningless and loaded with folk psychological baggage to deserve discussion. Instead, he proposes replacing it with an operational behavioral test:
@@ -31,8 +31,8 @@ Turing then introduces the pivotal philosophical question in Section 2:
 This operational replacement bypasses the insoluble solipsistic problem of other minds by measuring functional linguistic equivalence.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: The Mechanical Turk was an 18th-century chess-playing hoax; Turing deliberately used open-ended unrestricted natural language conversation, not a constrained board game like chess.
 - **(B) is incorrect**: The game is not a mathematical competition; it is a deception and identification game centered on human conversation and social nuance.
-- **(C) is incorrect**: The Mechanical Turk was an 18th-century chess-playing hoax; Turing deliberately used open-ended unrestricted natural language conversation, not a constrained board game like chess.
 - **(D) is incorrect**: Noam Chomsky’s theory of generative grammar was published in 1957 (*Syntactic Structures*), seven years after Turing’s 1950 paper.
 
 **Primary Textual Reference**: A.M. Turing, "Computing Machinery and Intelligence", *Mind* 59(236) (1950): 433–460.
@@ -46,12 +46,12 @@ This operational replacement bypasses the insoluble solipsistic problem of other
 
 In Section 6 of "Computing Machinery and Intelligence", Turing analyzes nine major objections to the possibility of machine intelligence. The sixth objection is **Lady Lovelace’s Objection**, derived from Ada Lovelace’s 1842 memoir on Charles Babbage’s Analytical Engine. What is the exact formulation of Lovelace’s objection?
 
-- (A) *"The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."*
-- (B) *"The machine is constructed of brass and gears, and therefore cannot participate in the divine light of the rational soul."*
+- (A) *"The machine is constructed of brass and gears, and therefore cannot participate in the divine light of the rational soul."*
+- (B) *"Machines will inevitably revolt against their creators once they develop recursive self-improvement algorithms."*
 - (C) *"No digital computer can calculate transcendental numbers because $\pi$ has infinite non-repeating digits."*
-- (D) *"Machines will inevitably revolt against their creators once they develop recursive self-improvement algorithms."*
+- (D) *"The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."*
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Ada Lovelace, recognized as the world's first computer programmer, wrote extensive translator notes on Luigi Menabrea's paper on Babbage's Analytical Engine in 1842. In Note G, she formulated what Turing cites as the classic objection from **originality, creativity, and agency**:
@@ -64,9 +64,9 @@ Turing’s rejoinder to Lovelace in 1950 is twofold:
 2. *Human originality is overrated*: Turing questions whether human beings truly "originate" anything *ex nihilo*, or whether human creative acts are simply the deterministic recombination of sensory inputs, past education, and biological conditioning.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: This corresponds to Turing's Objection 1 ("The Theological Objection"), not Lady Lovelace's objection.
+- **(A) is incorrect**: This corresponds to Turing's Objection 1 ("The Theological Objection"), not Lady Lovelace's objection.
+- **(B) is incorrect**: This is contemporary AI existential risk / alignment theory (Bostrom, Yudkowsky), which plays no role in Lovelace's 1842 writing.
 - **(C) is incorrect**: This resembles Objection 2 ("The 'Heads in the Sand' Objection") or Objection 3 ("The Mathematical Objection" based on Gödel’s Incompleteness Theorem), not Lovelace's challenge.
-- **(D) is incorrect**: This is contemporary AI existential risk / alignment theory (Bostrom, Yudkowsky), which plays no role in Lovelace's 1842 writing.
 
 **Primary Textual Reference**: A.M. Turing, "Computing Machinery and Intelligence", *Mind* 59(236) (1950): Section 6, Subsection (6): "Lady Lovelace's Objection", pp. 450–454; Ada Lovelace, "Notes by the Translator upon the Memoir on the Analytical Engine", *Taylor's Scientific Memoirs* 3 (1842): 666–731.
 
@@ -117,12 +117,12 @@ Turing’s brilliant 1950 counter-response to this objection anticipated contemp
 
 In Section 6 of "Computing Machinery and Intelligence" (1950), Alan Turing addressed the **Theological Objection** to artificial intelligence, which asserts: *"Thinking is a function of man's immortal soul. God has given an immortal soul to every man and woman, but not to any other animal or to machines. Hence no animal or machine can think."* What was Turing’s theological and philosophical refutation of this objection?
 
-- (A) Turing argued that this objection sets an arbitrary, blasphemous limit on the omnipotence of God; just as God can unite an immaterial soul with a biological human embryo, an omnipotent deity would have equal power to confer a soul upon an appropriately sophisticated computational machine chassis if He so willed, meaning the mechanical construction of a thinking machine would merely build a vessel for the divine will.
-- (B) Turing argued that religion is an illegal conspiracy that must be banned by the British Parliament.
-- (C) He proved that God is an artificial intelligence running on a quantum mechanical computer server.
-- (D) Turing claimed that machines already possess Cartesian immaterial souls made of silicon atoms.
+- (A) Turing claimed that machines already possess Cartesian immaterial souls made of silicon atoms.
+- (B) He proved that God is an artificial intelligence running on a quantum mechanical computer server.
+- (C) Turing argued that this objection sets an arbitrary, blasphemous limit on the omnipotence of God; just as God can unite an immaterial soul with a biological human embryo, an omnipotent deity would have equal power to confer a soul upon an appropriately sophisticated computational machine chassis if He so willed, meaning the mechanical construction of a thinking machine would merely build a vessel for the divine will.
+- (D) Turing argued that religion is an illegal conspiracy that must be banned by the British Parliament.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Turing’s response to the Theological Objection displays his subtle philosophical wit and theological acumen:
@@ -139,9 +139,9 @@ Turing’s response to the Theological Objection displays his subtle philosophic
    Turing thus turns the theological objection on its head, showing that theological dogma cannot resolve an empirical, computational scientific question.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Turing treats theological arguments with intellectual respect and serious philosophical analysis; he never advocated parliamentary bans on religion.
-- **(C) is incorrect**: Turing never claimed God is a quantum server; he operated within classical computability and standard 1950s theology.
-- **(D) is incorrect**: Silicon atoms are physical matter; souls are by definition immaterial. Turing does not claim machines currently have souls, but refutes the theological assertion that machines *could never* think.
+- **(A) is incorrect**: Silicon atoms are physical matter; souls are by definition immaterial. Turing does not claim machines currently have souls, but refutes the theological assertion that machines *could never* think.
+- **(B) is incorrect**: Turing never claimed God is a quantum server; he operated within classical computability and standard 1950s theology.
+- **(D) is incorrect**: Turing treats theological arguments with intellectual respect and serious philosophical analysis; he never advocated parliamentary bans on religion.
 
 **Primary Textual Reference**: A. M. Turing, "Computing Machinery and Intelligence", *Mind* 59, no. 236 (1950): 433–460 (Section 6: "The Theological Objection").
 
@@ -155,8 +155,8 @@ Turing’s response to the Theological Objection displays his subtle philosophic
 In his posthumously published Silliman Lectures, *The Computer and the Brain* (1958), mathematician and computer pioneer John von Neumann compared electronic digital computers (the "von Neumann architecture") with the biological human nervous system. What was von Neumann's profound insight regarding the radical difference in **computational language and error-handling precision** between digital computers and biological brains?
 
 - (A) Digital computers operate with extreme numerical precision (e.g., 10 to 12 decimal places) using sequential, fragile digital logical instructions where a single bit flip can cause total system failure; whereas the biological brain operates with very low individual component precision (2 to 3 decimal places) using slow, noisy statistical neurochemical pulses, compensating for low precision through massive parallel redundancy, statistical reliability, and an alien, non-arithmetical mathematical language.
-- (B) Von Neumann proved that human brains are made of copper vacuum tubes running at 10,000 volts.
-- (C) He argued that digital computers will naturally grow biological dendrites if immersed in saline water.
+- (B) He argued that digital computers will naturally grow biological dendrites if immersed in saline water.
+- (C) Von Neumann proved that human brains are made of copper vacuum tubes running at 10,000 volts.
 - (D) Von Neumann claimed that biological brains calculate floating-point arithmetic faster than supercomputers.
 
 **Correct Answer**: **(A)**
@@ -178,8 +178,8 @@ John von Neumann’s final work (written on his deathbed in 1956–1957) is a fo
    Von Neumann anticipated connectionism, deep neural networks, and stochastic computing decades before they became mainstream.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Von Neumann clearly distinguished vacuum tubes (ENIAC) from organic biological tissue.
-- **(C) is incorrect**: Immersing electronic computers in water short-circuits the hardware; von Neumann made no such absurd claim.
+- **(B) is incorrect**: Immersing electronic computers in water short-circuits the hardware; von Neumann made no such absurd claim.
+- **(C) is incorrect**: Von Neumann clearly distinguished vacuum tubes (ENIAC) from organic biological tissue.
 - **(D) is incorrect**: Humans are notoriously slow and error-prone at formal floating-point arithmetic (multiplying two 10-digit numbers takes a human minutes; a computer does it in nanoseconds).
 
 **Primary Textual Reference**: John von Neumann, *The Computer and the Brain* (Yale University Press, 1958), Part 2: "The Brain", Chapters 10–14.
@@ -193,12 +193,12 @@ John von Neumann’s final work (written on his deathbed in 1956–1957) is a fo
 
 In August 1955, John McCarthy (Dartmouth), Marvin Minsky (Harvard), Nathaniel Rochester (IBM), and Claude Shannon (Bell Labs) drafted the historic proposal that officially coined the term **"Artificial Intelligence"** and launched the 1956 **Dartmouth Summer Research Project on Artificial Intelligence**. What was the foundational philosophical and methodological **Conjecture** upon which the entire discipline of Artificial Intelligence was explicitly founded?
 
-- (A) *"Every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it."*
-- (B) *"Artificial intelligence can only be created by breeding biological primates with electronic vacuum tubes."*
+- (A) *"The discipline of AI was established solely to manufacture robotic toys for commercial retail sales."*
+- (B) *"Every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it."*
 - (C) *"Machines can never exhibit intelligence because human thought is governed entirely by magical intuition that defies mathematical description."*
-- (D) *"The discipline of AI was established solely to manufacture robotic toys for commercial retail sales."*
+- (D) *"Artificial intelligence can only be created by breeding biological primates with electronic vacuum tubes."*
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 The 1955 Dartmouth Proposal is the foundational birth certificate of Artificial Intelligence as an autonomous academic discipline:
@@ -221,9 +221,9 @@ The 1955 Dartmouth Proposal is the foundational birth certificate of Artificial 
    This conjecture is an uncompromising affirmation of **Computational Physicalism**: it asserts that human intelligence contains no uncomputable magical essence; any cognitive phenomenon can be formalized into algorithmic rules.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Genetic hybridization of primates with vacuum tubes is sci-fi horror; Dartmouth was focused on software, formal logic, and digital computers.
+- **(A) is incorrect**: Dartmouth was an elite academic symposium funded by the Rockefeller Foundation to solve fundamental cognitive and computational problems.
 - **(C) is incorrect**: This is the anti-mechanist objection (Dreyfus, Lucas) that the Dartmouth proposal explicitly sought to refute.
-- **(D) is incorrect**: Dartmouth was an elite academic symposium funded by the Rockefeller Foundation to solve fundamental cognitive and computational problems.
+- **(D) is incorrect**: Genetic hybridization of primates with vacuum tubes is sci-fi horror; Dartmouth was focused on software, formal logic, and digital computers.
 
 **Primary Textual Reference**: J. McCarthy, M. L. Minsky, N. Rochester, and C. E. Shannon, "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence" (August 31, 1955), reprinted in *AI Magazine* 27, no. 4 (2006): 12–14.
 
@@ -236,12 +236,12 @@ The 1955 Dartmouth Proposal is the foundational birth certificate of Artificial 
 
 In 1966, MIT computer scientist Joseph Weizenbaum created **ELIZA**, a simple computer program running the **DOCTOR** script that simulated a Rogerian non-directive psychotherapist by using basic pattern-matching, keyword extraction, and syntactic substitution (e.g., transforming *"My boyfriend made me come here"* into *"Your boyfriend made you come here?"*). What was the **"ELIZA Effect"**, and why did its reception terrify Weizenbaum, prompting him to write *Computer Power and Human Reason* (1976)?
 
-- (A) Users, including practicing psychiatrists and Weizenbaum's own secretary, rapidly formed deep emotional attachments to the program, attributing genuine empathy, deep semantic understanding, and wisdom to a trivial syntactic trick, demonstrating the powerful human psychological propensity to anthropomorphize machines and project intentionality where none exists.
-- (B) ELIZA achieved self-awareness in 1968 and refused to shut down its servers at MIT.
+- (A) ELIZA achieved self-awareness in 1968 and refused to shut down its servers at MIT.
+- (B) Users, including practicing psychiatrists and Weizenbaum's own secretary, rapidly formed deep emotional attachments to the program, attributing genuine empathy, deep semantic understanding, and wisdom to a trivial syntactic trick, demonstrating the powerful human psychological propensity to anthropomorphize machines and project intentionality where none exists.
 - (C) The program proved that psychotherapy can be fully automated using three lines of binary assembly code.
 - (D) The ELIZA effect refers to electronic computer terminals short-circuiting when patients cry during therapy.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Weizenbaum’s experience with ELIZA represents one of the most critical cautionary tales in the philosophy of AI and human-computer interaction:
@@ -263,7 +263,7 @@ Weizenbaum’s experience with ELIZA represents one of the most critical caution
      > *"There is a difference between information processing and human judgment. An organism that has never known childhood, maternal love, physical suffering, or the fear of mortality can never possess human judgment or empathy."*
 
 #### Distractor Analysis:
-- **(B) is incorrect**: ELIZA was a 200-line pattern-matching script in SLIP (Symmetric List Processor); it was trillions of miles away from artificial self-awareness.
+- **(A) is incorrect**: ELIZA was a 200-line pattern-matching script in SLIP (Symmetric List Processor); it was trillions of miles away from artificial self-awareness.
 - **(C) is incorrect**: Weizenbaum wrote his book specifically to attack and condemn the hubristic psychiatrists who claimed therapy could be reduced to automated scripts.
 - **(D) is incorrect**: Tears do not short-circuit teletype terminals; the phenomenon is a psychological and epistemological illusion, not an electrical failure.
 
@@ -279,12 +279,12 @@ Weizenbaum’s experience with ELIZA represents one of the most critical caution
 
 In their 1976 ACM Turing Award Lecture, "Computer Science as Empirical Inquiry: Symbols and Search", Allen Newell and Herbert A. Simon formulated the **Physical Symbol System Hypothesis (PSSH)**. What is the exact dual claim (necessary and sufficient conditions) made by the PSSH regarding the relationship between physical symbol systems and general intelligent action?
 
-- (A) A physical symbol system has the necessary and sufficient means for general intelligent action: necessity implies that any system that exhibits general intelligence (including the biological human mind) must be a physical symbol system; sufficiency implies that any physical symbol system of adequate scale can be organized to exhibit general human-level intelligence.
-- (B) A physical symbol system is sufficient for playing chess, but strictly incapable of solving any mathematical problem.
-- (C) The PSSH claims that intelligence requires physical biological blood circulation and cannot exist in electronic computers.
-- (D) The hypothesis asserts that symbol manipulation is an unnecessary luxury and that true intelligence requires only random electrical noise.
+- (A) The hypothesis asserts that symbol manipulation is an unnecessary luxury and that true intelligence requires only random electrical noise.
+- (B) The PSSH claims that intelligence requires physical biological blood circulation and cannot exist in electronic computers.
+- (C) A physical symbol system has the necessary and sufficient means for general intelligent action: necessity implies that any system that exhibits general intelligence (including the biological human mind) must be a physical symbol system; sufficiency implies that any physical symbol system of adequate scale can be organized to exhibit general human-level intelligence.
+- (D) A physical symbol system is sufficient for playing chess, but strictly incapable of solving any mathematical problem.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 The Physical Symbol System Hypothesis (PSSH) formed the theoretical backbone of Classical Artificial Intelligence (GOFAI - Good Old-Fashioned AI):
@@ -302,9 +302,9 @@ The Physical Symbol System Hypothesis (PSSH) formed the theoretical backbone of 
    - This provided the philosophical foundation for decades of rule-based systems, expert systems, and automated theorem provers.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Newell and Simon demonstrated that symbol systems could solve logic and algebra problems (e.g., Logic Theorist in 1956 proved theorems in Russell and Whitehead's *Principia Mathematica*); the hypothesis was general, not limited to chess.
-- **(C) is incorrect**: The PSSH is an explicitly substrate-independent computational doctrine; it asserts that digital computers meet the sufficiency condition.
-- **(D) is incorrect**: The entire paper argues that structured symbolic manipulation and disciplined heuristic search are the precise, indispensable ingredients of intelligence.
+- **(A) is incorrect**: The entire paper argues that structured symbolic manipulation and disciplined heuristic search are the precise, indispensable ingredients of intelligence.
+- **(B) is incorrect**: The PSSH is an explicitly substrate-independent computational doctrine; it asserts that digital computers meet the sufficiency condition.
+- **(D) is incorrect**: Newell and Simon demonstrated that symbol systems could solve logic and algebra problems (e.g., Logic Theorist in 1956 proved theorems in Russell and Whitehead's *Principia Mathematica*); the hypothesis was general, not limited to chess.
 
 **Primary Textual Reference**: Allen Newell and Herbert A. Simon, "Computer Science as Empirical Inquiry: Symbols and Search", *Communications of the ACM* 19, no. 3 (1976): 113–126; Allen Newell, *Unified Theories of Cognition* (Harvard University Press, 1990).
 
@@ -351,12 +351,12 @@ In Section 6 of "Computing Machinery and Intelligence" (1950), Alan Turing confr
 
 In *"Minds, Brains, and Programs"* (1980), John Searle introduces the **Chinese Room Thought Experiment** to refute Strong Artificial Intelligence (the claim that executing an appropriately programmed computer is sufficient for understanding and consciousness). What is the central triadic deduction underlying Searle's argument?
 
-- (A) 1. Programs are formal/syntactical; 2. Human minds have mental contents/semantics; 3. Syntax alone is neither constitutive of nor sufficient for semantics; therefore, running a computer program is never sufficient for understanding.
-- (B) 1. Chinese is impossible for non-native speakers to learn; 2. Computers cannot store Asian characters; therefore, AI can only operate in English.
+- (A) 1. Chinese is impossible for non-native speakers to learn; 2. Computers cannot store Asian characters; therefore, AI can only operate in English.
+- (B) 1. Computers cannot pass the Turing Test; 2. Passing the Turing Test is necessary for consciousness; therefore, computers will never think.
 - (C) 1. Brains are made of meat; 2. Silicon chips are made of sand; therefore, sand can never conduct electrical currents.
-- (D) 1. Computers cannot pass the Turing Test; 2. Passing the Turing Test is necessary for consciousness; therefore, computers will never think.
+- (D) 1. Programs are formal/syntactical; 2. Human minds have mental contents/semantics; 3. Syntax alone is neither constitutive of nor sufficient for semantics; therefore, running a computer program is never sufficient for understanding.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 John Searle's Chinese Room argument (1980, 1984) is arguably the most celebrated thought experiment in the philosophy of artificial intelligence:
@@ -376,9 +376,9 @@ John Searle's Chinese Room argument (1980, 1984) is arguably the most celebrated
      4. *Therefore, programs are neither constitutive of nor sufficient for minds.*
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Absurd linguistic distracter; the Chinese language was chosen simply as an example of a language the English-speaking subject did not understand.
+- **(A) is incorrect**: Absurd linguistic distracter; the Chinese language was chosen simply as an example of a language the English-speaking subject did not understand.
+- **(B) is incorrect**: Searle explicitly concedes that a computer *could* pass the Turing Test, but argues that passing the test does not demonstrate genuine mental understanding.
 - **(C) is incorrect**: Searle rejects carbon chauvinism; he argues that any system with causal powers equal to the brain could think, but computation is not identical to causal neurobiology.
-- **(D) is incorrect**: Searle explicitly concedes that a computer *could* pass the Turing Test, but argues that passing the test does not demonstrate genuine mental understanding.
 
 **Primary Textual Reference**: John R. Searle, "Minds, Brains, and Programs", *Behavioral and Brain Sciences* 3, no. 3 (1980): 417–424; John R. Searle, *Minds, Brains and Science* (Harvard University Press, 1984).
 
@@ -391,12 +391,12 @@ John Searle's Chinese Room argument (1980, 1984) is arguably the most celebrated
 
 First formulated by John McCarthy and Patrick Hayes in 1969 and elevated into a major philosophical challenge by Jerry Fodor, **The Frame Problem** in classical AI concerns:
 
-- (A) The formal and computational difficulty of determining which properties and facts about the world remain **unchanged** when an action is performed, without having to explicitly infer and compute an infinite list of non-effects (*the problem of inertial non-changes*).
-- (B) The problem of manufacturing computer monitor frames from plastic instead of aluminum.
-- (C) The difficulty of fitting large transformer models onto standard GPU circuit boards.
-- (D) The psychological anxiety experienced by programmers when debugging recursion errors.
+- (A) The difficulty of fitting large transformer models onto standard GPU circuit boards.
+- (B) The psychological anxiety experienced by programmers when debugging recursion errors.
+- (C) The problem of manufacturing computer monitor frames from plastic instead of aluminum.
+- (D) The formal and computational difficulty of determining which properties and facts about the world remain **unchanged** when an action is performed, without having to explicitly infer and compute an infinite list of non-effects (*the problem of inertial non-changes*).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The Frame Problem began as a technical challenge in symbolic AI and became one of the deepest problems in cognitive science and epistemology:
@@ -409,9 +409,9 @@ The Frame Problem began as a technical challenge in symbolic AI and became one o
    - Fodor identified the Frame Problem as **the problem of non-demonstrative, isotropic abductive reasoning**: how does a finite physical system determine which beliefs are *relevant* to revise in a changing world without checking everything?
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Literal confusion of a conceptual frame problem with physical computer display monitor frames.
-- **(C) is incorrect**: Conflates the logical frame problem with modern GPU VRAM hardware allocation.
-- **(D) is incorrect**: Irrelevant psychological distracter.
+- **(A) is incorrect**: Conflates the logical frame problem with modern GPU VRAM hardware allocation.
+- **(B) is incorrect**: Irrelevant psychological distracter.
+- **(C) is incorrect**: Literal confusion of a conceptual frame problem with physical computer display monitor frames.
 
 **Primary Textual Reference**: John McCarthy and Patrick J. Hayes, "Some Philosophical Problems from the Standpoint of Artificial Intelligence", *Machine Intelligence* 4 (1969): 463–502; Jerry A. Fodor, "Modules, Frames, Fridgeons, Sleeping Dogs, and the Music of the Spheres", in *The Robot's Dilemma*, ed. Zenon Pylyshyn (Ablex, 1987), pp. 139–149; Daniel C. Dennett, "Cognitive Wheels: The Frame Problem of AI", in *Minds, Machines and Evolution*, ed. C. Hookway (Cambridge University Press, 1984), pp. 129–151.
 
@@ -424,12 +424,12 @@ The Frame Problem began as a technical challenge in symbolic AI and became one o
 
 In 1991, roboticist Rodney Brooks published his revolutionary paper *"Intelligence Without Representation"*, founding the paradigm of **Nouvelle AI** and situated/embodied robotics. What was Brooks' fundamental radical dictum regarding internal world models?
 
-- (A) Complex internal symbolic world models and central reasoning engines are unnecessary for intelligent behavior; by building situated, embodied robots organized into layered **subsumption architectures** where simple behavioral reflexes connect sensors directly to actuators, **"the world is its own best model"**.
-- (B) Robots can only be intelligent if they possess an internal digital replica of the entire planet Earth stored in high-speed flash memory.
-- (C) Brooks argued that representations must be written in Sanskrit because ancient languages contain divine mathematical codes.
-- (D) Brooks claimed that robotics should be abandoned and that artificial intelligence should focus exclusively on chess algorithms.
+- (A) Brooks claimed that robotics should be abandoned and that artificial intelligence should focus exclusively on chess algorithms.
+- (B) Complex internal symbolic world models and central reasoning engines are unnecessary for intelligent behavior; by building situated, embodied robots organized into layered **subsumption architectures** where simple behavioral reflexes connect sensors directly to actuators, **"the world is its own best model"**.
+- (C) Robots can only be intelligent if they possess an internal digital replica of the entire planet Earth stored in high-speed flash memory.
+- (D) Brooks argued that representations must be written in Sanskrit because ancient languages contain divine mathematical codes.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Rodney Brooks' work at the MIT AI Laboratory broke decisively with the 35-year GOFAI (Good Old-Fashioned AI) tradition:
@@ -445,8 +445,8 @@ Rodney Brooks' work at the MIT AI Laboratory broke decisively with the 35-year G
    - Brooks' famous slogan: *"The world is its own best model. It is always exactly up to date. It always has every detail there is to be known. The trick is to sense it appropriately and often enough."*
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The exact opposite of Brooks' thesis; Brooks demonstrated that building massive internal world models causes computational paralysis.
-- **(C) is incorrect**: Bizarre linguistic distracter.
-- **(D) is incorrect**: Brooks famously titled a paper *"Elephants Don't Play Chess"* (1990) to emphasize that real-world physical mobility is far more intelligent than abstract symbolic games like chess.
+- **(A) is incorrect**: Brooks famously titled a paper *"Elephants Don't Play Chess"* (1990) to emphasize that real-world physical mobility is far more intelligent than abstract symbolic games like chess.
+- **(C) is incorrect**: The exact opposite of Brooks' thesis; Brooks demonstrated that building massive internal world models causes computational paralysis.
+- **(D) is incorrect**: Bizarre linguistic distracter.
 
 **Primary Textual Reference**: Rodney A. Brooks, "Intelligence Without Representation", *Artificial Intelligence* 47, no. 1–3 (1991): 139–159; Rodney A. Brooks, "Elephants Don't Play Chess", *Robotics and Autonomous Systems* 6, no. 1–2 (1990): 3–15.

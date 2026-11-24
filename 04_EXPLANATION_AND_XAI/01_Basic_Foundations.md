@@ -10,12 +10,12 @@
 
 In their seminal paper "Studies in the Logic of Explanation" (1948), Carl Hempel and Paul Oppenheim formulated the **Deductive-Nomological (DN) Model** of scientific explanation. Under this covering-law model, what structural conditions must be satisfied for an account to count as a genuine scientific explanation of a particular empirical phenomenon?
 
-- (A) The explanandum (sentence describing the phenomenon) must be a logically valid deductive consequence of the explanans, which must contain at least one true universal law of nature ($L_1, L_2, \dots, L_m$) essentially required for the deduction, alongside relevant antecedent initial conditions ($C_1, C_2, \dots, C_k$).
-- (B) The explanandum must psychologically convince the audience of the researcher's personal rhetorical authority, irrespective of logical entailment or empirical premises.
-- (C) The phenomenon must be correlated with another variable with a Pearson correlation coefficient of $r > 0.8$ without any reference to general laws.
-- (D) The explanation must demonstrate that the physical universe is an algorithmic simulation executed by an uncaused prime mover.
+- (A) The explanandum must psychologically convince the audience of the researcher's personal rhetorical authority, irrespective of logical entailment or empirical premises.
+- (B) The explanandum (sentence describing the phenomenon) must be a logically valid deductive consequence of the explanans, which must contain at least one true universal law of nature ($L_1, L_2, \dots, L_m$) essentially required for the deduction, alongside relevant antecedent initial conditions ($C_1, C_2, \dots, C_k$).
+- (C) The explanation must demonstrate that the physical universe is an algorithmic simulation executed by an uncaused prime mover.
+- (D) The phenomenon must be correlated with another variable with a Pearson correlation coefficient of $r > 0.8$ without any reference to general laws.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Hempel and Oppenheim's DN model established scientific explanation as an argument in formal deductive logic:
@@ -38,9 +38,9 @@ Hempel established four foundational conditions of adequacy:
 Under Hempel's **Symmetry Thesis**, explanation and prediction are structurally identical: every adequate explanation could have served as a prediction if known before the event, and every valid prediction can serve as an explanation after the fact.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Hempel was a logical empiricist who fiercely rejected psychologism and rhetoric; explanation is a logical relation between propositions, not a psychological state of feeling convinced.
-- **(C) is incorrect**: Pure empirical correlation without a universal law ($L$) cannot constitute a covering-law deduction (Hempel specifically distinguished accidental generalizations from genuine laws of nature).
-- **(D) is incorrect**: Metaphysical speculation about simulated realities or prime movers violates the empirical content requirement of the DN model.
+- **(A) is incorrect**: Hempel was a logical empiricist who fiercely rejected psychologism and rhetoric; explanation is a logical relation between propositions, not a psychological state of feeling convinced.
+- **(C) is incorrect**: Metaphysical speculation about simulated realities or prime movers violates the empirical content requirement of the DN model.
+- **(D) is incorrect**: Pure empirical correlation without a universal law ($L$) cannot constitute a covering-law deduction (Hempel specifically distinguished accidental generalizations from genuine laws of nature).
 
 **Primary Textual Reference**: Carl G. Hempel and Paul Oppenheim, "Studies in the Logic of Explanation", *Philosophy of Science* 15, no. 2 (1948): 135–175; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965).
 
@@ -53,12 +53,12 @@ Under Hempel's **Symmetry Thesis**, explanation and prediction are structurally 
 
 One of the most famous counterexamples that dismantled the Deductive-Nomological (DN) model of explanation is the **Flagpole Counterexample** (originally developed by Sylvain Bromberger). Why does the Flagpole case decisively demonstrate the inadequacy of Hempel's purely deductive covering-law account?
 
-- (A) Using basic trigonometry and the rectilinear propagation of light, one can deductively derive the height of a flagpole from the length of its shadow, the elevation angle of the sun, and optical laws; yet, while the flagpole's height causally explains the shadow's length, the shadow's length does not explain the flagpole's height, exposing the DN model's inability to capture the directional asymmetry of causal explanation.
-- (B) Light rays are curved by general relativity, meaning Euclidean trigonometry can never produce logically valid deductive syllogisms.
-- (C) The flagpole undergoes thermal expansion at noon, making initial conditions perpetually false according to Hempel's fourth condition.
-- (D) Hempel's model only applies to biological organisms and explicitly excludes physical and optical phenomena.
+- (A) Light rays are curved by general relativity, meaning Euclidean trigonometry can never produce logically valid deductive syllogisms.
+- (B) The flagpole undergoes thermal expansion at noon, making initial conditions perpetually false according to Hempel's fourth condition.
+- (C) Hempel's model only applies to biological organisms and explicitly excludes physical and optical phenomena.
+- (D) Using basic trigonometry and the rectilinear propagation of light, one can deductively derive the height of a flagpole from the length of its shadow, the elevation angle of the sun, and optical laws; yet, while the flagpole's height causally explains the shadow's length, the shadow's length does not explain the flagpole's height, exposing the DN model's inability to capture the directional asymmetry of causal explanation.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The Flagpole problem illustrates the fatal flaw of **Explanatory Asymmetry**:
@@ -76,9 +76,9 @@ The Flagpole problem illustrates the fatal flaw of **Explanatory Asymmetry**:
 Because deductive entailment in logic is non-directional (if $P \land Q \to R$, then $R \land Q \to P$ under symmetric algebraic equivalence), the DN model cannot differentiate cause from effect, proving that **causal directionality** is an essential component of explanation that formal deductive logic cannot provide.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The counterexample operates within classical optics; relativistic gravitational lensing is completely irrelevant to the epistemological point of explanatory asymmetry.
-- **(C) is incorrect**: Thermal expansion is an incidental physical noise factor; Bromberger's argument holds even in idealized temperature-controlled physics.
-- **(D) is incorrect**: The DN model was designed primarily for physics and chemistry, not excluded from them.
+- **(A) is incorrect**: The counterexample operates within classical optics; relativistic gravitational lensing is completely irrelevant to the epistemological point of explanatory asymmetry.
+- **(B) is incorrect**: Thermal expansion is an incidental physical noise factor; Bromberger's argument holds even in idealized temperature-controlled physics.
+- **(C) is incorrect**: The DN model was designed primarily for physics and chemistry, not excluded from them.
 
 **Primary Textual Reference**: Sylvain Bromberger, "Why-Questions", in *Mind and Cosmos: Essays in Contemporary Science and Philosophy*, ed. R. G. Colodny (University of Pittsburgh Press, 1966), pp. 86–111; Wesley C. Salmon, *Four Decades of Scientific Explanation* (University of Minnesota Press, 1989).
 
@@ -97,9 +97,9 @@ Wesley Salmon formulated the famous **Hexed Salt Counterexample** to expose the 
 Why is this a devastating counterexample to Hempel's DN model?
 
 - (A) The argument satisfies all formal criteria of the DN model (the law is universally true and the deduction is valid), yet it is a defective explanation because hexing has zero causal relevance to the salt dissolving (salt dissolves because of its ionic molecular structure in polar water).
-- (B) Witches do not exist in modern legal jurisdictions, making the premise grammatically meaningless in English syntax.
-- (C) Table salt never dissolves in water unless sodium bicarbonate is added as an artificial catalyst.
-- (D) The conclusion contradicts the first law of thermodynamics by destroying sodium mass during dissolution.
+- (B) Table salt never dissolves in water unless sodium bicarbonate is added as an artificial catalyst.
+- (C) The conclusion contradicts the first law of thermodynamics by destroying sodium mass during dissolution.
+- (D) Witches do not exist in modern legal jurisdictions, making the premise grammatically meaningless in English syntax.
 
 **Correct Answer**: **(A)**
 
@@ -113,9 +113,9 @@ Salmon's Hexed Salt counterexample targets Hempel's requirement of universal law
 This counterexample proved that a valid deduction from a true universal generalization can contain completely spurious, irrelevant factors, demonstrating that scientific explanation requires **objective causal relevance**, not just deductive subsumption under a universal truth.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The semantic existence of witches in jurisprudence has nothing to do with whether the universal generalization is empirically and logically true for the physical material.
-- **(C) is incorrect**: Sodium chloride ($NaCl$) readily dissolves in water due to dipole hydration; no catalyst is required.
-- **(D) is incorrect**: Dissolution is a physical phase change where ions dissociate; no mass is destroyed, and thermodynamics is not violated.
+- **(B) is incorrect**: Sodium chloride ($NaCl$) readily dissolves in water due to dipole hydration; no catalyst is required.
+- **(C) is incorrect**: Dissolution is a physical phase change where ions dissociate; no mass is destroyed, and thermodynamics is not violated.
+- **(D) is incorrect**: The semantic existence of witches in jurisprudence has nothing to do with whether the universal generalization is empirically and logically true for the physical material.
 
 **Primary Textual Reference**: Wesley C. Salmon, *Statistical Explanation and Statistical Relevance* (University of Pittsburgh Press, 1971); Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984).
 
@@ -129,9 +129,9 @@ This counterexample proved that a valid deduction from a true universal generali
 In his influential paper "The Mythos of Model Interpretability" (2018), Zachary Lipton critically analyzed the discourse surrounding "interpretability" in machine learning. What primary conceptual confusion does Lipton identify in the AI research literature regarding the term "interpretability"?
 
 - (A) The term "interpretability" is treated as a monolithic, well-defined single concept, whereas in reality researchers conflate distinct, often conflicting desiderata: transparent model properties (simulatability, decomposability, algorithmic transparency) versus post-hoc explanatory techniques (text explanations, visualization, local approximations).
-- (B) The word "interpretability" is an illegal trademark belonging to computer hardware manufacturers.
-- (C) Machine learning models are inherently interpretable by definition because their weights are stored in binary floating-point numbers.
-- (D) Lipton argues that human brains have zero interpretability, so artificial models should never be audited under any circumstances.
+- (B) Lipton argues that human brains have zero interpretability, so artificial models should never be audited under any circumstances.
+- (C) The word "interpretability" is an illegal trademark belonging to computer hardware manufacturers.
+- (D) Machine learning models are inherently interpretable by definition because their weights are stored in binary floating-point numbers.
 
 **Correct Answer**: **(A)**
 
@@ -149,9 +149,9 @@ In "The Mythos of Model Interpretability" (2018), Zachary Lipton demonstrated th
 Lipton warns that when papers claim "our model is interpretable," they frequently provide a post-hoc visualization (which can be unreliable or deceptive) while trading on the moral and scientific authority of transparency.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Interpretability is an academic conceptual term, not a commercial trademark.
-- **(C) is incorrect**: The fact that weights are floating-point numbers represents the lowest level of mathematical implementation; it does not constitute semantic interpretability for human comprehension.
-- **(D) is incorrect**: Lipton strongly advocates for rigorous auditing and ethical accountability; his goal is conceptual precision, not dismissing model safety or oversight.
+- **(B) is incorrect**: Lipton strongly advocates for rigorous auditing and ethical accountability; his goal is conceptual precision, not dismissing model safety or oversight.
+- **(C) is incorrect**: Interpretability is an academic conceptual term, not a commercial trademark.
+- **(D) is incorrect**: The fact that weights are floating-point numbers represents the lowest level of mathematical implementation; it does not constitute semantic interpretability for human comprehension.
 
 **Primary Textual Reference**: Zachary C. Lipton, "The Mythos of Model Interpretability", *Communications of the ACM* 61, no. 10 (2018): 36–43 (originally presented at ICML Workshop on Human Interpretability in Machine Learning, 2016).
 
@@ -165,12 +165,12 @@ Lipton warns that when papers claim "our model is interpretable," they frequentl
 
 In developing the **Inductive-Statistical (IS) Model** of scientific explanation for probabilistic phenomena, Carl Hempel insisted on the **Requirement of High Inductive Probability**: the explanans must confer a high inductive probability (close to 1) upon the explanandum. Why did Michael Scriven’s famous **Paresis Counterexample** decisively refute this high-probability requirement?
 
-- (A) Only about 8% to 10% of patients with untreated latent syphilis ever develop paresis (tertiary neurosyphilis), yet contracting syphilis is the **sole true scientific explanation** for why a patient developed paresis (no one gets paresis without syphilis); because the probability of developing paresis given syphilis is extremely low ($P < 0.1$), Hempel’s IS model must absurdly claim that syphilis cannot explain paresis, proving that genuine scientific explanations do not require high inductive probability.
-- (B) Paresis is an infectious disease transmitted exclusively by contaminated computer keyboards.
-- (C) Scriven proved that syphilis is caused by psychological anxiety rather than Treponema pallidum.
-- (D) The counterexample proves that medical pathology is an unscientific superstition.
+- (A) Paresis is an infectious disease transmitted exclusively by contaminated computer keyboards.
+- (B) The counterexample proves that medical pathology is an unscientific superstition.
+- (C) Only about 8% to 10% of patients with untreated latent syphilis ever develop paresis (tertiary neurosyphilis), yet contracting syphilis is the **sole true scientific explanation** for why a patient developed paresis (no one gets paresis without syphilis); because the probability of developing paresis given syphilis is extremely low ($P < 0.1$), Hempel’s IS model must absurdly claim that syphilis cannot explain paresis, proving that genuine scientific explanations do not require high inductive probability.
+- (D) Scriven proved that syphilis is caused by psychological anxiety rather than Treponema pallidum.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Hempel recognized that universal, exceptionless deterministic laws ($(\forall x)(Fx \to Gx)$) do not exist in genetics, medicine, or quantum mechanics. He formulated the **Inductive-Statistical (IS) Model**:
@@ -194,9 +194,9 @@ Hempel insisted that the statistical probability $r$ must be **very high**: an e
    - This proved that what makes a factor explanatory is **not high probability**, but **statistical relevance / causal difference-making**: syphilis dramatically raises the probability of paresis (from 0 to 0.08), making it the indispensable explanatory difference-maker.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Paresis is caused by the spirochete bacterium *Treponema pallidum*, not computer keyboards.
-- **(C) is incorrect**: Syphilis is a biological bacterial venereal disease, not a neurotic psychological anxiety.
-- **(D) is incorrect**: Scriven's argument is an analytical defense of genuine medical explanation against rigid, defective logical empiricist models.
+- **(A) is incorrect**: Paresis is caused by the spirochete bacterium *Treponema pallidum*, not computer keyboards.
+- **(B) is incorrect**: Scriven's argument is an analytical defense of genuine medical explanation against rigid, defective logical empiricist models.
+- **(D) is incorrect**: Syphilis is a biological bacterial venereal disease, not a neurotic psychological anxiety.
 
 **Primary Textual Reference**: Michael Scriven, "Explanation and Prediction in Evolutionary Theory", *Science* 130, no. 3374 (1959): 477–482; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965), Chapter 3: "Inductive-Statistical Explanation".
 
@@ -214,12 +214,12 @@ Another classic counterexample that exposed the fundamental flaw of the Deductiv
 
 Why does this satisfy Hempel's DN model perfectly, yet fail completely as a genuine scientific explanation?
 
-- (A) The barometer's falling needle and the impending storm are both collateral joint effects of a single hidden **common cause**—a drop in atmospheric air pressure; the drop in atmospheric pressure **screens off** the correlation between the barometer and the storm, proving that the barometer pointer does not explain the storm because it has zero causal efficacy in producing rain or wind.
+- (A) The argument fails because storm predictions are protected by commercial weather channel copyrights.
 - (B) Barometers only function at sea level and fail on high-altitude mountains.
-- (C) The argument fails because storm predictions are protected by commercial weather channel copyrights.
+- (C) The barometer's falling needle and the impending storm are both collateral joint effects of a single hidden **common cause**—a drop in atmospheric air pressure; the drop in atmospheric pressure **screens off** the correlation between the barometer and the storm, proving that the barometer pointer does not explain the storm because it has zero causal efficacy in producing rain or wind.
 - (D) The conclusion is false because rain clouds are made of liquid helium that defies atmospheric pressure.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 The Barometer problem illustrates the fatal vulnerability of the DN model to **spurious correlation resulting from a common cause**:
@@ -244,8 +244,8 @@ The Barometer problem illustrates the fatal vulnerability of the DN model to **s
    - The DN model, relying solely on deductive subsumption under generalizations, cannot distinguish between genuine causes and screened-off collateral symptoms, proving once again that scientific explanation requires **objective causal networks**, not mere logical deductions.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Commercial copyright has zero bearing on the logical empiricist philosophy of scientific explanation.
 - **(B) is incorrect**: Barometers function across elevations (with altitude pressure offsets); the philosophical counterexample holds identically in idealized isobaric meteorology.
-- **(C) is incorrect**: Commercial copyright has zero bearing on the logical empiricist philosophy of scientific explanation.
 - **(D) is incorrect**: Rain clouds are composed of condensed water vapor droplets ($H_2O$), not liquid helium.
 
 **Primary Textual Reference**: Hans Reichenbach, *The Direction of Time* (University of California Press, 1956), Section 19: "The Principle of the Common Cause"; Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984), Chapter 6.
@@ -259,12 +259,12 @@ The Barometer problem illustrates the fatal vulnerability of the DN model to **s
 
 In the epistemology of Explainable AI (XAI), researchers strictly distinguish between **Local Interpretability** and **Global Interpretability**. What is the precise conceptual difference in scope between these two levels of explanation?
 
-- (A) **Local Interpretability** explains the causal or statistical reasoning behind a **single specific prediction or individual instance** (e.g., explaining why applicant $X$ was specifically denied a loan today); whereas **Global Interpretability** explains the comprehensive, overarching decision logic of the **entire model across the whole input space** (e.g., how the model weights features, interacts variables, and partitions the complete high-dimensional manifold).
-- (B) Local interpretability is for algorithms running on desktop computers, while Global interpretability is for algorithms running in outer space satellites.
-- (C) Local interpretability only works in languages spoken in Western Europe, while Global interpretability works worldwide.
+- (A) Local interpretability only works in languages spoken in Western Europe, while Global interpretability works worldwide.
+- (B) **Local Interpretability** explains the causal or statistical reasoning behind a **single specific prediction or individual instance** (e.g., explaining why applicant $X$ was specifically denied a loan today); whereas **Global Interpretability** explains the comprehensive, overarching decision logic of the **entire model across the whole input space** (e.g., how the model weights features, interacts variables, and partitions the complete high-dimensional manifold).
+- (C) Local interpretability is for algorithms running on desktop computers, while Global interpretability is for algorithms running in outer space satellites.
 - (D) Global interpretability means printing all model weights onto physical paper rolls.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 The distinction between local and global explanation is fundamental to auditability, jurisprudence, and model governance:
@@ -280,8 +280,8 @@ The distinction between local and global explanation is fundamental to auditabil
    - Advantage: Essential for system developers, regulators, and auditors to verify safety, detect backdoor vulnerabilities, ensure fairness across demographic cohorts, and debug systemic algorithmic bias before deployment.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Uses a literal geographic/spatial interpretation of "local" and "global"; the distinction is mathematical and epistemological (point-level vs. function-level scope).
-- **(C) is incorrect**: Linguistic translation has nothing to do with instance-level vs. distribution-level algorithmic interpretability.
+- **(A) is incorrect**: Linguistic translation has nothing to do with instance-level vs. distribution-level algorithmic interpretability.
+- **(C) is incorrect**: Uses a literal geographic/spatial interpretation of "local" and "global"; the distinction is mathematical and epistemological (point-level vs. function-level scope).
 - **(D) is incorrect**: Printing billions of weights on paper produces uninterpretable noise, not global understanding.
 
 **Primary Textual Reference**: Christoph Molnar, *Interpretable Machine Learning: A Guide for Making Black Box Models Explainable* (2nd ed., 2022), Chapter 2: "Interpretability"; Zachary C. Lipton, "The Mythos of Model Interpretability", *Communications of the ACM* 61, no. 10 (2018): 36–43.
@@ -295,12 +295,12 @@ The distinction between local and global explanation is fundamental to auditabil
 
 In post-hoc Explainable AI for deep neural networks, two foundational methodological paradigms dominate feature attribution: **Gradient-based methods** (e.g., Vanilla Saliency Maps, Integrated Gradients) and **Perturbation-based methods** (e.g., Occlusion, LIME). What is the core technical difference in how these two paradigms compute the explanatory importance of an input feature?
 
-- (A) **Gradient-based methods** compute the partial derivatives of the model's output with respect to the input features ($\frac{\partial y}{\partial x_i}$) via backpropagation, measuring how infinitesimal changes in a feature modulate the prediction locally; whereas **Perturbation-based methods** systematically mask, remove, or alter input features (measuring the discrete drop in performance or change in output $\Delta y$) to calculate empirical feature dependence without inspecting internal network gradients.
-- (B) Gradient methods require physical water flowing down an incline, while perturbation methods require mechanical shaking of the computer motherboard.
+- (A) Perturbation methods prove that all deep neural networks are linear functions with zero capacity.
+- (B) **Gradient-based methods** compute the partial derivatives of the model's output with respect to the input features ($\frac{\partial y}{\partial x_i}$) via backpropagation, measuring how infinitesimal changes in a feature modulate the prediction locally; whereas **Perturbation-based methods** systematically mask, remove, or alter input features (measuring the discrete drop in performance or change in output $\Delta y$) to calculate empirical feature dependence without inspecting internal network gradients.
 - (C) Gradient methods only work on text, while perturbation methods only work on audio files.
-- (D) Perturbation methods prove that all deep neural networks are linear functions with zero capacity.
+- (D) Gradient methods require physical water flowing down an incline, while perturbation methods require mechanical shaking of the computer motherboard.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 1. **Gradient-Based Attribution (White-Box Explanations)**:
@@ -319,9 +319,9 @@ In post-hoc Explainable AI for deep neural networks, two foundational methodolog
    - Limitation: Computationally expensive (requires thousands of forward passes per instance); perturbations often push inputs off the natural data manifold, creating out-of-distribution artifacts.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Uses a literal interpretation of "gradient" as a physical hill slope and "perturbation" as mechanical physical vibration.
+- **(A) is incorrect**: Deep networks are non-linear; perturbation methods evaluate non-linear sensitivity, they do not reduce networks to linear functions.
 - **(C) is incorrect**: Both gradient and perturbation paradigms apply universally across vision, NLP, audio, and tabular data.
-- **(D) is incorrect**: Deep networks are non-linear; perturbation methods evaluate non-linear sensitivity, they do not reduce networks to linear functions.
+- **(D) is incorrect**: Uses a literal interpretation of "gradient" as a physical hill slope and "perturbation" as mechanical physical vibration.
 
 **Primary Textual Reference**: Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman, "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps", *ICLR Workshop* (2014); Mukund Sundararajan, Ankur Taly, and Qiqi Yan, "Axiomatic Attribution for Deep Networks", *ICML* (2017): 3319–3328; Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin, "'Why Should I Trust You?': Explaining the Predictions of Any Classifier", *KDD* (2016).
 
@@ -334,12 +334,12 @@ In post-hoc Explainable AI for deep neural networks, two foundational methodolog
 
 In their 1948 paper, Carl Hempel and Paul Oppenheim formulated the **Deductive-Nomological (DN) Model** (the "Covering Law" model) of scientific explanation. Under this model, an explanation is a valid deductive argument where the conclusion (the *Explanandum*, $E$) is deduced from premises (the *Explanans*, containing general laws $L_1, L_2, \dots, L_r$ and initial conditions $C_1, C_2, \dots, C_k$). Which of the following is one of Hempel's four essential **Conditions of Adequacy** for a sound DN explanation?
 
-- (A) The explanans must contain at least one genuine universal law of nature (*lex generalis*) essentially required for the deduction, the explanandum must follow deductively from the explanans, the sentences in the explanans must have empirical content (be empirically testable), and the sentences constituting the explanans must be true.
+- (A) The explanation must be accepted unanimously by every living human citizen in a global referendum.
 - (B) The explanation must be written in poetic rhyming couplets to guarantee intuitive aesthetic plausibility.
-- (C) The explanandum must causally precede the Big Bang by at least one million years.
-- (D) The explanation must be accepted unanimously by every living human citizen in a global referendum.
+- (C) The explanans must contain at least one genuine universal law of nature (*lex generalis*) essentially required for the deduction, the explanandum must follow deductively from the explanans, the sentences in the explanans must have empirical content (be empirically testable), and the sentences constituting the explanans must be true.
+- (D) The explanandum must causally precede the Big Bang by at least one million years.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Carl Hempel's Deductive-Nomological (DN) model (1948, 1965) is the classical starting point of modern 20th-century philosophy of science and explanation:
@@ -354,9 +354,9 @@ Carl Hempel's Deductive-Nomological (DN) model (1948, 1965) is the classical sta
    - Modern explainable AI (XAI) continually wrestles with Hempel's framework: does an explanation require universal covering laws, or does deep learning require a non-nomological, causal-mechanical or contrastive model of explanation?
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Hempel insisted on objective semantic and logical conditions of truth and validity, explicitly rejecting subjective or sociological definitions of explanation.
 - **(B) is incorrect**: Aesthetic poetic criteria play no role in logical empiricist philosophy of science.
-- **(C) is incorrect**: Explanations explain physical events within the spacetime of the universe.
-- **(D) is incorrect**: Hempel insisted on objective semantic and logical conditions of truth and validity, explicitly rejecting subjective or sociological definitions of explanation.
+- **(D) is incorrect**: Explanations explain physical events within the spacetime of the universe.
 
 **Primary Textual Reference**: Carl G. Hempel and Paul Oppenheim, "Studies in the Logic of Explanation", *Philosophy of Science* 15, no. 2 (1948): 135–175; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965).
 
@@ -374,12 +374,12 @@ Wesley Salmon and other critics formulated famous counterexamples to demonstrate
 
 Why is this logically valid deductive argument a devastating refutation of the DN model?
 
-- (A) The argument satisfies every single formal condition of Hempel's DN model (deductive validity, universal law, true premises), yet it completely fails as an explanation because taking birth control pills has **zero causal and statistical relevance** to John's failure to get pregnant (biological males do not get pregnant regardless of pill consumption).
-- (B) It fails because birth control pills are illegal to manufacture under international medical law.
-- (C) It fails because John Jones did not swallow the pills with warm water.
-- (D) It fails because the word "pill" cannot be defined in first-order predicate logic.
+- (A) It fails because John Jones did not swallow the pills with warm water.
+- (B) It fails because the word "pill" cannot be defined in first-order predicate logic.
+- (C) It fails because birth control pills are illegal to manufacture under international medical law.
+- (D) The argument satisfies every single formal condition of Hempel's DN model (deductive validity, universal law, true premises), yet it completely fails as an explanation because taking birth control pills has **zero causal and statistical relevance** to John's failure to get pregnant (biological males do not get pregnant regardless of pill consumption).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Wesley Salmon's critique of the covering-law model in the 1970s and 1980s led to the birth of the **Causal-Mechanical (CM)** and **Statistical Relevance (SR)** paradigms:
@@ -395,9 +395,9 @@ Wesley Salmon's critique of the covering-law model in the 1970s and 1980s led to
    - Salmon later realized that even statistical relevance is insufficient: genuine explanation requires tracing physical causal processes and interactions (**Causal-Mechanical model**).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Birth control medications are legally approved pharmaceuticals.
-- **(C) is incorrect**: Trivial irrelevant detail that has nothing to do with philosophical logic.
-- **(D) is incorrect**: The argument is easily formalized in first-order logic; its failure is metaphysical and causal, not syntactic.
+- **(A) is incorrect**: Trivial irrelevant detail that has nothing to do with philosophical logic.
+- **(B) is incorrect**: The argument is easily formalized in first-order logic; its failure is metaphysical and causal, not syntactic.
+- **(C) is incorrect**: Birth control medications are legally approved pharmaceuticals.
 
 **Primary Textual Reference**: Wesley C. Salmon, *Statistical Explanation and Statistical Relevance* (University of Pittsburgh Press, 1971); Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984).
 
@@ -410,12 +410,12 @@ Wesley Salmon's critique of the covering-law model in the 1970s and 1980s led to
 
 In *Making Things Happen* (2003), James Woodward developed the **Interventionist / Manipulability Theory** of causal explanation, which has become the dominant philosophical framework in modern AI causality and explainability. According to Woodward, what makes an explanation genuinely explanatory?
 
-- (A) An explanation explains an explanandum by showing how it depends on cited variables, specifically by providing systematic answers to **"what-if-things-had-been-different" questions ($w$-questions)**: it exhibits a relationship between variables that is **invariant under hypothetical ideal interventions**, showing how intervening to manipulate variable $X$ would alter the value of variable $Y$.
+- (A) An explanation is explanatory only if it reduces all phenomena to the movements of subatomic gluons.
 - (B) An explanation must prove that the phenomenon was predestined by God before the creation of the physical cosmos.
-- (C) An explanation is explanatory only if it reduces all phenomena to the movements of subatomic gluons.
-- (D) An explanation must be verified by polling a sample of at least 10,000 ordinary citizens.
+- (C) An explanation must be verified by polling a sample of at least 10,000 ordinary citizens.
+- (D) An explanation explains an explanandum by showing how it depends on cited variables, specifically by providing systematic answers to **"what-if-things-had-been-different" questions ($w$-questions)**: it exhibits a relationship between variables that is **invariant under hypothetical ideal interventions**, showing how intervening to manipulate variable $X$ would alter the value of variable $Y$.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 James Woodward's *Making Things Happen* (2003) revolutionized contemporary philosophy of science:
@@ -432,9 +432,9 @@ James Woodward's *Making Things Happen* (2003) revolutionized contemporary philo
    - This framework directly grounds modern Explainable AI (XAI), particularly feature attribution and counterfactual explanations.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Woodward explicitly defends non-reductive macro-explanations (in neuroscience, economics, and sociology), rejecting radical micro-reductionism.
 - **(B) is incorrect**: Woodward provides a naturalistic, secular, empirical framework of causal intervention.
-- **(C) is incorrect**: Woodward explicitly defends non-reductive macro-explanations (in neuroscience, economics, and sociology), rejecting radical micro-reductionism.
-- **(D) is incorrect**: Epistemic validity is grounded in objective interventionist invariance, not popular opinion polls.
+- **(C) is incorrect**: Epistemic validity is grounded in objective interventionist invariance, not popular opinion polls.
 
 **Primary Textual Reference**: James Woodward, *Making Things Happen: A Theory of Causal Explanation* (Oxford University Press, 2003); James Woodward, "Explanation and Invariance in the Special Sciences", *British Journal for the Philosophy of Science* 51, no. 2 (2000): 197–254.
 
@@ -449,8 +449,8 @@ In Explainable AI, **SHAP (SHapley Additive exPlanations)** calculates the margi
 
 - (A) **Efficiency** (the sum of feature attributions equals the difference between the model output and the expected base value), **Symmetry** (two features that contribute identically to all possible subsets receive equal attribution), **Dummy / Null Player** (a feature that has zero impact on all subsets receives zero attribution), and **Additivity / Linearity** (the attribution of a feature across an ensemble of models is the sum of its attributions in each model).
 - (B) **Profit**, **Market Share**, **Advertising**, and **Monopoly**.
-- (C) **Speed**, **Memory Consumption**, **GPU Temperature**, and **Clock Frequency**.
-- (D) **Subjectivity**, **Ambiguity**, **Randomness**, and **Opacity**.
+- (C) **Subjectivity**, **Ambiguity**, **Randomness**, and **Opacity**.
+- (D) **Speed**, **Memory Consumption**, **GPU Temperature**, and **Clock Frequency**.
 
 **Correct Answer**: **(A)**
 
@@ -471,7 +471,7 @@ Lundberg and Lee's SHAP framework (NeurIPS 2017) resolved a major crisis in XAI 
 
 #### Distractor Analysis:
 - **(B) is incorrect**: Commercial corporate concepts completely unrelated to cooperative game-theoretic axioms.
-- **(C) is incorrect**: Hardware performance metrics, not mathematical attribution axioms.
-- **(D) is incorrect**: The exact opposite of Shapley's goal, which was to establish objective, unique, mathematically rigorous attribution.
+- **(C) is incorrect**: The exact opposite of Shapley's goal, which was to establish objective, unique, mathematically rigorous attribution.
+- **(D) is incorrect**: Hardware performance metrics, not mathematical attribution axioms.
 
 **Primary Textual Reference**: Scott M. Lundberg and Su-In Lee, "A Unified Approach to Interpreting Model Predictions", *Advances in Neural Information Processing Systems (NeurIPS)* 30 (2017): 4765–4774; Lloyd S. Shapley, "A Value for n-Person Games", in *Contributions to the Theory of Games II*, ed. H. W. Kuhn and A. W. Tucker (Princeton University Press, 1953), pp. 307–317.

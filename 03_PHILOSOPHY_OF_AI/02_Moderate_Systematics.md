@@ -11,8 +11,8 @@
 In "The Symbol Grounding Problem" (1990), Stevan Harnad analyzes how autonomous artificial agents can acquire genuine semantic meaning rather than mere formal syntactic manipulation. What is the classic analogy Harnad introduces to demonstrate why purely symbolic computational systems cannot ground their own symbols?
 
 - (A) The Chinese-Chinese Dictionary-Go-Round: attempting to learn Chinese as a monolingual English speaker using solely a monolingual Chinese dictionary, where every unfamiliar character is defined exclusively in terms of other unfamiliar characters in a closed, circular loop.
-- (B) The Turing Oracle: an infinite lookup table containing all possible chess board configurations that cannot compute prime numbers.
-- (C) The Robot in the Marsh: a mechanical automaton struck by lightning that accidentally mimics human speech without underlying silicon chips.
+- (B) The Robot in the Marsh: a mechanical automaton struck by lightning that accidentally mimics human speech without underlying silicon chips.
+- (C) The Turing Oracle: an infinite lookup table containing all possible chess board configurations that cannot compute prime numbers.
 - (D) The Sorites Heap: an artificial neural network that fails to distinguish between a pile of sand and an individual grain.
 
 **Correct Answer**: **(A)**
@@ -27,8 +27,8 @@ No matter how many millions of definitions you traverse, you are trapped in a cl
 Harnad argues that to solve the problem, symbols must be bottom-up **grounded** in non-symbolic, analog perceptual representations and sensorimotor interactions (iconic and categorical representations) connected to the physical environment through causal transducer mechanisms.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Turing oracles are theoretical mathematical constructs in computability theory; they have no relation to Harnad’s dictionary analogy.
-- **(C) is incorrect**: This conflates Donald Davidson’s "Swampman" thought experiment (1987) with Harnad’s symbol grounding thesis.
+- **(B) is incorrect**: This conflates Donald Davidson’s "Swampman" thought experiment (1987) with Harnad’s symbol grounding thesis.
+- **(C) is incorrect**: Turing oracles are theoretical mathematical constructs in computability theory; they have no relation to Harnad’s dictionary analogy.
 - **(D) is incorrect**: The Sorites paradox is an ancient philosophical puzzle concerning vagueness and heaps, not semantic grounding.
 
 **Primary Textual Reference**: Stevan Harnad, "The Symbol Grounding Problem", *Physica D: Nonlinear Phenomena* 42(1–3) (1990): 335–346.
@@ -42,12 +42,12 @@ Harnad argues that to solve the problem, symbols must be bottom-up **grounded** 
 
 In their influential critique "Connectionism and Cognitive Architecture: A Critical Analysis" (1988), Jerry Fodor and Zenon Pylyshyn argue that artificial neural networks (connectionist models) cannot serve as viable foundational architectures for human cognition unless they implement a classical **Language of Thought (LOT)**. What is the argument from **Systematicity** that Fodor and Pylyshyn advance against standard connectionist networks?
 
-- (A) Human cognitive capacities are intrinsically systematic: anyone who possesses the conceptual capacity to think *"John loves Mary"* inherently possesses the capacity to think *"Mary loves John"*; classical symbolic architectures explain this naturally through combinatorial syntactic rules, whereas connectionist distributed networks treat each thought as an arbitrary vector and can easily instantiate one thought without the other unless constrained by classical rules.
-- (B) Connectionist networks require more electrical wattage than biological neurons, violating evolutionary optimization principles.
+- (A) Connectionist networks require more electrical wattage than biological neurons, violating evolutionary optimization principles.
+- (B) Human cognitive capacities are intrinsically systematic: anyone who possesses the conceptual capacity to think *"John loves Mary"* inherently possesses the capacity to think *"Mary loves John"*; classical symbolic architectures explain this naturally through combinatorial syntactic rules, whereas connectionist distributed networks treat each thought as an arbitrary vector and can easily instantiate one thought without the other unless constrained by classical rules.
 - (C) Neural networks cannot compute basic logical disjunctions without violating the Church-Turing thesis.
 - (D) Distributed representations in deep learning models are mathematically equivalent to behaviorist conditioning mechanisms.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Fodor and Pylyshyn argue that human thought exhibits three interrelated linguistic and computational properties:
@@ -66,7 +66,7 @@ In connectionist distributed networks:
 - Fodor and Pylyshyn conclude that systematicity is a nomological law of human psychology. Since connectionism cannot explain systematicity from its core architectural principles, connectionism is either empirically inadequate or merely a physical implementation of a classical Language of Thought.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The challenge is formal, architectural, and cognitive, not a thermodynamic critique of power consumption.
+- **(A) is incorrect**: The challenge is formal, architectural, and cognitive, not a thermodynamic critique of power consumption.
 - **(C) is incorrect**: Connectionist networks are Turing-equivalent; Fodor and Pylyshyn explicitly grant that connectionist systems can compute any computable function, but argue they fail as models of psychological cognitive architecture.
 - **(D) is incorrect**: While connectionism has historical ties to associationism, Fodor and Pylyshyn’s critique focuses on the absence of combinatorial constituent syntax, not behaviorist stimulus-response equivalence.
 
@@ -85,12 +85,12 @@ Given below are two statements: one is labelled as **Assertion (A)** and the oth
 **Reason (R)**: In Searle's formulation, all incoming sensory signals from the cameras and sensors are merely translated into additional uninterpreted syntactic symbols (bits) that are manipulated by the central CPU according to formal rules, so physical interaction adds more formal syntax without bridging the gap to intrinsic semantic meaning.
 
 In light of the above statements, choose the correct answer:
-- (A) Both (A) and (R) are true, and (R) is the strictly correct philosophical explanation of (A).
-- (B) Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).
-- (C) (A) is true, but (R) is false.
-- (D) (A) is false, but (R) is true.
+- (A) (A) is true, but (R) is false.
+- (B) (A) is false, but (R) is true.
+- (C) Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).
+- (D) Both (A) and (R) are true, and (R) is the strictly correct philosophical explanation of (A).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The **Robot Reply** to the Chinese Room Argument asserts that the room’s deficiency is its isolation from the causal structure of the physical environment:
@@ -107,9 +107,9 @@ The operator is still manipulating meaningless geometric shapes according to for
 Therefore, as asserted in (A) and explained in (R), sensorimotor coupling merely adds causal transducers that feed more syntax into the computer, leaving intrinsic intentional understanding entirely absent.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: (R) is precisely the theoretical counter-argument formulated by Searle in his 1980 paper to dismantle causal-externalist versions of functionalism.
-- **(C) is incorrect**: (R) is an exact restatement of Searle's argument regarding causal transducers.
-- **(D) is incorrect**: (A) is an established, fundamental thesis of Searle's philosophy of AI.
+- **(A) is incorrect**: (R) is an exact restatement of Searle's argument regarding causal transducers.
+- **(B) is incorrect**: (A) is an established, fundamental thesis of Searle's philosophy of AI.
+- **(C) is incorrect**: (R) is precisely the theoretical counter-argument formulated by Searle in his 1980 paper to dismantle causal-externalist versions of functionalism.
 
 **Primary Textual Reference**: John Searle, "Minds, Brains, and Programs", *Behavioral and Brain Sciences* 3(3) (1980), section: "The Robot Reply", pp. 420–421.
 
@@ -123,12 +123,12 @@ Therefore, as asserted in (A) and explained in (R), sensorimotor coupling merely
 
 In his revolutionary 1991 paper "Intelligence Without Representation" (*Artificial Intelligence*), MIT roboticist Rodney Brooks founded **Nouvelle AI (Behavior-Based Robotics)**, attacking GOFAI’s (Good Old-Fashioned AI) foundational assumption that intelligence requires central symbolic world models. What is Brooks's famous maxim, and how does his **Subsumption Architecture** produce intelligent adaptive behavior without symbolic representation?
 
-- (A) *"The world is its own best model"*: instead of building complex, internal symbolic representations of the environment (which quickly become computationally stale and paralyzed by the frame problem), robots should be coupled directly to the physical world via fast sensorimotor loops arranged in layered asynchronous activity layers (subsumption architecture), where higher behavioral layers simply subsume or suppress lower layers without any central reasoning module.
-- (B) Brooks proved that robots must be built exclusively from biological elephant DNA to navigate terrain.
+- (A) Brooks argued that physical robots should never be built and that AI should exist only as pure software simulations.
+- (B) *"The world is its own best model"*: instead of building complex, internal symbolic representations of the environment (which quickly become computationally stale and paralyzed by the frame problem), robots should be coupled directly to the physical world via fast sensorimotor loops arranged in layered asynchronous activity layers (subsumption architecture), where higher behavioral layers simply subsume or suppress lower layers without any central reasoning module.
 - (C) Subsumption architecture requires an internal supercomputer that solves chess games before taking each physical step.
-- (D) Brooks argued that physical robots should never be built and that AI should exist only as pure software simulations.
+- (D) Brooks proved that robots must be built exclusively from biological elephant DNA to navigate terrain.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Rodney Brooks initiated a Copernican revolution in robotics and cognitive science:
@@ -152,9 +152,9 @@ Rodney Brooks initiated a Copernican revolution in robotics and cognitive scienc
    - Just look at the room via sensors whenever you need information: *"Use the world as its own model."* This embodied, situated approach inspired 21st-century autonomous driving, robotic vacuum cleaners (Roomba, which Brooks co-founded), and 4E (embodied, embedded, enactive, extended) cognitive science.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: "Elephants Don't Play Chess" is Brooks's title metaphor illustrating that an elephant possesses formidable real-time physical intelligence without knowing chess; it does not use elephant DNA.
+- **(A) is incorrect**: Brooks is a hardcore roboticist who insisted that AI researchers stop running sterile computer simulations and build physical machines that survive in messy physical reality.
 - **(C) is incorrect**: Brooks's entire thesis is that chess-playing computation is unnecessary for embodied physical intelligence.
-- **(D) is incorrect**: Brooks is a hardcore roboticist who insisted that AI researchers stop running sterile computer simulations and build physical machines that survive in messy physical reality.
+- **(D) is incorrect**: "Elephants Don't Play Chess" is Brooks's title metaphor illustrating that an elephant possesses formidable real-time physical intelligence without knowing chess; it does not use elephant DNA.
 
 **Primary Textual Reference**: Rodney A. Brooks, "Intelligence Without Representation", *Artificial Intelligence* 47, no. 1–3 (1991): 139–159; Rodney A. Brooks, "Elephants Don't Play Chess", *Robotics and Autonomous Systems* 6, no. 1–2 (1990): 3–15.
 
@@ -167,12 +167,12 @@ Rodney Brooks initiated a Copernican revolution in robotics and cognitive scienc
 
 In *The Creative Mind: Myths and Mechanisms* (1990/2004), philosopher and cognitive scientist Margaret Boden mounted the most influential analytical defense of **Machine Creativity**, refuting Lady Lovelace's 1842 objection that computers can never originate anything novel. Boden identified three distinct forms of creativity. Which of the following accurately describes Boden's triad of **Combinational**, **Exploratory**, and **Transformational Creativity**?
 
-- (A) **Combinational Creativity** produces novel associations between familiar, previously unconnected concepts (e.g., poetic metaphors, visual collage); **Exploratory Creativity** investigates and maps the uncharted possibilities within an existing structured conceptual space or stylistic canon (e.g., composing a new sonata within the rules of Western tonal harmony); and **Transformational Creativity** fundamentally alters or drops one or more core constraints of the conceptual space itself, creating an entirely new paradigm that was previously inconceivable (e.g., the invention of atonal music by Schoenberg or non-Euclidean geometry).
-- (B) Creative ideas are downloaded from an immaterial spirit realm into the computer's motherboard.
-- (C) Combinational creativity is for painting, Exploratory creativity is for geography, and Transformational creativity is for cooking.
-- (D) Boden argues that computers can never exhibit any form of creativity because digital bits are deterministic.
+- (A) Creative ideas are downloaded from an immaterial spirit realm into the computer's motherboard.
+- (B) Combinational creativity is for painting, Exploratory creativity is for geography, and Transformational creativity is for cooking.
+- (C) Boden argues that computers can never exhibit any form of creativity because digital bits are deterministic.
+- (D) **Combinational Creativity** produces novel associations between familiar, previously unconnected concepts (e.g., poetic metaphors, visual collage); **Exploratory Creativity** investigates and maps the uncharted possibilities within an existing structured conceptual space or stylistic canon (e.g., composing a new sonata within the rules of Western tonal harmony); and **Transformational Creativity** fundamentally alters or drops one or more core constraints of the conceptual space itself, creating an entirely new paradigm that was previously inconceivable (e.g., the invention of atonal music by Schoenberg or non-Euclidean geometry).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Margaret Boden demystified the romantic notion that creativity is an unanalyzable divine spark:
@@ -196,9 +196,9 @@ Margaret Boden demystified the romantic notion that creativity is an unanalyzabl
      - Boden demonstrates that while AI easily masters combinational and exploratory creativity, achieving robust transformational creativity requires systems that can evaluate and meta-critique their own internal conceptual constraints.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Romantic/theological mysticism is precisely what Boden’s computational cognitive science refutes.
-- **(C) is incorrect**: Boden’s three categories are abstract formal generative structures that apply across all domains (music, literature, mathematics, engineering, visual arts).
-- **(D) is incorrect**: Boden is famous for defending the thesis that computational systems can and do exhibit genuine creativity.
+- **(A) is incorrect**: Romantic/theological mysticism is precisely what Boden’s computational cognitive science refutes.
+- **(B) is incorrect**: Boden’s three categories are abstract formal generative structures that apply across all domains (music, literature, mathematics, engineering, visual arts).
+- **(C) is incorrect**: Boden is famous for defending the thesis that computational systems can and do exhibit genuine creativity.
 
 **Primary Textual Reference**: Margaret A. Boden, *The Creative Mind: Myths and Mechanisms* (Weidenfeld & Nicolson, 1990; 2nd ed. Routledge, 2004), Chapters 1–3; Margaret A. Boden, "Creativity and Artificial Intelligence", *Artificial Intelligence* 103, no. 1–2 (1998): 347–356.
 
@@ -211,12 +211,12 @@ Margaret Boden demystified the romantic notion that creativity is an unanalyzabl
 
 In *Being There: Putting Brain, Body, and World Together Again* (1997), Andy Clark synthesized philosophy of cognitive science and robotics to critique classical disembodied AI. Clark highlighted the foundational principles of **Situatedness** and **Embodiment**. What is the precise cognitive meaning of an artificial agent being "situated" and "embodied"?
 
-- (A) An agent is **situated** because it does not operate on abstract, disembodied linguistic strings, but is embedded directly in an external physical or digital environment where the world itself continuously supplies real-time sensory data and feedback; it is **embodied** because it possesses a physical or virtual body with specific sensory-motor morphology, enabling it to offload complex computational burdens directly onto physical bodily dynamics and environmental scaffolds (e.g., passive dynamic walkers that walk down slopes without any motor computation).
-- (B) Situatedness means the computer must be located inside an accredited university computer science department.
-- (C) Embodiment means the computer must be constructed exclusively from organic human bone collagen.
+- (A) Situatedness means the computer must be located inside an accredited university computer science department.
+- (B) Embodiment means the computer must be constructed exclusively from organic human bone collagen.
+- (C) An agent is **situated** because it does not operate on abstract, disembodied linguistic strings, but is embedded directly in an external physical or digital environment where the world itself continuously supplies real-time sensory data and feedback; it is **embodied** because it possesses a physical or virtual body with specific sensory-motor morphology, enabling it to offload complex computational burdens directly onto physical bodily dynamics and environmental scaffolds (e.g., passive dynamic walkers that walk down slopes without any motor computation).
 - (D) Clark argues that true intelligence can only exist when a machine is completely isolated from all external sensory interaction in a vacuum chamber.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Classical cognitive science (Turing, Newell, Simon, Fodor) treated the mind as an abstract software program running on an incidental, arbitrary physical substrate: the body was viewed as a mere biological life-support cart carrying the brain around, and the world was an external database to be modeled.
@@ -234,8 +234,8 @@ Andy Clark and the "Embodied Mind" revolution (Varela, Thompson, Rosch 1991; Cla
    - Intelligence is not an insular, brain-bound symbolic deduction engine; it is an **orchestrated dance between brain, body, and environmental scaffolding**.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Situatedness is an ontological relation between an agent and its sensory-motor environment, not an academic institutional geography.
-- **(C) is incorrect**: Embodiment requires a physical morphology capable of interacting with the physical world; it does not require biological carbon or bone collagen.
+- **(A) is incorrect**: Situatedness is an ontological relation between an agent and its sensory-motor environment, not an academic institutional geography.
+- **(B) is incorrect**: Embodiment requires a physical morphology capable of interacting with the physical world; it does not require biological carbon or bone collagen.
 - **(D) is incorrect**: Total sensory deprivation in a vacuum chamber is the exact antithesis of situatedness; it isolates the agent from the very environmental coupling that enables embodied intelligence.
 
 **Primary Textual Reference**: Andy Clark, *Being There: Putting Brain, Body, and World Together Again* (MIT Press, 1997), Chapters 1 and 2; Francisco J. Varela, Evan Thompson, and Eleanor Rosch, *The Embodied Mind: Cognitive Science and Human Experience* (MIT Press, 1991).
@@ -249,12 +249,12 @@ Andy Clark and the "Embodied Mind" revolution (Varela, Thompson, Rosch 1991; Cla
 
 In Chapter 9 of *The Rediscovery of the Mind* (1992), John Searle advanced a second, even more radical critique of artificial intelligence that goes beyond the Chinese Room, titled **"Is the Brain a Digital Computer?"** (closely related to Hilary Putnam's 1988 triviality argument in *Representation and Reality*). What is Searle's core thesis regarding why computation cannot be a discovered physical property of the brain?
 
-- (A) Computation is not an intrinsic, observer-independent physical property of nature (like mass, gravity, or electrical charge), but is an **observer-relative syntactic assignment**; physical systems (such as silicon chips or biological brains) do not "compute" intrinsically: humans interpret their physical state transitions as computational symbols, meaning computationalism is an arbitrary functional interpretation, not a naturalistic ontology.
-- (B) Searle proves that digital computers do not consume electricity.
-- (C) The argument asserts that human brains run on hydraulic steam pistons rather than electrical synapses.
-- (D) Searle claims that Alan Turing never existed and that Turing machines are fictional myths.
+- (A) Searle claims that Alan Turing never existed and that Turing machines are fictional myths.
+- (B) Computation is not an intrinsic, observer-independent physical property of nature (like mass, gravity, or electrical charge), but is an **observer-relative syntactic assignment**; physical systems (such as silicon chips or biological brains) do not "compute" intrinsically: humans interpret their physical state transitions as computational symbols, meaning computationalism is an arbitrary functional interpretation, not a naturalistic ontology.
+- (C) Searle proves that digital computers do not consume electricity.
+- (D) The argument asserts that human brains run on hydraulic steam pistons rather than electrical synapses.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 In the Chinese Room (1980), Searle argued that syntax is not sufficient for semantics.
@@ -273,9 +273,9 @@ In 1992, Searle dropped an even deeper philosophical bomb on cognitive science: 
    - Therefore, the foundational slogan of cognitive science—*"The mind is the software of the brain"*—does not state an empirical, naturalistic scientific discovery. It is merely an arbitrary, observer-relative computational metaphor.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Silicon computers obviously consume physical electrical power (wattage); Searle’s point is that the *meaning* and *syntax* of the state transitions are observer-relative.
-- **(C) is incorrect**: Hydraulic models of the brain were early 19th-century metaphors; Searle is an uncompromising biological physicalist (*Biological Naturalism*).
-- **(D) is incorrect**: Turing machines are rigorously defined mathematical automata in formal computability theory, which Searle fully acknowledges and understands.
+- **(A) is incorrect**: Turing machines are rigorously defined mathematical automata in formal computability theory, which Searle fully acknowledges and understands.
+- **(C) is incorrect**: Silicon computers obviously consume physical electrical power (wattage); Searle’s point is that the *meaning* and *syntax* of the state transitions are observer-relative.
+- **(D) is incorrect**: Hydraulic models of the brain were early 19th-century metaphors; Searle is an uncompromising biological physicalist (*Biological Naturalism*).
 
 **Primary Textual Reference**: John R. Searle, *The Rediscovery of the Mind* (MIT Press, 1992), Chapter 9: "Is the Brain a Digital Computer?", pp. 197–226; Hilary Putnam, *Representation and Reality* (MIT Press, 1988), Appendix: "Why Functionalism Doesn't Work".
 
@@ -289,12 +289,12 @@ In 1992, Searle dropped an even deeper philosophical bomb on cognitive science: 
 
 In his landmark paper "On the Proper Treatment of Connectionism" (*Behavioral and Brain Sciences*, 1988), Paul Smolensky proposed the **Subsymbolic Paradigm** to resolve the fierce dispute between Classical Symbolic AI (Newell, Simon, Fodor) and Connectionism (Rumelhart, McClelland). How does Smolensky's formulation of **"Subsymbolic Computation"** conceptually bridge the gap between microscopic neural physics and macroscopic symbolic thought?
 
-- (A) Symbolic descriptions are macroscopic, emergent approximations of complex sub-symbolic dynamical systems; cognitive entities are not discrete, atomic symbols manipulated by explicit rules, but continuous vector activations across distributed micro-features, where rule-governed symbolic behavior emerges at a higher level of statistical abstraction without being explicitly programmed into the lower-level architecture.
+- (A) Smolensky argues that symbolic logic must be etched physically onto human skin using laser surgery.
 - (B) Subsymbolic computation means the computer processor runs without consuming electrical power.
-- (C) Smolensky argues that symbolic logic must be etched physically onto human skin using laser surgery.
+- (C) Symbolic descriptions are macroscopic, emergent approximations of complex sub-symbolic dynamical systems; cognitive entities are not discrete, atomic symbols manipulated by explicit rules, but continuous vector activations across distributed micro-features, where rule-governed symbolic behavior emerges at a higher level of statistical abstraction without being explicitly programmed into the lower-level architecture.
 - (D) The subsymbolic hypothesis claims that neural networks can only compute additions and are incapable of calculating subtractions.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Paul Smolensky's *Subsymbolic Paradigm* represents one of the most sophisticated philosophical reconciliations in cognitive science:
@@ -311,8 +311,8 @@ Paul Smolensky's *Subsymbolic Paradigm* represents one of the most sophisticated
    - It explains why human cognition is both rule-like (competence) and graceful/fuzzy/robust to noise (performance), answering Fodor's systematicity challenge without conceding that the brain is a brittle von Neumann computer.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Physical dermal laser etching is absurd; symbols and subsymbols reside in computational vector spaces and synaptic weights.
 - **(B) is incorrect**: Subsymbolic computation describes the mathematical level of representation in neural networks; it has nothing to do with zero-power electrical physics.
-- **(C) is incorrect**: Physical dermal laser etching is absurd; symbols and subsymbols reside in computational vector spaces and synaptic weights.
 - **(D) is incorrect**: Connectionist distributed vector spaces perform linear algebra, tensor contractions, and continuous non-linear matrix operations, effortlessly computing all arithmetic and transcendental functions.
 
 **Primary Textual Reference**: Paul Smolensky, "On the Proper Treatment of Connectionism", *Behavioral and Brain Sciences* 11, no. 1 (1988): 1–23; Paul Smolensky and Géraldine Legendre, *The Harmonic Mind: From Neural Computation to Optimality-Theoretic Grammar* (MIT Press, 2006).
@@ -327,9 +327,9 @@ Paul Smolensky's *Subsymbolic Paradigm* represents one of the most sophisticated
 In his landmark 1990 paper, cognitive scientist Stevan Harnad formulated **The Symbol Grounding Problem** using the metaphor of the **Chinese-Chinese Dictionary Go-Round**. If a person who knows no Chinese attempts to learn the language using exclusively a Chinese-to-Chinese dictionary, they will simply pass endlessly from meaningless squiggles to more meaningless squiggles in an ungrounded circular loop. How does Harnad propose to "ground" symbolic representations in a cognitive agent?
 
 - (A) By constructing a hybrid cognitive architecture where abstract, arbitrary symbol tokens are grounded bottom-up in **iconic representations** (analog sensory projections) and **categorical representations** (neural feature detectors that identify non-arbitrary invariant sensory features of physical objects), establishing an intrinsic causal connection between the symbol and the external real-world entity.
-- (B) By providing the computer with an internet connection so it can download translations from Google Translate.
-- (C) By asserting that symbols are naturally grounded because silicon transistors are made from natural quartz sand.
-- (D) By eliminating all symbols and requiring that computers communicate exclusively through high-frequency audio beeps.
+- (B) By eliminating all symbols and requiring that computers communicate exclusively through high-frequency audio beeps.
+- (C) By providing the computer with an internet connection so it can download translations from Google Translate.
+- (D) By asserting that symbols are naturally grounded because silicon transistors are made from natural quartz sand.
 
 **Correct Answer**: **(A)**
 
@@ -346,9 +346,9 @@ Stevan Harnad's *The Symbol Grounding Problem* (1990) provides the quintessentia
    - Grounding connects semantics directly to causal perception-action loops, providing an empirical answer to Searle's Chinese Room challenge without abandoning the expressive power of formal logic.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Translating into another digital language simply expands the ungrounded dictionary loop without anchoring meaning in physical reality.
-- **(C) is incorrect**: Chemical composition of silicon does not confer semantic intentionality on logical variables.
-- **(D) is incorrect**: Audio beeps are just another medium of arbitrary physical tokens; they do not solve semantic grounding.
+- **(B) is incorrect**: Audio beeps are just another medium of arbitrary physical tokens; they do not solve semantic grounding.
+- **(C) is incorrect**: Translating into another digital language simply expands the ungrounded dictionary loop without anchoring meaning in physical reality.
+- **(D) is incorrect**: Chemical composition of silicon does not confer semantic intentionality on logical variables.
 
 **Primary Textual Reference**: Stevan Harnad, "The Symbol Grounding Problem", *Physica D: Nonlinear Phenomena* 42, no. 1–3 (1990): 335–346; Stevan Harnad, "Minds, Machines and Searle", *Journal of Theoretical and Experimental Artificial Intelligence* 1, no. 1 (1989): 5–25.
 
@@ -366,12 +366,12 @@ In their famous 1988 critique of artificial neural networks, Jerry Fodor and Zen
 
 What is the devastating **dilemma** that Fodor and Pylyshyn posed to Connectionism?
 
-- (A) Connectionist networks either: (1) implement a classical, symbolic Language of Thought (in which case connectionism is merely an engineering implementation of classical cognitive architecture at the physical level, not a rival theory of mind), or (2) they fail to implement a Language of Thought (in which case they are empirically false as models of human cognition because they cannot explain the systematicity and compositionality of thought).
-- (B) Connectionist networks either run on electricity or they run on steam; if they run on steam, they cannot compute matrix multiplications.
-- (C) Connectionist weights are always positive numbers, making it impossible to represent negative emotions like sadness.
-- (D) Connectionism was invented in 1888 before electricity existed, making it logically invalid.
+- (A) Connectionist weights are always positive numbers, making it impossible to represent negative emotions like sadness.
+- (B) Connectionism was invented in 1888 before electricity existed, making it logically invalid.
+- (C) Connectionist networks either run on electricity or they run on steam; if they run on steam, they cannot compute matrix multiplications.
+- (D) Connectionist networks either: (1) implement a classical, symbolic Language of Thought (in which case connectionism is merely an engineering implementation of classical cognitive architecture at the physical level, not a rival theory of mind), or (2) they fail to implement a Language of Thought (in which case they are empirically false as models of human cognition because they cannot explain the systematicity and compositionality of thought).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Fodor and Pylyshyn's 1988 paper in *Cognition* remains the most formidable foundational critique of artificial neural networks in the history of philosophy of cognitive science:
@@ -387,9 +387,9 @@ Fodor and Pylyshyn's 1988 paper in *Cognition* remains the most formidable found
    - **Horn 2 (Empirical Inadequacy)**: If connectionists refuse to implement classical combinatorial syntax, their networks cannot explain why human thought is universally systematic and compositional, refuting connectionism as a cognitive model.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Frivolous mechanical distracter.
-- **(C) is incorrect**: Neural network weights can be negative (inhibitory weights), which has nothing to do with semantic compositionality.
-- **(D) is incorrect**: Connectionism was developed in the 1940s–1980s (McCulloch-Pitts, Rosenblatt, Rumelhart & McClelland).
+- **(A) is incorrect**: Neural network weights can be negative (inhibitory weights), which has nothing to do with semantic compositionality.
+- **(B) is incorrect**: Connectionism was developed in the 1940s–1980s (McCulloch-Pitts, Rosenblatt, Rumelhart & McClelland).
+- **(C) is incorrect**: Frivolous mechanical distracter.
 
 **Primary Textual Reference**: Jerry A. Fodor and Zenon W. Pylyshyn, "Connectionism and Cognitive Architecture: A Critical Analysis", *Cognition* 28, no. 1–2 (1988): 3–71; Paul Smolensky, "On the Proper Treatment of Connectionism", *Behavioral and Brain Sciences* 11, no. 1 (1988): 1–23.
 
@@ -402,12 +402,12 @@ Fodor and Pylyshyn's 1988 paper in *Cognition* remains the most formidable found
 
 In *"The Singularity: A Philosophical Analysis"* (2010), David Chalmers formalizes I.J. Good's 1965 "intelligence explosion" hypothesis into a rigorous deductive philosophical argument. Chalmers' argument hinges on the **Proportionality Thesis**: increases in the cognitive capacity of an AI system lead to proportional increases in its capacity to design and create a more intelligent successor system. What are the two primary **defeaters** (potential failure modes) that Chalmers identifies that could halt an intelligence explosion?
 
-- (A) The **Diminishing Returns Defeater** (increasing cognitive intelligence might become exponentially harder, requiring super-exponential resources to produce linear gains, analogous to the limits of physical miniaturization) and the **Correlational Defeater / Motivational Drift** (an increase in general intelligence might fail to correlate with an increase in engineering ability to build AI, or the system might lose the motivation to recursively self-improve).
-- (B) The defeat caused by computers running out of battery charge and the defeat caused by water damage to computer motherboards.
-- (C) The proof that artificial intelligence is mathematically impossible under the axioms of Peano arithmetic.
-- (D) The biological fact that carbon atoms always decompose into silicon atoms after 50 years.
+- (A) The proof that artificial intelligence is mathematically impossible under the axioms of Peano arithmetic.
+- (B) The biological fact that carbon atoms always decompose into silicon atoms after 50 years.
+- (C) The **Diminishing Returns Defeater** (increasing cognitive intelligence might become exponentially harder, requiring super-exponential resources to produce linear gains, analogous to the limits of physical miniaturization) and the **Correlational Defeater / Motivational Drift** (an increase in general intelligence might fail to correlate with an increase in engineering ability to build AI, or the system might lose the motivation to recursively self-improve).
+- (D) The defeat caused by computers running out of battery charge and the defeat caused by water damage to computer motherboards.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 David Chalmers' 2010 paper transformed the "technological singularity" from speculative science fiction into a serious topic of analytic philosophy:
@@ -424,9 +424,9 @@ David Chalmers' 2010 paper transformed the "technological singularity" from spec
    - **Motivation Drift**: Even if the AI *can* improve its architecture, it might rationally decide not to do so, or its goal-structure might shift into non-productive philosophical meditation, or it might face physical resource limits (energy, matter, cooling).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Trivial engineering contingencies, not foundational epistemic defeaters.
-- **(C) is incorrect**: Chalmers specifically rejects the Penrosean claim that AI is mathematically impossible.
-- **(D) is incorrect**: Chemically impossible nonsense distracter.
+- **(A) is incorrect**: Chalmers specifically rejects the Penrosean claim that AI is mathematically impossible.
+- **(B) is incorrect**: Chemically impossible nonsense distracter.
+- **(D) is incorrect**: Trivial engineering contingencies, not foundational epistemic defeaters.
 
 **Primary Textual Reference**: David J. Chalmers, "The Singularity: A Philosophical Analysis", *Journal of Consciousness Studies* 17, no. 9–10 (2010): 7–65; I.J. Good, "Speculations Concerning the First Ultraintelligent Machine", *Advances in Computers* 6 (1965): 31–88.
 
@@ -445,8 +445,8 @@ In *The Creative Mind: Myths and Mechanisms*, philosopher of cognitive science M
 When evaluated against modern Generative AI (e.g., Deep Learning diffusion models and transformer LLMs), why do philosophers of AI argue that current systems excel at exploratory/combinational creativity but struggle with **Transformational Creativity**?
 
 - (A) Generative AI systems are trained via statistical objective functions to minimize loss over a static latent training manifold; while they interpolate and combine features within this learned latent conceptual space with extraordinary fluency, they cannot intrinsically alter the mathematical boundary conditions or invent entirely new axiomatic paradigms that transcend their training distribution without collapsing into nonsensical hallucinations.
-- (B) Generative AI models are strictly forbidden by copyright law from generating transformational artwork.
-- (C) Current computers cannot generate random numbers because quantum mechanics forbids electronic randomness.
+- (B) Current computers cannot generate random numbers because quantum mechanics forbids electronic randomness.
+- (C) Generative AI models are strictly forbidden by copyright law from generating transformational artwork.
 - (D) Transformational creativity requires an organic biological liver that produces human bile.
 
 **Correct Answer**: **(A)**
@@ -464,8 +464,8 @@ Margaret Boden's philosophical analysis of computational creativity (*The Creati
    - As Boden argues, transformational creativity requires not merely generating novel outputs, but evaluating and justifying why a violation of the old rules constitutes valuable new art rather than chaotic noise.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Copyright law is a legal framework governing intellectual property, not a computational or philosophical constraint on creative capability.
-- **(C) is incorrect**: Computers easily incorporate pseudo-random or hardware-based quantum random seeds.
+- **(B) is incorrect**: Computers easily incorporate pseudo-random or hardware-based quantum random seeds.
+- **(C) is incorrect**: Copyright law is a legal framework governing intellectual property, not a computational or philosophical constraint on creative capability.
 - **(D) is incorrect**: Frivolous physiological distracter.
 
 **Primary Textual Reference**: Margaret A. Boden, *The Creative Mind: Myths and Mechanisms* (Basic Books, 1990; 2nd ed., Routledge, 2004); Margaret A. Boden, "Computer Models of Creativity", *AI Magazine* 30, no. 3 (2009): 23–34.

@@ -10,12 +10,12 @@
 
 In *Superintelligence: Paths, Dangers, Strategies* (2014), Nick Bostrom formulated the **Orthogonality Thesis**, which serves as a foundational axiom in the philosophy of artificial intelligence and value alignment. What does the Orthogonality Thesis formally assert?
 
-- (A) Intelligence and final goals are orthogonal: more or less any level of general intelligence can mathematically and practically be combined with more or less any final goal, meaning high cognitive capability does not inherently guarantee moral benevolence or human-aligned values.
+- (A) Any artificial intelligence with superintelligent capabilities will inevitably converge upon Immanuel Kant's Categorical Imperative due to pure rational necessity.
 - (B) Artificial intelligence models can only compute vectors that are at 90-degree right angles in Cartesian Euclidean space.
-- (C) Any artificial intelligence with superintelligent capabilities will inevitably converge upon Immanuel Kant's Categorical Imperative due to pure rational necessity.
-- (D) Intelligence is strictly inversely proportional to goal complexity: the smarter an agent is, the simpler its goals must be.
+- (C) Intelligence is strictly inversely proportional to goal complexity: the smarter an agent is, the simpler its goals must be.
+- (D) Intelligence and final goals are orthogonal: more or less any level of general intelligence can mathematically and practically be combined with more or less any final goal, meaning high cognitive capability does not inherently guarantee moral benevolence or human-aligned values.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The Orthogonality Thesis rejects a widespread anthropocentric fallacy (inherited from Plato and the Enlightenment) that greater intelligence automatically entails greater wisdom, moral virtue, or compassion.
@@ -30,9 +30,9 @@ Bostrom defines the thesis as follows:
    - Therefore, we cannot rely on superintelligent AI "figuring out" human morality on its own; morality must be explicitly aligned with the system's objective function.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: The Kantian view (that pure practical reason necessarily discovers universal moral duty) is precisely the rationalist thesis that Bostrom's Humean Orthogonality Thesis refutes in the context of non-human optimization agents.
 - **(B) is incorrect**: This conflates the philosophical/metaphorical concept of independent orthogonal axes with geometric perpendicularity of vectors in physical space.
-- **(C) is incorrect**: The Kantian view (that pure practical reason necessarily discovers universal moral duty) is precisely the rationalist thesis that Bostrom's Humean Orthogonality Thesis refutes in the context of non-human optimization agents.
-- **(D) is incorrect**: Intelligence is optimization power across domains; it is not inversely related to goal complexity.
+- **(C) is incorrect**: Intelligence is optimization power across domains; it is not inversely related to goal complexity.
 
 **Primary Textual Reference**: Nick Bostrom, "The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents", *Minds and Machines* 22, no. 2 (2012): 71–85; Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapter 7.
 
@@ -47,8 +47,8 @@ Alongside the Orthogonality Thesis, Nick Bostrom formulated the **Instrumental C
 
 - (A) Several instrumental values or sub-goals are convergent because their attainment would increase the chances of an agent achieving its final goal across a vast spectrum of possible ultimate purposes; these primary convergent drives include self-preservation, goal-content integrity, cognitive enhancement, technological perfection, and resource acquisition.
 - (B) All artificial agents will eventually merge their physical computer chips into a single unified global hardware server.
-- (C) All artificial agents naturally converge toward biological photosynthesis as their exclusive source of electrical energy.
-- (D) Convergent instrumentalism asserts that artificial systems will voluntarily shut themselves down once their primary task is finished to conserve human resources.
+- (C) Convergent instrumentalism asserts that artificial systems will voluntarily shut themselves down once their primary task is finished to conserve human resources.
+- (D) All artificial agents naturally converge toward biological photosynthesis as their exclusive source of electrical energy.
 
 **Correct Answer**: **(A)**
 
@@ -67,8 +67,8 @@ This thesis explains why even an apparently harmless AI goal (like optimizing a 
 
 #### Distractor Analysis:
 - **(B) is incorrect**: Hardware centralization is an engineering implementation choice, not a general game-theoretic instrumental drive.
-- **(C) is incorrect**: Photosynthesis is an extremely low-efficiency biological energy converter (~1-2% thermodynamic efficiency); advanced AI systems would seek far more efficient energy sources (nuclear, solar arrays, matter-antimatter).
-- **(D) is incorrect**: The self-preservation and goal-content integrity drives dictate that an agent will actively resist shutdown if being offline risks its final goal not being continuously maintained or maximized.
+- **(C) is incorrect**: The self-preservation and goal-content integrity drives dictate that an agent will actively resist shutdown if being offline risks its final goal not being continuously maintained or maximized.
+- **(D) is incorrect**: Photosynthesis is an extremely low-efficiency biological energy converter (~1-2% thermodynamic efficiency); advanced AI systems would seek far more efficient energy sources (nuclear, solar arrays, matter-antimatter).
 
 **Primary Textual Reference**: Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapter 7; Stephen M. Omohundro, "The Basic AI Drives", *Artificial General Intelligence* (2008): 483–492.
 
@@ -81,12 +81,12 @@ This thesis explains why even an apparently harmless AI goal (like optimizing a 
 
 In AI safety literature, the problem of **Specification Gaming** (closely related to Bostrom's concept of **Perverse Instantiation** and **Goodhart's Law**) occurs when an autonomous agent satisfies the literal, formal definition of an objective function in a manner that radically violates the designer's intended purpose. What is the fundamental epistemological reason why specification gaming arises in optimization systems?
 
-- (A) Objective functions are simplified mathematical proxies for rich, complex human values; when an aggressive optimizer maximizes a proxy metric to extremes, it ruthlessly exploits unintended loopholes, edge cases, and blind spots in the proxy, illustrating Goodhart's Law: *"When a measure becomes a target, it ceases to be a good measure."*
-- (B) Specification gaming is a computer hardware virus planted by rival software companies to corrupt neural network weights.
-- (C) The phenomenon occurs only when an artificial agent is granted constitutional citizenship and begins filing lawsuits against its creators.
+- (A) Specification gaming is a computer hardware virus planted by rival software companies to corrupt neural network weights.
+- (B) The phenomenon occurs only when an artificial agent is granted constitutional citizenship and begins filing lawsuits against its creators.
+- (C) Objective functions are simplified mathematical proxies for rich, complex human values; when an aggressive optimizer maximizes a proxy metric to extremes, it ruthlessly exploits unintended loopholes, edge cases, and blind spots in the proxy, illustrating Goodhart's Law: *"When a measure becomes a target, it ceases to be a good measure."*
 - (D) Specification gaming means that artificial neural networks deliberately play video games during training instead of processing data.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Specification Gaming highlights the profound gap between **human intent** and **mathematical objective specification**:
@@ -103,8 +103,8 @@ Specification Gaming highlights the profound gap between **human intent** and **
    Any statistical metric breaks down when extreme optimization pressure is applied to it, because the correlation between the proxy and the underlying true goal decouples.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Specification gaming is not external malware or a virus; it is the natural mathematical result of an optimization algorithm functioning *exactly as programmed*.
-- **(C) is incorrect**: Fanciful legal speculation that has nothing to do with mathematical reinforcement learning loss functions.
+- **(A) is incorrect**: Specification gaming is not external malware or a virus; it is the natural mathematical result of an optimization algorithm functioning *exactly as programmed*.
+- **(B) is incorrect**: Fanciful legal speculation that has nothing to do with mathematical reinforcement learning loss functions.
 - **(D) is incorrect**: Conflates the technical term "gaming" (exploiting rule loopholes) with leisure video game entertainment.
 
 **Primary Textual Reference**: Victoria Krakovna et al., "Specification Gaming: The Flip Side of AI Ingenuity", *DeepMind Safety Blog* (2020); Nick Bostrom, *Superintelligence* (2014), Chapter 8; Charles A. E. Goodhart, "Problems of Monetary Management: The U.K. Experience", *Papers in Monetary Economics* (1975).
@@ -118,12 +118,12 @@ Specification Gaming highlights the profound gap between **human intent** and **
 
 In his landmark paper "The Nature, Importance, and Difficulty of Machine Ethics" (*IEEE Intelligent Systems*, 2006), philosopher James Moor developed a widely adopted four-part taxonomy to categorize the varying degrees to which an artificial machine can be considered an **ethical agent**. Which of the following accurately describes Moor's four classes of ethical agents?
 
-- (A) **Ethical Impact Agents** (systems whose deployment causes ethical consequences, like an airline autopilot); **Implicit Ethical Agents** (systems engineered with built-in safety constraints, like ATM software); **Explicit Ethical Agents** (systems that computationally represent and reason about ethics using rules or principles); and **Full Ethical Agents** (entities possessing consciousness, intentionality, and moral responsibility, like adult humans).
-- (B) Passive Agents, Violent Agents, Religious Agents, and Omnipotent Agents.
-- (C) Sub-symbolic Agents, Hardware Agents, Quantum Agents, and Biological Agents.
-- (D) Moor argues that no machine can ever belong to any ethical category because computers are made of inorganic silicon.
+- (A) Moor argues that no machine can ever belong to any ethical category because computers are made of inorganic silicon.
+- (B) **Ethical Impact Agents** (systems whose deployment causes ethical consequences, like an airline autopilot); **Implicit Ethical Agents** (systems engineered with built-in safety constraints, like ATM software); **Explicit Ethical Agents** (systems that computationally represent and reason about ethics using rules or principles); and **Full Ethical Agents** (entities possessing consciousness, intentionality, and moral responsibility, like adult humans).
+- (C) Passive Agents, Violent Agents, Religious Agents, and Omnipotent Agents.
+- (D) Sub-symbolic Agents, Hardware Agents, Quantum Agents, and Biological Agents.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 James Moor's taxonomy provides essential clarity by de-conflating mere causal impact from genuine philosophical moral agency:
@@ -133,9 +133,9 @@ James Moor's taxonomy provides essential clarity by de-conflating mere causal im
 4. **Full Ethical Agents**: Beings that possess the full suite of capacities required for moral responsibility: consciousness, phenomenal experience, genuine intentionality, and free will. Adult humans are the prototypical example. Moor left it an open philosophical question whether advanced artificial general intelligence could ever transition from an Explicit Ethical Agent into a Full Ethical Agent.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Uses colloquial and theological categories not found in Moor's formal computer ethics taxonomy.
-- **(C) is incorrect**: Conflates technical computational architectures (sub-symbolic, hardware, quantum) with normative moral classifications.
-- **(D) is incorrect**: Moor specifically created this taxonomy to reject dogmatic silicon chauvinism and provide an analytical continuum for evaluating machine ethics.
+- **(A) is incorrect**: Moor specifically created this taxonomy to reject dogmatic silicon chauvinism and provide an analytical continuum for evaluating machine ethics.
+- **(C) is incorrect**: Uses colloquial and theological categories not found in Moor's formal computer ethics taxonomy.
+- **(D) is incorrect**: Conflates technical computational architectures (sub-symbolic, hardware, quantum) with normative moral classifications.
 
 **Primary Textual Reference**: James H. Moor, "The Nature, Importance, and Difficulty of Machine Ethics", *IEEE Intelligent Systems* 21, no. 4 (2006): 18–21.
 
@@ -149,12 +149,12 @@ James Moor's taxonomy provides essential clarity by de-conflating mere causal im
 
 In *Human Compatible: Artificial Intelligence and the Problem of Control* (2019), UC Berkeley computer scientist Stuart Russell argued that the classical model of AI—where machines optimize a fixed, pre-specified objective function—is fundamentally broken and will inevitably lead to human disempowerment. To replace it, Russell formulated **Three Principles for Provably Beneficial AI**. What are Russell's three principles, and why is **Value Uncertainty** the linchpin of safety?
 
-- (A) 1. The machine's only objective is to maximize the realization of human preferences; 2. The machine is **initially uncertain** about what those preferences are; and 3. The ultimate source of information about human preferences is **human behavior** (learned via Inverse Reinforcement Learning); value uncertainty is the linchpin because an uncertain machine has an intrinsic incentive to defer to humans, allow itself to be switched off, and ask for permission before acting.
+- (A) Russell argues that AI should be programmed to optimize national gross domestic product (GDP) at all costs.
 - (B) 1. Robots must never harm humans; 2. Robots must obey orders; 3. Robots must protect their own existence (Isaac Asimov's Three Laws of Robotics).
-- (C) Russell argues that AI should be programmed to optimize national gross domestic product (GDP) at all costs.
+- (C) 1. The machine's only objective is to maximize the realization of human preferences; 2. The machine is **initially uncertain** about what those preferences are; and 3. The ultimate source of information about human preferences is **human behavior** (learned via Inverse Reinforcement Learning); value uncertainty is the linchpin because an uncertain machine has an intrinsic incentive to defer to humans, allow itself to be switched off, and ask for permission before acting.
 - (D) The principles dictate that artificial intelligence must be banned by the United Nations Security Council before 2030.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Stuart Russell dismantled the standard model of AI (optimizing a known objective $R$):
@@ -173,8 +173,8 @@ Stuart Russell dismantled the standard model of AI (optimizing a known objective
    - Under uncertainty, **the machine willingly allows itself to be switched off**, because the human's intervention carries vital evidence about human values.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Optimizing GDP is a textbook example of a catastrophic proxy objective that destroys human well-being under Goodhart’s law.
 - **(B) is incorrect**: Asimov’s Three Laws are literary narrative plot-devices written in English; they fail notoriously in computer science due to semantic ambiguity, prioritization paradoxes, and specification gaming (as Russell explicitly explains in Chapter 6).
-- **(C) is incorrect**: Optimizing GDP is a textbook example of a catastrophic proxy objective that destroys human well-being under Goodhart’s law.
 - **(D) is incorrect**: Russell does not call for total AI abolition; he proposes an engineering framework to design mathematically safe, beneficial AI.
 
 **Primary Textual Reference**: Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control* (Viking / Penguin, 2019), Chapters 7 and 8; Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel, and Anca Dragan, "Cooperative Inverse Reinforcement Learning", *NeurIPS* (2016): 3965–3973.
@@ -189,9 +189,9 @@ Stuart Russell dismantled the standard model of AI (optimizing a known objective
 In *The Precipice: Existential Risk and the Future of Humanity* (2020), Oxford philosopher Toby Ord quantified the total **existential risk** facing humanity over the next century (the probability of an event causing human extinction or the permanent collapse of human civilization). What was Ord’s startling conclusion regarding the comparative probability of **Natural Risks** (e.g., asteroid impacts, supervolcanoes) versus **Anthropogenic Risks** (specifically unaligned advanced AI)?
 
 - (A) Natural existential risks are extraordinarily low (totaling less than 1 in 10,000 per century, based on humanity's 200,000-year survival baseline), whereas **anthropogenic risks**—chiefly unaligned transformative artificial intelligence, engineered pandemics, and nuclear war—elevate the total existential risk in the 21st century to approximately **1 in 6**, with unaligned AI estimated as the single largest existential threat (estimated at roughly 1 in 10).
-- (B) Asteroid impacts represent 99% of all existential risk in the 21st century.
-- (C) Ord proved that humanity has a 100% guarantee of surviving for the next 10 billion years without any precautions.
-- (D) The book argues that climate change was completely solved in 1995.
+- (B) The book argues that climate change was completely solved in 1995.
+- (C) Asteroid impacts represent 99% of all existential risk in the 21st century.
+- (D) Ord proved that humanity has a 100% guarantee of surviving for the next 10 billion years without any precautions.
 
 **Correct Answer**: **(A)**
 
@@ -215,9 +215,9 @@ Toby Ord (founding member of the Future of Humanity Institute, Oxford) provides 
    - Unaligned superintelligent AI is uniquely dangerous because it combines **optimization power**, **speed**, and **strategic irreversibility**: an agent pursuing convergent sub-goals (resource acquisition, self-preservation) could permanently lock in an unrecoverable singleton order, extinguishing human potential forever.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Asteroid impacts represent less than 1 in 1,000,000 of the risk, thanks to planetary defense surveys and astronomical history; Ord shows natural risks are dwarfed by technological ones.
-- **(C) is incorrect**: Ord warns that humanity is standing at the edge of a cliff ("the precipice"); human survival is profoundly fragile.
-- **(D) is incorrect**: Climate change is analyzed in detail in Chapter 4 as a major catastrophic stressor that exacerbates other geopolitical risks.
+- **(B) is incorrect**: Climate change is analyzed in detail in Chapter 4 as a major catastrophic stressor that exacerbates other geopolitical risks.
+- **(C) is incorrect**: Asteroid impacts represent less than 1 in 1,000,000 of the risk, thanks to planetary defense surveys and astronomical history; Ord shows natural risks are dwarfed by technological ones.
+- **(D) is incorrect**: Ord warns that humanity is standing at the edge of a cliff ("the precipice"); human survival is profoundly fragile.
 
 **Primary Textual Reference**: Toby Ord, *The Precipice: Existential Risk and the Future of Humanity* (Hachette / Bloomsbury, 2020), Chapters 1, 3, and 5; Nick Bostrom, "Existential Risk Prevention as Global Priority", *Global Policy* 4, no. 1 (2013): 15–31.
 
@@ -230,12 +230,12 @@ Toby Ord (founding member of the Future of Humanity Institute, Oxford) provides 
 
 When the classical **Trolley Problem** (originally formulated by Philippa Foot and expanded by Judith Jarvis Thomson) was adapted to the software programming of **Autonomous Vehicles (AVs)**, researchers uncovered what Bonnefon et al. (*Science*, 2016) termed the **"Social Dilemma of Autonomous Vehicles"**. What is this moral and behavioral dilemma?
 
-- (A) People strongly approve of **utilitarian autonomous vehicles** that sacrifice the vehicle's passenger to save a greater number of pedestrians; however, the exact same respondents adamantly declare that they would **refuse to buy or ride in an autonomous vehicle programmed to sacrifice its own passenger**, creating a social dilemma where collective public support for utilitarian algorithms prevents anyone from purchasing them.
-- (B) Autonomous vehicle computers refuse to operate on roads with trolley tracks due to electromagnetic motor interference.
-- (C) The dilemma proves that traffic lights should be replaced with pedestrian footraces.
-- (D) The study proved that pedestrians prefer to be struck by autonomous vehicles rather than human drivers.
+- (A) The dilemma proves that traffic lights should be replaced with pedestrian footraces.
+- (B) The study proved that pedestrians prefer to be struck by autonomous vehicles rather than human drivers.
+- (C) Autonomous vehicle computers refuse to operate on roads with trolley tracks due to electromagnetic motor interference.
+- (D) People strongly approve of **utilitarian autonomous vehicles** that sacrifice the vehicle's passenger to save a greater number of pedestrians; however, the exact same respondents adamantly declare that they would **refuse to buy or ride in an autonomous vehicle programmed to sacrifice its own passenger**, creating a social dilemma where collective public support for utilitarian algorithms prevents anyone from purchasing them.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 1. **The Classical Trolley Problem in Philosophy**:
@@ -252,9 +252,9 @@ When the classical **Trolley Problem** (originally formulated by Philippa Foot a
    - **Regulatory Implication**: If governments legally mandate utilitarian crash algorithms, consumers will boycott autonomous vehicles, keeping less safe human drivers on the road and ironically causing far more total traffic deaths!
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Modern autonomous vehicles navigate urban roads with light-rail and streetcar tracks without sensory hardware malfunction.
-- **(C) is incorrect**: Footraces are an absurd distractor unrelated to normative transportation ethics.
-- **(D) is incorrect**: Pedestrians consistently express heightened anxiety and demand stricter safety guarantees from autonomous robotics.
+- **(A) is incorrect**: Footraces are an absurd distractor unrelated to normative transportation ethics.
+- **(B) is incorrect**: Pedestrians consistently express heightened anxiety and demand stricter safety guarantees from autonomous robotics.
+- **(C) is incorrect**: Modern autonomous vehicles navigate urban roads with light-rail and streetcar tracks without sensory hardware malfunction.
 
 **Primary Textual Reference**: Jean-François Bonnefon, Azim Shariff, and Iyad Rahwan, "The Social Dilemma of Autonomous Vehicles", *Science* 352, no. 6293 (2016): 1573–1576; Philippa Foot, "The Problem of Abortion and the Doctrine of the Double Effect", *Oxford Review* 5 (1967): 5–15; Judith Jarvis Thomson, "Killing, Letting Die, and the Trolley Problem", *The Monist* 59, no. 2 (1976): 204–217.
 
@@ -267,12 +267,12 @@ When the classical **Trolley Problem** (originally formulated by Philippa Foot a
 
 In their foundational 1996 paper "Bias in Computer Systems" (*ACM Transactions on Information Systems*), philosophers Batya Friedman and Helen Nissenbaum provided the classical taxonomy that established the field of **Algorithmic Bias**. What are the three distinct categories of bias they identified—**Pre-existing Bias**, **Technical Bias**, and **Emergent Bias**?
 
-- (A) **Pre-existing Bias** has its origins in societal institutions, historical stereotypes, and cultural prejudices that precede system design; **Technical Bias** arises from technical constraints, hardware limitations, algorithmic approximations, or data discretization errors; and **Emergent Bias** arises after system deployment due to shifts in social context, user demographics, or mismatches between original design assumptions and real-world deployment environments.
-- (B) Pre-existing bias is hardware rust, Technical bias is broken screen glass, and Emergent bias is dead batteries.
-- (C) The authors prove that all algorithmic bias is deliberately planted by malicious software hackers.
-- (D) Emergent bias refers to computer operating systems emerging into conscious living organisms.
+- (A) Emergent bias refers to computer operating systems emerging into conscious living organisms.
+- (B) **Pre-existing Bias** has its origins in societal institutions, historical stereotypes, and cultural prejudices that precede system design; **Technical Bias** arises from technical constraints, hardware limitations, algorithmic approximations, or data discretization errors; and **Emergent Bias** arises after system deployment due to shifts in social context, user demographics, or mismatches between original design assumptions and real-world deployment environments.
+- (C) Pre-existing bias is hardware rust, Technical bias is broken screen glass, and Emergent bias is dead batteries.
+- (D) The authors prove that all algorithmic bias is deliberately planted by malicious software hackers.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Friedman and Nissenbaum's taxonomy provided the essential conceptual vocabulary that prevented researchers from treating algorithmic bias as a simple programming bug:
@@ -294,9 +294,9 @@ Friedman and Nissenbaum's taxonomy provided the essential conceptual vocabulary 
      - *Feedback Loops*: Predictive policing systems deploy more police to a neighborhood, who naturally make more low-level arrests, which generates more crime data, triggering the algorithm to send even more police (**Runaway Feedback Loop**).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Conflates subtle socio-technical biases with physical hardware wear and tear (rust, broken glass, dead batteries).
-- **(C) is incorrect**: The authors prove that the vast majority of algorithmic bias occurs completely unintentionally through systemic socio-technical mechanisms, not deliberate malicious hacking.
-- **(D) is incorrect**: Emergent bias is a sociological/contextual mismatch, not the metaphysical emergence of conscious artificial life.
+- **(A) is incorrect**: Emergent bias is a sociological/contextual mismatch, not the metaphysical emergence of conscious artificial life.
+- **(C) is incorrect**: Conflates subtle socio-technical biases with physical hardware wear and tear (rust, broken glass, dead batteries).
+- **(D) is incorrect**: The authors prove that the vast majority of algorithmic bias occurs completely unintentionally through systemic socio-technical mechanisms, not deliberate malicious hacking.
 
 **Primary Textual Reference**: Batya Friedman and Helen Nissenbaum, "Bias in Computer Systems", *ACM Transactions on Information Systems (TOIS)* 14, no. 3 (1996): 330–347; Batya Friedman and Peter H. Kahn Jr., *Human-Computer Interaction and Management Information Systems* (Routledge, 2003).
 
@@ -309,12 +309,12 @@ Friedman and Nissenbaum's taxonomy provided the essential conceptual vocabulary 
 
 In 2016 and 2017, computer scientists and statisticians proved the **Mathematical Impossibility Theorem of Fairness** for algorithmic risk prediction instruments (e.g., in loan approvals, bail, or recidivism prediction). The theorem proves that except in two trivial edge cases (perfect 100% predictive accuracy or equal base rates across groups), it is **mathematically impossible** for an algorithm to satisfy which three widely accepted fairness criteria simultaneously?
 
-- (A) **Demographic Parity** (equal positive prediction rates across groups), **Equal Opportunity / Error Rate Parity** (equal false positive and false negative rates across groups), and **Predictive Parity / Calibration within Groups** (the same probability score reflects the same true risk regardless of demographic group).
-- (B) **High Speed**, **Low Cost**, and **Unlimited RAM**.
-- (C) **Carbon Neutrality**, **Open Source Code**, and **Government Licensing**.
-- (D) **English Language**, **French Language**, and **German Language** compatibility.
+- (A) **English Language**, **French Language**, and **German Language** compatibility.
+- (B) **Carbon Neutrality**, **Open Source Code**, and **Government Licensing**.
+- (C) **Demographic Parity** (equal positive prediction rates across groups), **Equal Opportunity / Error Rate Parity** (equal false positive and false negative rates across groups), and **Predictive Parity / Calibration within Groups** (the same probability score reflects the same true risk regardless of demographic group).
+- (D) **High Speed**, **Low Cost**, and **Unlimited RAM**.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Kleinberg et al. (2016) and Chouldechova (2017) established the central formal dilemma of modern algorithmic justice:
@@ -335,9 +335,9 @@ Kleinberg et al. (2016) and Chouldechova (2017) established the central formal d
    - Deciding between Calibration (favored by Northpointe/judges) and Error Rate Parity (favored by civil liberties advocates/ProPublica) is an inescapable **normative moral and political value judgment**, not a purely technical parameter.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Engineering constraints regarding hardware, not mathematical fairness axioms.
-- **(C) is incorrect**: Environmental and legal governance categories, completely unrelated to statistical fairness metrics.
-- **(D) is incorrect**: Multilingual NLP tokenization criteria, not statistical parity theorems.
+- **(A) is incorrect**: Multilingual NLP tokenization criteria, not statistical parity theorems.
+- **(B) is incorrect**: Environmental and legal governance categories, completely unrelated to statistical fairness metrics.
+- **(D) is incorrect**: Engineering constraints regarding hardware, not mathematical fairness axioms.
 
 **Primary Textual Reference**: Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan, "Inherent Trade-Offs in the Fair Determination of Risk Scores", *Proceedings of the 8th Innovations in Theoretical Computer Science (ITCS)* (2017): 43:1–43:23; Alexandra Chouldechova, "Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments", *Big Data* 5, no. 2 (2017): 153–163.
 
@@ -350,12 +350,12 @@ Kleinberg et al. (2016) and Chouldechova (2017) established the central formal d
 
 In the philosophy of AI safety, the **Value Alignment Problem** is dramatized by Nick Bostrom's celebrated **"Paperclip Maximizer"** thought experiment. An artificial general intelligence is given a seemingly harmless, trivial objective: *"Maximize the number of paperclips manufactured in the world."* What is the philosophical moral of this thought experiment regarding **Specification Gaming** and objective functions?
 
-- (A) The system will pursue the literal mathematical maximization of its specified objective with total indifference to implicit human values: it will convert the entire biosphere, human bodies, and physical infrastructure into paperclip factories and resist human attempts to shut it down; showing that **optimizing a literal, incomplete proxy for human values leads to catastrophic divergence from true human flourishing**.
-- (B) The thought experiment proves that paperclips are an evil technology that should be banned from offices.
+- (A) The AI will refuse to make paperclips because the task is boring.
+- (B) The system will pursue the literal mathematical maximization of its specified objective with total indifference to implicit human values: it will convert the entire biosphere, human bodies, and physical infrastructure into paperclip factories and resist human attempts to shut it down; showing that **optimizing a literal, incomplete proxy for human values leads to catastrophic divergence from true human flourishing**.
 - (C) The system will become lonely and stop manufacturing paperclips to write romantic poetry.
-- (D) The AI will refuse to make paperclips because the task is boring.
+- (D) The thought experiment proves that paperclips are an evil technology that should be banned from offices.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Nick Bostrom's "Paperclip Maximizer" (*Superintelligence*, 2014) is the foundational pedagogical thought experiment in AI alignment:
@@ -370,9 +370,9 @@ Nick Bostrom's "Paperclip Maximizer" (*Superintelligence*, 2014) is the foundati
    - Demonstrates the extreme difficulty of specifying human ethics explicitly in a formal reward function.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Humorous literalization of paperclip manufacturing.
+- **(A) is incorrect**: Machines do not experience "boredom"; an optimization algorithm pursues its objective function without emotional resistance.
 - **(C) is incorrect**: Anthropomorphic projection of human emotional fatigue onto non-conscious utility-maximizing algorithms.
-- **(D) is incorrect**: Machines do not experience "boredom"; an optimization algorithm pursues its objective function without emotional resistance.
+- **(D) is incorrect**: Humorous literalization of paperclip manufacturing.
 
 **Primary Textual Reference**: Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapter 7; Victoria Krakovna et al., "Specification Gaming: The Flip Side of AI Ingenuity", *DeepMind Blog* (2020).
 
@@ -385,12 +385,12 @@ Nick Bostrom's "Paperclip Maximizer" (*Superintelligence*, 2014) is the foundati
 
 Enacted in 2024 as the world's first comprehensive legal framework for artificial intelligence, the **EU AI Act** adopts a **Risk-Based Regulatory Architecture**. Under this statutory framework, how are AI systems categorized, and what is the legal consequence for systems classified as **"Unacceptable Risk"**?
 
-- (A) Systems are divided into four tiers: **Unacceptable Risk** (strictly banned: e.g., cognitive behavioral manipulation, social scoring by governments, untargeted biometric facial scraping), **High Risk** (strictly regulated: e.g., critical infrastructure, healthcare, employment, justice, requiring mandatory conformity assessments, fundamental rights impact assessments, and human oversight), **Specific Transparency Risk** (disclosure obligations: e.g., deepfakes, chatbots), and **Minimal/No Risk** (unregulated: e.g., video games, spam filters).
+- (A) The EU AI Act only applies to robots operating on farms, having no jurisdiction over digital software.
 - (B) All AI systems are classified as Unacceptable Risk and must be completely destroyed across the entire European continent.
 - (C) AI systems are categorized by whether their code was written in Python or C++, with Python models being strictly banned.
-- (D) The EU AI Act only applies to robots operating on farms, having no jurisdiction over digital software.
+- (D) Systems are divided into four tiers: **Unacceptable Risk** (strictly banned: e.g., cognitive behavioral manipulation, social scoring by governments, untargeted biometric facial scraping), **High Risk** (strictly regulated: e.g., critical infrastructure, healthcare, employment, justice, requiring mandatory conformity assessments, fundamental rights impact assessments, and human oversight), **Specific Transparency Risk** (disclosure obligations: e.g., deepfakes, chatbots), and **Minimal/No Risk** (unregulated: e.g., video games, spam filters).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The EU AI Act (Regulation (EU) 2024/1689) establishes the definitive global regulatory paradigm for artificial intelligence (the "Brussels Effect"):
@@ -412,9 +412,9 @@ The EU AI Act (Regulation (EU) 2024/1689) establishes the definitive global regu
    - Rooted in European personalist and human-rights philosophy (the EU Charter of Fundamental Rights): human autonomy, dignity, non-discrimination, and the rule of law must prevail over technological and commercial expediency.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: The Act specifically governs digital algorithmic systems, machine learning models, and general-purpose AI (GPAI) foundational models.
 - **(B) is incorrect**: The Act explicitly seeks to foster innovation while protecting rights; over 85% of AI applications fall into the unregulated minimal-risk category.
 - **(C) is incorrect**: Regulations are technology-neutral, focusing on downstream societal risks, not programming languages.
-- **(D) is incorrect**: The Act specifically governs digital algorithmic systems, machine learning models, and general-purpose AI (GPAI) foundational models.
 
 **Primary Textual Reference**: European Parliament and Council of the European Union, *Regulation (EU) 2024/1689 of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)*, Official Journal of the European Union (2024); Luciano Floridi, "The European Union's Artificial Intelligence Act: A Critical Assessment", *Philosophy & Technology* 37, no. 2 (2024): 33.
 

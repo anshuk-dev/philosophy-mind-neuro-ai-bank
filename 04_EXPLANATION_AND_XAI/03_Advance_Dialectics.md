@@ -10,12 +10,12 @@
 
 In *Making Things Happen: A Theory of Causal Explanation* (2003), James Woodward developed an **Interventionist / Manipulability account** of causal explanation that bridges philosophy of science, structural causal models (Pearl), and modern causal machine learning. According to Woodward, what is the precise relationship between a causal explanation and answering **"w-questions" (what-if-things-had-been-different questions)**?
 
-- (A) An explanation provides causal understanding of an explanandum variable $Y$ if and only if it exhibits a relationship between $Y$ and an explanatory variable $X$ that is invariant under potential hypothetical interventions, enabling one to systematically track how the value of $Y$ would change if the value of $X$ were manipulated.
-- (B) An explanation only answers w-questions if the researcher physically travels back in time to change the initial Big Bang singularity.
-- (C) Woodward argues that interventions are strictly subjective psychological desires that cannot be expressed in structural causal equations or directed acyclic graphs.
+- (A) Woodward argues that interventions are strictly subjective psychological desires that cannot be expressed in structural causal equations or directed acyclic graphs.
+- (B) An explanation provides causal understanding of an explanandum variable $Y$ if and only if it exhibits a relationship between $Y$ and an explanatory variable $X$ that is invariant under potential hypothetical interventions, enabling one to systematically track how the value of $Y$ would change if the value of $X$ were manipulated.
+- (C) An explanation only answers w-questions if the researcher physically travels back in time to change the initial Big Bang singularity.
 - (D) An explanation answers w-questions by computing the correlation between $X$ and $Y$ under passive observational conditions without controlling for confounders.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Woodward's interventionism revolutionizes explanation by rejecting both Hempel's deductive subsumption and Salmon's micro-physical mark transmission:
@@ -28,8 +28,8 @@ Woodward's interventionism revolutionizes explanation by rejecting both Hempel's
 This framework is profoundly influential in modern Explainable AI (XAI), particularly in **Counterfactual Explanations** (Wachter, Mittelstadt, & Russell 2017: "You were denied a loan because your income was \$40k; if your income had been \$50k, the loan would have been approved"). A counterfactual explanation provides actionable interventionist understanding without requiring the user to inspect every uninterpretable neuron weight in a billion-parameter network.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Woodward's notion of intervention is counterfactual and modal; it does not require literal time travel, but rather a well-defined hypothetical intervention operator ($do(X)$).
-- **(C) is incorrect**: Interventions are defined with mathematical precision within Directed Acyclic Graphs (DAGs) and non-parametric structural equation models (Pearl 2000; Woodward 2003).
+- **(A) is incorrect**: Interventions are defined with mathematical precision within Directed Acyclic Graphs (DAGs) and non-parametric structural equation models (Pearl 2000; Woodward 2003).
+- **(C) is incorrect**: Woodward's notion of intervention is counterfactual and modal; it does not require literal time travel, but rather a well-defined hypothetical intervention operator ($do(X)$).
 - **(D) is incorrect**: Passive observation conflates correlation with causation; an intervention explicitly severs incoming causal arrows to isolate the true causal effect, destroying confounding bias.
 
 **Primary Textual Reference**: James Woodward, *Making Things Happen: A Theory of Causal Explanation* (Oxford University Press, 2003), Chapters 1, 2, and 5; Judea Pearl, *Causality: Models, Reasoning, and Inference* (Cambridge University Press, 2000).
@@ -44,9 +44,9 @@ This framework is profoundly influential in modern Explainable AI (XAI), particu
 In *Extending Ourselves: Computational Science, Empiricism, and Scientific Method* (2004), Paul Humphreys introduced the philosophical concept of **Epistemic Opacity** to explain how modern computational simulations and algorithmic models transcend traditional human epistemology. How does Humphreys define a process or computational model as being **essentially epistemically opaque** to a cognitive agent?
 
 - (A) A process is essentially epistemically opaque to an agent $X$ if and only if it is impossible for $X$ to know the epistemically relevant elements of the process due to human neurocognitive processing limits, finite temporal lifespans, or the intrinsic mathematical intractability of the multi-step computation.
-- (B) A process is opaque if the software source code is encrypted by a commercial software patent.
-- (C) A process is opaque if the computer monitor is switched off during calculation.
-- (D) Humphreys defines opacity as the biological inability of human eyes to perceive infrared wavelengths.
+- (B) Humphreys defines opacity as the biological inability of human eyes to perceive infrared wavelengths.
+- (C) A process is opaque if the software source code is encrypted by a commercial software patent.
+- (D) A process is opaque if the computer monitor is switched off during calculation.
 
 **Correct Answer**: **(A)**
 
@@ -62,9 +62,9 @@ Paul Humphreys's epistemology of computation marks a major departure from classi
 4. **Epistemological Consequence**: We can be fully justified in trusting the output of an algorithm (via external validation, empirical testing, and instrument calibration) without having internal semantic understanding of *how* the computation achieved that output. Epistemic opacity severs the classical link between **justified belief** and **subjective transparency**.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Proprietary software licensing is accidental/contingent opacity; Humphreys's concept of *essential* opacity holds even when the source code and all parameter weights are completely open-source and printed on paper.
-- **(C) is incorrect**: Turning off a physical visual display is trivial sensory deprivation, not an epistemological theory of computational complexity.
-- **(D) is incorrect**: Conflates sensory perceptual limits of the optical nerve with inferential/computational opacity of multi-layer mathematical models.
+- **(B) is incorrect**: Conflates sensory perceptual limits of the optical nerve with inferential/computational opacity of multi-layer mathematical models.
+- **(C) is incorrect**: Proprietary software licensing is accidental/contingent opacity; Humphreys's concept of *essential* opacity holds even when the source code and all parameter weights are completely open-source and printed on paper.
+- **(D) is incorrect**: Turning off a physical visual display is trivial sensory deprivation, not an epistemological theory of computational complexity.
 
 **Primary Textual Reference**: Paul Humphreys, *Extending Ourselves: Computational Science, Empiricism, and Scientific Method* (Oxford University Press, 2004), Chapter 4 ("Computational Science and Epistemic Opacity"); Paul Humphreys, "The Philosophical Novelty of Computer Simulation Methods", *Synthese* 169, no. 3 (2009): 615–626.
 
@@ -77,12 +77,12 @@ Paul Humphreys's epistemology of computation marks a major departure from classi
 
 In his landmark paper, "Explanation in Artificial Intelligence: Insights from the Social Sciences" (*Artificial Intelligence*, 2019), Tim Miller conducted a comprehensive cross-disciplinary survey of philosophy of science, cognitive psychology, and social linguistics to critique modern Explainable AI (XAI). What are the three foundational findings Miller establishes that computer scientists routinely overlook when designing automated explanation systems?
 
-- (A) Explanations are **contrastive** (people seek why event $P$ happened rather than event $Q$); explanations are **selective** (people expect the explainer to select one or two salient causes from an infinite causal web, guided by abductive norms, rather than listing all statistical probabilities); and explanations are **social** (they are conversational acts of knowledge transfer adapted to the mental model of the receiver).
-- (B) Explanations must be expressed purely as raw 1,000-dimensional heatmaps of pixel gradients; explanations are universal and invariant across all human cultures; and explanations do not require linguistic communication.
-- (C) Human beings only accept explanations that are formal mathematical proofs in first-order predicate calculus.
-- (D) Explanations should maximize the total number of features presented, because human working memory has infinite capacity to analyze multivariate correlations.
+- (A) Explanations must be expressed purely as raw 1,000-dimensional heatmaps of pixel gradients; explanations are universal and invariant across all human cultures; and explanations do not require linguistic communication.
+- (B) Explanations are **contrastive** (people seek why event $P$ happened rather than event $Q$); explanations are **selective** (people expect the explainer to select one or two salient causes from an infinite causal web, guided by abductive norms, rather than listing all statistical probabilities); and explanations are **social** (they are conversational acts of knowledge transfer adapted to the mental model of the receiver).
+- (C) Explanations should maximize the total number of features presented, because human working memory has infinite capacity to analyze multivariate correlations.
+- (D) Human beings only accept explanations that are formal mathematical proofs in first-order predicate calculus.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Tim Miller's paper is widely recognized as the foundational text bridging cognitive philosophy and AI interpretability:
@@ -97,9 +97,9 @@ Tim Miller's paper is widely recognized as the foundational text bridging cognit
    - Explanation is an interactive dialogue (speech act) governed by Gricean Maxims of conversation (Quantity, Quality, Relation, Manner). The explainer must tune the explanation to the beliefs, goals, and background knowledge of the listener.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Saliency heatmaps and raw gradient maps are precisely what Miller critiques as being non-contrastive, unselective, and cognitively uninterpretable to end-users.
-- **(C) is incorrect**: Decades of cognitive psychology (Kahneman, Tversky, Gigerenzer) prove that humans do not reason via formal first-order logic proofs in daily life; they reason through heuristics, causal narratives, and contrastive differences.
-- **(D) is incorrect**: Human working memory is strictly bottlenecked (Miller's $7 \pm 2$ chunks); presenting hundreds of features leads to cognitive overload and complete loss of comprehension.
+- **(A) is incorrect**: Saliency heatmaps and raw gradient maps are precisely what Miller critiques as being non-contrastive, unselective, and cognitively uninterpretable to end-users.
+- **(C) is incorrect**: Human working memory is strictly bottlenecked (Miller's $7 \pm 2$ chunks); presenting hundreds of features leads to cognitive overload and complete loss of comprehension.
+- **(D) is incorrect**: Decades of cognitive psychology (Kahneman, Tversky, Gigerenzer) prove that humans do not reason via formal first-order logic proofs in daily life; they reason through heuristics, causal narratives, and contrastive differences.
 
 **Primary Textual Reference**: Tim Miller, "Explanation in Artificial Intelligence: Insights from the Social Sciences", *Artificial Intelligence* 267 (2019): 1–38; Peter Lipton, *Inference to the Best Explanation* (2nd ed., Routledge, 2004).
 
@@ -113,12 +113,12 @@ Tim Miller's paper is widely recognized as the foundational text bridging cognit
 
 In *Biological Complexity and Integrative Pluralism* (2003) and *Unsimple Truths* (2009), philosopher of science Sandra Mitchell critiqued classical reductionist models of explanation for complex biological and artificial systems. What is Mitchell’s doctrine of **Integrative Pluralism**, and why does she argue that complex emergent phenomena (like social insect colonies, cellular signaling, or multi-agent artificial systems) cannot be explained by single-level physical reductionism?
 
-- (A) Complex systems are characterized by multi-level feedback loops, nonlinear interactions, context-dependence, and evolutionary contingency, which prevent any single fundamental physical theory from providing a complete explanation; Integrative Pluralism holds that adequate scientific explanation requires integrating multiple partial, abstract, non-competing models across distinct ontological levels (molecular, cellular, organismal, ecological) without reducing higher-level causal structures to fundamental physics.
+- (A) Mitchell proves that complex systems have zero physical mass and therefore do not obey the laws of gravity.
 - (B) Integrative pluralism argues that complex systems can only be explained if scientists integrate supernatural astrology into academic physics textbooks.
-- (C) Mitchell proves that complex systems have zero physical mass and therefore do not obey the laws of gravity.
-- (D) The doctrine claims that all biological organisms are made of exactly two chemical molecules.
+- (C) The doctrine claims that all biological organisms are made of exactly two chemical molecules.
+- (D) Complex systems are characterized by multi-level feedback loops, nonlinear interactions, context-dependence, and evolutionary contingency, which prevent any single fundamental physical theory from providing a complete explanation; Integrative Pluralism holds that adequate scientific explanation requires integrating multiple partial, abstract, non-competing models across distinct ontological levels (molecular, cellular, organismal, ecological) without reducing higher-level causal structures to fundamental physics.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Sandra Mitchell's philosophy of science directly confronts the limitations of classical covering-law and micro-reductionist models:
@@ -136,9 +136,9 @@ Sandra Mitchell's philosophy of science directly confronts the limitations of cl
      - An explanation of an event is achieved by **integrating these multi-level models into a cohesive causal narrative tailored to the specific explanatory question**, rather than collapsing everything into subatomic quantum equations.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Complex systems (ant colonies, brains, computer clusters) are physical systems possessing mass and obeying physical laws; Mitchell's argument concerns explanatory emergence, not anti-gravitational physics.
 - **(B) is incorrect**: Integrative pluralism is a rigorous philosophy of naturalistic empirical science; it explicitly rejects pseudoscience and astrology.
-- **(C) is incorrect**: Complex systems (ant colonies, brains, computer clusters) are physical systems possessing mass and obeying physical laws; Mitchell's argument concerns explanatory emergence, not anti-gravitational physics.
-- **(D) is incorrect**: Biological complexity involves thousands of proteins, enzymes, and nucleic acids operating non-linearly, the exact opposite of two-molecule simplicity.
+- **(C) is incorrect**: Biological complexity involves thousands of proteins, enzymes, and nucleic acids operating non-linearly, the exact opposite of two-molecule simplicity.
 
 **Primary Textual Reference**: Sandra D. Mitchell, *Biological Complexity and Integrative Pluralism* (Cambridge University Press, 2003), Chapters 1 and 3; Sandra D. Mitchell, *Unsimple Truths: Science, Complexity, and Policy* (University of Chicago Press, 2009).
 
@@ -151,12 +151,12 @@ Sandra Mitchell's philosophy of science directly confronts the limitations of cl
 
 In their influential paper "Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR" (*Harvard Journal of Law & Technology*, 2017), Sandra Wachter, Brent Mittelstadt, and Chris Russell proposed **Counterfactual Explanations** to fulfill the legal and ethical requirements of the European Union General Data Protection Regulation (GDPR, Articles 13–15 and 22: "Right to an Explanation"). What is the precise mathematical formulation of a counterfactual explanation, and why does it uniquely provide **"Algorithmic Recourse"** for affected individuals?
 
-- (A) A counterfactual explanation finds an input vector $x'$ that is as close as possible to the original input $x$ under a distance metric $d(x, x')$ such that the model's decision changes from the unfavorable outcome to the desired outcome ($f(x') = y^*$), providing the user with actionable, minimal steps to achieve a favorable outcome (recourse: e.g., *"If your income increases by \$10,000, your loan will be approved"*) without requiring them to understand internal neural network weights.
-- (B) Counterfactual explanations require that the applicant travel into a parallel quantum universe to obtain a loan.
-- (C) The paper proves that deep neural networks are legally prohibited from executing in European banks.
-- (D) Algorithmic recourse means that the bank president must personally apologize in writing to every rejected loan applicant.
+- (A) The paper proves that deep neural networks are legally prohibited from executing in European banks.
+- (B) Algorithmic recourse means that the bank president must personally apologize in writing to every rejected loan applicant.
+- (C) Counterfactual explanations require that the applicant travel into a parallel quantum universe to obtain a loan.
+- (D) A counterfactual explanation finds an input vector $x'$ that is as close as possible to the original input $x$ under a distance metric $d(x, x')$ such that the model's decision changes from the unfavorable outcome to the desired outcome ($f(x') = y^*$), providing the user with actionable, minimal steps to achieve a favorable outcome (recourse: e.g., *"If your income increases by \$10,000, your loan will be approved"*) without requiring them to understand internal neural network weights.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Wachter, Mittelstadt, and Russell bridged philosophy of science (Woodward's interventionism / Lewis's counterfactuals) with computer science and international jurisprudence:
@@ -179,9 +179,9 @@ Wachter, Mittelstadt, and Russell bridged philosophy of science (Woodward's inte
    It provides true interventionist causal understanding without needing to expose proprietary trade-secret model weights.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Counterfactuals in philosophy and machine learning are modal hypothetical statements about nearby states of the actual world, not science-fiction multiverse travel.
-- **(C) is incorrect**: The GDPR permits automated decision-making under defined safeguards (Articles 13–15, 22); it does not ban deep neural networks.
-- **(D) is incorrect**: Algorithmic recourse is an automated computational mechanism that provides actionable input thresholds, not personal executive letters.
+- **(A) is incorrect**: The GDPR permits automated decision-making under defined safeguards (Articles 13–15, 22); it does not ban deep neural networks.
+- **(B) is incorrect**: Algorithmic recourse is an automated computational mechanism that provides actionable input thresholds, not personal executive letters.
+- **(C) is incorrect**: Counterfactuals in philosophy and machine learning are modal hypothetical statements about nearby states of the actual world, not science-fiction multiverse travel.
 
 **Primary Textual Reference**: Sandra Wachter, Brent Mittelstadt, and Chris Russell, "Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR", *Harvard Journal of Law & Technology* 31, no. 2 (2018): 841–887 (originally presented 2017).
 
@@ -233,12 +233,12 @@ In feminist philosophy of science and critical epistemology, Sandra Harding form
 
 In his critical philosophical writings on machine learning methodology, Zachary Lipton exposed a profound conceptual chasm between **Supervised Empirical Risk Minimization** and **Scientific Explanation**. What is Lipton’s warning regarding **Optimization Mismatch**, and why does even a 100% faithful post-hoc explanation of a neural network fail to provide an explanation of the underlying real-world phenomenon?
 
-- (A) Supervised learning optimizes for statistical correlation to minimize empirical loss on a specific training distribution, not for causal difference-making; a post-hoc explanation explains only the mathematical mechanics of what the **surrogate model computed** over its training distribution, which can exploit absurd, non-causal confounding shortcuts (e.g., classifying a wolf based on snow in the background), meaning explaining the model's computation does not explain *why* the phenomenon occurs in the real world.
+- (A) Lipton argues that loss functions should be calculated using Roman numerals instead of Arabic numerals.
 - (B) Optimization mismatch means the computer monitor is running at 144 Hz while the graphics card is locked at 60 Hz.
-- (C) Lipton argues that loss functions should be calculated using Roman numerals instead of Arabic numerals.
+- (C) Supervised learning optimizes for statistical correlation to minimize empirical loss on a specific training distribution, not for causal difference-making; a post-hoc explanation explains only the mathematical mechanics of what the **surrogate model computed** over its training distribution, which can exploit absurd, non-causal confounding shortcuts (e.g., classifying a wolf based on snow in the background), meaning explaining the model's computation does not explain *why* the phenomenon occurs in the real world.
 - (D) The argument proves that gradient descent is mathematically incapable of minimizing quadratic functions.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Lipton identifies a fundamental epistemological confusion that pervades applied AI and data science:
@@ -261,8 +261,8 @@ Lipton identifies a fundamental epistemological confusion that pervades applied 
    - Conflating an explanation of the model's inner arithmetic with an explanation of the physical world is a catastrophic category mistake.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Numerical representation (Roman vs. Arabic numerals) has zero relevance to optimization mathematics.
 - **(B) is incorrect**: Monitor refresh rates (Hz) are hardware video display sync issues, completely unrelated to loss function optimization mismatch.
-- **(C) is incorrect**: Numerical representation (Roman vs. Arabic numerals) has zero relevance to optimization mathematics.
 - **(D) is incorrect**: Gradient descent minimizes smooth convex quadratic loss functions with provable convergence guarantees.
 
 **Primary Textual Reference**: Zachary C. Lipton, "The Mythos of Model Interpretability", *Communications of the ACM* 61, no. 10 (2018): 36–43; Zachary C. Lipton and Jacob Steinhardt, "Troubling Trends in Machine Learning Scholarship", *arXiv:1807.03341* (2018).
@@ -277,12 +277,12 @@ Lipton identifies a fundamental epistemological confusion that pervades applied 
 
 In *Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting* (2016), virtue ethicist Shannon Vallor investigates how human moral capacities evolve under technological mediation. How does Vallor diagnose the epistemic and ethical danger of outsourcing high-stakes social decisions (such as child welfare risk scoring, judicial sentencing, and medical triage) to opaque artificial intelligence systems, in terms of **moral habituation and understanding**?
 
-- (A) By substituting automated, opaque algorithmic predictions for deliberative human judgment, human practitioners are deprived of the necessary repetitive moral practice, friction, and reflective accountability through which Aristotelian practical wisdom (*phronesis*) is developed; over time, this causes **"moral deskilling"** and the atrophy of human moral understanding, leaving society incapable of ethical reasoning without computational prosthetics.
-- (B) Vallor argues that computer algorithms automatically possess higher Christian virtues than biological saints.
-- (C) Technomoral wisdom asserts that computers will self-destruct if they encounter an unethical human thought.
-- (D) The book claims that moral virtues can only be cultivated by living in pre-industrial caves without metal tools.
+- (A) Vallor argues that computer algorithms automatically possess higher Christian virtues than biological saints.
+- (B) By substituting automated, opaque algorithmic predictions for deliberative human judgment, human practitioners are deprived of the necessary repetitive moral practice, friction, and reflective accountability through which Aristotelian practical wisdom (*phronesis*) is developed; over time, this causes **"moral deskilling"** and the atrophy of human moral understanding, leaving society incapable of ethical reasoning without computational prosthetics.
+- (C) The book claims that moral virtues can only be cultivated by living in pre-industrial caves without metal tools.
+- (D) Technomoral wisdom asserts that computers will self-destruct if they encounter an unethical human thought.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Shannon Vallor’s virtue ethics of technology provides a profound critique of technocratic automation:
@@ -299,9 +299,9 @@ Shannon Vallor’s virtue ethics of technology provides a profound critique of t
    - Society loses the ability to give and demand reasons (*the space of reasons*), replacing authentic ethical understanding with blind statistical compliance.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Vallor explicitly rejects the idea that machines possess moral virtues; virtues are embodied, habituated character dispositions of conscious moral agents.
-- **(C) is incorrect**: Algorithms do not self-destruct upon encountering unethical inputs; they execute code deterministically regardless of moral content.
-- **(D) is incorrect**: Vallor does not advocate neo-Luddite retreat to pre-industrial caves; she argues for cultivating "technomoral virtues" (humility, care, honesty, justice) to guide and constrain technological development.
+- **(A) is incorrect**: Vallor explicitly rejects the idea that machines possess moral virtues; virtues are embodied, habituated character dispositions of conscious moral agents.
+- **(C) is incorrect**: Vallor does not advocate neo-Luddite retreat to pre-industrial caves; she argues for cultivating "technomoral virtues" (humility, care, honesty, justice) to guide and constrain technological development.
+- **(D) is incorrect**: Algorithms do not self-destruct upon encountering unethical inputs; they execute code deterministically regardless of moral content.
 
 **Primary Textual Reference**: Shannon Vallor, *Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting* (Oxford University Press, 2016), Chapters 1, 2, and 6; Shannon Vallor, "Moral Deskilling and Upskilling in a New Machine Age", *Philosophy & Technology* 28, no. 1 (2015): 107–124.
 
@@ -315,9 +315,9 @@ Shannon Vallor’s virtue ethics of technology provides a profound critique of t
 Named after Akira Kurosawa's 1950 film where multiple witnesses provide contradictory accounts of the same event, **The Rashomon Effect** (or **Predictive Multiplicity**) in machine learning poses a profound epistemological challenge to Explainable AI. What is the Rashomon Effect, and why does it undermine confidence in post-hoc explanations?
 
 - (A) In many real-world datasets, there exists a large set of distinct models (the **Rashomon Set**) that achieve virtually identical overall empirical prediction accuracy, yet rely on radically different, contradictory subsets of features; consequently, attributing "the reason" for a specific decision based on one selected model is arbitrary, because an equally accurate competing model would assign credit to entirely different variables.
-- (B) The Rashomon effect proves that statistical datasets are written in Japanese calligraphy.
+- (B) The Rashomon effect occurs only when an algorithm is run on quantum hardware.
 - (C) It claims that machine learning models always hallucinate when predicting weather forecasts.
-- (D) The Rashomon effect occurs only when an algorithm is run on quantum hardware.
+- (D) The Rashomon effect proves that statistical datasets are written in Japanese calligraphy.
 
 **Correct Answer**: **(A)**
 
@@ -335,9 +335,9 @@ Leo Breiman introduced the Rashomon Effect in his iconic 2001 paper *"Statistica
    - As Breiman demonstrated, treating the feature weights of any single black box as discovering the "underlying physical truth" is a naive and dangerous form of pseudo-scientific realism.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Cinematic homage to Kurosawa's Japanese film, not literal calligraphy.
+- **(B) is incorrect**: The phenomenon is a classical statistical property of empirical loss landscapes, unrelated to quantum computing.
 - **(C) is incorrect**: Predictive multiplicity applies to tabular classification and regression across all scientific domains, not merely weather forecasting.
-- **(D) is incorrect**: The phenomenon is a classical statistical property of empirical loss landscapes, unrelated to quantum computing.
+- **(D) is incorrect**: Cinematic homage to Kurosawa's Japanese film, not literal calligraphy.
 
 **Primary Textual Reference**: Leo Breiman, "Statistical Modeling: The Two Cultures", *Statistical Science* 16, no. 3 (2001): 199–231; Charles T. Marx, Flavio du Pin Calmon, and Berk Ustun, "Predictive Multiplicity in Classification", *Proceedings of the 37th International Conference on Machine Learning (ICML)* (2020): 6765–6774.
 
@@ -350,12 +350,12 @@ Leo Breiman introduced the Rashomon Effect in his iconic 2001 paper *"Statistica
 
 In convolutional neural networks (CNNs) and transformer models, latent layers self-organize to represent abstract features (e.g., Gabor edge filters in early layers, textural manifolds in middle layers, and semantic concepts in deep layers). What is the central ontological debate between **Scientific Realists** and **Pragmatic Instrumentalists (Scaffolding Realists)** regarding these latent features?
 
-- (A) Scientific Realists argue that deep neural networks successfully discover genuine, mind-independent **natural kinds** and objective causal structures of the world through optimization, whereas Instrumentalists argue that latent features are merely convenient, non-unique mathematical **scaffolding** (predictive artifacts optimized for empirical loss reduction) that reflect the inductive biases of the training architecture rather than real ontological divisions in nature.
+- (A) Realists claim that neural networks cannot represent shapes, while instrumentalists claim they can only represent circles.
 - (B) Realists argue that neural network features are made of physical iron, while instrumentalists argue they are made of wood.
 - (C) The debate concerns whether neural networks should be owned by government agencies or private universities.
-- (D) Realists claim that neural networks cannot represent shapes, while instrumentalists claim they can only represent circles.
+- (D) Scientific Realists argue that deep neural networks successfully discover genuine, mind-independent **natural kinds** and objective causal structures of the world through optimization, whereas Instrumentalists argue that latent features are merely convenient, non-unique mathematical **scaffolding** (predictive artifacts optimized for empirical loss reduction) that reflect the inductive biases of the training architecture rather than real ontological divisions in nature.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The debate between scientific realism and instrumentalism is one of the classic disputes in philosophy of science (Hacking 1983, van Fraassen 1980), now transposed into modern deep learning:
@@ -369,9 +369,9 @@ The debate between scientific realism and instrumentalism is one of the classic 
    - A genuine natural kind is counterfactually robust; the network's latent vector is merely a high-dimensional regression manifold (an opportunistic mathematical scaffold) that satisfies empirical classification without grasping the deep metaphysical essence of the object.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Both sides acknowledge the network's mathematical capacity to represent arbitrary geometric manifolds.
 - **(B) is incorrect**: Frivolous materialist distracter.
 - **(C) is incorrect**: Conflates an ontological philosophy-of-science debate with institutional intellectual property policy.
-- **(D) is incorrect**: Both sides acknowledge the network's mathematical capacity to represent arbitrary geometric manifolds.
 
 **Primary Textual Reference**: David Danks, "The Philosophy of Trust in Machine Learning", in *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAccT)* (2020); Colin Allen, "Representations and Latent Spaces in Machine Learning", *Synthese* 198 (2021): 8841–8862; Ian Hacking, *Representing and Intervening: Introductory Topics in the Philosophy of Natural Science* (Cambridge University Press, 1983).
 
@@ -384,12 +384,12 @@ The debate between scientific realism and instrumentalism is one of the classic 
 
 The emerging research program of **Mechanistic Interpretability** (Anthropic, Olah et al.) seeks to reverse-engineer neural networks from black-box matrix weights into human-interpretable computational algorithms. In their 2022 paper *"Toy Models of Superposition"*, what did Elhage et al. discover regarding **Polysemantic Neurons** and the **Superposition Hypothesis**?
 
-- (A) Neural networks represent far more independent features than they have physical neurons by storing features as non-orthogonal directions in high-dimensional vector space (**Superposition**); this forces individual neurons to respond to multiple, completely unrelated semantic concepts (e.g., a single neuron firing for academic citations, Korean text, and cat faces), making the individual neuron the wrong fundamental unit of analysis for explainability.
-- (B) Polysemanticity proves that neural networks can only understand the English language.
-- (C) Induction heads are physical copper wires attached to the exterior of the computer motherboard.
-- (D) Superposition proves that neural networks violate the law of non-contradiction in classical logic.
+- (A) Induction heads are physical copper wires attached to the exterior of the computer motherboard.
+- (B) Superposition proves that neural networks violate the law of non-contradiction in classical logic.
+- (C) Neural networks represent far more independent features than they have physical neurons by storing features as non-orthogonal directions in high-dimensional vector space (**Superposition**); this forces individual neurons to respond to multiple, completely unrelated semantic concepts (e.g., a single neuron firing for academic citations, Korean text, and cat faces), making the individual neuron the wrong fundamental unit of analysis for explainability.
+- (D) Polysemanticity proves that neural networks can only understand the English language.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Mechanistic Interpretability (Olah et al. 2020; Elhage et al. 2021, 2022) represents the vanguard of scientific explanation inside deep learning:
@@ -406,9 +406,9 @@ Mechanistic Interpretability (Olah et al. 2020; Elhage et al. 2021, 2022) repres
    - Interpretability cannot operate at the level of raw neurons; it must operate at the level of **directions in activation space** and **functional circuits** (such as *Induction Heads*, two-layer attention circuits that execute the in-context copy-paste pattern $[A][B] \dots [A] \to [B]$).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Polysemanticity occurs across all languages and modalities (vision, audio, code).
-- **(C) is incorrect**: Induction heads are algorithmic attention circuits implemented in transformer weights, not physical copper cables.
-- **(D) is incorrect**: Superposition is linear algebraic vector projection, fully consistent with classical mathematical logic.
+- **(A) is incorrect**: Induction heads are algorithmic attention circuits implemented in transformer weights, not physical copper cables.
+- **(B) is incorrect**: Superposition is linear algebraic vector projection, fully consistent with classical mathematical logic.
+- **(D) is incorrect**: Polysemanticity occurs across all languages and modalities (vision, audio, code).
 
 **Primary Textual Reference**: Nelson Elhage et al., "Toy Models of Superposition", *Transformer Circuits Thread* (Anthropic, 2022); Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter, "Zoom In: An Introduction to Circuits", *Distill* (2020); Nelson Elhage et al., "A Mathematical Framework for Transformer Circuits", *Transformer Circuits Thread* (2021).
 
@@ -421,12 +421,12 @@ Mechanistic Interpretability (Olah et al. 2020; Elhage et al. 2021, 2022) repres
 
 In his landmark work *Inference to the Best Explanation* (1991/2004), philosopher of science Peter Lipton established that genuine explanations are fundamentally **Contrastive**: we do not explain an event simpliciter, but why the fact occurred **rather than** an alternative (**"Why $P$ rather than $Q$?"**, where $P$ is the Fact and $Q$ is the Foil). What is Lipton's **Difference Condition** for contrastive explanation?
 
-- (A) To explain why $P$ occurred rather than $Q$, the explanans must cite a causal factor that **differentiates** the actual causal history of $P$ from the counterfactual causal history that would have led to $Q$; citing a causal factor that is shared in common between the history of $P$ and the hypothetical history of $Q$ provides zero contrastive explanatory power.
+- (A) Lipton argues that contrastive explanations are logically impossible because foils do not physically exist in the actual world.
 - (B) An explanation must prove that $P$ and $Q$ are mathematically identical numbers.
-- (C) The difference condition states that only the oldest person in the room is allowed to choose the foil.
-- (D) Lipton argues that contrastive explanations are logically impossible because foils do not physically exist in the actual world.
+- (C) To explain why $P$ occurred rather than $Q$, the explanans must cite a causal factor that **differentiates** the actual causal history of $P$ from the counterfactual causal history that would have led to $Q$; citing a causal factor that is shared in common between the history of $P$ and the hypothetical history of $Q$ provides zero contrastive explanatory power.
+- (D) The difference condition states that only the oldest person in the room is allowed to choose the foil.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Peter Lipton's analysis of contrastive explanation (*Inference to the Best Explanation*, 1991/2004; Lipton 1990) is one of the most foundational frameworks in the philosophy of science, directly shaping contemporary XAI (Miller 2019):
@@ -446,8 +446,8 @@ Peter Lipton's analysis of contrastive explanation (*Inference to the Best Expla
    - An XAI system succeeds if and only if it isolates Lipton's **differentiating difference-maker**.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Foils are counterfactual possibilities, which are essential to modal and causal reasoning.
 - **(B) is incorrect**: Contrastive explanation requires differences between distinct alternatives, not mathematical identity.
-- **(C) is incorrect**: Frivolous sociological distracter.
-- **(D) is incorrect**: Foils are counterfactual possibilities, which are essential to modal and causal reasoning.
+- **(D) is incorrect**: Frivolous sociological distracter.
 
 **Primary Textual Reference**: Peter Lipton, "Contrastive Explanation", *Royal Institute of Philosophy Supplements* 27 (1990): 247–266; Peter Lipton, *Inference to the Best Explanation* (Routledge, 1991; 2nd ed., 2004); Tim Miller, "Explanation in Artificial Intelligence: Insights from the Social Sciences", *Artificial Intelligence* 267 (2019): 1–38.

@@ -10,12 +10,12 @@
 
 In her foundational monograph *Neurophilosophy: Toward a Unified Science of the Mind-Brain* (1986), Patricia Smith Churchland argues that the traditional philosophical boundary between the philosophy of mind and empirical neuroscience must be replaced by a **co-evolutionary** methodology. What is the precise definition of "co-evolution" in Churchland’s neurophilosophical framework?
 
-- (A) Top-down psychological theories and bottom-up neuroscientific theories must continuously mutually constrain, correct, and reshape each other until they converge into an integrated, unified theoretical paradigm.
+- (A) Cognitive psychology should be abandoned immediately without waiting for any neurobiological evidence because all mental concepts are illusions.
 - (B) Darwinian natural selection operates simultaneously on biological DNA and non-physical Cartesian soul-substances across evolutionary time.
-- (C) Neuroscience must be entirely subordinated to folk psychological intuitions because human language evolved prior to modern neuroimaging.
-- (D) Cognitive psychology should be abandoned immediately without waiting for any neurobiological evidence because all mental concepts are illusions.
+- (C) Top-down psychological theories and bottom-up neuroscientific theories must continuously mutually constrain, correct, and reshape each other until they converge into an integrated, unified theoretical paradigm.
+- (D) Neuroscience must be entirely subordinated to folk psychological intuitions because human language evolved prior to modern neuroimaging.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 In *Neurophilosophy* (Chapter 9: "A Co-Evolutionary Research Strategy"), Patricia Churchland articulates the core methodological manifesto of the field. Rejecting both pure *a priori* armchair philosophy (which ignores neuroscience) and vulgar neuro-reductionism (which ignores high-level cognitive architecture), Churchland argues:
@@ -27,9 +27,9 @@ In a co-evolutionary research programme:
 Over time, both vocabularies co-evolve until inter-theoretic reduction or elimination can take place.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Co-evolution is explicitly an *interactive*, phased transition, not an instantaneous blind dismissal of psychological modeling.
 - **(B) is incorrect**: Churchland is an uncompromising physicalist; she vehemently rejects Cartesian soul-substances.
-- **(C) is incorrect**: Churchland argues that folk psychology is deeply flawed and stagnant; she never subordinates neuroscience to everyday linguistic intuition.
-- **(D) is incorrect**: Co-evolution is explicitly an *interactive*, phased transition, not an instantaneous blind dismissal of psychological modeling.
+- **(D) is incorrect**: Churchland argues that folk psychology is deeply flawed and stagnant; she never subordinates neuroscience to everyday linguistic intuition.
 
 **Primary Textual Reference**: Patricia Smith Churchland, *Neurophilosophy: Toward a Unified Science of the Mind-Brain* (MIT Press, Bradford Books, 1986), Chapter 9: "A Co-Evolutionary Research Strategy", pp. 361–399.
 
@@ -48,12 +48,12 @@ Consider the following arguments advanced by Churchland to justify the eliminati
 3. *The Argument from Historical Precedent*: Just as past false theories were not smoothly reduced but outright eliminated—such as the phlogiston theory of combustion (replaced by oxygen chemistry), the caloric theory of heat (replaced by thermodynamics), and the witch theory of psychosis (replaced by neuropathology)—so propositional attitudes will be eliminated by mature cognitive neuroscience.
 
 Which of the statements given above are genuine tenets of Churchland’s argument for Eliminative Materialism?
-- (A) 1, 2, and 3
-- (B) 1 and 2 only
-- (C) 2 and 3 only
-- (D) 1 only
+- (A) 1 only
+- (B) 1, 2, and 3
+- (C) 1 and 2 only
+- (D) 2 and 3 only
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Paul Churchland’s 1981 paper is the definitive statement of **Eliminative Materialism**. Churchland defines eliminativism as:
@@ -69,7 +69,7 @@ He structures his case around three foundational arguments:
 Similarly, Churchland argues that beliefs and desires will not map neatly onto neural networks; they will be eliminated as obsolete folk fictions.
 
 #### Distractor Analysis:
-- **(B), (C), and (D) are incorrect**: All three arguments (Explanatory Deficits, Stagnation, and Historical Elimination) are canonical, foundational pillars of Churchland's 1981 thesis.
+- **(A), (C), and (D) are incorrect**: All three arguments (Explanatory Deficits, Stagnation, and Historical Elimination) are canonical, foundational pillars of Churchland's 1981 thesis.
 
 **Primary Textual Reference**: Paul M. Churchland, "Eliminative Materialism and the Propositional Attitudes", *Journal of Philosophy* 78(2) (1981): 67–90.
 
@@ -83,9 +83,9 @@ Similarly, Churchland argues that beliefs and desires will not map neatly onto n
 Following surgical resection of the corpus callosum (commissurotomy) to treat intractable epilepsy, split-brain patients were tested by Roger Sperry and Michael Gazzaniga using tachistoscopic visual presentation (flashing stimuli exclusively to the left or right visual hemifield). In "Brain Bisection and the Unity of Consciousness" (1971), what philosophical puzzle does Thomas Nagel deduce regarding the number of conscious minds in a split-brain patient?
 
 - (A) None of the five possible hypotheses—(1) one unified mind, (2) two separate minds, (3) one mind with an unconscious sub-system, (4) one normal mind and one robotic system, or (5) a fluctuating fraction of a mind—can be coherently reconciled with our standard concept of an individual conscious subject, proving that our everyday concept of a unified "self" breaks down when applied to a surgically bisected brain.
-- (B) Split-brain patients conclusively prove that Descartes was correct: the soul resides exclusively in the right hemisphere while the body is governed by the left hemisphere.
-- (C) The experiment proves that the left hemisphere alone is conscious because only the left hemisphere has syntactic Broca's speech capabilities.
-- (D) The surgery demonstrates that conscious experience is completely duplicated, creating two immortal metaphysical souls residing in a single skull.
+- (B) The experiment proves that the left hemisphere alone is conscious because only the left hemisphere has syntactic Broca's speech capabilities.
+- (C) The surgery demonstrates that conscious experience is completely duplicated, creating two immortal metaphysical souls residing in a single skull.
+- (D) Split-brain patients conclusively prove that Descartes was correct: the soul resides exclusively in the right hemisphere while the body is governed by the left hemisphere.
 
 **Correct Answer**: **(A)**
 
@@ -103,9 +103,9 @@ Nagel concludes that **the ordinary common-sense concept of a single, indivisibl
 > "The idea of a single subject of experience cannot be applied to the split-brain patient. But neither can the idea of two subjects. The radical conclusion is that the concept of an individual subject of consciousness is an illusion that cannot withstand physical dissection of the anatomical substrate."
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Nagel rejects Cartesian dualism; Descartes claimed the soul is indivisible (*res cogitans* has no parts), which commissurotomy directly refutes.
-- **(C) is incorrect**: Gazzaniga and Sperry proved that the mute right hemisphere is undeniably conscious, possesses emotional reactions, and comprehends complex language.
-- **(D) is incorrect**: Nagel’s conclusion is physicalist, skeptical, and bundle-theoretic; he does not postulate metaphysical immortal souls.
+- **(B) is incorrect**: Gazzaniga and Sperry proved that the mute right hemisphere is undeniably conscious, possesses emotional reactions, and comprehends complex language.
+- **(C) is incorrect**: Nagel’s conclusion is physicalist, skeptical, and bundle-theoretic; he does not postulate metaphysical immortal souls.
+- **(D) is incorrect**: Nagel rejects Cartesian dualism; Descartes claimed the soul is indivisible (*res cogitans* has no parts), which commissurotomy directly refutes.
 
 **Primary Textual Reference**: Thomas Nagel, "Brain Bisection and the Unity of Consciousness", *Synthese* 22(3/4) (1971): 396–413.
 
@@ -119,12 +119,12 @@ Nagel concludes that **the ordinary common-sense concept of a single, indivisibl
 
 In his pioneering neurosurgical mapping on awake epilepsy patients undergoing craniotomies (1930s–1950s), neurosurgeon Wilder Penfield applied mild electrical stimulation to the postcentral and precentral gyri, discovering the **Somatosensory and Motor Homunculus**, while stimulation of the temporal lobe evoked vivid experiential flashbacks. What is the fundamental neurophilosophical implication of Penfield's findings regarding the physical localization of sensory experience and personal memory?
 
-- (A) Experiential bodily sensation is physically mapped somatotopically onto the cortex not in proportion to physical anatomical skin surface area, but in proportion to the density of sensory innervation and behavioral importance (e.g., disproportionately enlarged hands and lips); furthermore, direct electrical stimulation of temporal cortex can artificially evoke experiential episodic memories complete with phenomenal qualia, demonstrating that specific experiential states have localized cortical physical correlates.
-- (B) Penfield proved that memory is not stored in the physical brain, but is downloaded from an immaterial cloud in outer space.
+- (A) Penfield proved that memory is not stored in the physical brain, but is downloaded from an immaterial cloud in outer space.
+- (B) The sensory homunculus proves that a miniature, fully formed human being with physical bones and muscles lives inside the ventricular cavities of the brain.
 - (C) Cortical stimulation proves that the brain feels physical pain whenever an electrical electrode touches gray matter.
-- (D) The sensory homunculus proves that a miniature, fully formed human being with physical bones and muscles lives inside the ventricular cavities of the brain.
+- (D) Experiential bodily sensation is physically mapped somatotopically onto the cortex not in proportion to physical anatomical skin surface area, but in proportion to the density of sensory innervation and behavioral importance (e.g., disproportionately enlarged hands and lips); furthermore, direct electrical stimulation of temporal cortex can artificially evoke experiential episodic memories complete with phenomenal qualia, demonstrating that specific experiential states have localized cortical physical correlates.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Wilder Penfield’s Montreal Procedure provided the first systematic direct empirical bridge between subjective conscious reports and localized cortical stimulation in awake human patients:
@@ -138,9 +138,9 @@ Wilder Penfield’s Montreal Procedure provided the first systematic direct empi
    - This dealt a mortal blow to Cartesian substance dualism: if an external physical wire with 2 volts of electrical current can directly generate and modulate the flow of vivid, emotional, phenomenal episodic memories, conscious experience is tied directly to physical neural circuits.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Penfield initially entertained dualistic leanings in later life (*The Mystery of the Mind*, 1975), but his empirical mapping established localized neural substrates, not cosmic cloud downloading.
+- **(A) is incorrect**: Penfield initially entertained dualistic leanings in later life (*The Mystery of the Mind*, 1975), but his empirical mapping established localized neural substrates, not cosmic cloud downloading.
+- **(B) is incorrect**: "Homunculus" in neuroanatomy is a metaphorical graphical map of somatic magnification; it does not postulate a literal physical little person inside brain tissue.
 - **(C) is incorrect**: Brain tissue itself lacks nociceptors (pain receptors); craniotomies can be performed on awake patients with local anesthesia applied only to the scalp and skull.
-- **(D) is incorrect**: "Homunculus" in neuroanatomy is a metaphorical graphical map of somatic magnification; it does not postulate a literal physical little person inside brain tissue.
 
 **Primary Textual Reference**: Wilder Penfield and Theodore Rasmussen, *The Cerebral Cortex of Man: A Clinical Study of Localization of Function* (Macmillan, 1950); Wilder Penfield, *The Mystery of the Mind: A Critical Study of Consciousness and the Human Brain* (Princeton University Press, 1975).
 
@@ -153,12 +153,12 @@ Wilder Penfield’s Montreal Procedure provided the first systematic direct empi
 
 The 1848 industrial accident of railroad foreman **Phineas Gage**—whose ventromedial prefrontal cortex (vmPFC) was pierced by an iron tamping rod—caused a radical personality change without impairing his IQ, memory, language, or logical deduction. In *Descartes' Error* (1994), Antonio Damasio re-analyzed Gage and modern vmPFC patients (e.g., patient "Elliot") to formulate the **Somatic Marker Hypothesis**. What does this hypothesis assert regarding the relationship between emotion and rational decision-making?
 
-- (A) Rational practical decision-making is not an isolated, purely logical deduction that functions best when emotions are suppressed; rather, sound decision-making intrinsically depends on "somatic markers"—bioreactive emotional visceral signals (changes in heart rate, gut feelings, autonomic arousal) processed by the ventromedial prefrontal cortex that rapidly tag decision options with affective valence, narrowing the decision space so that rational deliberation can function effectively.
-- (B) Phineas Gage became an immoral criminal because the iron rod removed his immaterial soul from his body.
-- (C) Damasio proves that emotions are irrational evolutionary defects that should be surgically removed from the human brain to optimize economic utility.
-- (D) Somatic markers are physical tattoos stamped onto the skin of patients during neurosurgery.
+- (A) Somatic markers are physical tattoos stamped onto the skin of patients during neurosurgery.
+- (B) Rational practical decision-making is not an isolated, purely logical deduction that functions best when emotions are suppressed; rather, sound decision-making intrinsically depends on "somatic markers"—bioreactive emotional visceral signals (changes in heart rate, gut feelings, autonomic arousal) processed by the ventromedial prefrontal cortex that rapidly tag decision options with affective valence, narrowing the decision space so that rational deliberation can function effectively.
+- (C) Phineas Gage became an immoral criminal because the iron rod removed his immaterial soul from his body.
+- (D) Damasio proves that emotions are irrational evolutionary defects that should be surgically removed from the human brain to optimize economic utility.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Damasio attacks the Western philosophical tradition (Descartes, Kant) that treats **Reason** and **Emotion** as adversarial opposites (where optimal reason requires pure detached logic purged of passion):
@@ -176,9 +176,9 @@ Damasio attacks the Western philosophical tradition (Descartes, Kant) that treat
    - Without somatic emotional markers, pure ungrounded logic suffers combinatorial paralysis. Emotion is not the enemy of reason; **emotion is an indispensable constitutive foundation of rational agency**.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Gage suffered a physical focal brain lesion in the frontal lobes; Damasio uses Gage to refute Cartesian immaterial souls, not to support them.
-- **(C) is incorrect**: Damasio argues the exact opposite: suppressing or losing emotions destroys rational practical decision-making and leads to catastrophic social bankruptcy.
-- **(D) is incorrect**: Somatic markers are neurobiological autonomic and visceral signals (heart rate, endocrine, neurotransmitter states), not literal ink tattoos on skin.
+- **(A) is incorrect**: Somatic markers are neurobiological autonomic and visceral signals (heart rate, endocrine, neurotransmitter states), not literal ink tattoos on skin.
+- **(C) is incorrect**: Gage suffered a physical focal brain lesion in the frontal lobes; Damasio uses Gage to refute Cartesian immaterial souls, not to support them.
+- **(D) is incorrect**: Damasio argues the exact opposite: suppressing or losing emotions destroys rational practical decision-making and leads to catastrophic social bankruptcy.
 
 **Primary Textual Reference**: Antonio R. Damasio, *Descartes' Error: Emotion, Reason, and the Human Brain* (G. P. Putnam's Sons, 1994), Chapters 1–3 ("Phineas P. Gage") and Chapter 8 ("The Somatic-Marker Hypothesis"); Hanna Damasio et al., "The Return of Phineas Gage", *Science* 264, no. 5162 (1994): 1102–1105.
 
@@ -191,12 +191,12 @@ Damasio attacks the Western philosophical tradition (Descartes, Kant) that treat
 
 In his pioneering neuropsychological investigations of patient **D.B.**, Oxford neuroscientist Lawrence Weiskrantz discovered the profound phenomenon of **Blindsight** resulting from damage to the **primary visual cortex (striate cortex / Area V1 / Brodmann Area 17)**. What is the defining empirical paradox of blindsight, and what does it reveal about the architecture of visual perception?
 
-- (A) When visual stimuli are presented inside the patient's clinically blind visual field (scotoma), the patient sincerely insists that they consciously see nothing whatsoever; yet, when forced to guess the stimulus's location, movement direction, or line orientation, they perform with extraordinary accuracy (up to 90–95%), proving that unconscious sensory information processing can be completely dissociated from subjective phenomenal visual consciousness.
+- (A) The experiment proves that the human eye directly projects images onto the pineal gland.
 - (B) Blindsight patients are completely blind in their eyes, but can read printed text using sensory tactile receptors located in their fingertips.
-- (C) The experiment proves that the human eye directly projects images onto the pineal gland.
+- (C) When visual stimuli are presented inside the patient's clinically blind visual field (scotoma), the patient sincerely insists that they consciously see nothing whatsoever; yet, when forced to guess the stimulus's location, movement direction, or line orientation, they perform with extraordinary accuracy (up to 90–95%), proving that unconscious sensory information processing can be completely dissociated from subjective phenomenal visual consciousness.
 - (D) Blindsight patients have supernatural telepathic vision that allows them to see through solid concrete walls.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Weiskrantz's discovery of blindsight in 1974 represents one of the most celebrated double dissociations in cognitive neuroscience:
@@ -215,8 +215,8 @@ Weiskrantz's discovery of blindsight in 1974 represents one of the most celebrat
    - Blindsight proves that **information processing, spatial detection, and behavioral guidance can execute entirely in the dark**, without any phenomenal qualia. Primary visual cortex (V1) is necessary for phenomenal visual consciousness, but not necessary for all unconscious visual computations.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: The visual pathway projects to the occipital lobe, not Descartes's pineal gland.
 - **(B) is incorrect**: Finger reading is Braille tactile perception; blindsight is mediated by the patient's physical eyes and subcortical ocular pathways (superior colliculus).
-- **(C) is incorrect**: The visual pathway projects to the occipital lobe, not Descartes's pineal gland.
 - **(D) is incorrect**: Blindsight operates strictly within normal physical optical laws and ocular refraction; there is zero supernatural or telepathic mechanism.
 
 **Primary Textual Reference**: Lawrence Weiskrantz, *Blindsight: A Case Study and Implications* (Oxford University Press, 1986); Lawrence Weiskrantz, *Consciousness Lost and Found: A Neuropsychological Exploration* (Oxford University Press, 1997).
@@ -230,12 +230,12 @@ Weiskrantz's discovery of blindsight in 1974 represents one of the most celebrat
 
 In cognitive neuropsychiatry and neurophilosophy, **Anton-Babinski Syndrome** (anosognosia for visual loss) and **Charles Bonnet Syndrome (CBS)** represent mirror-image dissociations between phenomenal perception, physical blindness, and cognitive metacognition. What is the fundamental diagnostic and epistemological contrast between these two neuropsychological conditions?
 
-- (A) In **Anton's Syndrome**, the patient is cortically blind due to bilateral occipital damage but vehemently denies their blindness, confabulating vivid descriptions of non-existent surroundings (lack of vision with belief of seeing); in **Charles Bonnet Syndrome**, the patient is physically visually impaired or blind due to ocular pathology but experiences complex, vivid visual hallucinations while retaining full metacognitive insight that the visions are unreal (hallucinatory qualia with accurate belief of blindness).
-- (B) Anton's syndrome occurs only in infants, while Charles Bonnet syndrome occurs exclusively in domestic animals.
-- (C) Anton's syndrome is an allergy to penicillin, while Charles Bonnet syndrome is caused by lack of sleep.
-- (D) Both syndromes prove that the human eye is unnecessary for 20/20 physical vision.
+- (A) Both syndromes prove that the human eye is unnecessary for 20/20 physical vision.
+- (B) In **Anton's Syndrome**, the patient is cortically blind due to bilateral occipital damage but vehemently denies their blindness, confabulating vivid descriptions of non-existent surroundings (lack of vision with belief of seeing); in **Charles Bonnet Syndrome**, the patient is physically visually impaired or blind due to ocular pathology but experiences complex, vivid visual hallucinations while retaining full metacognitive insight that the visions are unreal (hallucinatory qualia with accurate belief of blindness).
+- (C) Anton's syndrome occurs only in infants, while Charles Bonnet syndrome occurs exclusively in domestic animals.
+- (D) Anton's syndrome is an allergy to penicillin, while Charles Bonnet syndrome is caused by lack of sleep.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 These two syndromes provide extraordinary clinical evidence for the modular dissociation of **sensory processing**, **phenomenal experience**, and **epistemic metacognition (belief-monitoring)**:
@@ -255,9 +255,9 @@ These two syndromes provide extraordinary clinical evidence for the modular diss
    - Charles Bonnet Syndrome: Hallucinatory qualia + Rational knowledge of blindness (Metacognitive preservation).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Both syndromes are well-documented clinical conditions in adult humans (most common in elderly neurology patients).
-- **(C) is incorrect**: Drug allergies and simple sleep deprivation do not cause the structural occipital cortical lesions of Anton's syndrome or the deafferentation release of Charles Bonnet syndrome.
-- **(D) is incorrect**: Anton patients cannot navigate physical space, and CBS hallucinations do not represent real physical objects; neither provides veridical vision without eyes.
+- **(A) is incorrect**: Anton patients cannot navigate physical space, and CBS hallucinations do not represent real physical objects; neither provides veridical vision without eyes.
+- **(C) is incorrect**: Both syndromes are well-documented clinical conditions in adult humans (most common in elderly neurology patients).
+- **(D) is incorrect**: Drug allergies and simple sleep deprivation do not cause the structural occipital cortical lesions of Anton's syndrome or the deafferentation release of Charles Bonnet syndrome.
 
 **Primary Textual Reference**: Gabriel Anton, "Über die Selbstwahrnehmung der Herderkrankungen des Gehirns durch den Kranken", *Archiv für Psychiatrie und Nervenkrankheiten* 32 (1899): 86–127; Charles Bonnet, *Essai analytique sur les facultés de l'âme* (1760); Dominic H. ffytche et al., "The Anatomy of Conscious Vision: An fMRI Study of Visual Hallucinations", *Nature Neuroscience* 1, no. 8 (1998): 738–742.
 
@@ -271,12 +271,12 @@ These two syndromes provide extraordinary clinical evidence for the modular diss
 
 In *Descartes' Error: Emotion, Reason, and the Human Brain* (1994), neuroscientist Antonio Damasio attacked the classic Cartesian and Enlightenment dogma that rational decision-making requires the suppression of emotion. Through the study of patients with damage to the **ventromedial prefrontal cortex (vmPFC)** (such as the historic case of Phineas Gage and modern patient EVR) using the **Iowa Gambling Task (IGT)**, what did Damasio establish regarding the **Somatic Marker Hypothesis**?
 
-- (A) Rational decision-making in complex, uncertain environments is critically dependent on **"somatic markers"**—autonomic bodily sensations (gut feelings, visceral arousal, skin conductance changes) generated by the ventromedial prefrontal cortex and insular cortex that rapidly tag alternative options with positive or negative emotional valence, steering individuals away from disastrous choices long before conscious deliberation can calculate explicit probabilities.
-- (B) Damasio proved that emotions are useless biological evolutionary relics that should be surgically removed to optimize human IQ scores.
+- (A) Damasio proved that emotions are useless biological evolutionary relics that should be surgically removed to optimize human IQ scores.
+- (B) Somatic markers refer to physical tattoos inked onto the forearms of patients with brain tumors.
 - (C) The Iowa Gambling Task demonstrated that human beings only gamble when their cerebellum is completely paralyzed.
-- (D) Somatic markers refer to physical tattoos inked onto the forearms of patients with brain tumors.
+- (D) Rational decision-making in complex, uncertain environments is critically dependent on **"somatic markers"**—autonomic bodily sensations (gut feelings, visceral arousal, skin conductance changes) generated by the ventromedial prefrontal cortex and insular cortex that rapidly tag alternative options with positive or negative emotional valence, steering individuals away from disastrous choices long before conscious deliberation can calculate explicit probabilities.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Antonio Damasio revolutionized both neurobiology and the philosophy of practical reason:
@@ -297,9 +297,9 @@ Antonio Damasio revolutionized both neurobiology and the philosophy of practical
    - **Conclusion**: Somatic markers act as an automated, pre-reflective emotional beacon. They narrow the decision space by eliminating lethal options. Pure, emotion-free calculation leads to paralysis or reckless ruin.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Damasio argues the exact opposite: emotions are indispensable for effective rational deliberation, not evolutionary relics to be excised.
+- **(A) is incorrect**: Damasio argues the exact opposite: emotions are indispensable for effective rational deliberation, not evolutionary relics to be excised.
+- **(B) is incorrect**: "Somatic markers" are internal neurochemical and autonomic bodily signals (visceral tone, heart rate, electrodermal arousal), not physical cosmetic tattoos.
 - **(C) is incorrect**: The IGT evaluates prefrontal emotional decision-making, not cerebellar paralysis.
-- **(D) is incorrect**: "Somatic markers" are internal neurochemical and autonomic bodily signals (visceral tone, heart rate, electrodermal arousal), not physical cosmetic tattoos.
 
 **Primary Textual Reference**: Antonio R. Damasio, *Descartes' Error: Emotion, Reason, and the Human Brain* (G. P. Putnam's Sons, 1994); Antoine Bechara, Antonio R. Damasio, Hanna Damasio, and Steven W. Anderson, "Insensitivity to Future Consequences Following Damage to Human Prefrontal Cortex", *Cognition* 50, no. 1–3 (1994): 7–15; Antoine Bechara et al., "Deciding Advantageously Before Knowing the Advantageous Strategy", *Science* 275, no. 5304 (1997): 1293–1295.
 
@@ -312,12 +312,12 @@ Antonio Damasio revolutionized both neurobiology and the philosophy of practical
 
 In her foundational book *Neurophilosophy* (1986), Patricia Churchland introduced the concept of the **"Co-Evolutionary Research Strategy"** to define the relationship between psychology and neuroscience. How does this strategy critique both "pure autonomous psychology" (Fodor) and "naive step-by-step reductionism"?
 
-- (A) Rather than psychology operating in autonomous isolation from neuroscience, or neuroscience unilaterally dictating psychology from the bottom up, psychology and neuroscience must co-evolve: discoveries at the neural level reshape psychological taxonomies and categories, while psychological functional models guide where and what neuroscientists search for in neural circuitry.
+- (A) It asserts that psychology must be subordinate to Cartesian theology and introspection.
 - (B) It claims that psychology should be completely abolished immediately and replaced exclusively with quantum physics formulas.
-- (C) It argues that biological evolution ended when human beings invented written language, making neuroscience irrelevant to modern mental health.
-- (D) It asserts that psychology must be subordinate to Cartesian theology and introspection.
+- (C) Rather than psychology operating in autonomous isolation from neuroscience, or neuroscience unilaterally dictating psychology from the bottom up, psychology and neuroscience must co-evolve: discoveries at the neural level reshape psychological taxonomies and categories, while psychological functional models guide where and what neuroscientists search for in neural circuitry.
+- (D) It argues that biological evolution ended when human beings invented written language, making neuroscience irrelevant to modern mental health.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Patricia Churchland's *Neurophilosophy* (1986) founded neurophilosophy as a rigorous academic subdiscipline:
@@ -330,9 +330,9 @@ Patricia Churchland's *Neurophilosophy* (1986) founded neurophilosophy as a rigo
    - Scientific history shows that disciplines do not remain statically insulated; theories co-evolve, and their conceptual vocabularies interpenetrate until a unified explanatory framework emerges.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Churchland is an ardent naturalist and materialist who vigorously opposes Cartesian dualism.
 - **(B) is incorrect**: Co-evolution maintains the active contribution of top-down psychological paradigms, rather than naively reducing everything to quantum physics.
-- **(C) is incorrect**: Gross misunderstanding of biological evolution and cognitive neuroscience.
-- **(D) is incorrect**: Churchland is an ardent naturalist and materialist who vigorously opposes Cartesian dualism.
+- **(D) is incorrect**: Gross misunderstanding of biological evolution and cognitive neuroscience.
 
 **Primary Textual Reference**: Patricia Smith Churchland, *Neurophilosophy: Toward a Unified Science of the Mind-Brain* (MIT Press, 1986), Chapter 9 ("The Co-Evolutionary Research Strategy").
 
@@ -345,12 +345,12 @@ Patricia Churchland's *Neurophilosophy* (1986) founded neurophilosophy as a rigo
 
 In his famous 1983 experiments on human voluntary action, neurophysiologist Benjamin Libet utilized an oscilloscope clock alongside electroencephalography (EEG) and electromyography (EMG). What was his central chronological finding regarding the relationship between the **Readiness Potential (*Bereitschaftspotential*)**, the subjective awareness of the urge to act ($W$-judgment), and actual muscle execution ($M$)?
 
-- (A) The cerebral readiness potential in the motor cortex initiated approximately 350 to 550 milliseconds **before** the subject became consciously aware of their intention or decision to act ($W$), indicating that the physical initiation of voluntary action begins unconsciously in the brain before conscious awareness occurs.
-- (B) Conscious awareness of intention ($W$) preceded all electrical activity in the brain by 2 full seconds, proving Cartesian interactionist dualism.
+- (A) Conscious awareness of intention ($W$) preceded all electrical activity in the brain by 2 full seconds, proving Cartesian interactionist dualism.
+- (B) Muscle execution ($M$) occurs before any brain activity begins, proving that motor control is located entirely in the fingernails.
 - (C) The readiness potential only occurs when an individual is in deep non-REM sleep, having no connection to waking motor actions.
-- (D) Muscle execution ($M$) occurs before any brain activity begins, proving that motor control is located entirely in the fingernails.
+- (D) The cerebral readiness potential in the motor cortex initiated approximately 350 to 550 milliseconds **before** the subject became consciously aware of their intention or decision to act ($W$), indicating that the physical initiation of voluntary action begins unconsciously in the brain before conscious awareness occurs.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Benjamin Libet's 1983 experiments ignited a fierce philosophical controversy over free will and neurobiology:
@@ -366,9 +366,9 @@ Benjamin Libet's 1983 experiments ignited a fierce philosophical controversy ove
    - Because $150	ext{ to }200	ext{ ms}$ remain between conscious awareness ($W$) and muscle movement ($M$), Libet suggested that while consciousness does not *initiate* action, it retains the power to **veto** the unconsciously initiated action during that final 150 ms window ("Free Won't").
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Conscious awareness lagged behind brain activity by several hundred milliseconds; it did not precede it.
+- **(A) is incorrect**: Conscious awareness lagged behind brain activity by several hundred milliseconds; it did not precede it.
+- **(B) is incorrect**: Physically impossible and biologically absurd.
 - **(C) is incorrect**: The readiness potential is a specific waking electrophysiological marker of voluntary motor preparation.
-- **(D) is incorrect**: Physically impossible and biologically absurd.
 
 **Primary Textual Reference**: Benjamin Libet, Curtis A. Gleason, Elwood W. Wright, and Dennis K. Pearl, "Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity (Readiness-Potential)", *Brain* 106, no. 3 (1983): 623–642; Benjamin Libet, *Mind Time: The Temporal Factor in Consciousness* (Harvard University Press, 2004).
 
@@ -418,8 +418,8 @@ The Sperry and Gazzaniga split-brain experiments revolutionized the philosophy o
 In his landmark 1981 paper, Paul Churchland argues that our common-sense framework of propositional attitudes (beliefs, desires, hopes, fears)—known as **"Folk Psychology"**—is not an innate truth, but an empirical, explanatory theory. Why does Churchland argue that Folk Psychology is radically false and destined to be eliminated rather than smoothly reduced to neuroscience?
 
 - (A) Folk Psychology is a stagnant, degenerating research program that has failed to advance for two millennia, fails to explain critical cognitive phenomena (such as sleep, memory consolidation, mental illness, and learning dynamics), and relies on an internal sentential structure that is biologically incompatible with the parallel distributed architecture of the central nervous system.
-- (B) Folk Psychology is written in Latin, which makes it impossible for modern computers to compile.
-- (C) Churchland argues that human beings do not possess biological brains, only electromagnetic spirit vectors.
+- (B) Churchland argues that human beings do not possess biological brains, only electromagnetic spirit vectors.
+- (C) Folk Psychology is written in Latin, which makes it impossible for modern computers to compile.
 - (D) Folk Psychology has been mathematically proven by neuroscientists to be 100% accurate in predicting every human action down to the single millisecond.
 
 **Correct Answer**: **(A)**
@@ -437,8 +437,8 @@ Paul Churchland's "Eliminative Materialism and the Propositional Attitudes" (198
    - Just as the concepts of **phlogiston** (combustion), **caloric fluid** (heat), and **demonic possession** (epilepsy) were not "reduced" to modern science, but completely **eliminated** as ontological fictions, beliefs and desires will be eliminated once a mature computational neuroscience arrives.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Folk psychology is an informal cognitive framework across all human cultures, not a Latin programming language.
-- **(C) is incorrect**: Churchland is a radical materialist whose philosophy is entirely based on biological neuroscience.
+- **(B) is incorrect**: Churchland is a radical materialist whose philosophy is entirely based on biological neuroscience.
+- **(C) is incorrect**: Folk psychology is an informal cognitive framework across all human cultures, not a Latin programming language.
 - **(D) is incorrect**: Directly contradicts Churchland’s thesis; Churchland argues that folk psychology is an abysmal, inaccurate explanatory theory.
 
 **Primary Textual Reference**: Paul M. Churchland, "Eliminative Materialism and the Propositional Attitudes", *Journal of Philosophy* 78, no. 2 (1981): 67–90; Paul M. Churchland, *A Neurocomputational Perspective: The Nature of Mind and the Structure of Science* (MIT Press, 1989).

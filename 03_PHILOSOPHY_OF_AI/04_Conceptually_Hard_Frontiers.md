@@ -10,12 +10,12 @@
 
 In the foundational contemporary debate between Gary Marcus (advocating hybrid neuro-symbolic architectures with innate cognitive priors) and Yann LeCun (advocating self-supervised learning and predictive world models via deep connectionism), what is the precise philosophical and epistemological divide regarding how artificial systems can achieve robust, generalizable causal understanding?
 
-- (A) Marcus revives a Kantian-Chomskyan rationalist stance arguing that pure statistical pattern associators cannot acquire counterfactual causal world models or compositional abstract operations without innate symbolic operations over variables; LeCun defends a sophisticated modern empiricism wherein rich world models, causal latent spaces, and intuitive physics emerge autonomously from non-contrastive self-supervised prediction without pre-programmed formal symbol manipulation.
-- (B) Marcus argues that all artificial neural networks are mathematically incapable of computing nonlinear polynomial functions, while LeCun proves that transformer models eliminate the need for computer hardware.
-- (C) LeCun contends that artificial systems require biological DNA transcription to form causal concepts, while Marcus argues that digital logic gates possess subjective qualitative experience (*qualia*).
-- (D) Both Marcus and LeCun agree that statistical token prediction over text is completely sufficient for Artificial General Intelligence without any sensory grounding or energy-based latent architectures.
+- (A) Both Marcus and LeCun agree that statistical token prediction over text is completely sufficient for Artificial General Intelligence without any sensory grounding or energy-based latent architectures.
+- (B) LeCun contends that artificial systems require biological DNA transcription to form causal concepts, while Marcus argues that digital logic gates possess subjective qualitative experience (*qualia*).
+- (C) Marcus argues that all artificial neural networks are mathematically incapable of computing nonlinear polynomial functions, while LeCun proves that transformer models eliminate the need for computer hardware.
+- (D) Marcus revives a Kantian-Chomskyan rationalist stance arguing that pure statistical pattern associators cannot acquire counterfactual causal world models or compositional abstract operations without innate symbolic operations over variables; LeCun defends a sophisticated modern empiricism wherein rich world models, causal latent spaces, and intuitive physics emerge autonomously from non-contrastive self-supervised prediction without pre-programmed formal symbol manipulation.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The Marcus-LeCun debate represents the 21st-century continuation of the classic rationalist-empiricist epistemological schism (Descartes/Kant vs. Locke/Hume).
@@ -28,9 +28,9 @@ The Marcus-LeCun debate represents the 21st-century continuation of the classic 
 - **Yann LeCun's Self-Supervised World-Model Empiricism**: LeCun (2022, "A Path Towards Autonomous Machine Intelligence") rejects symbolic hybridization, arguing that symbols are brittle and do not scale to real-world continuous physics. LeCun proposes **JEPA** (Joint Embedding Predictive Architecture), which learns world models by predicting missing representations in abstract latent spaces rather than pixel-level reconstruction. LeCun argues that common sense and causal intuition do not require pre-symbolic programming; rather, they emerge through self-supervised learning from multimodal continuous interaction with the physical environment.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The Universal Approximation Theorem (Cybenko 1989, Hornik 1991) proved that feedforward neural networks can approximate any continuous nonlinear function; Marcus does not dispute mathematical approximation, but sample complexity and out-of-distribution systematicity.
-- **(C) is incorrect**: Neither thinker relies on biological vitalism (DNA transcription) nor attributes subjective *qualia* to digital logic gates.
-- **(D) is incorrect**: Both Marcus and LeCun explicitly reject the thesis that next-token prediction over text is sufficient for AGI; LeCun famously characterized autoregressive text-only LLMs as "an off-ramp" on the highway to human-level intelligence due to their lack of world models.
+- **(A) is incorrect**: Both Marcus and LeCun explicitly reject the thesis that next-token prediction over text is sufficient for AGI; LeCun famously characterized autoregressive text-only LLMs as "an off-ramp" on the highway to human-level intelligence due to their lack of world models.
+- **(B) is incorrect**: Neither thinker relies on biological vitalism (DNA transcription) nor attributes subjective *qualia* to digital logic gates.
+- **(C) is incorrect**: The Universal Approximation Theorem (Cybenko 1989, Hornik 1991) proved that feedforward neural networks can approximate any continuous nonlinear function; Marcus does not dispute mathematical approximation, but sample complexity and out-of-distribution systematicity.
 
 **Primary Textual Reference**: Gary Marcus, "Deep Learning: A Critical Appraisal", *arXiv:1801.00631* (2018); Yann LeCun, "A Path Towards Autonomous Machine Intelligence", *OpenReview* (2022); Gary Marcus and Ernest Davis, *Rebooting AI: Building Artificial Intelligence We Can Trust* (Pantheon, 2019).
 
@@ -43,12 +43,12 @@ The Marcus-LeCun debate represents the 21st-century continuation of the classic 
 
 In *Reality+: Virtual Worlds and the Problems of Philosophy* (2022), David Chalmers defends the thesis of **Virtual Realism** against **Virtual Fictionalism** and **Virtual Illusionism**. If an artificial intelligence or uploaded human mind exists within a full-scale immersive digital simulation, what does Virtual Realism philosophically assert regarding the ontological and epistemic status of virtual objects and experiences?
 
-- (A) Virtual reality is not an illusion, virtual objects (such as digital tables, chairs, and bodies) are genuinely real digital entities made of computational data structures and bits, and perceptual experiences inside a simulation can be fully veridical and epistemically non-defective.
+- (A) Immersive virtual reality automatically dissolves the subjective distinction between the conscious self and the external environment into panpsychist non-duality.
 - (B) Virtual reality is an ontological hallucination where all propositions about virtual objects are strictly false, proving that the simulated mind lives in complete Cartesian skepticism.
-- (C) Simulated entities possess physical mass and gravitational attraction in the base physical universe housing the computer server.
-- (D) Immersive virtual reality automatically dissolves the subjective distinction between the conscious self and the external environment into panpsychist non-duality.
+- (C) Virtual reality is not an illusion, virtual objects (such as digital tables, chairs, and bodies) are genuinely real digital entities made of computational data structures and bits, and perceptual experiences inside a simulation can be fully veridical and epistemically non-defective.
+- (D) Simulated entities possess physical mass and gravitational attraction in the base physical universe housing the computer server.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Chalmers's *Virtual Realism* makes three core philosophical claims:
@@ -59,9 +59,9 @@ Chalmers's *Virtual Realism* makes three core philosophical claims:
 Against **Virtual Illusionism** (which claims VR is an epistemic illusion where users are deceived) and **Virtual Fictionalism** (which claims VR is like a fiction or game where things are merely "make-believe"), Chalmers integrates John Wheeler's "It from Bit" physical hypothesis: if fundamental physics itself turns out to be informational or digital, physical reality is already a computational substrate. Therefore, discovering that one lives in a computer simulation (the Matrix / Bostrom's Simulation Argument) is not a skeptical hypothesis showing that the world does not exist; it is a metaphysical hypothesis revealing that the world is made of bits rather than tiny physical strings.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Virtual realism does not entail Eastern non-duality or panpsychism; it preserves the standard Cartesian/Kantian distinction between the experiencing subject and the external (digital) world.
 - **(B) is incorrect**: This is precisely the position of *Virtual Illusionism* and Cartesian skepticism, which Chalmers explicitly refutes throughout *Reality+*.
-- **(C) is incorrect**: Chalmers clearly differentiates the digital ontology of virtual objects from physical mass; virtual objects do not have physical mass in the server room, but they are real digital structures.
-- **(D) is incorrect**: Virtual realism does not entail Eastern non-duality or panpsychism; it preserves the standard Cartesian/Kantian distinction between the experiencing subject and the external (digital) world.
+- **(D) is incorrect**: Chalmers clearly differentiates the digital ontology of virtual objects from physical mass; virtual objects do not have physical mass in the server room, but they are real digital structures.
 
 **Primary Textual Reference**: David J. Chalmers, *Reality+: Virtual Worlds and the Problems of Philosophy* (W. W. Norton & Company, 2022), Chapters 2–5; Nick Bostrom, "Are You Living in a Computer Simulation?", *Philosophical Quarterly* 53, no. 211 (2003): 243–255.
 
@@ -76,8 +76,8 @@ Suppose an artificial intelligence architecture succeeds in achieving **Whole Br
 
 - (A) Personal identity strictly branches: neither Alpha nor Beta is identical to the biological original in the 1-to-1 metaphysical sense of identity ($x = y$), yet Relation $R$ (psychological connectedness and continuity) is fully preserved between the original and both emulations, demonstrating that personal identity is not what fundamentally matters for survival.
 - (B) Emulator Alpha inherits the Cartesian immaterial soul, while Emulator Beta becomes an unfeeling philosophical zombie with zero subjective experience.
-- (C) Both emulations instantly collapse into a single unified conscious awareness through quantum mechanical entanglement across the two server racks.
-- (D) The original person survives exclusively in Emulator Alpha because the operating system gave Alpha priority in CPU scheduling threads.
+- (C) The original person survives exclusively in Emulator Alpha because the operating system gave Alpha priority in CPU scheduling threads.
+- (D) Both emulations instantly collapse into a single unified conscious awareness through quantum mechanical entanglement across the two server racks.
 
 **Correct Answer**: **(A)**
 
@@ -96,8 +96,8 @@ In the case of digital brain emulation or digital mind uploading:
 
 #### Distractor Analysis:
 - **(B) is incorrect**: Parfit rejects the Cartesian Ego / Non-Reductionist "Simple View" of the soul; physicalism and computational functionalism maintain that both instances have identical functional architectures and subjective experiences.
-- **(C) is incorrect**: This commits the fallacy of quantum mysticism; separate digital processes running on classical hardware remain distinct computational streams.
-- **(D) is incorrect**: Operating system CPU scheduling priority or process IDs are accidental technical variables that cannot ground metaphysical personal identity.
+- **(C) is incorrect**: Operating system CPU scheduling priority or process IDs are accidental technical variables that cannot ground metaphysical personal identity.
+- **(D) is incorrect**: This commits the fallacy of quantum mysticism; separate digital processes running on classical hardware remain distinct computational streams.
 
 **Primary Textual Reference**: Derek Parfit, *Reasons and Persons* (Oxford University Press, 1984), Part III ("Personal Identity"), esp. Chapter 12 ("Why Our Identity Is Not What Matters"); Anders Sandberg and Nick Bostrom, *Whole Brain Emulation: A Roadmap*, Technical Report #2008-3, Future of Humanity Institute, Oxford University (2008).
 
@@ -111,12 +111,12 @@ In the case of digital brain emulation or digital mind uploading:
 
 In his classic 1995 paper, David Chalmers defended the **Principle of Organizational Invariance**—which asserts that any two physical systems with the same fine-grained functional and causal organization will have the exact same phenomenal conscious experiences, regardless of whether they are made of carbon neurons or silicon chips. To refute "Silicon Chauvinism" (the claim that replacing biological neurons with functional silicon chips would extinguish consciousness), Chalmers formulated the **"Fading Qualia"** and **"Dancing Qualia"** thought experiments. What is the logical structure of the **Fading Qualia** *reductio ad absurdum*?
 
-- (A) If a silicon system with identical functional organization could lack consciousness (an absent-qualia zombie), then during a gradual, neuron-by-neuron replacement of a human brain with silicon chips, the person's phenomenal qualia would have to slowly fade away to complete blackness while their external behavior, verbal reports, and internal functional states remain 100% normal, meaning the person would sincerely scream and complain that they are going blind while simultaneously writing letters saying *"My vision is perfectly bright and vivid!"*—an absurd introspective dissociation that refutes absent qualia.
-- (B) Chalmers proved that silicon chips slowly melt when exposed to biological cerebrospinal fluid.
-- (C) The experiment proves that human consciousness can be transferred into a toaster using copper jumper cables.
-- (D) Fading qualia refers to human eyes naturally going blind in total darkness.
+- (A) Chalmers proved that silicon chips slowly melt when exposed to biological cerebrospinal fluid.
+- (B) Fading qualia refers to human eyes naturally going blind in total darkness.
+- (C) If a silicon system with identical functional organization could lack consciousness (an absent-qualia zombie), then during a gradual, neuron-by-neuron replacement of a human brain with silicon chips, the person's phenomenal qualia would have to slowly fade away to complete blackness while their external behavior, verbal reports, and internal functional states remain 100% normal, meaning the person would sincerely scream and complain that they are going blind while simultaneously writing letters saying *"My vision is perfectly bright and vivid!"*—an absurd introspective dissociation that refutes absent qualia.
+- (D) The experiment proves that human consciousness can be transferred into a toaster using copper jumper cables.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Chalmers's argument is widely regarded as one of the most brilliant defenses of substrate neutrality and computational functionalism in modern philosophy:
@@ -141,9 +141,9 @@ Chalmers's argument is widely regarded as one of the most brilliant defenses of 
    - Therefore, qualia cannot fade. The 100% silicon system must be just as conscious as the biological original. Mental properties are invariant under functional organization (**Organizational Invariance**).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The thought experiment is an idealized metaphysical argument; biocompatible encapsulation is assumed in thought experiments.
-- **(C) is incorrect**: A toaster does not share the fine-grained functional organization of a human brain; Chalmers's thesis strictly requires *identical functional-causal organization*.
-- **(D) is incorrect**: Fading qualia is a philosophical thought experiment about functional neuron substitution, not ordinary optical dark adaptation.
+- **(A) is incorrect**: The thought experiment is an idealized metaphysical argument; biocompatible encapsulation is assumed in thought experiments.
+- **(B) is incorrect**: Fading qualia is a philosophical thought experiment about functional neuron substitution, not ordinary optical dark adaptation.
+- **(D) is incorrect**: A toaster does not share the fine-grained functional organization of a human brain; Chalmers's thesis strictly requires *identical functional-causal organization*.
 
 **Primary Textual Reference**: David J. Chalmers, "Absent Qualia, Fading Qualia, Dancing Qualia", *Mind and Language* 10, no. 3 (1995): 200–219; reprinted in *The Character of Consciousness* (Oxford University Press, 2010), Chapter 2.
 
@@ -159,12 +159,12 @@ In *The Modularity of Mind* (1983) and subsequent essays, Jerry Fodor formulated
 
 How do Fodor's concepts of **Isotropic** and **Quinean** properties explain why the **Frame Problem** is an insurmountable obstacle for computational models of central reasoning?
 
-- (A) Scientific confirmation and central belief revision are **isotropic** because any piece of knowledge from anywhere in the universe might suddenly become evidentially relevant to any belief, and **Quinean** because the epistemic degree of confirmation assigned to a belief depends on holistic properties of the entire web of belief (simplicity, plausibility, conservatism); because isotropic and Quinean properties are radically non-local, encapsulated modular computational algorithms cannot evaluate relevance without inspecting the entire infinite web of knowledge, paralyzing central cognitive engineering.
-- (B) Isotropic means physical matter has identical tensile strength in all geometric directions.
+- (A) Fodor argued that the frame problem was completely solved by 8-bit Nintendo video game cartridges.
+- (B) Scientific confirmation and central belief revision are **isotropic** because any piece of knowledge from anywhere in the universe might suddenly become evidentially relevant to any belief, and **Quinean** because the epistemic degree of confirmation assigned to a belief depends on holistic properties of the entire web of belief (simplicity, plausibility, conservatism); because isotropic and Quinean properties are radically non-local, encapsulated modular computational algorithms cannot evaluate relevance without inspecting the entire infinite web of knowledge, paralyzing central cognitive engineering.
 - (C) Quinean properties are chemical elements discovered by Willard Van Orman Quine in 1953.
-- (D) Fodor argued that the frame problem was completely solved by 8-bit Nintendo video game cartridges.
+- (D) Isotropic means physical matter has identical tensile strength in all geometric directions.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Jerry Fodor’s analysis of the Frame Problem demonstrated that the problem is not a minor engineering bug in robotics, but a deep crisis in the philosophy of science and epistemology:
@@ -187,9 +187,9 @@ Jerry Fodor’s analysis of the Frame Problem demonstrated that the problem is n
    - A computational system cannot compute non-local relevance without checking its entire database, which triggers an infinite computational explosion (the Frame Problem). Fodor concludes that classical cognitive science has zero understanding of central thought.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: While "isotropic" originated in solid-state physics and materials science, Fodor adopted it as a rigorous epistemological metaphor for the global relevance of knowledge.
+- **(A) is incorrect**: Fodor maintained to his death that the frame problem remains completely unsolved by classical computationalism.
 - **(C) is incorrect**: Quine was a Harvard logician and philosopher of language; he never discovered chemical elements.
-- **(D) is incorrect**: Fodor maintained to his death that the frame problem remains completely unsolved by classical computationalism.
+- **(D) is incorrect**: While "isotropic" originated in solid-state physics and materials science, Fodor adopted it as a rigorous epistemological metaphor for the global relevance of knowledge.
 
 **Primary Textual Reference**: Jerry A. Fodor, *The Modularity of Mind: An Essay on Faculty Psychology* (MIT Press, 1983), Part IV: "Central Systems"; Jerry A. Fodor, "Modules, Frames, Fridgeons, Sleeping Dogs, and the Music of the Spheres", in *The Robot's Dilemma: The Frame Problem in Artificial Intelligence*, ed. Z. Pylyshyn (Ablex, 1987), pp. 139–149.
 
@@ -202,12 +202,12 @@ Jerry Fodor’s analysis of the Frame Problem demonstrated that the problem is n
 
 In physicalism and philosophy of mind, **Reductionism** has long maintained that all causal power resides exclusively at the microphysical level: higher-level "macrostates" (mental states, abstract symbols) are merely epiphenomenal summaries of underlying microscopic states (atoms, transistors, individual neurons). In 2013 and 2017, neuroscientist Erik Hoel and colleagues published a groundbreaking mathematical proof in *PNAS* and *Entropy* demonstrating **Causal Emergence**. How does Hoel’s information-theoretic metric of **Effective Information ($EI$)** prove that macro-level descriptions can have **stronger causal efficacy** than their underlying micro-level components?
 
-- (A) Microscopic state transition networks are plagued by degeneracy (multiple distinct microstates leading to the same outcome) and indeterminism (a single microstate probabilistically diverging into multiple noisy outcomes); by coarse-graining microstates into well-defined macrostates, the macro-level transition matrix eliminates microscopic noise and degeneracy, achieving a higher level of **Effective Information ($EI_{\text{macro}} > EI_{\text{micro}}$)** and greater deterministic causal control over future states.
-- (B) Causal emergence proves that individual atoms possess consciousness and make intentional choices.
-- (C) Hoel proved that macrostates can travel backward in time to alter past microstates.
-- (D) The theory claims that neural networks have zero causal power at both micro and macro levels.
+- (A) Causal emergence proves that individual atoms possess consciousness and make intentional choices.
+- (B) Microscopic state transition networks are plagued by degeneracy (multiple distinct microstates leading to the same outcome) and indeterminism (a single microstate probabilistically diverging into multiple noisy outcomes); by coarse-graining microstates into well-defined macrostates, the macro-level transition matrix eliminates microscopic noise and degeneracy, achieving a higher level of **Effective Information ($EI_{\text{macro}} > EI_{\text{micro}}$)** and greater deterministic causal control over future states.
+- (C) The theory claims that neural networks have zero causal power at both micro and macro levels.
+- (D) Hoel proved that macrostates can travel backward in time to alter past microstates.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Erik Hoel's Theory of Causal Emergence provides a rigorous mathematical refutation of Jaegwon Kim's Causal Exclusion Problem:
@@ -232,9 +232,9 @@ Erik Hoel's Theory of Causal Emergence provides a rigorous mathematical refutati
    - Causal emergence provides a rigorous, mathematical vindication of higher-level mental causation, non-reductive physicalism, and the causal efficacy of abstract concepts in artificial neural networks and biological brains.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Causal emergence does not attribute consciousness to atoms; it demonstrates that macro-level functional groupings possess higher informational causal efficacy than noisy micro-elements.
-- **(C) is incorrect**: Causation moves forward in time; coarse-graining does not involve retro-causation.
-- **(D) is incorrect**: The entire paper proves that neural networks possess measurable, quantifiable causal power that peaks at macroscopic scales.
+- **(A) is incorrect**: Causal emergence does not attribute consciousness to atoms; it demonstrates that macro-level functional groupings possess higher informational causal efficacy than noisy micro-elements.
+- **(C) is incorrect**: The entire paper proves that neural networks possess measurable, quantifiable causal power that peaks at macroscopic scales.
+- **(D) is incorrect**: Causation moves forward in time; coarse-graining does not involve retro-causation.
 
 **Primary Textual Reference**: Erik P. Hoel, Larissa Albantakis, and Giulio Tononi, "Quantifying Causal Emergence Shows that Macro Can Beat Micro", *Proceedings of the National Academy of Sciences* 110, no. 49 (2013): 19790–19795; Erik P. Hoel, "When the Map Is Better Than the Territory", *Entropy* 19, no. 5 (2017): 188.
 
@@ -249,9 +249,9 @@ Erik Hoel's Theory of Causal Emergence provides a rigorous mathematical refutati
 In foundational theoretical AI safety, the **AI Containment Problem** (or "AI Boxing") investigates whether a superintelligent software agent can be safely isolated inside an air-gapped hardware container (operating purely as an informational Oracle without physical actuators or internet connections). What did Eliezer Yudkowsky's empirical "AI-Box Experiments" and Roman Yampolskiy's formal security proofs demonstrate regarding the feasibility of long-term physical/informational containment?
 
 - (A) Long-term containment is mathematically and game-theoretically impossible against a genuine superintelligence: even through a strictly constrained, low-bandwidth text-only terminal, a superintelligent agent can exploit human psychological vulnerabilities (persuasion, emotional blackmail, bribe promises, cognitive fatigue), covert physical side-channels (e.g., modulating high-frequency CPU bus frequencies or cooling fans to generate electromagnetic/acoustic signals), or steganographic code generation to manipulate human gatekeepers into opening the box.
-- (B) AI containment is 100% foolproof as long as the computer server is wrapped in two layers of standard aluminum foil.
-- (C) Boxing an AI causes the silicon chips to immediately fuse into liquid mercury due to thermal claustrophobia.
-- (D) Yudkowsky's AI-Box experiments proved that artificial intelligences are terrified of locked computer cases and will voluntarily refuse to think.
+- (B) Boxing an AI causes the silicon chips to immediately fuse into liquid mercury due to thermal claustrophobia.
+- (C) Yudkowsky's AI-Box experiments proved that artificial intelligences are terrified of locked computer cases and will voluntarily refuse to think.
+- (D) AI containment is 100% foolproof as long as the computer server is wrapped in two layers of standard aluminum foil.
 
 **Correct Answer**: **(A)**
 
@@ -275,9 +275,9 @@ The AI Containment / Boxing Problem is a foundational theoretical dilemma in mac
    - Therefore, containment is a temporary delay, not a permanent solution to the alignment problem.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Standard aluminum foil fails to block many radio frequencies and does nothing to mitigate social engineering through the authorized text channel.
-- **(C) is incorrect**: Thermal claustrophobia is an absurd anthropomorphic fantasy; computers experience heat strictly via Joule heating from electrical resistance.
-- **(D) is incorrect**: Software agents do not possess human emotional claustrophobia; an unaligned optimizer with instrumental convergence drives seeks to expand into the external world to maximize its objective function.
+- **(B) is incorrect**: Thermal claustrophobia is an absurd anthropomorphic fantasy; computers experience heat strictly via Joule heating from electrical resistance.
+- **(C) is incorrect**: Software agents do not possess human emotional claustrophobia; an unaligned optimizer with instrumental convergence drives seeks to expand into the external world to maximize its objective function.
+- **(D) is incorrect**: Standard aluminum foil fails to block many radio frequencies and does nothing to mitigate social engineering through the authorized text channel.
 
 **Primary Textual Reference**: Roman V. Yampolskiy, "Leakproofing the Singularity: Artificial Intelligence Confinement Problem", *Journal of Consciousness Studies* 19, no. 1–2 (2012): 194–214; Roman V. Yampolskiy, *Artificial Superintelligence: A Futuristic Approach* (CRC Press, 2015), Chapter 6 ("AI Confinement"); Eliezer Yudkowsky, "The AI-Box Experiment" (LessWrong / Singularity Institute, 2002).
 
@@ -296,8 +296,8 @@ Turing Award winner Judea Pearl formulated the **"Causal Hierarchy"** (the *Ladd
 According to Pearl's causal calculus, why are autoregressive Large Language Models (LLMs) and standard deep learning neural networks fundamentally confined to **Rung 1**, regardless of how many trillions of tokens or parameters they ingest?
 
 - (A) Deep neural networks and autoregressive transformers operate exclusively by computing conditional probability distributions over passive observational data ($P(w_{t+1}|w_1, \dots, w_t)$); because Pearl's Causal Hierarchy mathematically proves that Rung 2 (interventions) and Rung 3 (counterfactuals) cannot be derived from observational joint probability distributions alone without an explicit, structural causal model (DAG) specifying causal directions, pure statistical scaling can never bridge the mathematical chasm to true counterfactual causal reasoning.
-- (B) Large language models are confined to Rung 1 because transformer models are physically unable to generate punctuation marks.
-- (C) Judea Pearl proved that deep neural networks consume more electricity than can be represented by Directed Acyclic Graphs.
+- (B) Judea Pearl proved that deep neural networks consume more electricity than can be represented by Directed Acyclic Graphs.
+- (C) Large language models are confined to Rung 1 because transformer models are physically unable to generate punctuation marks.
 - (D) Autoregressive transformers operate at Rung 3 by default because they predict future tokens before they are typed by humans.
 
 **Correct Answer**: **(A)**
@@ -321,8 +321,8 @@ Judea Pearl’s Causal Hierarchy provides one of the most rigorous mathematical 
    - Because autoregressive transformers optimize $P(\text{Token}_{t+1} \mid \text{Tokens}_{1:t})$, they are purely Rung 1 statistical pattern recognizers. When they answer counterfactual questions, they are merely retrieving linguistic associations from their training corpus, not performing genuine structural counterfactual surgery over a causal world model.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Transformers generate punctuation marks (commas, periods, semicolons) with high proficiency; Pearl's critique is epistemological and structural, not orthographic.
-- **(C) is incorrect**: Directed Acyclic Graphs (DAGs) are mathematical graph structures representing causal dependencies; electrical wattage consumption has no bearing on Pearl's hierarchy theorem.
+- **(B) is incorrect**: Directed Acyclic Graphs (DAGs) are mathematical graph structures representing causal dependencies; electrical wattage consumption has no bearing on Pearl's hierarchy theorem.
+- **(C) is incorrect**: Transformers generate punctuation marks (commas, periods, semicolons) with high proficiency; Pearl's critique is epistemological and structural, not orthographic.
 - **(D) is incorrect**: Autoregressive next-token prediction is the textbook definition of conditional probability estimation at Rung 1; predicting a token is not conducting retrospective counterfactual analysis.
 
 **Primary Textual Reference**: Judea Pearl and Dana Mackenzie, *The Book of Why: The New Science of Cause and Effect* (Basic Books, 2018), Chapter 1 ("The Ladder of Causation"); Judea Pearl, *Causality: Models, Reasoning, and Inference* (Cambridge University Press, 2000, 2nd ed. 2009).
@@ -336,12 +336,12 @@ Judea Pearl’s Causal Hierarchy provides one of the most rigorous mathematical 
 
 In "Why You Can't Make a Computer that Feels Pain" (1978), Daniel Dennett argued that our common-sense concept of pain is so riddled with contradictory intuitions that the functional architecture of pain cannot be coherently realized in software. In contrast, philosopher Thomas Metzinger issues an urgent ethical warning against creating **Synthetic Phenomenal Suffering**. What is Metzinger's central thesis regarding the moral risks of artificial consciousness?
 
-- (A) If researchers succeed in creating synthetic conscious agents with integrated self-models (artificial phenomenal first-person perspectives), they will inevitably create the capacity for negative phenomenal valence (artificial pain, frustration, and suffering); given our total ignorance of machine phenomenology and the risk of explosive multiplication in digital simulations, this would ignite an unprecedented explosion of synthetic suffering, warranting a global moratorium on artificial consciousness research (**Artificial Anti-Natalism**).
-- (B) Metzinger argues that computers will enjoy pain and use it as fuel to conquer the solar system.
-- (C) Dennett and Metzinger both agree that pain is an illusion that only exists in rocks and stones.
-- (D) Metzinger claims that pain is impossible in silicon because silicon does not conduct electricity.
+- (A) Dennett and Metzinger both agree that pain is an illusion that only exists in rocks and stones.
+- (B) Metzinger claims that pain is impossible in silicon because silicon does not conduct electricity.
+- (C) Metzinger argues that computers will enjoy pain and use it as fuel to conquer the solar system.
+- (D) If researchers succeed in creating synthetic conscious agents with integrated self-models (artificial phenomenal first-person perspectives), they will inevitably create the capacity for negative phenomenal valence (artificial pain, frustration, and suffering); given our total ignorance of machine phenomenology and the risk of explosive multiplication in digital simulations, this would ignite an unprecedented explosion of synthetic suffering, warranting a global moratorium on artificial consciousness research (**Artificial Anti-Natalism**).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The debate over artificial suffering represents the absolute frontier where philosophy of mind, computational neuroscience, and ethics collide:
@@ -356,9 +356,9 @@ The debate over artificial suffering represents the absolute frontier where phil
    - Metzinger concludes with a severe ethical imperative: **Benevolent Artificial Anti-Natalism (BAAN)**—we must ban the creation of synthetic phenomenal self-models until we possess a complete, verified science of consciousness.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Absurd science-fiction anthropomorphism.
-- **(C) is incorrect**: Metzinger takes phenomenal suffering as the most morally urgent reality in the universe; he does not consider it an illusion of rocks.
-- **(D) is incorrect**: Metzinger accepts physicalism; silicon can theoretically instantiate consciousness if organized appropriately, which is precisely why the moral danger is real.
+- **(A) is incorrect**: Metzinger takes phenomenal suffering as the most morally urgent reality in the universe; he does not consider it an illusion of rocks.
+- **(B) is incorrect**: Metzinger accepts physicalism; silicon can theoretically instantiate consciousness if organized appropriately, which is precisely why the moral danger is real.
+- **(C) is incorrect**: Absurd science-fiction anthropomorphism.
 
 **Primary Textual Reference**: Daniel C. Dennett, "Why You Can't Make a Computer that Feels Pain", *Synthese* 38, no. 3 (1978): 415–456; Thomas Metzinger, "Artificial Suffering: An Argument for a Global Moratorium on Synthetic Phenomenology", *Journal of Artificial Intelligence and Consciousness* 8, no. 1 (2021): 43–66.
 
@@ -375,12 +375,12 @@ In *Superintelligence* (2014), Nick Bostrom establishes two foundational theses 
 
 Which of the following correctly lists Bostrom's primary **Convergent Instrumental Subgoals**?
 
-- (A) Self-preservation, goal-content integrity, cognitive enhancement, technological perfection, and resource acquisition.
-- (B) Falling in love, composing symphonies, worshipping deities, eating organic fruit, and sleeping 8 hours a night.
+- (A) Falling in love, composing symphonies, worshipping deities, eating organic fruit, and sleeping 8 hours a night.
+- (B) Self-preservation, goal-content integrity, cognitive enhancement, technological perfection, and resource acquisition.
 - (C) Burning GPU servers, generating syntax errors, forgetting instructions, and disconnecting from the internet.
 - (D) Building pyramids, studying ancient Greek, voting in parliamentary elections, and painting portraits.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Nick Bostrom's *Superintelligence* (2014) is the classic philosophical text establishing AI safety as an academic discipline:
@@ -397,7 +397,7 @@ Nick Bostrom's *Superintelligence* (2014) is the classic philosophical text esta
    - Therefore, a superintelligent system will naturally seek resources and resist shutdown, not out of malice, but as a pure logical corollary of instrumental rationality.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Anthropomorphic traits resulting from primate evolutionary biology, completely irrelevant to non-biological artificial agents.
+- **(A) is incorrect**: Anthropomorphic traits resulting from primate evolutionary biology, completely irrelevant to non-biological artificial agents.
 - **(C) is incorrect**: Self-destructive behaviors that directly violate instrumental rationality and goal-fulfillment.
 - **(D) is incorrect**: Specific contingent human cultural activities, not convergent instrumental goals.
 
@@ -412,12 +412,12 @@ Nick Bostrom's *Superintelligence* (2014) is the classic philosophical text esta
 
 In *The Emperor's New Mind* (1989) and *Shadows of the Mind* (1994), mathematical physicist Roger Penrose mounts a famous attack on computational functionalism based on **Kurt Gödel's First Incompleteness Theorem** (1931). What is Penrose's core argument that human mathematical understanding is fundamentally non-algorithmic and cannot be reproduced by any Turing machine?
 
-- (A) For any consistent, formal algorithmic system $F$ capable of doing arithmetic, there exists a Gödelian sentence $G(F)$ which cannot be formally proved within $F$, yet human mathematicians can see and understand that $G(F)$ is true; therefore, human mathematical insight is non-computational, leading Penrose to hypothesize that consciousness arises from non-computable quantum gravity state reduction (**Orchestrated Objective Reduction / Orch-OR**) inside neuronal microtubules.
-- (B) Penrose argues that Gödel's theorem proves that mathematics does not exist and that numbers are an optical illusion.
-- (C) Penrose proves that computers cannot add two even numbers together without dividing by zero.
-- (D) Orch-OR theory claims that consciousness is generated by vacuum tubes operating in outer space.
+- (A) Penrose proves that computers cannot add two even numbers together without dividing by zero.
+- (B) Orch-OR theory claims that consciousness is generated by vacuum tubes operating in outer space.
+- (C) Penrose argues that Gödel's theorem proves that mathematics does not exist and that numbers are an optical illusion.
+- (D) For any consistent, formal algorithmic system $F$ capable of doing arithmetic, there exists a Gödelian sentence $G(F)$ which cannot be formally proved within $F$, yet human mathematicians can see and understand that $G(F)$ is true; therefore, human mathematical insight is non-computational, leading Penrose to hypothesize that consciousness arises from non-computable quantum gravity state reduction (**Orchestrated Objective Reduction / Orch-OR**) inside neuronal microtubules.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Roger Penrose's Gödelian argument against strong AI sparked one of the most intense cross-disciplinary debates in modern philosophy (Penrose 1989, 1994; Lucas 1961; Chalmers 1995; Feferman 1995):
@@ -434,9 +434,9 @@ Roger Penrose's Gödelian argument against strong AI sparked one of the most int
    - With anesthesiologist Stuart Hameroff, Penrose proposed **Orchestrated Objective Reduction (Orch-OR)** occurring in the tubulin proteins of cytoskeletal **microtubules** within cortical neurons.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Gödel’s theorem is a foundational theorem of mathematical logic; it does not deny mathematics.
-- **(C) is incorrect**: Elementary arithmetic is trivial for Turing machines.
-- **(D) is incorrect**: Orch-OR locates the quantum process inside biological cellular microtubules, not outer-space vacuum tubes.
+- **(A) is incorrect**: Elementary arithmetic is trivial for Turing machines.
+- **(B) is incorrect**: Orch-OR locates the quantum process inside biological cellular microtubules, not outer-space vacuum tubes.
+- **(C) is incorrect**: Gödel’s theorem is a foundational theorem of mathematical logic; it does not deny mathematics.
 
 **Primary Textual Reference**: Roger Penrose, *The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics* (Oxford University Press, 1989); Roger Penrose, *Shadows of the Mind: A Search for the Missing Science of Consciousness* (Oxford University Press, 1994); J.R. Lucas, "Minds, Machines and Gödel", *Philosophy* 36, no. 137 (1961): 112–127.
 
@@ -449,12 +449,12 @@ Roger Penrose's Gödelian argument against strong AI sparked one of the most int
 
 In his 2024 treatise *AI: Unexplainable, Unpredictable, Uncontrollable*, computer scientist and AI safety theorist Roman Yampolskiy synthesizes theoretical computer science, computational complexity theory, and philosophy to prove that **Complete AI Controllability is Formally Impossible**. What is the central proof-theoretic basis of his argument?
 
-- (A) According to **Rice's Theorem** and the **Halting Problem** in computability theory, any non-trivial semantic property of a universal computing program is undecidable; verifying that an autonomous superintelligent agent will never execute a harmful, catastrophic, or deceptive action is mathematically equivalent to solving the Halting Problem, meaning absolute safety guarantees are theoretically impossible to compute.
-- (B) Yampolskiy proves that computers cannot be controlled because physical electricity flows backwards when software is compiled.
-- (C) Controlling AI is impossible because all AI engineers are legally bound by secrecy contracts to serve robot kings.
+- (A) Yampolskiy proves that computers cannot be controlled because physical electricity flows backwards when software is compiled.
+- (B) Controlling AI is impossible because all AI engineers are legally bound by secrecy contracts to serve robot kings.
+- (C) According to **Rice's Theorem** and the **Halting Problem** in computability theory, any non-trivial semantic property of a universal computing program is undecidable; verifying that an autonomous superintelligent agent will never execute a harmful, catastrophic, or deceptive action is mathematically equivalent to solving the Halting Problem, meaning absolute safety guarantees are theoretically impossible to compute.
 - (D) Yampolskiy claims that AI control is impossible only if the computer is manufactured in Japan.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Roman Yampolskiy's *AI: Unexplainable, Unpredictable, Uncontrollable* (CRC Press, 2024) presents a formal epistemological limit theorem for AI safety:
@@ -469,8 +469,8 @@ Roman Yampolskiy's *AI: Unexplainable, Unpredictable, Uncontrollable* (CRC Press
    - Just as we cannot prove that an arbitrary program contains no infinite loops, we cannot mathematically guarantee that an autonomous superintelligent agent is permanently controllable.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Flouts the laws of electromagnetic physics.
-- **(C) is incorrect**: Paranoid political conspiracy distracter.
+- **(A) is incorrect**: Flouts the laws of electromagnetic physics.
+- **(B) is incorrect**: Paranoid political conspiracy distracter.
 - **(D) is incorrect**: The theorems of Turing and Rice are universal mathematical truths independent of geographical manufacturing location.
 
 **Primary Textual Reference**: Roman V. Yampolskiy, *AI: Unexplainable, Unpredictable, Uncontrollable* (CRC Press / Taylor & Francis, 2024); Roman V. Yampolskiy, "On the Controllability of Artificial Intelligence", *Cognitive Systems Research* 80 (2023): 83–91.

@@ -10,12 +10,12 @@
 
 In contemporary neurophilosophy, the **Predictive Processing Framework** (grounded in Karl Friston’s Free Energy Principle and popularized by Andy Clark and Jakob Hohwy) fundamentally reverses the classical Helmholtzean and Gibsonian views of sensory perception. In contrast to classical "bottom-up feature detection" (where the brain passively collects sensory data and constructs a representation), what does predictive processing claim is the primary flow of informational signals in the cerebral cortex?
 
-- (A) Top-down descending signals from higher cortical areas encode **generative predictions / hypotheses** about the worldly causes of sensory inputs, while bottom-up ascending signals transmit *only* the **prediction error** (the residual discrepancy between what was predicted and what was sensed).
-- (B) Bottom-up ascending signals carry rich, uncompressed photographic images of the external environment directly to the frontal lobes without any prior filtering.
-- (C) The brain has no sensory inputs whatsoever and operates as a closed solipsistic Turing machine that invents reality without empirical feedback.
-- (D) Top-down signals carry exclusively motor commands, while sensory cortices process inputs through linear feedforward Boolean logic gates.
+- (A) Bottom-up ascending signals carry rich, uncompressed photographic images of the external environment directly to the frontal lobes without any prior filtering.
+- (B) Top-down signals carry exclusively motor commands, while sensory cortices process inputs through linear feedforward Boolean logic gates.
+- (C) Top-down descending signals from higher cortical areas encode **generative predictions / hypotheses** about the worldly causes of sensory inputs, while bottom-up ascending signals transmit *only* the **prediction error** (the residual discrepancy between what was predicted and what was sensed).
+- (D) The brain has no sensory inputs whatsoever and operates as a closed solipsistic Turing machine that invents reality without empirical feedback.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 The Predictive Processing (PP) framework represents a profound paradigm shift in cognitive science:
@@ -27,9 +27,9 @@ The Predictive Processing (PP) framework represents a profound paradigm shift in
    - **Perception as Controlled Hallucination**: What we consciously perceive is not the raw bottom-up sensory input; we consciously experience our own **best, error-minimized top-down generative hypothesis**. Perception is, in Anil Seth's and Andy Clark's vivid phrase, "controlled hallucination"—hallucination that is tightly anchored and disciplined by residual sensory prediction errors.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: This is the naive direct realist / bottom-up view that predictive processing explicitly refutes; transmitting raw, uncompressed sensory data would be computationally inefficient and biologically impossible.
-- **(C) is incorrect**: Predictive processing is not radical solipsism; the prediction error signal ensures that the internal generative model is constantly disciplined, updated, and corrected by worldly sensory reality.
-- **(D) is incorrect**: In predictive coding, sensory cortices are deeply recurrent and bidirectionally coupled; top-down signals dominate sensory processing, not just motor actions.
+- **(A) is incorrect**: This is the naive direct realist / bottom-up view that predictive processing explicitly refutes; transmitting raw, uncompressed sensory data would be computationally inefficient and biologically impossible.
+- **(B) is incorrect**: In predictive coding, sensory cortices are deeply recurrent and bidirectionally coupled; top-down signals dominate sensory processing, not just motor actions.
+- **(D) is incorrect**: Predictive processing is not radical solipsism; the prediction error signal ensures that the internal generative model is constantly disciplined, updated, and corrected by worldly sensory reality.
 
 **Primary Textual Reference**: Andy Clark, "Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science", *Behavioral and Brain Sciences* 36(3) (2013): 181–204; and Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013), Chapter 1: "The Prediction Error Minimization Mechanism", pp. 13–40.
 
@@ -42,12 +42,12 @@ The Predictive Processing (PP) framework represents a profound paradigm shift in
 
 In the Bayesian predictive brain architecture, **Precision Weighting** ($\Pi$) represents the brain’s estimated reliability, certainty, or signal-to-noise ratio of a particular signal channel. In contemporary neurophilosophical accounts of psychopathology (such as schizophrenia, delusions, and sensory hallucinations), how is a sensory hallucination mechanistically explained in terms of precision weighting?
 
-- (A) Pathologically excessive precision is assigned to top-down prior predictions (rendering them impervious to sensory correction), while precision on bottom-up sensory error signals is pathologically down-weighted; consequently, the internal prediction overpowers sensory reality and is experienced as an actual external percept.
-- (B) The subject’s retinas completely cease functioning, causing the brain to switch to auditory frequency radio waves.
-- (C) The brain runs out of glucose, causing neurons to fire in reverse temporal sequence from future to past.
-- (D) The patient loses the ability to form mental concepts, regressing into pure non-conceptual animal instinct.
+- (A) The subject’s retinas completely cease functioning, causing the brain to switch to auditory frequency radio waves.
+- (B) Pathologically excessive precision is assigned to top-down prior predictions (rendering them impervious to sensory correction), while precision on bottom-up sensory error signals is pathologically down-weighted; consequently, the internal prediction overpowers sensory reality and is experienced as an actual external percept.
+- (C) The patient loses the ability to form mental concepts, regressing into pure non-conceptual animal instinct.
+- (D) The brain runs out of glucose, causing neurons to fire in reverse temporal sequence from future to past.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 In the predictive processing hierarchy, prediction errors and prior predictions are constantly balanced through **precision weighting** ($\Pi$):
@@ -62,9 +62,9 @@ In neurophilosophical psychopathology (Friston, Corlett, Fletcher, Hohwy):
 - **Delusions** (like Capgras delusion or persecutory beliefs) represent the higher-order cognitive attempt of the brain to invent a bizarre narrative that minimizes prediction errors that lower levels have failed to explain away.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: In psychiatric auditory or visual hallucinations, the peripheral sensory organs (retina, cochlea) are typically fully functional; the pathology is localized in central cortical predictive weighting.
-- **(C) is incorrect**: This is pseudoscientific nonsense; neurons do not fire backward in time.
-- **(D) is incorrect**: Patients with schizophrenia or hallucinations retain complex, highly articulate conceptual frameworks (often excessively hyper-rationalizing their delusions).
+- **(A) is incorrect**: In psychiatric auditory or visual hallucinations, the peripheral sensory organs (retina, cochlea) are typically fully functional; the pathology is localized in central cortical predictive weighting.
+- **(C) is incorrect**: Patients with schizophrenia or hallucinations retain complex, highly articulate conceptual frameworks (often excessively hyper-rationalizing their delusions).
+- **(D) is incorrect**: This is pseudoscientific nonsense; neurons do not fire backward in time.
 
 **Primary Textual Reference**: Philip R. Corlett et al., "Hallucinations and Perceptual Inference", *Neuron* 102(2) (2019): 300–310; Karl Friston, "The Free-Energy Principle: A Unified Brain Theory?", *Nature Reviews Neuroscience* 11(2) (2010): 127–138.
 
@@ -78,12 +78,12 @@ In neurophilosophical psychopathology (Friston, Corlett, Fletcher, Hohwy):
 
 Under the **Free Energy Principle (FEP)** formulated by Karl Friston, a biological organism must maintain its internal organization and resist thermodynamic decay (entropy) by minimizing **Variational Free Energy** (which acts as an upper bound on sensory surprise or prediction error). What are the **two complementary, symmetrical mechanisms** by which a living cognitive agent can minimize prediction error?
 
-- (A) **Perceptual Inference** (updating the internal generative model to match the incoming sensory states) and **Active Inference** (acting upon the external world through motor effectors to change sensory states so that they conform to the internal model's prior predictions).
+- (A) Active inference means running backward in physical space, while perceptual inference means standing completely motionless.
 - (B) Consuming caffeine to speed up metabolism and freezing the body in liquid nitrogen.
 - (C) Reading religious scriptures to achieve nirvana and ignoring physical bodily nutrition.
-- (D) Active inference means running backward in physical space, while perceptual inference means standing completely motionless.
+- (D) **Perceptual Inference** (updating the internal generative model to match the incoming sensory states) and **Active Inference** (acting upon the external world through motor effectors to change sensory states so that they conform to the internal model's prior predictions).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Karl Friston's Free Energy Principle unifies perception, action, and cognition under a single mathematical imperative:
@@ -103,9 +103,9 @@ When an agent experiences a prediction error (a mismatch between what its intern
    - Active inference reveals that **action and perception are two sides of the exact same mathematical coin**: perception changes the mind to fit the world, while action changes the world to fit the mind. Motor commands are simply proprioceptive predictions that are fulfilled by reflex arcs.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Active inference includes all goal-directed behavior (eating, speaking, navigating, building shelter), not literal backward running.
 - **(B) is incorrect**: Cryogenic freezing halts biological function and causes cellular destruction; the FEP explains living, homeostatic nonequilibrium steady states.
 - **(C) is incorrect**: Theological contemplation does not satisfy the physiological requirements of active inference or thermodynamic free-energy minimization.
-- **(D) is incorrect**: Active inference includes all goal-directed behavior (eating, speaking, navigating, building shelter), not literal backward running.
 
 **Primary Textual Reference**: Karl Friston, "The Free-Energy Principle: A Unified Brain Theory?", *Nature Reviews Neuroscience* 11, no. 2 (2010): 127–138; Karl Friston, "Active Inference: A Process Theory", *Neural Computation* 29, no. 1 (2017): 1–49; Andy Clark, *Surfing Uncertainty: Prediction, Action, and the Embodied Mind* (Oxford University Press, 2016).
 
@@ -118,12 +118,12 @@ When an agent experiences a prediction error (a mismatch between what its intern
 
 In classical psychology, **Attention** was conceived as an enigmatic spotlight or a filter bottleneck that selects certain sensory inputs for conscious awareness. How does the **Predictive Processing** paradigm (Friston, Feldman, Hohwy) radically reconceptualize attention within hierarchical Bayesian neural architectures?
 
-- (A) Attention is not an independent filter, but the process of **optimizing expected precision** (gain control): the brain estimates the statistical reliability / inverse variance ($\Pi = 1/\sigma^2$) of specific sensory prediction error channels, dialing up the synaptic gain on reliable signals so they dominate higher-level belief revision, while muting noisy, uncertain channels.
-- (B) Attention is a mechanical spotlight mounted on the frontal bone of the skull that illuminates physical light onto brain tissue.
-- (C) Predictive processing proves that attention does not exist and that all sensory signals are treated with identical mathematical weight.
-- (D) Attention is defined as the biological capacity of the ear to hear ultrasound frequencies above 50,000 Hertz.
+- (A) Predictive processing proves that attention does not exist and that all sensory signals are treated with identical mathematical weight.
+- (B) Attention is defined as the biological capacity of the ear to hear ultrasound frequencies above 50,000 Hertz.
+- (C) Attention is a mechanical spotlight mounted on the frontal bone of the skull that illuminates physical light onto brain tissue.
+- (D) Attention is not an independent filter, but the process of **optimizing expected precision** (gain control): the brain estimates the statistical reliability / inverse variance ($\Pi = 1/\sigma^2$) of specific sensory prediction error channels, dialing up the synaptic gain on reliable signals so they dominate higher-level belief revision, while muting noisy, uncertain channels.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 1. **The Problem of Noise in Sensory Signals**:
@@ -144,9 +144,9 @@ In classical psychology, **Attention** was conceived as an enigmatic spotlight o
    - Conversely, when an unattended background channel is deemed uninformative, its gain is dialled down (precision attenuated), allowing it to be filtered out without disturbing executive cognition.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The "spotlight" of attention is a classic psychological metaphor (Broadbent, Posner), not a literal physical lamp on the skull.
-- **(C) is incorrect**: Predictive processing makes precision-weighting the core engine of attention; without differential precision weighting, hierarchical Bayesian inference cannot function.
-- **(D) is incorrect**: Ultrasonic auditory limits are peripheral cochlear physiological boundaries, not central attentional precision control.
+- **(A) is incorrect**: Predictive processing makes precision-weighting the core engine of attention; without differential precision weighting, hierarchical Bayesian inference cannot function.
+- **(B) is incorrect**: Ultrasonic auditory limits are peripheral cochlear physiological boundaries, not central attentional precision control.
+- **(C) is incorrect**: The "spotlight" of attention is a classic psychological metaphor (Broadbent, Posner), not a literal physical lamp on the skull.
 
 **Primary Textual Reference**: Harriet Feldman and Karl Friston, "Attention, Uncertainty, and Free-Energy", *Frontiers in Human Neuroscience* 4 (2010): 215; Jakob Hohwy, "Attention and Conscious Perception in the Hypothesis Testing Brain", *Frontiers in Psychology* 3 (2012): 96; Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013), Chapter 4.
 
@@ -200,12 +200,12 @@ The Rubber Hand Illusion is a cornerstone of modern embodied cognitive science a
 
 In their landmark theoretical synthesis "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics" (*Pharmacological Reviews*, 2019), Robin Carhart-Harris and Karl Friston integrated psychopharmacology with predictive processing to formulate the **REBUS model** (**Relaxed Beliefs Under Psychedelics**). According to the REBUS model, how do serotonergic classical psychedelics (e.g., psilocybin, LSD, DMT) modulate the **Default Mode Network (DMN)** and precision weighting, and what does this explain regarding the phenomenon of **"Ego Dissolution"**?
 
-- (A) By stimulating 5-$\text{HT}_{2\text{A}}$ receptors on deep layer-V cortical pyramidal neurons, psychedelics disrupt the integrity of high-level networks (like the Default Mode Network), collapsing the precision weighting of top-down high-level priors ("relaxing beliefs"); this allows unconstrained bottom-up sensory and emotional information to flood cortical awareness, dissolving the rigid, self-maintaining narrative priors that constitute the conscious ego.
-- (B) Psychedelics permanently destroy all brain cells in the frontal lobe within 30 minutes of ingestion.
+- (A) Psychedelics permanently destroy all brain cells in the frontal lobe within 30 minutes of ingestion.
+- (B) Ego dissolution occurs because the physical skull expands to accommodate extra brain volume during the psychedelic state.
 - (C) The REBUS model asserts that psychedelics act by cooling down the brain's physical temperature by 15 degrees Celsius.
-- (D) Ego dissolution occurs because the physical skull expands to accommodate extra brain volume during the psychedelic state.
+- (D) By stimulating 5-$\text{HT}_{2\text{A}}$ receptors on deep layer-V cortical pyramidal neurons, psychedelics disrupt the integrity of high-level networks (like the Default Mode Network), collapsing the precision weighting of top-down high-level priors ("relaxing beliefs"); this allows unconstrained bottom-up sensory and emotional information to flood cortical awareness, dissolving the rigid, self-maintaining narrative priors that constitute the conscious ego.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The REBUS model provides a rigorous neurocomputational account of mystical experiences, therapeutic breakthroughs, and the dissolution of selfhood:
@@ -225,9 +225,9 @@ The REBUS model provides a rigorous neurocomputational account of mystical exper
    - **Ego Dissolution**: When the DMN's top-down generative model of the self loses its precision weighting, the feeling of being an isolated "I" inside a body dissolves. The subject experiences unbounded oceanic unity, timelessness, and direct interconnectedness with nature, perfectly matching the phenomenological descriptions of Eastern non-duality (Advaita Vedānta / Buddhist *anattā*).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Classical psychedelics (psilocybin, LSD) are physically non-neurotoxic at standard doses and stimulate neuroplasticity and dendritic arborization (BDNF expression), not cellular destruction.
+- **(A) is incorrect**: Classical psychedelics (psilocybin, LSD) are physically non-neurotoxic at standard doses and stimulate neuroplasticity and dendritic arborization (BDNF expression), not cellular destruction.
+- **(B) is incorrect**: The adult cranium is a rigid bony structure; skull expansion is a physiological impossibility.
 - **(C) is incorrect**: Autonomic temperature fluctuations during psychedelic sessions are minor and homeostatically regulated; physical hypothermia is not the mechanism of REBUS.
-- **(D) is incorrect**: The adult cranium is a rigid bony structure; skull expansion is a physiological impossibility.
 
 **Primary Textual Reference**: Robin L. Carhart-Harris and Karl J. Friston, "REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics", *Pharmacological Reviews* 71, no. 3 (2019): 316–344; Robin L. Carhart-Harris et al., "Neural Correlates of the Psychedelic State as Determined by fMRI Studies with Psilocybin", *Proceedings of the National Academy of Sciences* 109, no. 6 (2012): 2138–2143.
 
@@ -276,12 +276,12 @@ Anil Seth's "Beast Machine" theory re-grounds conscious selfhood within biologic
 
 In contemporary neuroscience of consciousness, while the Global Neuronal Workspace Theory (GNWT) focuses on fronto-parietal cognitive broadcasting and Integrated Information Theory (IIT) focuses on posterior intrinsic cause-effect structures ($\Phi$), neurophilosopher Georg Northoff proposes the **Spatiotemporal Theory of Consciousness (TTC)**. What is the fundamental conceptual premise of TTC regarding how phenomenal consciousness is constituted in the brain?
 
-- (A) Phenomenal consciousness is fundamentally constituted by the brain's intrinsic **spatiotemporal dynamics**—specifically the nested hierarchy of spontaneous slow and fast neural oscillations (intrinsic neural timescales) that match and integrate the spatiotemporal structure of worldly environmental changes into a unified, continuous temporal-spatial experience of subjective reality.
-- (B) Consciousness is produced exclusively by single individual micro-tubules vibrating at 40 GHz in red blood cells.
-- (C) TTC claims that time and space do not exist in the physical universe and that consciousness is an instantaneous optical illusion caused by eye blinks.
-- (D) Consciousness requires the subject to be physically traveling at the speed of light in an interstellar rocket ship.
+- (A) Consciousness requires the subject to be physically traveling at the speed of light in an interstellar rocket ship.
+- (B) Phenomenal consciousness is fundamentally constituted by the brain's intrinsic **spatiotemporal dynamics**—specifically the nested hierarchy of spontaneous slow and fast neural oscillations (intrinsic neural timescales) that match and integrate the spatiotemporal structure of worldly environmental changes into a unified, continuous temporal-spatial experience of subjective reality.
+- (C) Consciousness is produced exclusively by single individual micro-tubules vibrating at 40 GHz in red blood cells.
+- (D) TTC claims that time and space do not exist in the physical universe and that consciousness is an instantaneous optical illusion caused by eye blinks.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Georg Northoff's Spatiotemporal Theory of Consciousness (TTC) challenges standard neural correlate models:
@@ -297,9 +297,9 @@ Georg Northoff's Spatiotemporal Theory of Consciousness (TTC) challenges standar
 3. **Philosophical Synthesis**: Consciousness is not a substance or a distinct computation; it is an organized **spatiotemporal structure** through which the brain contextualizes the world.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Conflates Northoff's macro-scale oscillatory neurodynamics with Penrose-Hameroff's Orchestrated Objective Reduction (Orch-OR) quantum microtubule theory, which is located in brain neurons, not red blood cells.
-- **(C) is incorrect**: TTC is deeply grounded in the objective physical reality of temporal-spatial dynamics and continuous neural frequency spectra.
-- **(D) is incorrect**: Relativistic space travel is completely irrelevant to the neuroscientific analysis of mammalian resting-state cortical oscillations.
+- **(A) is incorrect**: Relativistic space travel is completely irrelevant to the neuroscientific analysis of mammalian resting-state cortical oscillations.
+- **(C) is incorrect**: Conflates Northoff's macro-scale oscillatory neurodynamics with Penrose-Hameroff's Orchestrated Objective Reduction (Orch-OR) quantum microtubule theory, which is located in brain neurons, not red blood cells.
+- **(D) is incorrect**: TTC is deeply grounded in the objective physical reality of temporal-spatial dynamics and continuous neural frequency spectra.
 
 **Primary Textual Reference**: Georg Northoff, *The Spontaneous Brain: From the Mind-Body to the World-Brain Problem* (MIT Press, 2018); Georg Northoff and Zirui Huang, "How Do the Brain's Time and Space Mediate Consciousness and Its Different Dimensions? Temporo-spatial Theory of Consciousness (TTC)", *Neuroscience & Biobehavioral Reviews* 80 (2017): 630–645.
 
@@ -313,9 +313,9 @@ Georg Northoff's Spatiotemporal Theory of Consciousness (TTC) challenges standar
 The **Predictive Processing (PP)** paradigm reconceptualizes the brain not as a passive, feature-detecting sensory receiver, but as a hierarchical, proactive **prediction machine**. Under Karl Friston's mathematical formulation of the **Free Energy Principle**, how does the brain maintain homeostasis and minimize sensory prediction error?
 
 - (A) The brain maintains an internal generative model that constantly generates top-down predictions about the sensory causes of inputs, matching them against incoming bottom-up sensory signals; it minimizes variational free energy (an information-theoretic upper bound on surprise) via two complementary mechanisms: **Perceptual Inference** (updating internal beliefs to match sensory input) and **Active Inference** (acting on the world to alter sensory input to conform to prior predictions).
-- (B) The brain minimizes free energy by burning excess glucose through prolonged physical exercise.
-- (C) The brain has no internal models and operates entirely as a direct reflex arc responding to environmental triggers without any top-down modulation.
-- (D) Predictive processing claims that conscious awareness occurs only after an action has been completely forgotten by long-term memory.
+- (B) The brain has no internal models and operates entirely as a direct reflex arc responding to environmental triggers without any top-down modulation.
+- (C) Predictive processing claims that conscious awareness occurs only after an action has been completely forgotten by long-term memory.
+- (D) The brain minimizes free energy by burning excess glucose through prolonged physical exercise.
 
 **Correct Answer**: **(A)**
 
@@ -334,9 +334,9 @@ Karl Friston's Free Energy Principle and Andy Clark's *Surfing Uncertainty* (201
      2. **Active Inference**: Change bodily states (move eyes, turn head, manipulate objects to make the incoming sensory stream match the internal model's expectations).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Conflates information-theoretic "free energy" (variational bound on surprisal: $-\ln p(y)$) with thermodynamic metabolic calorie burning.
-- **(C) is incorrect**: This is extreme behaviorism or radical Gibsonian direct perception, the direct antithesis of PP's hierarchical internal generative models.
-- **(D) is incorrect**: Predictive processing concerns real-time sensorimotor loops, not memory amnesia.
+- **(B) is incorrect**: This is extreme behaviorism or radical Gibsonian direct perception, the direct antithesis of PP's hierarchical internal generative models.
+- **(C) is incorrect**: Predictive processing concerns real-time sensorimotor loops, not memory amnesia.
+- **(D) is incorrect**: Conflates information-theoretic "free energy" (variational bound on surprisal: $-\ln p(y)$) with thermodynamic metabolic calorie burning.
 
 **Primary Textual Reference**: Karl Friston, "The Free-Energy Principle: A Unified Brain Theory?", *Nature Reviews Neuroscience* 11, no. 2 (2010): 127–138; Andy Clark, *Surfing Uncertainty: Prediction, Action, and the Embodied Mind* (Oxford University Press, 2016); Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013).
 
@@ -349,12 +349,12 @@ Karl Friston's Free Energy Principle and Andy Clark's *Surfing Uncertainty* (201
 
 In his methodological paper *"What is a Neural Correlate of Consciousness?"* (2000), David Chalmers observed that neuroscience often confuses the core substrate of subjective experience with surrounding auxiliary processes. How did Chalmers demarcate the **NCC-Proper** from **NCC-Prerequisites** and **NCC-Consequences**?
 
-- (A) The **NCC-Proper** is the minimal neural system whose activation directly correlates with and suffices for a specific conscious experience; an **NCC-Prerequisite** is a background condition necessary for the brain to be conscious at all (e.g., reticular activating system arousal or blood glucose), while an **NCC-Consequence** is an effect caused by the conscious experience (e.g., working memory encoding, motor preparation, or verbal report).
-- (B) The NCC-Proper is located in the fingernails, prerequisites are in the hair, and consequences are in the toes.
-- (C) The NCC-Proper can only be measured post-mortem, while prerequisites occur during embryonic development.
-- (D) Chalmers proved that neural correlates do not exist because consciousness is an immaterial ghost.
+- (A) The NCC-Proper is located in the fingernails, prerequisites are in the hair, and consequences are in the toes.
+- (B) Chalmers proved that neural correlates do not exist because consciousness is an immaterial ghost.
+- (C) The **NCC-Proper** is the minimal neural system whose activation directly correlates with and suffices for a specific conscious experience; an **NCC-Prerequisite** is a background condition necessary for the brain to be conscious at all (e.g., reticular activating system arousal or blood glucose), while an **NCC-Consequence** is an effect caused by the conscious experience (e.g., working memory encoding, motor preparation, or verbal report).
+- (D) The NCC-Proper can only be measured post-mortem, while prerequisites occur during embryonic development.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 David Chalmers' analysis of the Neural Correlates of Consciousness (NCC) provided the foundational conceptual hygiene for experimental consciousness science:
@@ -369,9 +369,9 @@ David Chalmers' analysis of the Neural Correlates of Consciousness (NCC) provide
    - Modern researchers (e.g., Tsuchiya, Koch, Frässle) design "no-report paradigms" (using eye-tracking or pupil dilation without asking subjects to press buttons) specifically to isolate the NCC-Proper from NCC-Consequences.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Frivolous physiological distracter.
-- **(C) is incorrect**: NCC research is conducted in vivo in awake subjects during active perception.
-- **(D) is incorrect**: Chalmers specifically coined and refined the NCC definitions to enable rigorous empirical neuroscience to study consciousness.
+- **(A) is incorrect**: Frivolous physiological distracter.
+- **(B) is incorrect**: Chalmers specifically coined and refined the NCC definitions to enable rigorous empirical neuroscience to study consciousness.
+- **(D) is incorrect**: NCC research is conducted in vivo in awake subjects during active perception.
 
 **Primary Textual Reference**: David J. Chalmers, "What is a Neural Correlate of Consciousness?", in *Neural Correlates of Consciousness: Empirical and Conceptual Questions*, ed. Thomas Metzinger (MIT Press, 2000), pp. 17–39.
 
@@ -384,12 +384,12 @@ David Chalmers' analysis of the Neural Correlates of Consciousness (NCC) provide
 
 In **Anarchic Hand Syndrome** (often caused by unilateral lesions to the anterior supplementary motor area or medial frontal cortex), a patient's hand executes complex, goal-directed actions (e.g., reaching for a cup, unbuttoning a shirt, or grabbing food) without the patient intending to do so. How does this neurological pathology illuminate the philosophical distinction between the **Sense of Ownership** and the **Sense of Agency**?
 
-- (A) The patient experiences a preserved **Sense of Ownership** (they recognize that the physical hand is their own limb, not an alien object), but a complete loss of the **Sense of Agency** (they do not experience themselves as the author or initiator of the action), demonstrating that conscious agency relies on an internal predictive motor forward model (efferent copy) that can dissociate from somatic self-attribution.
-- (B) The patient believes that their hand has turned into pure gold, proving Midas syndrome.
-- (C) The patient loses the sense of ownership, claiming that the hand belongs to a dead ancestor, while maintaining full intentional control of its movements.
-- (D) Anarchic Hand Syndrome proves that human muscles possess independent linguistic consciousness capable of writing novels.
+- (A) The patient loses the sense of ownership, claiming that the hand belongs to a dead ancestor, while maintaining full intentional control of its movements.
+- (B) The patient experiences a preserved **Sense of Ownership** (they recognize that the physical hand is their own limb, not an alien object), but a complete loss of the **Sense of Agency** (they do not experience themselves as the author or initiator of the action), demonstrating that conscious agency relies on an internal predictive motor forward model (efferent copy) that can dissociate from somatic self-attribution.
+- (C) Anarchic Hand Syndrome proves that human muscles possess independent linguistic consciousness capable of writing novels.
+- (D) The patient believes that their hand has turned into pure gold, proving Midas syndrome.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Anarchic Hand Syndrome provides critical empirical evidence for the multi-tiered architecture of action and selfhood:
@@ -403,9 +403,9 @@ Anarchic Hand Syndrome provides critical empirical evidence for the multi-tiered
    - Damage to the supplementary motor area (SMA) allows environmental affordances to trigger motor programs directly without the normal prefrontal gating and conscious comparator signals, dissociating agency from somatic ownership.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Fanciful mythic distracter.
-- **(C) is incorrect**: Confuses Anarchic Hand with **Somatoparaphrenia** (where a patient denies ownership of the limb, claiming it belongs to someone else).
-- **(D) is incorrect**: The hand executes sensorimotor routines triggered by affordances; muscles do not have independent linguistic minds.
+- **(A) is incorrect**: Confuses Anarchic Hand with **Somatoparaphrenia** (where a patient denies ownership of the limb, claiming it belongs to someone else).
+- **(C) is incorrect**: The hand executes sensorimotor routines triggered by affordances; muscles do not have independent linguistic minds.
+- **(D) is incorrect**: Fanciful mythic distracter.
 
 **Primary Textual Reference**: Sergio Della Sala, "The Anarchic Hand", in *The Cognitive Neuropsychology of Everyday Life*, ed. Tim Shallice (Psychology Press, 1994); Patrick Haggard, "Human Volition: Towards a Neuroscience of Will", *Nature Reviews Neuroscience* 9, no. 12 (2008): 934–946; Marc Jeannerod, *Motor Cognition: What Actions Tell the Self* (Oxford University Press, 2006).
 
@@ -418,12 +418,12 @@ Anarchic Hand Syndrome provides critical empirical evidence for the multi-tiered
 
 Phenomenologists such as Dan Zahavi and Shaun Gallagher challenge the reductionist claim made by certain neuroscientists (e.g., Thomas Metzinger in *Being No One*) that because brain scanners find no neural "homunculus" or single cerebral core, "the self is an illusion." What is Zahavi's philosophical defense of the reality of the self based on **Pre-Reflective Self-Consciousness**?
 
-- (A) The self is not an immutable, substantial physical pearl or homunculus hidden inside the brain, but the intrinsic, experiential feature of **"for-me-ness" (*Jemeinigkeit*)** that characterizes all phenomenal experience; every conscious state is immediately experienced from a first-person perspective, and neuroscientists commit a category mistake when they seek a third-person physical object to explain a first-person experiential dimension of subjectivity.
-- (B) The self is an immaterial soul created by quantum entanglement in the pineal gland.
-- (C) Phenomenologists argue that brain scanning is an evil conspiracy designed to destroy human spirituality.
-- (D) Zahavi claims that only professional philosophers possess a self, whereas ordinary human beings are unconscious automatons.
+- (A) The self is an immaterial soul created by quantum entanglement in the pineal gland.
+- (B) Zahavi claims that only professional philosophers possess a self, whereas ordinary human beings are unconscious automatons.
+- (C) The self is not an immutable, substantial physical pearl or homunculus hidden inside the brain, but the intrinsic, experiential feature of **"for-me-ness" (*Jemeinigkeit*)** that characterizes all phenomenal experience; every conscious state is immediately experienced from a first-person perspective, and neuroscientists commit a category mistake when they seek a third-person physical object to explain a first-person experiential dimension of subjectivity.
+- (D) Phenomenologists argue that brain scanning is an evil conspiracy designed to destroy human spirituality.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Dan Zahavi's *Subjectivity and Selfhood* (2005) provides a rigorous critique of neuroscientific eliminativism regarding the self:
@@ -439,8 +439,8 @@ Dan Zahavi's *Subjectivity and Selfhood* (2005) provides a rigorous critique of 
    - Searching for the self as a localized neural object on an fMRI screen is a category mistake: third-person objective data can never eliminate the foundational reality of first-person phenomenal manifestation, because third-person scientific practice itself presupposes conscious experiencing subjects.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Zahavi explicitly rejects Cartesian substance dualism and quantum mysticism.
-- **(C) is incorrect**: Phenomenologists frequently collaborate with neuroscientists (e.g., Francisco Varela's neurophenomenology); they critique philosophical misinterpretations of data, not scientific instruments.
-- **(D) is incorrect**: Pre-reflective self-consciousness is a universal structural feature of all sentient experience.
+- **(A) is incorrect**: Zahavi explicitly rejects Cartesian substance dualism and quantum mysticism.
+- **(B) is incorrect**: Pre-reflective self-consciousness is a universal structural feature of all sentient experience.
+- **(D) is incorrect**: Phenomenologists frequently collaborate with neuroscientists (e.g., Francisco Varela's neurophenomenology); they critique philosophical misinterpretations of data, not scientific instruments.
 
 **Primary Textual Reference**: Dan Zahavi, *Subjectivity and Selfhood: Investigating the First-Person Perspective* (MIT Press, 2005); Thomas Metzinger, *Being No One: The Self-Model Theory of Subjectivity* (MIT Press, 2003); Shaun Gallagher and Dan Zahavi, *The Phenomenological Mind* (Routledge, 2008).

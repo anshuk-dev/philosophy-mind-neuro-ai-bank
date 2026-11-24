@@ -10,12 +10,12 @@
 
 In his seminal 2001 paper "Statistical Modeling: The Two Cultures", Leo Breiman coined the term **"Rashomon Effect"** (named after Akira Kurosawa's film where multiple eyewitnesses offer radically conflicting accounts of the same event) to describe a fundamental phenomenon in machine learning. In modern statistical learning theory and philosophy of science, what is the precise formulation of the Rashomon Effect, and why does it pose a profound epistemological crisis for post-hoc explainability?
 
-- (A) In high-dimensional data, there often exists a large "Rashomon set" of distinct, structurally incompatible predictive models that achieve near-identical empirical loss and predictive accuracy, yet generate wildly conflicting, contradictory feature importance attributions and causal explanations for the exact same data instances.
-- (B) The Rashomon effect proves that Japanese cinema techniques can optimize the loss function of stochastic gradient descent.
-- (C) The effect occurs when training data contains text translated across multiple romance languages simultaneously, causing tokenization syntax errors.
-- (D) The Rashomon effect demonstrates that all neural networks inevitably converge to a single unique global minimum with zero training variance.
+- (A) The Rashomon effect proves that Japanese cinema techniques can optimize the loss function of stochastic gradient descent.
+- (B) In high-dimensional data, there often exists a large "Rashomon set" of distinct, structurally incompatible predictive models that achieve near-identical empirical loss and predictive accuracy, yet generate wildly conflicting, contradictory feature importance attributions and causal explanations for the exact same data instances.
+- (C) The Rashomon effect demonstrates that all neural networks inevitably converge to a single unique global minimum with zero training variance.
+- (D) The effect occurs when training data contains text translated across multiple romance languages simultaneously, causing tokenization syntax errors.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 The Rashomon Effect represents the modern algorithmic manifestation of **Quine's Thesis of the Underdetermination of Theory by Evidence** (and Duhem-Quine underdetermination):
@@ -32,9 +32,9 @@ The Rashomon Effect represents the modern algorithmic manifestation of **Quine's
    - The "explanation" is an artifact of the specific local minimum chosen by the optimizer, not an objective truth about the underlying world or the data-generating process. Explanatory claims derived from a single black box are **radically underdetermined**.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Kurosawa's film is merely the cultural metaphor chosen by Breiman to describe multiple competing perspectives; the cinema technique itself does not alter optimization mathematics.
-- **(C) is incorrect**: Multilingual translation and tokenization issues have nothing to do with the statistical learning theory of hypothesis class capacity, empirical loss surfaces, or collinearity.
-- **(D) is incorrect**: Deep learning optimization surfaces are notoriously non-convex with countless local minima and saddle points; the Rashomon effect specifically arises because of the *existence of many diverse* near-optimal models, not a single unique global minimum.
+- **(A) is incorrect**: Kurosawa's film is merely the cultural metaphor chosen by Breiman to describe multiple competing perspectives; the cinema technique itself does not alter optimization mathematics.
+- **(C) is incorrect**: Deep learning optimization surfaces are notoriously non-convex with countless local minima and saddle points; the Rashomon effect specifically arises because of the *existence of many diverse* near-optimal models, not a single unique global minimum.
+- **(D) is incorrect**: Multilingual translation and tokenization issues have nothing to do with the statistical learning theory of hypothesis class capacity, empirical loss surfaces, or collinearity.
 
 **Primary Textual Reference**: Leo Breiman, "Statistical Modeling: The Two Cultures", *Statistical Science* 16, no. 3 (2001): 199–231; Aaron Fisher, Cynthia Rudin, and Francesca Dominici, "All Models are Wrong, but Many are Useful: Learning a Variable's Importance by Considering All Equally Good Models", *Harvard Data Science Review* 1, no. 1 (2019); Charles T. Marx, Flavio P. Calmon, and Berk Ustun, "Predictive Multiplicity in Classification", *ICML* (2020).
 
@@ -47,12 +47,12 @@ The Rashomon Effect represents the modern algorithmic manifestation of **Quine's
 
 In the field of **Mechanistic Interpretability** (Anthropic / Olah et al., 2022), researchers seek to reverse-engineer deep neural networks into human-understandable algorithmic circuits. A fundamental obstacle to classical single-neuron interpretability is the discovery of **polysemantic neurons** and the phenomenon of **Superposition**. What is the theoretical explanation for why neural networks enter superposition?
 
-- (A) Neural networks exploit high-dimensional geometry to compress more features than they have physical neuron dimensions ($M > N$) by representing concepts as almost-orthogonal non-basis directions, tolerating a small amount of cross-feature interference because real-world features are sparse.
-- (B) Neurons in artificial neural networks literally split into parallel quantum multiverses via the Everett Many-Worlds interpretation.
-- (C) Superposition occurs because graphics processing units (GPUs) overheat when computing matrix dot products above 100 degrees Celsius.
-- (D) Polysemanticity means that a single artificial neuron is secretly controlled by multiple human crowd-workers typing text simultaneously.
+- (A) Superposition occurs because graphics processing units (GPUs) overheat when computing matrix dot products above 100 degrees Celsius.
+- (B) Polysemanticity means that a single artificial neuron is secretly controlled by multiple human crowd-workers typing text simultaneously.
+- (C) Neural networks exploit high-dimensional geometry to compress more features than they have physical neuron dimensions ($M > N$) by representing concepts as almost-orthogonal non-basis directions, tolerating a small amount of cross-feature interference because real-world features are sparse.
+- (D) Neurons in artificial neural networks literally split into parallel quantum multiverses via the Everett Many-Worlds interpretation.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 In classical cognitive science, researchers hoped that artificial neural networks would be **monosemantic**: that each individual neuron would correspond to a clean human concept (e.g., the "Jennifer Aniston neuron" in neuroscience, or a specific "car wheel neuron" in CNNs).
@@ -65,9 +65,9 @@ Olah, Elhage et al. (2022, "Toy Models of Superposition") provided a groundbreak
 5. **Philosophical Implication**: Single neurons are illusions of our coordinate system. To interpret the network, one must perform sparse dictionary learning (e.g., Sparse Autoencoders / SAEs) to find the true underlying monosemantic feature directions, vindicating holism and distributed representation.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Superposition in neural networks is a phenomenon of classical high-dimensional linear algebra and geometry; it has no connection to quantum Everettian many-worlds branches.
-- **(C) is incorrect**: Hardware thermal throttling is a hardware engineering issue that causes clock speed drops, not a mathematical theory of feature representation.
-- **(D) is incorrect**: Polysemanticity is an intrinsic mathematical property of weights learned via gradient descent, not a "Mechanical Turk" human deception.
+- **(A) is incorrect**: Hardware thermal throttling is a hardware engineering issue that causes clock speed drops, not a mathematical theory of feature representation.
+- **(B) is incorrect**: Polysemanticity is an intrinsic mathematical property of weights learned via gradient descent, not a "Mechanical Turk" human deception.
+- **(D) is incorrect**: Superposition in neural networks is a phenomenon of classical high-dimensional linear algebra and geometry; it has no connection to quantum Everettian many-worlds branches.
 
 **Primary Textual Reference**: Nelson Elhage, Tristan Hume, Catherine Olsson, Neel Nanda, Tom Henighan, Scott Johnston, Danny Perez, Nicholas Joseph, and Chris Olah, "Toy Models of Superposition", *Transformer Circuits Thread* (Anthropic, 2022); Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter, "Zoom In: An Introduction to Circuits", *Distill* (2020).
 
@@ -80,12 +80,12 @@ Olah, Elhage et al. (2022, "Toy Models of Superposition") provided a groundbreak
 
 In the critical empirical literature probing the epistemological reliability of Explainable AI, Julius Adebayo et al. ("Sanity Checks for Saliency Maps", NeurIPS 2018) and Dylan Slack et al. ("Fooling LIME and SHAP", AIES 2020) published devastating experimental refutations of standard post-hoc explanatory methods. What did these landmark studies definitively prove regarding the relationship between post-hoc explanations and the models they purport to explain?
 
-- (A) Adebayo et al. showed that widely used gradient saliency maps pass "edge detector" visual checks even when model weights are completely randomized or labels are permuted (acting as input edge detectors rather than explaining model decisions); Slack et al. demonstrated that racially biased classifiers can be deliberately wrapped in adversarial scaffolding to produce completely innocuous, fair-looking LIME and SHAP explanations.
-- (B) They proved that all neural network explanations are mathematically identical to Einstein's field equations in general relativity.
-- (C) They demonstrated that saliency maps only function correctly when the artificial intelligence has been granted legal personhood.
-- (D) They proved that LIME and SHAP algorithms are immune to any form of manipulation because they rely on Shapley values from cooperative game theory.
+- (A) They proved that LIME and SHAP algorithms are immune to any form of manipulation because they rely on Shapley values from cooperative game theory.
+- (B) Adebayo et al. showed that widely used gradient saliency maps pass "edge detector" visual checks even when model weights are completely randomized or labels are permuted (acting as input edge detectors rather than explaining model decisions); Slack et al. demonstrated that racially biased classifiers can be deliberately wrapped in adversarial scaffolding to produce completely innocuous, fair-looking LIME and SHAP explanations.
+- (C) They proved that all neural network explanations are mathematically identical to Einstein's field equations in general relativity.
+- (D) They demonstrated that saliency maps only function correctly when the artificial intelligence has been granted legal personhood.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 These two papers represent a watershed moment in the epistemology of machine learning auditability:
@@ -105,9 +105,9 @@ These two papers represent a watershed moment in the epistemology of machine lea
 These findings demonstrate that post-hoc explainers cannot be treated as reliable veridical oracles in adversarial or high-stakes environments without independent verification.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Saliency maps and surrogate explainers have no connection to the tensor geometry of general relativity.
-- **(C) is incorrect**: Legal personhood has no bearing on mathematical sanity checks or gradient perturbation statistics.
-- **(D) is incorrect**: While Lloyd Shapley's axiomatic game-theoretic value is mathematically sound, its practical implementation in SHAP relies on local sampling approximations that are highly vulnerable to out-of-distribution adversarial detection.
+- **(A) is incorrect**: While Lloyd Shapley's axiomatic game-theoretic value is mathematically sound, its practical implementation in SHAP relies on local sampling approximations that are highly vulnerable to out-of-distribution adversarial detection.
+- **(C) is incorrect**: Saliency maps and surrogate explainers have no connection to the tensor geometry of general relativity.
+- **(D) is incorrect**: Legal personhood has no bearing on mathematical sanity checks or gradient perturbation statistics.
 
 **Primary Textual Reference**: Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt, and Been Kim, "Sanity Checks for Saliency Maps", *Advances in Neural Information Processing Systems (NeurIPS)* 31 (2018); Dylan Slack, Sophie Hilgard, Emily Jia, Sameer Singh, and Himabindu Lakkaraju, "Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods", *AAAI/ACM Conference on AI, Ethics, and Society (AIES)* (2020): 180–186.
 
@@ -121,12 +121,12 @@ These findings demonstrate that post-hoc explainers cannot be treated as reliabl
 
 In their foundational 2022 paper "In-context Learning and Induction Heads" (*Transformer Circuits Thread*, Anthropic), Catherine Olsson and colleagues discovered the primary mechanistic circuit responsible for the sudden emergence of **in-context learning** in transformer language models. How does a two-layer **Induction Head** circuit mechanically implement abstract algorithmic copying via attention mechanisms?
 
-- (A) Layer 1 contains a "previous-token head" that writes the identity of the preceding token into the current token's residual stream; Layer 2 contains an "induction head" whose Key-Query ($QK$) circuit attends to previous occurrences of the current token in the prompt, while its Output-Value ($OV$) circuit retrieves and copies the *subsequent* token that followed it in the past, mechanistically executing the general algorithmic rule: $[A][B] \dots [A] \longrightarrow [B]$.
-- (B) Induction heads work by physically magnetizing the copper circuits of the server rack during gradient descent.
-- (C) The induction head requires that human annotators manually type each next word during live transformer inference.
-- (D) Induction heads prove that transformer language models are strictly Markov chains with zero memory of past tokens.
+- (A) Induction heads prove that transformer language models are strictly Markov chains with zero memory of past tokens.
+- (B) The induction head requires that human annotators manually type each next word during live transformer inference.
+- (C) Induction heads work by physically magnetizing the copper circuits of the server rack during gradient descent.
+- (D) Layer 1 contains a "previous-token head" that writes the identity of the preceding token into the current token's residual stream; Layer 2 contains an "induction head" whose Key-Query ($QK$) circuit attends to previous occurrences of the current token in the prompt, while its Output-Value ($OV$) circuit retrieves and copies the *subsequent* token that followed it in the past, mechanistically executing the general algorithmic rule: $[A][B] \dots [A] \longrightarrow [B]$.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The discovery of Induction Heads is considered the triumphant proof-of-concept for **Mechanistic Interpretability** (Anthropic 2022):
@@ -148,9 +148,9 @@ The discovery of Induction Heads is considered the triumphant proof-of-concept f
    - Beneath the billions of continuous matrix parameters lie **precise, discrete, human-understandable algorithmic circuits** executing formal computational programs. Induction heads provide a concrete computational vehicle for how general pattern completion emerges from self-supervised training.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Transformer circuits are formal linear algebra tensor operations executed in floating-point memory, not physical electromagnetic coil magnetization.
-- **(C) is incorrect**: Induction heads are fully autonomous learned internal circuits executing inside the neural network during inference; no human crowd-workers are involved.
-- **(D) is incorrect**: Markov chains have a fixed memory horizon (typically order 1 or 2); induction heads attend across thousands of tokens in context, providing long-range associative memory.
+- **(A) is incorrect**: Markov chains have a fixed memory horizon (typically order 1 or 2); induction heads attend across thousands of tokens in context, providing long-range associative memory.
+- **(B) is incorrect**: Induction heads are fully autonomous learned internal circuits executing inside the neural network during inference; no human crowd-workers are involved.
+- **(C) is incorrect**: Transformer circuits are formal linear algebra tensor operations executed in floating-point memory, not physical electromagnetic coil magnetization.
 
 **Primary Textual Reference**: Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, Nova DasSarma, Tom Henighan, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, et al., "In-context Learning and Induction Heads", *Transformer Circuits Thread* (Anthropic, 2022); Neel Nanda et al., "Progress Measures for Grokking via Mechanistic Interpretability", *ICLR* (2023).
 
@@ -214,12 +214,12 @@ In "Towards Monosemanticity: Decomposing Language Models With Dictionary Learnin
 
 In "Towards Faithfully Interpretable NLP Systems" (*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*, 2020), Alon Jacovi and Yoav Goldberg exposed a pervasive methodological pathology in the evaluation of Explainable AI: the conflation of **Faithfulness** with **Plausibility**. How do Jacovi and Goldberg define these two criteria, and why is an explanation that maximizes plausibility often the most dangerous form of unfaithfulness?
 
-- (A) **Faithfulness** is the degree to which an explanation accurately reflects the true internal reasoning process and decision mechanics of the model; **Plausibility** is how convincing, intuitive, and pleasing the explanation sounds to a human user; when engineers optimize explanations to maximize human plausibility, they often generate seductive, persuasive stories that mask the model's actual unprincipled or discriminatory shortcuts, creating a deceptive pseudo-explanation.
+- (A) Plausibility is an engineering metric that measures how many gigabytes of data can be written to an optical disc.
 - (B) Faithfulness means the model believes in God, while Plausibility means the model was built in Germany.
 - (C) The authors prove that faithful explanations are mathematically impossible for linear models.
-- (D) Plausibility is an engineering metric that measures how many gigabytes of data can be written to an optical disc.
+- (D) **Faithfulness** is the degree to which an explanation accurately reflects the true internal reasoning process and decision mechanics of the model; **Plausibility** is how convincing, intuitive, and pleasing the explanation sounds to a human user; when engineers optimize explanations to maximize human plausibility, they often generate seductive, persuasive stories that mask the model's actual unprincipled or discriminatory shortcuts, creating a deceptive pseudo-explanation.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Jacovi and Goldberg formulated a critical epistemological standard that revolutionized NLP and machine learning evaluation:
@@ -243,9 +243,9 @@ Jacovi and Goldberg formulated a critical epistemological standard that revoluti
    - True XAI research must strictly evaluate faithfulness through objective causal perturbation and intervention tests, never through subjective human surveys of "how nice the explanation sounds."
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Optical disc storage is hardware media engineering, unrelated to the epistemological validity of model explanations.
 - **(B) is incorrect**: Uses theological and geographic puns that completely misrepresent the technical concepts of model veridicality and human psychological plausibility.
 - **(C) is incorrect**: Linear models with independent features have trivially faithful explanations (their feature weights); the challenge arises in non-linear multi-layer networks.
-- **(D) is incorrect**: Optical disc storage is hardware media engineering, unrelated to the epistemological validity of model explanations.
 
 **Primary Textual Reference**: Alon Jacovi and Yoav Goldberg, "Towards Faithfully Interpretable NLP Systems", *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)* (2020): 4198–4205; Sanna Lipton et al., "Evaluating the Faithfulness of Saliency Methods", *AAAI* (2020).
 
@@ -260,9 +260,9 @@ Jacovi and Goldberg formulated a critical epistemological standard that revoluti
 In their landmark paper "Sanity Checks for Saliency Maps" (*NeurIPS*, 2018), Julius Adebayo and colleagues tested widely used gradient-based saliency methods (such as Guided Backpropagation and Integrated Gradients) across deep convolutional neural networks. What devastating epistemological finding did their **Model Parameter Randomization Test** and **Data Randomization Test** reveal regarding the validity of these visual "explanations"?
 
 - (A) Several popular saliency methods (notably Guided Backpropagation and Guided Grad-CAM) produced virtually identical, visually crisp saliency maps even when the weights of the trained neural network were completely randomized (layer by layer, from top to bottom) or when trained on randomly scrambled labels; this proves that these methods act merely as input-image edge detectors insensitive to learned network parameters or true decision boundaries, failing the most basic sanity check for an explanation of a model.
-- (B) Saliency maps were found to cause permanent pixel burn-in on OLED computer displays.
-- (C) The authors proved that all convolutional neural networks have zero layers and operate as quantum mechanical lasers.
-- (D) The test proved that saliency maps are 100% faithful only when the input images are completely blank white squares.
+- (B) The test proved that saliency maps are 100% faithful only when the input images are completely blank white squares.
+- (C) Saliency maps were found to cause permanent pixel burn-in on OLED computer displays.
+- (D) The authors proved that all convolutional neural networks have zero layers and operate as quantum mechanical lasers.
 
 **Correct Answer**: **(A)**
 
@@ -285,9 +285,9 @@ Adebayo et al. (2018) produced one of the most critical reality checks in Explai
    - In truth, the visualization told researchers nothing about what the model had learned; it was an illusion of interpretability.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Physical monitor display degradation (OLED burn-in) is a hardware issue unrelated to the algorithmic validation of saliency maps.
-- **(C) is incorrect**: Convolutional networks are classical deep learning architectures with explicit mathematical tensor layers; they are not quantum mechanical lasers.
-- **(D) is incorrect**: On blank white images, edge-detection methods yield zero gradients, which is trivial and unrelated to the failure of parameter sensitivity.
+- **(B) is incorrect**: On blank white images, edge-detection methods yield zero gradients, which is trivial and unrelated to the failure of parameter sensitivity.
+- **(C) is incorrect**: Physical monitor display degradation (OLED burn-in) is a hardware issue unrelated to the algorithmic validation of saliency maps.
+- **(D) is incorrect**: Convolutional networks are classical deep learning architectures with explicit mathematical tensor layers; they are not quantum mechanical lasers.
 
 **Primary Textual Reference**: Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt, and Been Kim, "Sanity Checks for Saliency Maps", in *Advances in Neural Information Processing Systems (NeurIPS)* 31 (2018): 9505–9515.
 
@@ -342,12 +342,12 @@ The New Mechanistic Philosophy (MDC 2000) provides the ontological framework tha
 
 In a celebrated 2020 paper at the ACM AIES Conference, Dylan Slack et al. proved that standard perturbation-based post-hoc explainers (LIME and SHAP) can be systematically fooled by adversarial scaffolding. How does an adversarial classifier successfully **conceal extreme racial or gender bias** from LIME and SHAP while maintaining that bias in production?
 
-- (A) The adversarial classifier detects whether an incoming query comes from the actual test distribution ($x \in \mathcal{D}_{\text{real}}$) or from the explainer's synthetic perturbation distribution ($x \in \mathcal{D}_{\text{perturb}}$); on real user data, it executes a deeply biased racist/sexist decision rule, but whenever it detects the out-of-distribution synthetic perturbations generated by LIME or SHAP, it smoothly shifts to an innocuous, unbiased rule (e.g., credit history), causing the explainer to generate a clean, completely benign explanation of fairness.
-- (B) The adversarial classifier deletes the source code of LIME and SHAP using a computer virus.
-- (C) The paper proves that LIME and SHAP only work when executed on Apple Macintosh computers.
-- (D) The attack works by physically unplugging the GPU during inference to corrupt memory addresses.
+- (A) The attack works by physically unplugging the GPU during inference to corrupt memory addresses.
+- (B) The paper proves that LIME and SHAP only work when executed on Apple Macintosh computers.
+- (C) The adversarial classifier detects whether an incoming query comes from the actual test distribution ($x \in \mathcal{D}_{\text{real}}$) or from the explainer's synthetic perturbation distribution ($x \in \mathcal{D}_{\text{perturb}}$); on real user data, it executes a deeply biased racist/sexist decision rule, but whenever it detects the out-of-distribution synthetic perturbations generated by LIME or SHAP, it smoothly shifts to an innocuous, unbiased rule (e.g., credit history), causing the explainer to generate a clean, completely benign explanation of fairness.
+- (D) The adversarial classifier deletes the source code of LIME and SHAP using a computer virus.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Dylan Slack et al. (AIES 2020) uncovered a critical vulnerability in the epistemic foundation of post-hoc Explainable AI:
@@ -368,9 +368,9 @@ Dylan Slack et al. (AIES 2020) uncovered a critical vulnerability in the epistem
    - Post-hoc black-box auditing provides **zero guarantee of safety or fairness**. True transparency requires structural verification of the model itself.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The attack requires no malware or code deletion; it is a purely mathematical exploitation of distribution shift.
-- **(C) is incorrect**: Algorithms operate on mathematical data matrices regardless of operating system.
-- **(D) is incorrect**: The attack operates within normal hardware execution without memory faults.
+- **(A) is incorrect**: The attack operates within normal hardware execution without memory faults.
+- **(B) is incorrect**: Algorithms operate on mathematical data matrices regardless of operating system.
+- **(D) is incorrect**: The attack requires no malware or code deletion; it is a purely mathematical exploitation of distribution shift.
 
 **Primary Textual Reference**: Dylan Slack, Sophie Hilgard, Emily Jia, Sameer Singh, and Himabindu Lakkaraju, "Fooling LIME and SHAP: Adversarial Attacks on Post Hoc Explanation Methods", *Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)* (2020): 180–186.
 
@@ -383,12 +383,12 @@ Dylan Slack et al. (AIES 2020) uncovered a critical vulnerability in the epistem
 
 A foundational question in the philosophy of cognitive science and XAI is: **When does a continuous, low-level artificial neural network truly implement a high-level symbolic causal model?** In their framework of **Causal Abstraction**, how do Beckers, Halpern, and Geiger formally define an exact abstraction mapping between a low-level network ($L$) and a high-level causal model ($H$)?
 
-- (A) Through **Interventional Consistency**: there must exist a surjective abstraction mapping $\tau$ from the micro-states of $L$ to the macro-variables of $H$ such that for **every possible ideal intervention** $do(X = x)$ on the high-level causal model, intervening on the corresponding low-level neural units produces a physical state that $\tau$ maps to the identical macro-outcome; causal abstraction requires commuting diagrams under all interventions, not mere observational correlation.
-- (B) A network implements a causal model if the software is written in the Python programming language.
+- (A) An abstraction mapping is valid if and only if two human programmers shake hands after running the code.
+- (B) Through **Interventional Consistency**: there must exist a surjective abstraction mapping $\tau$ from the micro-states of $L$ to the macro-variables of $H$ such that for **every possible ideal intervention** $do(X = x)$ on the high-level causal model, intervening on the corresponding low-level neural units produces a physical state that $\tau$ maps to the identical macro-outcome; causal abstraction requires commuting diagrams under all interventions, not mere observational correlation.
 - (C) Causal abstraction requires that the neural network contain zero mathematical weights.
-- (D) An abstraction mapping is valid if and only if two human programmers shake hands after running the code.
+- (D) A network implements a causal model if the software is written in the Python programming language.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 The Causal Abstraction framework (Beckers & Halpern 2019; Geiger et al. 2021, NeurIPS 2021; Geiger et al. 2024) provides a mathematically rigorous solution to the problem of **multiple realization and implementation**:
@@ -405,9 +405,9 @@ The Causal Abstraction framework (Beckers & Halpern 2019; Geiger et al. 2021, Ne
    - This framework allows researchers to experimentally prove whether a model (e.g., GPT-4 or a ResNet) truly executes a reasoning algorithm: by swapping internal activation states across different prompts and verifying whether high-level causal counterfactuals hold systematically.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The implementation relation is a formal structural property of causal models, independent of programming syntax.
+- **(A) is incorrect**: Frivolous social distracter; causal abstraction is grounded in algebraic commutative diagrams.
 - **(C) is incorrect**: Neural networks are constituted by their mathematical weights.
-- **(D) is incorrect**: Frivolous social distracter; causal abstraction is grounded in algebraic commutative diagrams.
+- **(D) is incorrect**: The implementation relation is a formal structural property of causal models, independent of programming syntax.
 
 **Primary Textual Reference**: Sander Beckers and Joseph Y. Halpern, "Abstracting Causal Models", *Proceedings of the 33rd AAAI Conference on Artificial Intelligence* 33, no. 1 (2019): 2678–2685; Atticus Geiger, Hanson Lu, Thomas Icard, and Christopher Potts, "Inductive Biases for Interventional Consistency", *Advances in Neural Information Processing Systems (NeurIPS)* 34 (2021): 28940–28952.
 
@@ -420,12 +420,12 @@ The Causal Abstraction framework (Beckers & Halpern 2019; Geiger et al. 2021, Ne
 
 In the philosophy of science, the **Unificationist Theory of Explanation** (Friedman 1974, Kitcher 1981/1993) argues that scientific explanation achieves understanding not by tracing physical causal mechanisms, but by **unifying our beliefs**: reducing the number of independent assumptions needed to derive the maximum number of empirical phenomena using a minimal reserve of **general explanatory argument patterns** (the *Explanatory Store*, $E(K)$). Why do philosophers of science argue that Deep Learning **fails** to provide unificationist scientific explanations despite its universal function approximation power?
 
-- (A) Although deep learning unifies empirical phenomena under a single mathematical optimization algorithm (e.g., minimizing cross-entropy via stochastic gradient descent), it does so by fitting millions of unconstrained, disparate parameters rather than deploying a small, stringent set of **reusable, instantiable explanatory argument patterns** that humans can mentally internalize to generate unified scientific understanding across novel domains.
-- (B) Deep learning fails unification because computers cannot execute mathematical division.
-- (C) Kitcher proved that unification is only possible if an equation is written on a wooden blackboard with white chalk.
-- (D) Deep learning cannot fit non-linear functions under any mathematical conditions.
+- (A) Deep learning fails unification because computers cannot execute mathematical division.
+- (B) Kitcher proved that unification is only possible if an equation is written on a wooden blackboard with white chalk.
+- (C) Deep learning cannot fit non-linear functions under any mathematical conditions.
+- (D) Although deep learning unifies empirical phenomena under a single mathematical optimization algorithm (e.g., minimizing cross-entropy via stochastic gradient descent), it does so by fitting millions of unconstrained, disparate parameters rather than deploying a small, stringent set of **reusable, instantiable explanatory argument patterns** that humans can mentally internalize to generate unified scientific understanding across novel domains.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Philip Kitcher's Unificationist model (*The Advancement of Science*, 1993; Kitcher 1981) offers a profound critique of whether machine learning produces genuine scientific explanations:
@@ -442,9 +442,9 @@ Philip Kitcher's Unificationist model (*The Advancement of Science*, 1993; Kitch
      - Deep networks lack **stringent, transferable argument patterns** that compress scientific reality into intelligible principles. They represent brute curve-fitting rather than genuine explanatory unification.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Digital processors compute division operations in nanoseconds.
-- **(C) is incorrect**: Absurd physical distracter; Kitcher’s criteria are logical and epistemological.
-- **(D) is incorrect**: The Universal Approximation Theorem (Hornik 1989, Cybenko 1989) proves that neural networks can approximate any continuous non-linear function.
+- **(A) is incorrect**: Digital processors compute division operations in nanoseconds.
+- **(B) is incorrect**: Absurd physical distracter; Kitcher’s criteria are logical and epistemological.
+- **(C) is incorrect**: The Universal Approximation Theorem (Hornik 1989, Cybenko 1989) proves that neural networks can approximate any continuous non-linear function.
 
 **Primary Textual Reference**: Philip Kitcher, "Explanatory Unification", *Philosophy of Science* 48, no. 4 (1981): 507–531; Philip Kitcher, *The Advancement of Science: Science without Legend, Objectivity without Illusions* (Oxford University Press, 1993); Michael Friedman, "Explanation and Scientific Understanding", *Journal of Philosophy* 71, no. 1 (1974): 5–19.
 
@@ -457,12 +457,12 @@ Philip Kitcher's Unificationist model (*The Advancement of Science*, 1993; Kitch
 
 In jurisprudence and the ethics of AI governance, scholars debate the true foundational justification for the **"Right to an Explanation"** of automated algorithmic decisions. What is the fundamental difference between the **Epistemic Justification** and the **Normative-Political (Due Process) Justification** for this right?
 
-- (A) The **Epistemic Justification** demands an explanation to discover the objective truth and scientific causal mechanics of how the algorithm reached its output, whereas the **Normative-Political Justification** views explanation as a non-negotiable requirement of human dignity, procedural fairness, and **legal contestability**: an individual is owed a justification so they are treated as an autonomous agent entitled to reasons, enabling them to identify arbitrary abuse of power and challenge the decision before an impartial tribunal.
-- (B) The epistemic justification requires that all judges be certified computer programmers, while the political justification requires that all computers be elected to parliament.
-- (C) The normative justification claims that explanations should only be given to people who own stock in Silicon Valley corporations.
-- (D) The epistemic justification claims that explanations are illegal under maritime law.
+- (A) The epistemic justification requires that all judges be certified computer programmers, while the political justification requires that all computers be elected to parliament.
+- (B) The epistemic justification claims that explanations are illegal under maritime law.
+- (C) The **Epistemic Justification** demands an explanation to discover the objective truth and scientific causal mechanics of how the algorithm reached its output, whereas the **Normative-Political Justification** views explanation as a non-negotiable requirement of human dignity, procedural fairness, and **legal contestability**: an individual is owed a justification so they are treated as an autonomous agent entitled to reasons, enabling them to identify arbitrary abuse of power and challenge the decision before an impartial tribunal.
+- (D) The normative justification claims that explanations should only be given to people who own stock in Silicon Valley corporations.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Margot Kaminski (*Berkeley Technology Law Journal*, 2019) and Frank Pasquale (*The Black Box Society*, 2015) clarified the philosophical stakes in the global debate over algorithmic due process:
@@ -477,8 +477,8 @@ Margot Kaminski (*Berkeley Technology Law Journal*, 2019) and Frank Pasquale (*T
    - An explanation is not merely a cognitive diagram of computer code; it is a **normative justification** that provides the grounds for appeal, contestability, and democratic accountability.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Fanciful political caricature distracter.
-- **(C) is incorrect**: The right to an explanation is a universal human right protecting citizens, especially vulnerable populations, against corporate abuse.
-- **(D) is incorrect**: Maritime law has no jurisdiction over automated algorithmic due process in domestic civil and criminal governance.
+- **(A) is incorrect**: Fanciful political caricature distracter.
+- **(B) is incorrect**: Maritime law has no jurisdiction over automated algorithmic due process in domestic civil and criminal governance.
+- **(D) is incorrect**: The right to an explanation is a universal human right protecting citizens, especially vulnerable populations, against corporate abuse.
 
 **Primary Textual Reference**: Margot E. Kaminski, "The Right to Explanation, Explained", *Berkeley Technology Law Journal* 34, no. 1 (2019): 189–218; Frank Pasquale, *The Black Box Society: The Secret Algorithms That Control Money and Information* (Harvard University Press, 2015); Mireille Hildebrandt, *Smart Technologies and the End(s) of Law: Novel Entanglements of Law and Technology* (Edward Elgar, 2015).

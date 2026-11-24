@@ -16,12 +16,12 @@ In *Mind in a Physical World* (1998) and *Physicalism, or Something Near Enough*
 
 How does Kim demonstrate that these four principles force the Non-Reductive Physicalist to render the mental causally inert (Epiphenomenalism)?
 
-- (A) Suppose a mental event $M$ causes another mental event $M^*$. By supervenience, $M^*$ must have a physical supervenience base $P^*$. To cause $M^*$, $M$ must cause its physical base $P^*$. But by Causal Closure, $P^*$ already has a complete, sufficient physical cause $P$. Unless we accept absurd, pervasive overdetermination, the physical cause $P$ completely excludes and preempts $M$, leaving $M$ with no independent causal work to do.
-- (B) Because non-reductive physicalism denies that mental events have spatial mass, it violates Einstein's General Relativity equation $E=mc^2$.
+- (A) Because quantum indeterminacy at the synaptic cleft prevents brain states from obeying deterministic physical laws.
+- (B) Suppose a mental event $M$ causes another mental event $M^*$. By supervenience, $M^*$ must have a physical supervenience base $P^*$. To cause $M^*$, $M$ must cause its physical base $P^*$. But by Causal Closure, $P^*$ already has a complete, sufficient physical cause $P$. Unless we accept absurd, pervasive overdetermination, the physical cause $P$ completely excludes and preempts $M$, leaving $M$ with no independent causal work to do.
 - (C) Because supervenience is a symmetric relation, physical events must supervene on mental events, causing an infinite regress of causal attributions.
-- (D) Because quantum indeterminacy at the synaptic cleft prevents brain states from obeying deterministic physical laws.
+- (D) Because non-reductive physicalism denies that mental events have spatial mass, it violates Einstein's General Relativity equation $E=mc^2$.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Kim’s Causal Exclusion Argument is widely regarded as the most formidable internal challenge to non-reductive physicalism (such as Davidson's anomalous monism or functionalist token identity). 
@@ -35,9 +35,9 @@ The derivation proceeds as follows:
 6. Therefore, either $M$ is strictly identical to $P$ (**Reductive Physicalism**), or $M$ is a causally impotent shadow cast by $P$ (**Epiphenomenalism**). The non-reductivist cannot have both mental distinctness and mental efficacy.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The exclusion argument does not rely on relativistic mass equations; it is an argument based on the completeness of physics, supervenience, and the rejection of systematic overdetermination.
+- **(A) is incorrect**: Appealing to quantum mechanics does not rescue non-reductive physicalism, because even in stochastic physics, probabilities are governed by physical wavefunctions, leaving no room for distinct non-physical mental intervention.
 - **(C) is incorrect**: Supervenience is explicitly an asymmetric or non-symmetric dependency relation ($B$ supervenes on $A$ does not mean $A$ supervenes on $B$); Kim never assumes mental-to-physical supervenience.
-- **(D) is incorrect**: Appealing to quantum mechanics does not rescue non-reductive physicalism, because even in stochastic physics, probabilities are governed by physical wavefunctions, leaving no room for distinct non-physical mental intervention.
+- **(D) is incorrect**: The exclusion argument does not rely on relativistic mass equations; it is an argument based on the completeness of physics, supervenience, and the rejection of systematic overdetermination.
 
 **Primary Textual Reference**: Jaegwon Kim, *Mind in a Physical World: An Essay on the Mind-Body Problem and Mental Causation* (MIT Press, 1998), Chapter 2: "The Causal Exclusion Problem", pp. 29–56.
 
@@ -96,12 +96,12 @@ Therefore, since zombies are primarily conceivable, they are metaphysically poss
 
 In their seminal 1998 paper "The Extended Mind", Andy Clark and David Chalmers formulate the thesis of **Active Externalism** using the famous contrast between **Inga** and **Otto**. Otto suffers from Alzheimer's disease and relies on a notebook where he writes down directions, addresses, and museum locations. What is the **Parity Principle** formulated by Clark and Chalmers, and what exact criteria must Otto's notebook meet to count as part of his cognitive apparatus?
 
-- (A) The Parity Principle states: *"If, as we confront some task, a part of the world functions as a process which, were it done in the head, we would have no hesitation in recognizing as part of the cognitive process, then that part of the world is part of the cognitive process"*; and the notebook must be constantly accessible, automatically endorsed, and previously verified.
+- (A) The Parity Principle asserts that Otto’s notebook contains phenomenal qualia because cellulose fibers store subjective visual representations.
 - (B) The Parity Principle states that human brains and electronic computers have equal ethical rights under international human rights law.
 - (C) The Parity Principle claims that internal neural states are completely identical in spatial coordinates to the external objects they perceive.
-- (D) The Parity Principle asserts that Otto’s notebook contains phenomenal qualia because cellulose fibers store subjective visual representations.
+- (D) The Parity Principle states: *"If, as we confront some task, a part of the world functions as a process which, were it done in the head, we would have no hesitation in recognizing as part of the cognitive process, then that part of the world is part of the cognitive process"*; and the notebook must be constantly accessible, automatically endorsed, and previously verified.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Clark and Chalmers distinguish their "Active Externalism" from Hilary Putnam's and Tyler Burge's traditional semantic externalism. Traditional externalism is passive and distal: what words mean depends on historical causal chains or social conventions (e.g., Twin Earth). Active externalism, by contrast, claims that **the physical machinery of mind itself extends beyond the skin and skull into the external environment**.
@@ -121,9 +121,9 @@ To prevent trivialization (e.g., claiming the entire Internet or telephone direc
 Under these conditions, Otto's notebook functions identically to Inga's biological non-occurrent beliefs, proving that beliefs and cognitive processes can reside outside the biological brain.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Clark and Chalmers explicitly restrict the Extended Mind thesis to **functional, cognitive, and intentional states** (beliefs, memories, computational processing); they explicitly bracket phenomenal qualia, acknowledging that phenomenal consciousness may remain internal to the nervous system.
 - **(B) is incorrect**: The Extended Mind thesis is an ontological and cognitive thesis about the boundary of mind, not an ethical doctrine about legal human rights for computers.
 - **(C) is incorrect**: Active externalism does not claim neural states have the same spatial coordinates as external objects; it claims the cognitive process *includes* the external loop as a coupled system.
-- **(D) is incorrect**: Clark and Chalmers explicitly restrict the Extended Mind thesis to **functional, cognitive, and intentional states** (beliefs, memories, computational processing); they explicitly bracket phenomenal qualia, acknowledging that phenomenal consciousness may remain internal to the nervous system.
 
 **Primary Textual Reference**: Andy Clark and David J. Chalmers, "The Extended Mind", *Analysis* 58(1) (1998): 7–19.
 
@@ -137,12 +137,12 @@ Under these conditions, Otto's notebook functions identically to Inga's biologic
 
 In his landmark 1995 target article in *Behavioral and Brain Sciences*, Ned Block argued that the contemporary consciousness debate is paralyzed because researchers conflate two radically different concepts of consciousness: **Phenomenal Consciousness ($P$-consciousness)** and **Access Consciousness ($A$-consciousness)**. What is the precise conceptual definition of these two types, and how does Block argue for their potential **double dissociation**?
 
-- (A) $P$-consciousness is raw subjective phenomenal experience ("what it is like" to feel pain or see red); $A$-consciousness is functional availability for cognitive use (a representation is $A$-conscious if it is poised for direct use in reasoning, reporting, and executive voluntary control of action); they are doubly dissociable because a subject can have $P$-experience without cognitive access (e.g., unattended background drill noise), and theoretically $A$-access without phenomenal experience (e.g., a philosophical super-blindsighter).
-- (B) $P$-consciousness exists only in primates, while $A$-consciousness exists exclusively in artificial intelligence software.
-- (C) Block argues that $P$-consciousness is an illusion that does not exist, leaving only $A$-consciousness in physical nature.
-- (D) $P$-consciousness represents the peripheral nervous system, while $A$-consciousness represents the autonomic nervous system.
+- (A) $P$-consciousness represents the peripheral nervous system, while $A$-consciousness represents the autonomic nervous system.
+- (B) Block argues that $P$-consciousness is an illusion that does not exist, leaving only $A$-consciousness in physical nature.
+- (C) $P$-consciousness exists only in primates, while $A$-consciousness exists exclusively in artificial intelligence software.
+- (D) $P$-consciousness is raw subjective phenomenal experience ("what it is like" to feel pain or see red); $A$-consciousness is functional availability for cognitive use (a representation is $A$-conscious if it is poised for direct use in reasoning, reporting, and executive voluntary control of action); they are doubly dissociable because a subject can have $P$-experience without cognitive access (e.g., unattended background drill noise), and theoretically $A$-access without phenomenal experience (e.g., a philosophical super-blindsighter).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Block's distinction is one of the most fundamental conceptual tools in contemporary philosophy of mind and cognitive neuroscience:
@@ -167,9 +167,9 @@ Block's distinction is one of the most fundamental conceptual tools in contempor
    - This proves that cognitive access and phenomenal experience are conceptually independent.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Block applies both concepts across cognitive systems; the distinction is metaphysical and conceptual, not a phylogenetic division between primates and software.
-- **(C) is incorrect**: Dennett and eliminativists deny $P$-consciousness; Block is a passionate realist about $P$-consciousness and formulated the distinction precisely to protect phenomenal qualia from being reduced to functional access.
-- **(D) is incorrect**: Conflates cognitive-philosophical concepts of conscious awareness with biological neuroanatomy (peripheral vs. autonomic pathways).
+- **(A) is incorrect**: Conflates cognitive-philosophical concepts of conscious awareness with biological neuroanatomy (peripheral vs. autonomic pathways).
+- **(B) is incorrect**: Dennett and eliminativists deny $P$-consciousness; Block is a passionate realist about $P$-consciousness and formulated the distinction precisely to protect phenomenal qualia from being reduced to functional access.
+- **(C) is incorrect**: Block applies both concepts across cognitive systems; the distinction is metaphysical and conceptual, not a phylogenetic division between primates and software.
 
 **Primary Textual Reference**: Ned Block, "On a Confusion about a Function of Consciousness", *Behavioral and Brain Sciences* 18, no. 2 (1995): 227–247; Ned Block, "Comparing the Major Theories of Consciousness", in *The Cambridge Handbook of Consciousness*, ed. M. Moscovitch et al. (Cambridge University Press, 2007).
 
@@ -182,12 +182,12 @@ Block's distinction is one of the most fundamental conceptual tools in contempor
 
 In his John Locke Lectures ("Self-Knowledge and 'Inner Sense'", 1994), Sydney Shoemaker mounted a famous critique of the **"Inner Sense" theory of introspective self-knowledge** (advocated by John Locke, David Armstrong, and William Lycan). To dismantle the inner-sense model, Shoemaker introduced the concept of **"Self-Blindness"**. What is self-blindness, and why does Shoemaker argue that it is conceptually impossible for a rational creature?
 
-- (A) Self-blindness is the hypothetical condition of a rational creature who has normal beliefs, desires, and conceptual capacities, but completely lacks an "inner sense" to perceive its own mental states; Shoemaker proves this is conceptually impossible because any being with full rationality, mastery of concepts, and the capacity for deliberation must necessarily know its own mental states without needing a secondary sensory organ, disproving the inner-sense model.
-- (B) Self-blindness is a neurological disorder caused by damage to the optic chiasm that prevents patients from recognizing their own reflection in a mirror.
-- (C) Shoemaker argues that human beings are completely blind to their own moral failings due to unconscious Freudian ego defense mechanisms.
-- (D) Self-blindness proves that functionalism cannot explain why humans have two eyes instead of one.
+- (A) Self-blindness is a neurological disorder caused by damage to the optic chiasm that prevents patients from recognizing their own reflection in a mirror.
+- (B) Self-blindness is the hypothetical condition of a rational creature who has normal beliefs, desires, and conceptual capacities, but completely lacks an "inner sense" to perceive its own mental states; Shoemaker proves this is conceptually impossible because any being with full rationality, mastery of concepts, and the capacity for deliberation must necessarily know its own mental states without needing a secondary sensory organ, disproving the inner-sense model.
+- (C) Self-blindness proves that functionalism cannot explain why humans have two eyes instead of one.
+- (D) Shoemaker argues that human beings are completely blind to their own moral failings due to unconscious Freudian ego defense mechanisms.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 1. **The Inner Sense Model**:
@@ -206,9 +206,9 @@ In his John Locke Lectures ("Self-Knowledge and 'Inner Sense'", 1994), Sydney Sh
    - Therefore, self-knowledge is not a perceptual causal monitoring mechanism (inner sense); it is an **intrinsic constitutive feature of rational agency**.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Mirror self-unrecognition is *prosopagnosia* or *mirror agnosia*; Shoemaker's self-blindness is a philosophical thought experiment about introspective belief-awareness, not visual face perception.
-- **(C) is incorrect**: Moral self-deception and psychoanalysis are empirical psychological issues, entirely distinct from Shoemaker's analytic epistemological critique of perceptual models of self-knowledge.
-- **(D) is incorrect**: The number of biological eyes has zero relevance to analytic philosophy of introspection and mental representation.
+- **(A) is incorrect**: Mirror self-unrecognition is *prosopagnosia* or *mirror agnosia*; Shoemaker's self-blindness is a philosophical thought experiment about introspective belief-awareness, not visual face perception.
+- **(C) is incorrect**: The number of biological eyes has zero relevance to analytic philosophy of introspection and mental representation.
+- **(D) is incorrect**: Moral self-deception and psychoanalysis are empirical psychological issues, entirely distinct from Shoemaker's analytic epistemological critique of perceptual models of self-knowledge.
 
 **Primary Textual Reference**: Sydney Shoemaker, "Self-Knowledge and 'Inner Sense': Lecture I: The Object Perception Model; Lecture II: The Broad Perceptual Model; Lecture III: The Phenomenal Character of Experience", *Philosophy and Phenomenological Research* 54, no. 2 (1994): 249–314; Sydney Shoemaker, *The First-Person Perspective and Other Essays* (Cambridge University Press, 1996).
 
@@ -221,12 +221,12 @@ In his John Locke Lectures ("Self-Knowledge and 'Inner Sense'", 1994), Sydney Sh
 
 In *Mind and World* (1994), John McDowell addressed the deep epistemological crisis regarding how thought can bear upon an objective reality without falling into either the **"Myth of the Given"** (Sellars) or **"Coherentism as Frictionless Spinning in the Void"** (Rorty/Davidson). How does McDowell’s neo-Kantian synthesis resolve this dilemma through his conception of the **"Space of Reasons"** and passive perceptual experience?
 
-- (A) In perceptual experience, conceptual capacities are already passively drawn into operation; sensory impressions are not pre-conceptual brute physical impacts that somehow justify beliefs (the Myth of the Given), but neither is thought a self-contained web disconnected from nature: conceptual capacities are operative in perceptual experience itself, showing that the space of reasons is unbounded and that nature is open to empirical friction.
+- (A) McDowell claims that empirical science must be abolished in favor of medieval religious scholasticism.
 - (B) McDowell argues that the external physical world does not exist and that the universe is made entirely of subjective linguistic grammar.
-- (C) The space of reasons refers to the physical volume of outer space between the Earth and Mars.
-- (D) McDowell claims that empirical science must be abolished in favor of medieval religious scholasticism.
+- (C) In perceptual experience, conceptual capacities are already passively drawn into operation; sensory impressions are not pre-conceptual brute physical impacts that somehow justify beliefs (the Myth of the Given), but neither is thought a self-contained web disconnected from nature: conceptual capacities are operative in perceptual experience itself, showing that the space of reasons is unbounded and that nature is open to empirical friction.
+- (D) The space of reasons refers to the physical volume of outer space between the Earth and Mars.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 McDowell's *Mind and World* is widely considered one of the most important philosophical texts of the late 20th century, attempting to rescue empirical realism from an intolerable oscillation:
@@ -243,9 +243,9 @@ McDowell's *Mind and World* is widely considered one of the most important philo
    - Because experience is already conceptual, it can stand in rational, justificatory relations to our beliefs (providing epistemic friction), while remaining receptive to the world. The Space of Reasons reaches all the way to the boundary of our sensory receptivity.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: McDowell is an analytical philosopher synthesizing Aristotle, Kant, and Frege to defend rational empiricism, not medieval scholasticism.
 - **(B) is incorrect**: McDowell is an empirical realist who insists that nature provides real epistemic friction on human thought; he explicitly rejects Rortyan anti-realism and linguistic idealism.
-- **(C) is incorrect**: A literal, humorous spatial misinterpretation of Sellars's epistemological phrase "the logical space of reasons".
-- **(D) is incorrect**: McDowell is an analytical philosopher synthesizing Aristotle, Kant, and Frege to defend rational empiricism, not medieval scholasticism.
+- **(D) is incorrect**: A literal, humorous spatial misinterpretation of Sellars's epistemological phrase "the logical space of reasons".
 
 **Primary Textual Reference**: John McDowell, *Mind and World* (Harvard University Press, 1994), Lectures I and II; Wilfrid Sellars, *Empiricism and the Philosophy of Mind* (Harvard University Press, 1956/1997).
 
@@ -258,12 +258,12 @@ McDowell's *Mind and World* is widely considered one of the most important philo
 
 In *Language, Thought, and Other Biological Categories* (1984), Ruth Garrett Millikan formulated **Biosemantics (Teleosemantics)** to naturalize intentionality and solve the problem of mental misrepresentation. How does Millikan's teleosemantics determine the semantic content of a mental representation via the concept of **"Proper Functions"** and **"Consumer Mechanisms"**?
 
-- (A) The content of a mental representation is determined not by what typically causes it, but by the evolutionary **proper function** of the **consumer device** that interprets and acts upon the representation: the content is that condition of the environment which historically accounted for the evolutionary survival success of the organism when the consumer mechanism performed its function.
-- (B) Millikan argues that semantic content is dictated entirely by dictionaries approved by government ministries of education.
-- (C) Proper functions are defined as the mathematical equations calculated by graphics processing units during video rendering.
-- (D) Teleosemantics claims that mental representations only exist in plant roots during photosynthesis.
+- (A) Teleosemantics claims that mental representations only exist in plant roots during photosynthesis.
+- (B) The content of a mental representation is determined not by what typically causes it, but by the evolutionary **proper function** of the **consumer device** that interprets and acts upon the representation: the content is that condition of the environment which historically accounted for the evolutionary survival success of the organism when the consumer mechanism performed its function.
+- (C) Millikan argues that semantic content is dictated entirely by dictionaries approved by government ministries of education.
+- (D) Proper functions are defined as the mathematical equations calculated by graphics processing units during video rendering.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 1. **The Crisis of Causal Theories of Content (Fodor's Disjunction Problem)**:
@@ -282,9 +282,9 @@ In *Language, Thought, and Other Biological Categories* (1984), Ruth Garrett Mil
    - Example: A beaver's tail-slap represents "danger/predator nearby" because the other beavers (the consumers) dive underwater. The diving behavior only achieves its proper function (survival) if a predator is actually present. If a falling branch causes a tail-slap, the beaver made an evolutionary misrepresentation; the slap still meant "predator", but was false.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Teleosemantics is grounded in evolutionary biological adaptation and natural selection, not conventional human dictionaries or legal bureaucracies.
-- **(C) is incorrect**: Conflates biological teleology with computer graphics GPU mathematics.
-- **(D) is incorrect**: Millikan applies teleosemantics primarily to animal and human cognitive systems, not plant root botany.
+- **(A) is incorrect**: Millikan applies teleosemantics primarily to animal and human cognitive systems, not plant root botany.
+- **(C) is incorrect**: Teleosemantics is grounded in evolutionary biological adaptation and natural selection, not conventional human dictionaries or legal bureaucracies.
+- **(D) is incorrect**: Conflates biological teleology with computer graphics GPU mathematics.
 
 **Primary Textual Reference**: Ruth Garrett Millikan, *Language, Thought, and Other Biological Categories: New Foundations for Realism* (MIT Press, 1984); Ruth Garrett Millikan, "Biosemantics", *Journal of Philosophy* 86, no. 6 (1989): 281–297; Fred Dretske, *Explaining Behavior: Reasons in a World of Causes* (MIT Press, 1988).
 
@@ -336,12 +336,12 @@ Galen Strawson takes physicalism more seriously than traditional reductionists:
 
 In "Inverted Earth" (1990), Ned Block crafted an intricate thought experiment to refute **Strong Representationalism / Intentionalism** (the view held by Michael Tye and Fred Dretske that the phenomenal character of an experience is strictly identical to its intentional/representational content). In Block's thought experiment, you are unconsciously transported to Inverted Earth and fitted with color-inverting lenses. How does your long-term adaptation to Inverted Earth prove that phenomenal character cannot be identical to representational content?
 
-- (A) After decades on Inverted Earth, your mental concepts adjust to track the inverted environment, so your visual representations come to represent the inverted worldly colors veridically (e.g., your thought "blue" now represents sky-color, which is physical yellow on Inverted Earth), meaning your representational content has completely shifted 180 degrees; yet because the inverting lenses and inverted environment cancel each other out internally, your subjective phenomenal qualia (the raw qualitative feeling of what it is like to see) remained constant and unchanged throughout, demonstrating that phenomenal character is not identical to representational content.
+- (A) The thought experiment proves that all people living on Earth are philosophical zombies who lack visual qualia.
 - (B) Inverted Earth proves that human eyes cannot function when exposed to yellow light waves.
-- (C) The thought experiment proves that all people living on Earth are philosophical zombies who lack visual qualia.
+- (C) After decades on Inverted Earth, your mental concepts adjust to track the inverted environment, so your visual representations come to represent the inverted worldly colors veridically (e.g., your thought "blue" now represents sky-color, which is physical yellow on Inverted Earth), meaning your representational content has completely shifted 180 degrees; yet because the inverting lenses and inverted environment cancel each other out internally, your subjective phenomenal qualia (the raw qualitative feeling of what it is like to see) remained constant and unchanged throughout, demonstrating that phenomenal character is not identical to representational content.
 - (D) Block argues that color-inverting lenses cause immediate physical amnesia and loss of language comprehension.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Ned Block's *Inverted Earth* is a masterwork of analytical philosophy of mind:
@@ -365,8 +365,8 @@ Ned Block's *Inverted Earth* is a masterwork of analytical philosophy of mind:
      - Therefore: **Phenomenal character $\neq$ Representational content**. There are qualitative mental features (*qualia*) that cannot be reduced to externalist semantic tracking.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: The scenario specifically concerns the phenomenal qualia of conscious subjects, not non-conscious zombies.
 - **(B) is incorrect**: Inverting lenses are a standard optical construct in experimental psychology (e.g., Stratton's 1897 prism glasses); human retinas process the full visible spectrum.
-- **(C) is incorrect**: The scenario specifically concerns the phenomenal qualia of conscious subjects, not non-conscious zombies.
 - **(D) is incorrect**: The thought experiment assumes normal memory and linguistic fluency so the subject can adapt to the community.
 
 **Primary Textual Reference**: Ned Block, "Inverted Earth", *Philosophical Perspectives* 4 (1990): 53–79; Ned Block, "Mental Paint and Mental Latex", *Philosophical Issues* 7 (1996): 19–49; Michael Tye, *Ten Problems of Consciousness* (MIT Press, 1995).
@@ -380,12 +380,12 @@ Ned Block's *Inverted Earth* is a masterwork of analytical philosophy of mind:
 
 In the taxonomy of representational theories of mind, philosophers distinguish between **Higher-Order Theories (HOT)** (David Rosenthal, Peter Carruthers), where a mental state is conscious by virtue of being targeted by a distinct higher-order thought or perception, and **Self-Representational / Same-Order Theories (SOT)** (Uriah Kriegel, Franz Brentano). What is the primary conceptual pathology that Kriegel’s Same-Order Self-Representationalism avoids regarding the threat of **"Targetless HOTs"** and the fragmentation of conscious unity?
 
-- (A) In Higher-Order Theories, because the conscious state $M$ and the higher-order representation $H$ are two separate, distinct mental states located in different brain regions, it is nomologically possible to have a "targetless" higher-order thought ($H$ misrepresents $M$ as occurring when $M$ is absent, or $H$ represents $M$ without $M$ existing), resulting in the absurdity of experiencing a conscious qualitative state that does not exist; Self-Representationalism eliminates this chasm by asserting that a conscious mental state is an integrated, mereological whole that represents the external world while simultaneously **representing itself reflexively** as an intrinsic, same-order constituent.
-- (B) Kriegel argues that consciousness is a physical liquid that circulates through the spinal canal.
-- (C) Same-order theories claim that human beings are incapable of thinking about mathematics.
-- (D) Kriegel agrees with Rosenthal that conscious states are always unconscious until described in an oral telephone conversation.
+- (A) Kriegel argues that consciousness is a physical liquid that circulates through the spinal canal.
+- (B) Kriegel agrees with Rosenthal that conscious states are always unconscious until described in an oral telephone conversation.
+- (C) In Higher-Order Theories, because the conscious state $M$ and the higher-order representation $H$ are two separate, distinct mental states located in different brain regions, it is nomologically possible to have a "targetless" higher-order thought ($H$ misrepresents $M$ as occurring when $M$ is absent, or $H$ represents $M$ without $M$ existing), resulting in the absurdity of experiencing a conscious qualitative state that does not exist; Self-Representationalism eliminates this chasm by asserting that a conscious mental state is an integrated, mereological whole that represents the external world while simultaneously **representing itself reflexively** as an intrinsic, same-order constituent.
+- (D) Same-order theories claim that human beings are incapable of thinking about mathematics.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Uriah Kriegel’s Self-Representationalism provides a rigorous middle path between relational higher-order theories and non-representational qualia realism:
@@ -408,9 +408,9 @@ Uriah Kriegel’s Self-Representationalism provides a rigorous middle path betwe
    - Because the self-representation is an intrinsic, inseparable mereological part of the conscious state itself, **a targetless state is logically and structurally impossible**—you cannot have the self-representation without the state being present, because the representation *is* the state representing itself!
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Kriegel offers an analytic, representational theory of mental content and intentionality, not a hydraulic theory of cerebrospinal fluid.
-- **(C) is incorrect**: Self-representationalism is a theory of the phenomenal structure of conscious experience, not a limitation on mathematical cognition.
-- **(D) is incorrect**: Rosenthal's HOT theory concerns mental, non-linguistic higher-order thoughts, not spoken telephone conversations.
+- **(A) is incorrect**: Kriegel offers an analytic, representational theory of mental content and intentionality, not a hydraulic theory of cerebrospinal fluid.
+- **(B) is incorrect**: Rosenthal's HOT theory concerns mental, non-linguistic higher-order thoughts, not spoken telephone conversations.
+- **(D) is incorrect**: Self-representationalism is a theory of the phenomenal structure of conscious experience, not a limitation on mathematical cognition.
 
 **Primary Textual Reference**: Uriah Kriegel, *Subjective Consciousness: A Self-Representational Theory* (Oxford University Press, 2009); Franz Brentano, *Psychology from an Empirical Standpoint* (1874; Routledge, 1973); David M. Rosenthal, *Consciousness and Mind* (Clarendon Press / Oxford University Press, 2005).
 
@@ -430,8 +430,8 @@ Why does Kripke's necessary a posteriori (e.g., "Water is $H_2O$") fail to save 
 
 - (A) For standard Kripkean scientific identities, the primary and secondary intensions come apart because our epistemic grasp of the concept (e.g., watery stuff) differs from its underlying metaphysical nature ($H_2O$); however, for phenomenal consciousness concepts ($Q$), primary and secondary intensions coincide (they are epistemically transparent), meaning that if $P \land 
 eg Q$ is ideally conceptually coherent (1-possible), it is necessarily metaphysically possible (2-possible).
-- (B) Because two-dimensional semantics proves that $H_2O$ is not the chemical formula for water in any possible world.
-- (C) Because zombies can be physically manufactured in an ordinary biology laboratory using CRISPR gene editing.
+- (B) Because zombies can be physically manufactured in an ordinary biology laboratory using CRISPR gene editing.
+- (C) Because two-dimensional semantics proves that $H_2O$ is not the chemical formula for water in any possible world.
 - (D) Because Chalmers demonstrates that secondary intensions are meaningless in formal modal logic.
 
 **Correct Answer**: **(A)**
@@ -449,8 +449,8 @@ eg Q$) is ideally conceivable, it is metaphysically possible. And if $P \land
 eg Q$ is metaphysically possible, then phenomenal consciousness does not supervene with metaphysical necessity on the physical world, refuting physicalism.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Chalmers accepts that "Water is $H_2O$" is metaphysically necessary in the secondary intension; his argument relies on this exact Kripkean foundation.
-- **(C) is incorrect**: Zombies are philosophical thought experiments (microphysical duplicates lacking qualia), not biological mutants.
+- **(B) is incorrect**: Zombies are philosophical thought experiments (microphysical duplicates lacking qualia), not biological mutants.
+- **(C) is incorrect**: Chalmers accepts that "Water is $H_2O$" is metaphysically necessary in the secondary intension; his argument relies on this exact Kripkean foundation.
 - **(D) is incorrect**: 2D semantics relies heavily on secondary intensions (Kripkean counterfactual evaluation).
 
 **Primary Textual Reference**: David J. Chalmers, *The Conscious Mind: In Search of a Fundamental Theory* (Oxford University Press, 1996), Chapter 4; David J. Chalmers, "The Two-Dimensional Argument Against Materialism", in *The Character of Consciousness* (Oxford University Press, 2010), pp. 141–206.
@@ -464,12 +464,12 @@ eg Q$ is metaphysically possible, then phenomenal consciousness does not superve
 
 To defend non-reductive physicalism from Jaegwon Kim's Causal Exclusion Problem, Sydney Shoemaker proposed the **Subset Account of Realization**. How does defining property realization in terms of conditional causal powers resolve the threat of causal exclusion?
 
-- (A) A mental property $M$ is realized by a physical property $P$ if and only if the set of causal powers conferred by $M$ is a proper **subset** of the causal powers conferred by $P$; since $M$'s causal powers are literally included within $P$'s causal powers, the mental event does not compete with, exclude, or overdetermine the physical event.
+- (A) The subset account claims that physical properties are sub-components of spiritual consciousness, reversing the direction of physicalism.
 - (B) A mental property is realized by a physical property if and only if the mental property has zero causal powers in the physical realm.
-- (C) The subset account claims that physical properties are sub-components of spiritual consciousness, reversing the direction of physicalism.
+- (C) A mental property $M$ is realized by a physical property $P$ if and only if the set of causal powers conferred by $M$ is a proper **subset** of the causal powers conferred by $P$; since $M$'s causal powers are literally included within $P$'s causal powers, the mental event does not compete with, exclude, or overdetermine the physical event.
 - (D) Shoemaker argues that causal powers do not exist, and that causation is merely David Hume's constant conjunction of unpowered events.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Sydney Shoemaker's *Physical Realization* (2007) represents one of the most prominent metaphysical solutions to Kim's exclusion problem:
@@ -484,8 +484,8 @@ Sydney Shoemaker's *Physical Realization* (2007) represents one of the most prom
    - But if $M$'s causal powers are a subset of $P$'s powers, $M$'s exercise of causal power is not a separate, rival causal contribution! A part does not compete with the whole of which it is a constituent.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Shoemaker is a committed physicalist; physical properties realize mental properties, not vice-versa.
 - **(B) is incorrect**: If $M$ had zero causal powers, it would be an epiphenomenon, which Shoemaker's entire framework is designed to prevent.
-- **(C) is incorrect**: Shoemaker is a committed physicalist; physical properties realize mental properties, not vice-versa.
 - **(D) is incorrect**: Shoemaker is an ardent dispositional essentialist / causal realist about properties, explicitly rejecting Humean regularity theory.
 
 **Primary Textual Reference**: Sydney Shoemaker, *Physical Realization* (Oxford University Press, 2007); Sydney Shoemaker, "Realization and Mental Causation", in *Physicalism and Mental Causation*, ed. Sven Walter and Heinz-Dieter Heckmann (Imprint Academic, 2003), pp. 321–333.
@@ -499,12 +499,12 @@ Sydney Shoemaker's *Physical Realization* (2007) represents one of the most prom
 
 In his landmark paper *"On a Confusion about a Function of Consciousness"* (1995), Ned Block argued that philosophers and cognitive scientists routinely conflate two radically different concepts of consciousness: **Phenomenal Consciousness (P-consciousness)** and **Access Consciousness (A-consciousness)**. What is the definitive criterion of A-consciousness?
 
-- (A) A state is A-conscious if its representational content is poised for direct use in reasoning, for the rational control of action, and for verbal report, whereas P-consciousness consists purely in the subjective, qualitative "what-it-is-likeness" of the experience.
+- (A) P-consciousness and A-consciousness are identical by definition, and no dissociation between them is logically or empirically possible.
 - (B) A state is A-conscious if it can be directly photographed using an electron microscope.
 - (C) A-consciousness refers to the unconscious reflexes of the spinal cord that bypass the cerebral cortex.
-- (D) P-consciousness and A-consciousness are identical by definition, and no dissociation between them is logically or empirically possible.
+- (D) A state is A-conscious if its representational content is poised for direct use in reasoning, for the rational control of action, and for verbal report, whereas P-consciousness consists purely in the subjective, qualitative "what-it-is-likeness" of the experience.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Ned Block's 1995 paper fundamentally restructured the cognitive science of consciousness:
@@ -521,9 +521,9 @@ Ned Block's 1995 paper fundamentally restructured the cognitive science of consc
    - Functionalist and computationalist theories of mind (e.g., Dennett, Baars) often claim to "explain consciousness" when they have merely explained access consciousness (information routing), leaving the Hard Problem of P-consciousness completely untouched.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Denies Block's central thesis, which argues that conflating P-consciousness and A-consciousness is a major error in philosophy of mind.
 - **(B) is incorrect**: Access consciousness is a functional/computational specification, not a microscopic physical object.
 - **(C) is incorrect**: Spinal reflexes are non-conscious; they are neither A-conscious nor P-conscious.
-- **(D) is incorrect**: Denies Block's central thesis, which argues that conflating P-consciousness and A-consciousness is a major error in philosophy of mind.
 
 **Primary Textual Reference**: Ned Block, "On a Confusion about a Function of Consciousness", *Behavioral and Brain Sciences* 18, no. 2 (1995): 227–247.
 
@@ -536,12 +536,12 @@ Ned Block's 1995 paper fundamentally restructured the cognitive science of consc
 
 In the debate over the nature of perceptual experience, Christopher Peacocke argues that perception possesses **Non-Conceptual Content**, whereas Conceptualists like John McDowell (*Mind and World*, 1994) maintain that perceptual experience is conceptual "all the way down". What is Peacocke's **"Finely Grained Phenomenology" argument** in favor of non-conceptual content?
 
-- (A) Human visual experience presents shades of color (e.g., hundreds of distinct shades of green in a lush forest) that vastly outstrip the finite stock of color concepts and linguistic demonstratives an agent possesses; therefore, the representational content of the experience cannot be constituted exclusively by the concepts the subject possesses.
-- (B) Human perception is identical to digital photography, operating via discrete pixel coordinates that require zero conceptual interpretation.
-- (C) Non-conceptual content refers exclusively to unconscious metabolic processes in the liver and spleen.
-- (D) Concepts can only be acquired after an individual has learned the formal syntax of first-order predicate calculus.
+- (A) Human perception is identical to digital photography, operating via discrete pixel coordinates that require zero conceptual interpretation.
+- (B) Non-conceptual content refers exclusively to unconscious metabolic processes in the liver and spleen.
+- (C) Concepts can only be acquired after an individual has learned the formal syntax of first-order predicate calculus.
+- (D) Human visual experience presents shades of color (e.g., hundreds of distinct shades of green in a lush forest) that vastly outstrip the finite stock of color concepts and linguistic demonstratives an agent possesses; therefore, the representational content of the experience cannot be constituted exclusively by the concepts the subject possesses.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The debate between Conceptualism and Non-Conceptualism is central to contemporary epistemology and philosophy of perception:
@@ -553,9 +553,9 @@ The debate between Conceptualism and Non-Conceptualism is central to contemporar
    - John McDowell (*Mind and World*, 1994) countered that subjects possess demonstrative concepts (e.g., *"that specific shade of red"*), insisting that experience must be conceptual if it is to provide rational justification for empirical beliefs. Peacocke argues that demonstrative concepts presuppose the prior non-conceptual perceptual presentation.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Peacocke does not compare perception to raw digital camera pixels; non-conceptual content is still genuine *representational* content with accuracy conditions (scenario content).
-- **(C) is incorrect**: Non-conceptual content is a feature of conscious perception, not internal visceral metabolism.
-- **(D) is incorrect**: Peacocke does not place such absurd mathematical constraints on concept possession.
+- **(A) is incorrect**: Peacocke does not compare perception to raw digital camera pixels; non-conceptual content is still genuine *representational* content with accuracy conditions (scenario content).
+- **(B) is incorrect**: Non-conceptual content is a feature of conscious perception, not internal visceral metabolism.
+- **(C) is incorrect**: Peacocke does not place such absurd mathematical constraints on concept possession.
 
 **Primary Textual Reference**: Christopher Peacocke, *A Study of Concepts* (MIT Press, 1992); John McDowell, *Mind and World* (Harvard University Press, 1994); Christopher Peacocke, "Does Perception Have a Nonconceptual Content?", *Journal of Philosophy* 98, no. 5 (2001): 239–264.
 
@@ -570,8 +570,8 @@ The debate between Conceptualism and Non-Conceptualism is central to contemporar
 
 - (A) If physicalism is defined in terms of **current physics**, it is almost certainly **false** (since current physics is admittedly incomplete and contains acknowledged anomalies); but if physicalism is defined in terms of an **ideal, future, complete physics**, it is **vacuous or empty** (since we have no idea what concepts an ideal physics will invoke, and it might even postulate mental or non-material entities to explain data).
 - (B) If physicalism is true, then mathematics is false; if mathematics is true, then physics is false.
-- (C) Physicalism can only be defined in English or German, making it culturally biased against ancient Sanskrit philosophies.
-- (D) If particles exist, fields cannot exist; if fields exist, particles cannot exist.
+- (C) If particles exist, fields cannot exist; if fields exist, particles cannot exist.
+- (D) Physicalism can only be defined in English or German, making it culturally biased against ancient Sanskrit philosophies.
 
 **Correct Answer**: **(A)**
 
@@ -588,7 +588,7 @@ Carl Hempel formulated this dilemma in 1980, and it was powerfully developed by 
 
 #### Distractor Analysis:
 - **(B) is incorrect**: Hempel's dilemma concerns the definition of physics in physicalism, not the ontological status of platonist mathematics.
-- **(C) is incorrect**: The dilemma is logical and metaphysical, completely unrelated to linguistic nationalism.
-- **(D) is incorrect**: Conflates Hempel's dilemma with wave-particle duality in quantum mechanics.
+- **(C) is incorrect**: Conflates Hempel's dilemma with wave-particle duality in quantum mechanics.
+- **(D) is incorrect**: The dilemma is logical and metaphysical, completely unrelated to linguistic nationalism.
 
 **Primary Textual Reference**: Carl G. Hempel, "Comments on Goodman's Ways of Worldmaking", *Synthese* 45, no. 2 (1980): 193–199; Tim Crane and D. H. Mellor, "There is No Question of Physicalism", *Mind* 99, no. 394 (1990): 185–206.

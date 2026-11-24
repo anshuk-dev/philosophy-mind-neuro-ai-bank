@@ -12,8 +12,8 @@ In "A Framework for Consciousness" (2003) and David Chalmers's "What is a Neural
 
 - (A) An NCC is a minimal neural mechanism or system $N$ such that activation of $N$ is directly and jointly **sufficient**, under appropriate background conditions, for a specific conscious phenomenal percept (e.g., the perception of a red triangle).
 - (B) An NCC is any brain region that is metabolically active during functional magnetic resonance imaging (fMRI) scans.
-- (C) An NCC is the entire physical body and sensory environment of the organism including the nervous system.
-- (D) An NCC is a necessary, non-sufficient quantum gravitational state occurring exclusively in the heart and gut microbiome.
+- (C) An NCC is a necessary, non-sufficient quantum gravitational state occurring exclusively in the heart and gut microbiome.
+- (D) An NCC is the entire physical body and sensory environment of the organism including the nervous system.
 
 **Correct Answer**: **(A)**
 
@@ -32,8 +32,8 @@ Furthermore, Koch and Crick introduced the crucial three-way demarcation:
 
 #### Distractor Analysis:
 - **(B) is incorrect**: fMRI BOLD signals show massive diffuse hemodynamic activations, many of which are purely unconscious sensory pre-processing, attention, or metabolic maintenance.
-- **(C) is incorrect**: Including the entire body and environment violates the requirement of *minimality*; the goal of the NCC programme is to isolate the localized neural correlate.
-- **(D) is incorrect**: Evolving from the central nervous system to the gut microbiome confuses peripheral somatic background influences with the direct neural substrate of consciousness.
+- **(C) is incorrect**: Evolving from the central nervous system to the gut microbiome confuses peripheral somatic background influences with the direct neural substrate of consciousness.
+- **(D) is incorrect**: Including the entire body and environment violates the requirement of *minimality*; the goal of the NCC programme is to isolate the localized neural correlate.
 
 **Primary Textual Reference**: David J. Chalmers, "What is a Neural Correlate of Consciousness?", in *Neural Correlates of Consciousness: Empirical and Conceptual Questions*, ed. T. Metzinger (MIT Press, 2000), pp. 17–40; Christof Koch, *The Quest for Consciousness: A Neurobiological Approach* (Roberts & Company, 2004), Chapter 2: "Neurons, the Atoms of Perception".
 
@@ -50,12 +50,12 @@ Given below are two statements: one is labelled as **Assertion (A)** and the oth
 **Reason (R)**: To rescue human moral responsibility from pure neurobiological determinism, Libet argued that consciousness retains a 100-millisecond window of opportunity to veto the motor command before muscle execution—a power often characterized by philosophers as **"Free Won't"** rather than "Free Will".
 
 In light of the above statements, choose the correct answer:
-- (A) Both (A) and (R) are true, and (R) is the strictly correct philosophical and empirical explanation of how Libet reconciled his experimental findings with human agency.
-- (B) Both (A) and (R) are true, but (R) is completely unrelated to Libet’s findings.
-- (C) (A) is true, but (R) is false.
-- (D) (A) is false, but (R) is true.
+- (A) (A) is true, but (R) is false.
+- (B) (A) is false, but (R) is true.
+- (C) Both (A) and (R) are true, and (R) is the strictly correct philosophical and empirical explanation of how Libet reconciled his experimental findings with human agency.
+- (D) Both (A) and (R) are true, but (R) is completely unrelated to Libet’s findings.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Benjamin Libet’s famous 1983 experiment utilized a high-speed cathode-ray oscilloscope clock (with a revolving dot) while simultaneously recording EEG signals from the scalp and electromyogram (EMG) signals from the wrist flexor muscle:
@@ -70,9 +70,9 @@ Benjamin Libet’s famous 1983 experiment utilized a high-speed cathode-ray osci
 Thus, both (A) and (R) are true, and (R) provides Libet's exact conceptual mechanism to avoid fatalistic epiphenomenalism.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: (R) is directly derived from Libet’s experimental protocol; Libet specifically conducted trials where subjects formed the intention and then intentionally aborted it prior to movement, confirming the veto mechanism.
-- **(C) is incorrect**: Libet’s "conscious veto" hypothesis is one of the most widely debated and cited concepts in contemporary neurophilosophy.
-- **(D) is incorrect**: (A) is the universally recognized empirical result of Libet's 1983 study.
+- **(A) is incorrect**: Libet’s "conscious veto" hypothesis is one of the most widely debated and cited concepts in contemporary neurophilosophy.
+- **(B) is incorrect**: (A) is the universally recognized empirical result of Libet's 1983 study.
+- **(D) is incorrect**: (R) is directly derived from Libet’s experimental protocol; Libet specifically conducted trials where subjects formed the intention and then intentionally aborted it prior to movement, confirming the veto mechanism.
 
 **Primary Textual Reference**: Benjamin Libet, "Do We Have Free Will?", *Journal of Consciousness Studies* 6(8–9) (1999): 47–57; and Benjamin Libet, C.A. Gleason, E.W. Wright, and D.K. Pearl, "Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity (Readiness-Potential)", *Brain* 106(3) (1983): 623–642.
 
@@ -85,12 +85,12 @@ Thus, both (A) and (R) are true, and (R) provides Libet's exact conceptual mecha
 
 In empirical neurophilosophy, phenomena such as the Necker Cube, the Rubin Face-Vase illusion, and **Binocular Rivalry** (where conflicting images are presented separately to each eye) are designated as **bistable perception paradigms**. Why are bistable perception paradigms considered epistemically vital for isolating the Neural Correlate of Consciousness (NCC)?
 
-- (A) Because the physical sensory input (the retina stimulation) remains constant and invariant, while the subjective conscious percept flips back and forth, allowing neuroscientists to subtract the unchanging sensory input and isolate the exact neural activity responsible for conscious perception.
+- (A) Because viewing the Necker Cube requires conscious calculation of higher-order tensor calculus in the visual cortex.
 - (B) Because bistable images destroy the corpus callosum and temporarily induce an artificial split-brain state.
-- (C) Because viewing the Necker Cube requires conscious calculation of higher-order tensor calculus in the visual cortex.
-- (D) Because binocular rivalry demonstrates that human beings have two entirely distinct visual fields that never interact.
+- (C) Because binocular rivalry demonstrates that human beings have two entirely distinct visual fields that never interact.
+- (D) Because the physical sensory input (the retina stimulation) remains constant and invariant, while the subjective conscious percept flips back and forth, allowing neuroscientists to subtract the unchanging sensory input and isolate the exact neural activity responsible for conscious perception.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 In ordinary perception, a change in conscious experience is almost always correlated with a change in the physical sensory environment (e.g., turning on a light changes both retinal input and phenomenal brightness). This creates an intractable confound: how can we tell which neural firing represents the physical sensory stimulus and which represents the conscious experience?
@@ -101,9 +101,9 @@ Bistable perception (and binocular rivalry in particular) solves this confound t
 3. *Isolating the NCC*: Because the sensory input is held constant, any neural changes observed in the brain (such as spiking in inferotemporal cortex or frontoparietal networks) that correlate precisely with the perceptual switch *cannot be attributed to changes in the physical input*. They must represent the **NCC proper**.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: The visual switch is spontaneous, pre-reflective, and non-deliberative; it requires no intellectual mathematical calculation.
 - **(B) is incorrect**: Bistable perception is a benign, everyday perceptual phenomenon; it does not harm or sever the corpus callosum.
-- **(C) is incorrect**: The visual switch is spontaneous, pre-reflective, and non-deliberative; it requires no intellectual mathematical calculation.
-- **(D) is incorrect**: In ordinary vision, binocular disparity yields stereoscopic depth perception; binocular rivalry occurs only when the two eyes receive radically conflicting, unfusable inputs.
+- **(C) is incorrect**: In ordinary vision, binocular disparity yields stereoscopic depth perception; binocular rivalry occurs only when the two eyes receive radically conflicting, unfusable inputs.
 
 **Primary Textual Reference**: Christof Koch and Naotsugu Tsuchiya, "Attention and Consciousness: Two Distinct Brain Processes", *Trends in Cognitive Sciences* 11(1) (2007): 16–22; and David L. Sheinberg and Nikos K. Logothetis, "The Role of Temporal Cortical Areas in Perceptual Organization", *Proceedings of the National Academy of Sciences* 94(7) (1997): 3408–3413.
 
@@ -117,12 +117,12 @@ Bistable perception (and binocular rivalry in particular) solves this confound t
 
 In modern cognitive neuroscience and neurophilosophy, a major empirical schism has emerged regarding the anatomical location of the **Neural Correlates of Consciousness (NCC)**: the debate between **Global Neuronal Workspace Theory (GNWT)** and **Integrated Information Theory / Posterior Hot Zone Theory**. What is the central anatomical and functional disagreement between these two paradigms regarding whether the **Prefrontal Cortex (PFC)** is constitutively part of the NCC?
 
-- (A) GNWT (Dehaene, Changeux) argues that consciousness requires prefrontal-parietal ignition that broadcasts information globally across the cortex for verbal report and executive action (PFC is constitutive of consciousness); whereas the Posterior Hot Zone view (Koch, Tononi, Boly) argues that the true NCC resides exclusively in a posterior sensory network (parieto-occipital-temporal sensory areas), and that prefrontal activation merely reflects post-perceptual task demands (reporting, motor planning, introspection), not phenomenal experience itself.
-- (B) GNWT claims that consciousness is located in the spinal cord, while the Posterior Hot Zone claims it is located in the liver.
-- (C) The debate concerns whether the left hemisphere is older than the right hemisphere in geological evolution.
-- (D) Both theories agree that the cerebral cortex has zero involvement in conscious experience.
+- (A) GNWT claims that consciousness is located in the spinal cord, while the Posterior Hot Zone claims it is located in the liver.
+- (B) GNWT (Dehaene, Changeux) argues that consciousness requires prefrontal-parietal ignition that broadcasts information globally across the cortex for verbal report and executive action (PFC is constitutive of consciousness); whereas the Posterior Hot Zone view (Koch, Tononi, Boly) argues that the true NCC resides exclusively in a posterior sensory network (parieto-occipital-temporal sensory areas), and that prefrontal activation merely reflects post-perceptual task demands (reporting, motor planning, introspection), not phenomenal experience itself.
+- (C) Both theories agree that the cerebral cortex has zero involvement in conscious experience.
+- (D) The debate concerns whether the left hemisphere is older than the right hemisphere in geological evolution.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 The "Front vs. Back" debate represents the central controversy in the scientific search for the NCC:
@@ -140,9 +140,9 @@ The "Front vs. Back" debate represents the central controversy in the scientific
    - The debate mirrors Ned Block's distinction: GNWT models **Access Consciousness ($A$-consciousness)**, whereas the Posterior Hot Zone models **Phenomenal Consciousness ($P$-consciousness)**. Conflating the two leads to conflating the NCC proper with its post-perceptual cognitive consequences.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Both theories are neuro-cortical paradigms; neither locates consciousness in the spinal cord or metabolic organs.
-- **(C) is incorrect**: The debate is about cortical anterior vs. posterior localization of consciousness in living brains, not geological hemisphere age.
-- **(D) is incorrect**: Both theories place the cerebral cortex at the very center of conscious experience; they disagree on whether anterior (prefrontal) or posterior (sensory) cortical networks constitute the minimal sufficient NCC.
+- **(A) is incorrect**: Both theories are neuro-cortical paradigms; neither locates consciousness in the spinal cord or metabolic organs.
+- **(C) is incorrect**: Both theories place the cerebral cortex at the very center of conscious experience; they disagree on whether anterior (prefrontal) or posterior (sensory) cortical networks constitute the minimal sufficient NCC.
+- **(D) is incorrect**: The debate is about cortical anterior vs. posterior localization of consciousness in living brains, not geological hemisphere age.
 
 **Primary Textual Reference**: Stanislas Dehaene, *Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts* (Viking, 2014); Christof Koch, Marcello Massimini, Melanie Boly, and Giulio Tononi, "Neural Correlates of Consciousness: Progress and Problems", *Nature Reviews Neuroscience* 17, no. 5 (2016): 307–321; Melanie Boly et al., "Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? Clinical and Neuroimaging Evidence", *Journal of Neuroscience* 37, no. 40 (2017): 9603–9613.
 
@@ -155,12 +155,12 @@ The "Front vs. Back" debate represents the central controversy in the scientific
 
 In his landmark experiments with split-brain commissurotomy patients, neuroscientist Michael Gazzaniga presented two different visual images simultaneously: a **chicken claw** to the right visual field (left speaking hemisphere) and a **snowy winter scene** to the left visual field (right mute hemisphere). When asked to choose matching images with their hands, the patient's right hand pointed to a chicken, and the left hand pointed to a snow shovel. When the patient was verbally asked: *"Why did you point to the shovel?"*, how did the left hemisphere respond, and what did Gazzaniga deduce regarding the **"Left-Brain Interpreter"**?
 
-- (A) The left hemisphere instantly confabulated a fictional causal narrative without hesitation, replying: *"Oh, that's simple. The chicken claw goes with the chicken, and you need a shovel to clean out the chicken coop!"* This proved that the left hemisphere houses an "Interpreter" module that continuously constructs post-hoc causal rationalizations to impose narrative coherence upon actions executed by unconscious or modular subsystems.
-- (B) The patient suffered a localized seizure and forgot their own name.
-- (C) The left hemisphere honestly stated: *"I have no idea why my left hand picked the shovel; that hand is controlled by my severed right hemisphere."*
-- (D) The patient pointed out that chickens prefer to live in arctic snowstorms.
+- (A) The patient suffered a localized seizure and forgot their own name.
+- (B) The left hemisphere honestly stated: *"I have no idea why my left hand picked the shovel; that hand is controlled by my severed right hemisphere."*
+- (C) The patient pointed out that chickens prefer to live in arctic snowstorms.
+- (D) The left hemisphere instantly confabulated a fictional causal narrative without hesitation, replying: *"Oh, that's simple. The chicken claw goes with the chicken, and you need a shovel to clean out the chicken coop!"* This proved that the left hemisphere houses an "Interpreter" module that continuously constructs post-hoc causal rationalizations to impose narrative coherence upon actions executed by unconscious or modular subsystems.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Gazzaniga's Left-Brain Interpreter experiment is one of the most famous demonstrations of **post-hoc rationalization** and the narrative construction of selfhood in cognitive neurophilosophy:
@@ -183,9 +183,9 @@ Gazzaniga's Left-Brain Interpreter experiment is one of the most famous demonstr
    - Crucially, the Interpreter does not care if the story is true; its job is to make the self look unified, rational, and in control. This demonstrates that much of what humans take to be conscious, deliberate reasons for their actions are actually **retrospective confabulations** generated after unconscious or sub-personal circuits have already executed the behavior.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The patient did not suffer a seizure; commissurotomy successfully prevented epileptic seizures, leaving the patient alert, healthy, and cooperative.
-- **(C) is incorrect**: This is precisely what the patient **never** said; the left brain possesses no introspective access to the fact that its corpus callosum is cut, and automatically confabulates rather than admitting ignorance.
-- **(D) is incorrect**: The confabulation focused on cleaning a chicken coop, not absurd claims about arctic chickens.
+- **(A) is incorrect**: The patient did not suffer a seizure; commissurotomy successfully prevented epileptic seizures, leaving the patient alert, healthy, and cooperative.
+- **(B) is incorrect**: This is precisely what the patient **never** said; the left brain possesses no introspective access to the fact that its corpus callosum is cut, and automatically confabulates rather than admitting ignorance.
+- **(C) is incorrect**: The confabulation focused on cleaning a chicken coop, not absurd claims about arctic chickens.
 
 **Primary Textual Reference**: Michael S. Gazzaniga, *The Social Brain: Discovering the Networks of the Mind* (Basic Books, 1985); Michael S. Gazzaniga, *Who's in Charge? Free Will and the Science of the Brain* (HarperCollins, 2011), Chapter 3 ("The Interpreter").
 
@@ -198,12 +198,12 @@ Gazzaniga's Left-Brain Interpreter experiment is one of the most famous demonstr
 
 In a famous 2008 study in *Nature Neuroscience*, John-Dylan Haynes and colleagues (Soon et al., 2008) expanded upon Benjamin Libet's classical electroencephalogram (EEG) readiness potential experiments by using high-resolution **functional Magnetic Resonance Imaging (fMRI)** and pattern-classification algorithms to study human decision-making. What was their startling empirical discovery regarding the temporal gap between unconscious brain states and conscious choices?
 
-- (A) By analyzing pattern vectors in the frontopolar cortex (BA 10) and precuneus/posterior cingulate, the researchers were able to predict which hand (left or right) the subject would freely choose to press **up to 7 to 10 seconds** before the subject reported becoming consciously aware of having made their decision.
+- (A) The researchers found that human subjects can never make decisions unless an auditory tone is played in their headphones.
 - (B) The study proved that fMRI scanners alter human magnetic dipole moments, forcing subjects to push buttons against their will.
-- (C) Haynes proved that the conscious decision occurs 10 seconds *before* any neural activity occurs in the brain, vindicating Cartesian substance dualism.
-- (D) The researchers found that human subjects can never make decisions unless an auditory tone is played in their headphones.
+- (C) By analyzing pattern vectors in the frontopolar cortex (BA 10) and precuneus/posterior cingulate, the researchers were able to predict which hand (left or right) the subject would freely choose to press **up to 7 to 10 seconds** before the subject reported becoming consciously aware of having made their decision.
+- (D) Haynes proved that the conscious decision occurs 10 seconds *before* any neural activity occurs in the brain, vindicating Cartesian substance dualism.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 While Benjamin Libet found that the motor readiness potential (RP) precedes the conscious urge ($W$) by ~350–550 milliseconds, critics (such as Mele) argued that 350 ms was too brief to represent a real decision (it might just be general motor preparation).
@@ -220,9 +220,9 @@ Haynes's 2008 study dramatically raised the stakes for the philosophy of free wi
    - **Compatibilist / Mele's Critique**: The predictive accuracy was approximately 60% (significantly above 50% chance, but far from 100% deterministic certainty). Therefore, frontopolar activation reflects an **unconscious bias or preparatory preference**, not an unalterable, ballistic causal determination.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: The paradigm was self-paced and voluntary; no external auditory pacing cues were used.
 - **(B) is incorrect**: Standard clinical and research fMRI fields (3 Tesla) do not force or mechanically compel muscle movements in subjects.
-- **(C) is incorrect**: The exact opposite of the findings; neural predictive activity occurred 7–10 seconds *before* conscious awareness, directly refuting dualistic claims that conscious will initiates neural action.
-- **(D) is incorrect**: The paradigm was self-paced and voluntary; no external auditory pacing cues were used.
+- **(D) is incorrect**: The exact opposite of the findings; neural predictive activity occurred 7–10 seconds *before* conscious awareness, directly refuting dualistic claims that conscious will initiates neural action.
 
 **Primary Textual Reference**: Chun Siong Soon, Marcel Brass, Hans-Jochen Heinze, and John-Dylan Haynes, "Unconscious Determinants of Free Decisions in the Human Brain", *Nature Neuroscience* 11, no. 5 (2008): 543–545.
 
@@ -236,9 +236,9 @@ Haynes's 2008 study dramatically raised the stakes for the philosophy of free wi
 In his groundbreaking work on **Phantom Limb Syndrome** in amputees, neuroscientist V.S. Ramachandran designed the simple, non-invasive **Mirror Box** to relieve excruciating phantom limb spasms (e.g., when an amputee feels their non-existent phantom hand clenched with fingernails digging painfully into the phantom palm). What was Ramachandran's neurophilosophical concept of **"Learned Paralysis"**, and how does visual feedback in the mirror box resolve it?
 
 - (A) Before amputation, peripheral nerve damage produced motor commands with zero visual feedback, causing the brain to chronically learn that the limb was paralyzed; the mirror box reflects the healthy surviving hand to create the visual illusion that the phantom hand has returned and is opening, allowing visual feedback to override the motor memory, demonstrating that the brain's body schema is dynamically plastic and heavily modulated by multi-sensory Bayesian integration.
-- (B) The mirror box works by reflecting ultraviolet sunlight directly into the bone marrow of the stump to stimulate stem cell regrowth.
+- (B) The mirror box physically regrows an identical biological arm within 48 hours of optical reflection.
 - (C) Ramachandran proved that phantom limbs are purely psychological hysterical delusions caused by childhood trauma.
-- (D) The mirror box physically regrows an identical biological arm within 48 hours of optical reflection.
+- (D) The mirror box works by reflecting ultraviolet sunlight directly into the bone marrow of the stump to stimulate stem cell regrowth.
 
 **Correct Answer**: **(A)**
 
@@ -262,9 +262,9 @@ Ramachandran’s work dismantled the classical doctrine that the adult mammalian
    - The "self" and our conscious body image are not genetically fixed biological entities; they are **provisional, dynamic constructs** generated by real-time multisensory integration (vision, touch, proprioception).
 
 #### Distractor Analysis:
-- **(B) is incorrect**: The mirror box uses ordinary optical glass under normal room lighting; it does not use ultraviolet radiation or stimulate bone marrow stem cells.
+- **(B) is incorrect**: A literal physical impossibility; mirror box therapy relieves neurological pain, but does not physically regenerate biological tissue.
 - **(C) is incorrect**: Ramachandran proved that phantom sensations have precise anatomical and neurophysiological substrates in cortical somatotopic reorganization, decisively refuting psychoanalytic claims of hysterical delusion.
-- **(D) is incorrect**: A literal physical impossibility; mirror box therapy relieves neurological pain, but does not physically regenerate biological tissue.
+- **(D) is incorrect**: The mirror box uses ordinary optical glass under normal room lighting; it does not use ultraviolet radiation or stimulate bone marrow stem cells.
 
 **Primary Textual Reference**: V. S. Ramachandran and Sandra Blakeslee, *Phantoms in the Brain: Probing the Mysteries of the Human Mind* (William Morrow & Co., 1998), Chapters 2 and 3; V. S. Ramachandran and D. Rogers-Ramachandran, "Synaesthesia in Phantom Limbs Induced with Mirrors", *Proceedings of the Royal Society of London. Series B: Biological Sciences* 263, no. 1369 (1996): 377–386.
 
@@ -279,8 +279,8 @@ The "New Mechanical Philosophy" (Machamer, Darden, Craver, Bechtel) rejects the 
 
 - (A) A mechanism is a structure performing a function in virtue of its component parts, component operations, and their spatio-temporal organization; explaining a cognitive phenomenon requires decomposing it into sub-operations and localizing those operations within organized neural structures.
 - (B) A mechanism is any system governed by a single differential equation written in Isaac Newton's Latin script.
-- (C) A mechanism is a purely rhetorical literary metaphor that neuroscientists use to avoid mathematical calculations.
-- (D) Mechanistic explanation requires proving that all biological organisms are literally clockwork grandfather clocks made of brass gears.
+- (C) Mechanistic explanation requires proving that all biological organisms are literally clockwork grandfather clocks made of brass gears.
+- (D) A mechanism is a purely rhetorical literary metaphor that neuroscientists use to avoid mathematical calculations.
 
 **Correct Answer**: **(A)**
 
@@ -298,8 +298,8 @@ William Bechtel's work (*Mental Mechanisms*, 2008; Bechtel & Richardson 1993/201
 
 #### Distractor Analysis:
 - **(B) is incorrect**: Conflates mechanistic explanation with mathematical nomological deduction.
-- **(C) is incorrect**: Mechanistic explanation is a rigorous, realistic epistemological model, not an evasive literary metaphor.
-- **(D) is incorrect**: Mechanists use "mechanism" in an updated biological sense (involving non-linear feedback, plasticity, and self-organization), not 17th-century clockwork brass.
+- **(C) is incorrect**: Mechanists use "mechanism" in an updated biological sense (involving non-linear feedback, plasticity, and self-organization), not 17th-century clockwork brass.
+- **(D) is incorrect**: Mechanistic explanation is a rigorous, realistic epistemological model, not an evasive literary metaphor.
 
 **Primary Textual Reference**: William Bechtel and Adele Abrahamsen, "Explanation: A Mechanist Alternative", *Studies in History and Philosophy of Biological and Biomedical Sciences* 36, no. 2 (2005): 421–441; William Bechtel, *Mental Mechanisms: Philosophical Perspectives on Cognitive Neuroscience* (Routledge, 2008).
 
@@ -312,12 +312,12 @@ William Bechtel's work (*Mental Mechanisms*, 2008; Bechtel & Richardson 1993/201
 
 In *Philosophy and Neuroscience: A Ruthlessly Reductive Approach* (2003), John Bickle defends **"Ruthless Reductionism"** against the prevailing philosophical consensus of non-reductive physicalism. What is the experimental heuristic of Ruthless Reductionism, and how does it bypass intermediate cognitive levels?
 
-- (A) It follows the laboratory practice of cellular and molecular neuroscience: **"intervene cellularly or molecularly, and track effects behaviorally"**; by directly manipulating micro-molecular mechanisms (e.g., genetically knocking out the CREB gene or inhibiting protein kinase A) and measuring immediate behavioral changes in learning and memory, it reduces cognitive functions directly to molecular cascades without needing to posit autonomous intermediary functional/cognitive levels.
-- (B) It ruthlessly executes philosophers who defend dualism, arguing that scientific progress requires political totalitarianism.
-- (C) It claims that all neurological diseases are caused by emotional stress, reducing medicine to psychoanalysis.
+- (A) It claims that all neurological diseases are caused by emotional stress, reducing medicine to psychoanalysis.
+- (B) It follows the laboratory practice of cellular and molecular neuroscience: **"intervene cellularly or molecularly, and track effects behaviorally"**; by directly manipulating micro-molecular mechanisms (e.g., genetically knocking out the CREB gene or inhibiting protein kinase A) and measuring immediate behavioral changes in learning and memory, it reduces cognitive functions directly to molecular cascades without needing to posit autonomous intermediary functional/cognitive levels.
+- (C) It ruthlessly executes philosophers who defend dualism, arguing that scientific progress requires political totalitarianism.
 - (D) It asserts that reductionism is impossible because molecules are too small to be photographed with digital cameras.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 John Bickle's "Ruthless Reductionism" (2003, 2006) directly attacked the non-reductive consensus of Fodor, Putnam, and Davidson:
@@ -333,8 +333,8 @@ John Bickle's "Ruthless Reductionism" (2003, 2006) directly attacked the non-red
    - When molecular intervention causally accounts for behavioral differences, the high-level cognitive phenomenon (such as memory consolidation) has been causally and ontologically explained at the cellular/molecular level, rendering intermediate cognitive levels explanatory heuristics rather than autonomous ontological strata.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: "Ruthless" is a philosophical descriptor for uncompromising molecular reductionism, not literal violence.
-- **(C) is incorrect**: Reverses Bickle's position into psychoanalytic psychosomatism.
+- **(A) is incorrect**: Reverses Bickle's position into psychoanalytic psychosomatism.
+- **(C) is incorrect**: "Ruthless" is a philosophical descriptor for uncompromising molecular reductionism, not literal violence.
 - **(D) is incorrect**: Bickle relies directly on advanced molecular imaging and optogenetic technologies.
 
 **Primary Textual Reference**: John Bickle, *Philosophy and Neuroscience: A Ruthlessly Reductive Approach* (Kluwer Academic Publishers, 2003); John Bickle, "Reducing Mind to Molecular Pathways: Explicating the Reductionism in 'Reduction' in Cognitive Neuroscience", *Synthese* 151, no. 3 (2006): 411–434.
@@ -348,12 +348,12 @@ John Bickle's "Ruthless Reductionism" (2003, 2006) directly attacked the non-red
 
 A central metaphysical problem for mechanistic explanation in cognitive neuroscience is distinguishing between genuine **constitutive components** of a neural mechanism and mere non-explanatory correlated epiphenomena. In *Explaining the Brain* (2007), what two-part empirical condition does Carl Craver formulate as the **Mutual Manipulability Criterion**?
 
-- (A) An entity/activity $X$ is a constitutive part of a mechanism $S$ performing phenomenon $\psi$ if and only if: (1) an ideal bottom-up intervention on $X$ changes the execution of the high-level phenomenon $\psi$, and (2) an ideal top-down intervention on the phenomenon $\psi$ results in a corresponding change in the state or activity of component $X$.
-- (B) Two scientists must manipulate the brain simultaneously while agreeing on the mathematical definition of entropy.
+- (A) The phenomenon must be deductible a priori from the axioms of Euclidean geometry.
+- (B) An entity/activity $X$ is a constitutive part of a mechanism $S$ performing phenomenon $\psi$ if and only if: (1) an ideal bottom-up intervention on $X$ changes the execution of the high-level phenomenon $\psi$, and (2) an ideal top-down intervention on the phenomenon $\psi$ results in a corresponding change in the state or activity of component $X$.
 - (C) The neural component must be capable of surviving outside the skull in a glass petri dish for at least 48 hours.
-- (D) The phenomenon must be deductible a priori from the axioms of Euclidean geometry.
+- (D) Two scientists must manipulate the brain simultaneously while agreeing on the mathematical definition of entropy.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Carl Craver's *Explaining the Brain* (2007) resolved the long-standing philosophical puzzle of mechanistic mereology (what makes a part *relevant* to a mechanism?):
@@ -367,9 +367,9 @@ Carl Craver's *Explaining the Brain* (2007) resolved the long-standing philosoph
    - This criterion provides an objective, scientifically operationalized test for constitutive explanation that avoids both ungrounded reductionism and speculative holism.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Mutual manipulability refers to the bidirectional relationship between parts and wholes, not mutual agreement between human researchers.
+- **(A) is incorrect**: Mechanistic explanation is empirical and contingent, not an a priori Euclidean deduction.
 - **(C) is incorrect**: Biological components function in organizational contexts; requiring survival in a petri dish would disqualify intact brain structures.
-- **(D) is incorrect**: Mechanistic explanation is empirical and contingent, not an a priori Euclidean deduction.
+- **(D) is incorrect**: Mutual manipulability refers to the bidirectional relationship between parts and wholes, not mutual agreement between human researchers.
 
 **Primary Textual Reference**: Carl F. Craver, *Explaining the Brain: Mechanisms and the Mosaic Unity of Neuroscience* (Oxford University Press, 2007), Chapter 4 ("Constitutive Relevance"); Carl F. Craver, "The Role of Cellular Models in Understanding the Central Nervous System", *Philosophy of Science* 69 (2002): S83–S97.
 
@@ -382,12 +382,12 @@ Carl Craver's *Explaining the Brain* (2007) resolved the long-standing philosoph
 
 In **Capgras Delusion**, a patient maintains the unshakable conviction that a close family member (usually a spouse, mother, or father) has been replaced by an identical impostor, double, or clone. How did V.S. Ramachandran and William Hirstein explain the neurological and cognitive etiology of this delusion, refuting traditional Freudian psychodynamic hypotheses?
 
-- (A) They demonstrated that visual face recognition operates via two parallel pathways: a cognitive ventral stream (fusiform face area to temporal lobes) and an affective limbic pathway (visual cortex to amygdala); in Capgras patients, the cognitive pathway is intact (they visually recognize the face), but the affective limbic pathway is severed (they experience zero autonomic emotional arousal), leading the rational mind to invent the hypothesis of an impostor to resolve the cognitive dissonance between visual recognition and emotional numbness.
-- (B) They proved that Capgras patients have suffered total damage to the optic nerve, making them completely blind.
+- (A) They proved that Capgras patients have suffered total damage to the optic nerve, making them completely blind.
+- (B) They showed that Capgras delusion is caused by an infection of alien parasites that rewrite the patient's genetic code.
 - (C) They demonstrated that the delusion is an oedipal reaction caused by unconscious repressed sexual longing for the parent.
-- (D) They showed that Capgras delusion is caused by an infection of alien parasites that rewrite the patient's genetic code.
+- (D) They demonstrated that visual face recognition operates via two parallel pathways: a cognitive ventral stream (fusiform face area to temporal lobes) and an affective limbic pathway (visual cortex to amygdala); in Capgras patients, the cognitive pathway is intact (they visually recognize the face), but the affective limbic pathway is severed (they experience zero autonomic emotional arousal), leading the rational mind to invent the hypothesis of an impostor to resolve the cognitive dissonance between visual recognition and emotional numbness.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 V.S. Ramachandran's work on Capgras syndrome (*Phantoms in the Brain*, 1998; Ramachandran & Hirstein 1997) is a cornerstone of neurophilosophy and the epistemology of delusion:
@@ -403,8 +403,8 @@ V.S. Ramachandran's work on Capgras syndrome (*Phantoms in the Brain*, 1998; Ram
    - The intact left-hemisphere "interpreter" (Gazzaniga) attempts to make rational sense of this contradictory data: *"If this were really my wife, I would feel an emotional spark. Since I feel nothing, she must be an identical impostor!"*
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Capgras patients have intact vision and recognize fine facial features perfectly.
+- **(A) is incorrect**: Capgras patients have intact vision and recognize fine facial features perfectly.
+- **(B) is incorrect**: Absurd science-fiction distracter.
 - **(C) is incorrect**: This is the Freudian theory that Ramachandran and Ellis & Young decisively discredited with autonomic skin conductance testing.
-- **(D) is incorrect**: Absurd science-fiction distracter.
 
 **Primary Textual Reference**: V.S. Ramachandran and William Hirstein, "The Perception of Faces and People: The Mind's Window to the World", *Philosophical Transactions of the Royal Society of London. Series B* 352, no. 1358 (1997): 1219–1224; H. D. Ellis and M. B. Young, "Accounting for Delusional Misidentifications", *British Journal of Psychiatry* 157 (1990): 239–248.

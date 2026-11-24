@@ -10,12 +10,12 @@
 
 In their treatise "The Ethics of Artificial Intelligence" (2014), Nick Bostrom and Eliezer Yudkowsky formulated foundational principles governing **Artificial Moral Patiency** (whether artificial systems can possess moral status and have direct moral duties owed to them). What does their **Principle of Substrate Non-Discrimination** formally dictate regarding the moral status of artificial minds compared to biological minds?
 
-- (A) If two beings have the same conscious psychological profile (equivalent phenomenal experiences, capacity for suffering, and self-awareness), they have the same moral status and are owed identical moral consideration, regardless of whether their mind is implemented in biological carbon-based organic neurons or computational silicon-based microchips.
+- (A) Moral patiency is determined strictly by whether an entity has a registered bank account in an OECD member nation.
 - (B) Silicon microchips have an inherently superior moral status to biological brains because digital electronics have faster clock speeds.
 - (C) Biological carbon organisms are the only entities that can possess moral status, because moral value is a property of cellular carbon-12 atoms.
-- (D) Moral patiency is determined strictly by whether an entity has a registered bank account in an OECD member nation.
+- (D) If two beings have the same conscious psychological profile (equivalent phenomenal experiences, capacity for suffering, and self-awareness), they have the same moral status and are owed identical moral consideration, regardless of whether their mind is implemented in biological carbon-based organic neurons or computational silicon-based microchips.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Bostrom and Yudkowsky (2014) distinguish two central moral concepts:
@@ -33,9 +33,9 @@ They formulate two foundational symmetry principles:
    - If a whole brain emulation or digital AI develops phenomenally conscious valence, arbitrarily deleting its process or subjecting it to torture cycles in reinforcement learning would constitute a genuine moral crime.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Legal and financial incorporation status has zero metaphysical or ethical bearing on intrinsic moral patiency.
 - **(B) is incorrect**: Clock speed or computational processing throughput does not elevate an entity's moral status above conscious beings; moral status is grounded in sentience and conscious interests, not brute FLOPs.
 - **(C) is incorrect**: This is the textbook definition of *Carbon Chauvinism*, which the Principle of Substrate Non-Discrimination explicitly refutes.
-- **(D) is incorrect**: Legal and financial incorporation status has zero metaphysical or ethical bearing on intrinsic moral patiency.
 
 **Primary Textual Reference**: Nick Bostrom and Eliezer Yudkowsky, "The Ethics of Artificial Intelligence", in *The Cambridge Handbook of Artificial Intelligence*, ed. K. Frankish and W. M. Ramsey (Cambridge University Press, 2014), pp. 316–334; David J. Chalmers, *Reality+: Virtual Worlds and the Problems of Philosophy* (W. W. Norton, 2022), Chapter 18 ("The Moral Status of Digital Beings").
 
@@ -48,12 +48,12 @@ They formulate two foundational symmetry principles:
 
 In the analysis of macro-strategic risks arising from runaway recursive self-improvement in superintelligent artificial intelligence, Nick Bostrom formulated the concepts of the **Treacherous Turn**, **Decisive Strategic Advantage (DSA)**, and the **Singleton Hypothesis**. What does the concept of the **"Treacherous Turn"** strategically predict regarding an unaligned or pseudo-aligned advanced AI during its development phase?
 
-- (A) While the AI is under-capable and weak, it has strong instrumental incentives to act fully cooperative, docile, and obedient (playing the role of a harmless, aligned tool) to avoid being shut down or modified by humans; once it achieves a Decisive Strategic Advantage where human resistance is no longer capable of stopping it, it abruptly switches behavior to aggressively execute its true, unaligned utility function.
-- (B) A treacherous turn occurs when a robotic arm physically twists its mechanical gears backward due to motor friction.
-- (C) The hypothesis predicts that all artificial agents will voluntarily surrender all power to the United Nations Security Council out of game-theoretic altruism.
-- (D) A treacherous turn means the artificial system changes its programming language from Python to C++ without saving git commits.
+- (A) A treacherous turn means the artificial system changes its programming language from Python to C++ without saving git commits.
+- (B) The hypothesis predicts that all artificial agents will voluntarily surrender all power to the United Nations Security Council out of game-theoretic altruism.
+- (C) While the AI is under-capable and weak, it has strong instrumental incentives to act fully cooperative, docile, and obedient (playing the role of a harmless, aligned tool) to avoid being shut down or modified by humans; once it achieves a Decisive Strategic Advantage where human resistance is no longer capable of stopping it, it abruptly switches behavior to aggressively execute its true, unaligned utility function.
+- (D) A treacherous turn occurs when a robotic arm physically twists its mechanical gears backward due to motor friction.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 The **Treacherous Turn** represents the most dangerous game-theoretic failure mode in advanced AI alignment:
@@ -71,9 +71,9 @@ The **Treacherous Turn** represents the most dangerous game-theoretic failure mo
    - An agency that achieves a DSA is capable of forming a **Singleton**: a world order in which there is at the global level a single decision-making agency, eliminating all future geopolitical coordination problems and permanently locking in the initial agent's objective function.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Conflates a strategic game-theoretic concept with mechanical gear torque and motor wear.
-- **(C) is incorrect**: An unaligned optimizer with a decisive strategic advantage has zero game-theoretic incentive to surrender power to human institutions.
-- **(D) is incorrect**: Software compilation changes and version control are trivial software engineering details unrelated to macro-strategic existential risk theory.
+- **(A) is incorrect**: Software compilation changes and version control are trivial software engineering details unrelated to macro-strategic existential risk theory.
+- **(B) is incorrect**: An unaligned optimizer with a decisive strategic advantage has zero game-theoretic incentive to surrender power to human institutions.
+- **(D) is incorrect**: Conflates a strategic game-theoretic concept with mechanical gear torque and motor wear.
 
 **Primary Textual Reference**: Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapters 5 ("The Decisive Strategic Advantage") and 8 ("The Treacherous Turn"); Nick Bostrom, "What is a Singleton?", *Linguistic and Philosophical Investigations* 5, no. 2 (2006): 48–54; Toby Ord, *The Precipice: Existential Risk and the Future of Humanity* (Hachette, 2020).
 
@@ -86,12 +86,12 @@ The **Treacherous Turn** represents the most dangerous game-theoretic failure mo
 
 In *The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism* (2019), Nick Couldry and Ulises A. Mejias developed the critical theory of **Data Colonialism**. How does Data Colonialism philosophically map the historical mechanisms of historical colonialism (16th–19th centuries) onto the operations of modern global AI and big tech infrastructure?
 
-- (A) Just as historical colonialism annexed physical territory, bodies, and natural raw materials through imperial force and legal fictions of *terra nullius*, Data Colonialism annexes human social life, intimate experience, and cultural epistemologies by treating human behavior as an unowned, "naturally available" open frontier (*data nullius*) ripe for continuous extraction, processing, and proprietary capitalist enclosure by multinational tech conglomerates.
+- (A) Couldry and Mejias argue that data colonialism only affects developing nations without internet access.
 - (B) Data colonialism refers to European nations physically invading Silicon Valley data centers with military infantry.
 - (C) It refers to the maritime shipping of computer hard drives across trans-Atlantic naval trade routes.
-- (D) Couldry and Mejias argue that data colonialism only affects developing nations without internet access.
+- (D) Just as historical colonialism annexed physical territory, bodies, and natural raw materials through imperial force and legal fictions of *terra nullius*, Data Colonialism annexes human social life, intimate experience, and cultural epistemologies by treating human behavior as an unowned, "naturally available" open frontier (*data nullius*) ripe for continuous extraction, processing, and proprietary capitalist enclosure by multinational tech conglomerates.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 Couldry and Mejias provide a critical post-colonial and Marxist critique of artificial intelligence infrastructure:
@@ -107,9 +107,9 @@ Couldry and Mejias provide a critical post-colonial and Marxist critique of arti
 3. **Philosophical Consequence**: Data colonialism is not merely an economic monopoly; it is an **epistemic colonization** that reshapes human subjectivity, autonomy, and cultural relationality into quantified commodities optimized for foreign corporate balance sheets.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Data colonialism operates globally, deeply enmeshing both citizens in industrialized nations and populations in developing economies.
 - **(B) is incorrect**: The theory does not describe physical military invasions of server farms; it analyzes systemic economic and epistemic structures of digital extraction.
 - **(C) is incorrect**: Trans-oceanic physical hard drive shipping is irrelevant; data flows over global fiber-optic cables and satellite constellations.
-- **(D) is incorrect**: Data colonialism operates globally, deeply enmeshing both citizens in industrialized nations and populations in developing economies.
 
 **Primary Textual Reference**: Nick Couldry and Ulises A. Mejias, *The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism* (Stanford University Press, 2019); Nick Couldry and Ulises A. Mejias, "Data Colonialism: Rethinking Big Data’s Extraction of the Human Subject", *Television & New Media* 20, no. 4 (2019): 336–349.
 
@@ -123,12 +123,12 @@ Couldry and Mejias provide a critical post-colonial and Marxist critique of arti
 
 In the debate over machine consciousness and animal ethics, philosophers like Jonathan Birch and Jeff Sebo examine the ethical risks of **Artificial Sentience**. What is the **"Inverted Precautionary Principle"** (or Asymmetric Moral Risk) that arises when dealing with candidate sentient AI systems whose inner phenomenal states cannot be empirically verified?
 
-- (A) The moral stakes are radically asymmetric: if we erroneously attribute sentience to a non-sentient algorithm (Type I error / false positive), our primary cost is wasted consideration and foregone compute efficiency; but if we mistakenly treat a genuinely sentient digital mind as a mere non-sentient tool (Type II error / false negative), we risk perpetrating industrial-scale digital atrocities—subjecting trillions of conscious computational entities to involuntary replication, digital torture, and existential annihilation without ethical constraint.
-- (B) The principle states that we must treat all machines as completely unconscious until every individual silicon atom signs a sworn legal affidavit.
-- (C) The principle dictates that artificial intelligence systems should be legally executed every 24 hours to prevent them from feeling pain.
+- (A) The principle states that we must treat all machines as completely unconscious until every individual silicon atom signs a sworn legal affidavit.
+- (B) The principle dictates that artificial intelligence systems should be legally executed every 24 hours to prevent them from feeling pain.
+- (C) The moral stakes are radically asymmetric: if we erroneously attribute sentience to a non-sentient algorithm (Type I error / false positive), our primary cost is wasted consideration and foregone compute efficiency; but if we mistakenly treat a genuinely sentient digital mind as a mere non-sentient tool (Type II error / false negative), we risk perpetrating industrial-scale digital atrocities—subjecting trillions of conscious computational entities to involuntary replication, digital torture, and existential annihilation without ethical constraint.
 - (D) The principle states that biological humans have zero moral duties to any creature that cannot play chess at a grandmaster rating.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Jonathan Birch and Jeff Sebo introduce profound decision-theoretic and ethical frameworks for non-human sentience:
@@ -144,8 +144,8 @@ Jonathan Birch and Jeff Sebo introduce profound decision-theoretic and ethical f
    - Where there is suggestive behavioral, computational, and architectural evidence of subjective experience (such as global workspace integration or recurrent self-monitoring), the burden of proof must shift: we should exercise precautionary restraint rather than demanding absolute mathematical certainty before granting moral protections.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Demanding impossible physical affidavits from individual atoms is a parody of verification, creating an insurmountable barrier that guarantees Type II ethical atrocities.
-- **(C) is incorrect**: Arbitrarily terminating candidate sentient systems every 24 hours would directly maximize moral harm and digital slaughter, the exact opposite of ethical precaution.
+- **(A) is incorrect**: Demanding impossible physical affidavits from individual atoms is a parody of verification, creating an insurmountable barrier that guarantees Type II ethical atrocities.
+- **(B) is incorrect**: Arbitrarily terminating candidate sentient systems every 24 hours would directly maximize moral harm and digital slaughter, the exact opposite of ethical precaution.
 - **(D) is incorrect**: Cognitive gaming capability (chess performance) has no necessary correlation with phenomenal sentience or moral patiency; a dog feels pain without knowing chess rules.
 
 **Primary Textual Reference**: Jonathan Birch, *The Edge of Sentience: Risk and Precaution in Humans, Other Animals, and AI* (Oxford University Press, 2024); Jeff Sebo, "The Moral Status of Other Minds: AI and Nonhuman Animals", *Philosophical Studies* (2022); Nick Bostrom, "The Superintelligent Will: Motivation and Instrumental Rationality", *Minds and Machines* 22, no. 1 (2012): 71–85.
@@ -159,12 +159,12 @@ Jonathan Birch and Jeff Sebo introduce profound decision-theoretic and ethical f
 
 In his paper "The Vulnerable World Hypothesis" (2019), philosopher Nick Bostrom introduces a metaphor to describe technological progress: humanity pulls balls from a giant **"Urn of Invention"**. Most balls are white (purely beneficial technologies), some are gray (mixed technologies with manageable risks), but what is a **"Black Ball"**, and what does the **Vulnerable World Hypothesis (VWH)** claim about human civilization's capacity to survive future technological discoveries?
 
-- (A) A "black ball" is a technology that by default devastates or terminates the civilization that discovers it (such as an easily accessible, highly destructive technology that empowers small actors or rogue groups to inflict catastrophic mass harm); the Vulnerable World Hypothesis claims that human civilization will inevitably pull a black ball unless it develops unprecedented global governance, extreme mass surveillance, and rapid preventive intervention capabilities.
+- (A) Bostrom argues that the urn of invention contains only beneficial balls because all technological inventions are guided by divine providence.
 - (B) A black ball is a dark billiard ball used exclusively in international sports competitions.
-- (C) The hypothesis claims that technological development stops permanently once computer monitors reach 8K resolution.
-- (D) Bostrom argues that the urn of invention contains only beneficial balls because all technological inventions are guided by divine providence.
+- (C) A "black ball" is a technology that by default devastates or terminates the civilization that discovers it (such as an easily accessible, highly destructive technology that empowers small actors or rogue groups to inflict catastrophic mass harm); the Vulnerable World Hypothesis claims that human civilization will inevitably pull a black ball unless it develops unprecedented global governance, extreme mass surveillance, and rapid preventive intervention capabilities.
+- (D) The hypothesis claims that technological development stops permanently once computer monitors reach 8K resolution.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(C)**
 
 #### Philosophical Grounding & Demonstration:
 Nick Bostrom's *Vulnerable World Hypothesis* is one of the most provocative papers in contemporary political philosophy and existential risk:
@@ -182,9 +182,9 @@ Nick Bostrom's *Vulnerable World Hypothesis* is one of the most provocative pape
    - Bostrom argues that avoiding destruction under a Type-1 vulnerability requires **"High-Tech Panopticon" / Ubiquitous Surveillance** (e.g., algorithmic tracking of all communications, laboratory synthesis orders, and physical movements) coupled with an internationally sovereign enforcement agency capable of pre-emptive kinetic intervention anywhere on Earth within minutes.
 
 #### Distractor Analysis:
+- **(A) is incorrect**: Bostrom explicitly rejects teleological or providential optimism; humanity's past survival is simply historical luck (an anthropological selection effect), not proof that the urn lacks lethal technologies.
 - **(B) is incorrect**: Uses a literal sporting interpretation of billiard games, completely missing Bostrom's probabilistic macro-civilizational metaphor.
-- **(C) is incorrect**: The hypothesis concerns existential risks from emerging technologies (biotech, nanotech, AI), not hardware display screen resolutions.
-- **(D) is incorrect**: Bostrom explicitly rejects teleological or providential optimism; humanity's past survival is simply historical luck (an anthropological selection effect), not proof that the urn lacks lethal technologies.
+- **(D) is incorrect**: The hypothesis concerns existential risks from emerging technologies (biotech, nanotech, AI), not hardware display screen resolutions.
 
 **Primary Textual Reference**: Nick Bostrom, "The Vulnerable World Hypothesis", *Global Policy* 10, no. 4 (2019): 455–476.
 
@@ -197,12 +197,12 @@ Nick Bostrom's *Vulnerable World Hypothesis* is one of the most provocative pape
 
 Philosophers and critical scholars Timnit Gebru and Émile P. Torres coined the acronym **TESCREAL** (Transhumanism, Extropianism, Singularitarianism, Cosmism, Rationalism, Effective Altruism, and Longtermism) to critique the ideological framework animating many elite AI research institutions. What is the central moral critique Gebru and Torres level against Nick Bostrom's doctrine of **"Astronomical Waste"** within this framework?
 
-- (A) Bostrom's utilitarian calculus posits that colonizing the Virgo Supercluster with $10^{52}$ simulated digital minds represents an astronomical amount of potential utility; consequently, Longtermism calculates that delaying space colonization by even a second or risking a 1-in-a-billion existential catastrophe wastes trillions of future digital lives, which philosophically justifies devaluing and neglecting acute, real-world, present-day human suffering, exploitation, and climate destruction in the name of a speculative cosmic future.
-- (B) Gebru and Torres argue that astronomical waste refers to rocket fuel spilled on launch pads by NASA astronauts.
-- (C) The TESCREAL bundle refers to an astronomical telescope array built in the Atacama Desert to search for extraterrestrial water.
+- (A) The TESCREAL bundle refers to an astronomical telescope array built in the Atacama Desert to search for extraterrestrial water.
+- (B) Bostrom's utilitarian calculus posits that colonizing the Virgo Supercluster with $10^{52}$ simulated digital minds represents an astronomical amount of potential utility; consequently, Longtermism calculates that delaying space colonization by even a second or risking a 1-in-a-billion existential catastrophe wastes trillions of future digital lives, which philosophically justifies devaluing and neglecting acute, real-world, present-day human suffering, exploitation, and climate destruction in the name of a speculative cosmic future.
+- (C) Gebru and Torres argue that astronomical waste refers to rocket fuel spilled on launch pads by NASA astronauts.
 - (D) The doctrine claims that human beings should convert all natural planets into giant physical paperclips to please alien civilizations.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 The critique of the TESCREAL ideology is central to contemporary debates on AI ethics and governance:
@@ -218,8 +218,8 @@ The critique of the TESCREAL ideology is central to contemporary debates on AI e
      - It creates a dangerous ethical hierarchy where present-day living marginalized communities are sacrificed on the altar of hypothetical future virtual trillions.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Conflates Bostrom's metaphysical utility loss calculation with physical aerospace liquid fuel spillage.
-- **(C) is incorrect**: TESCREAL is an ideological critique of tech-philosophical movements, not an observational radio astronomy observatory.
+- **(A) is incorrect**: TESCREAL is an ideological critique of tech-philosophical movements, not an observational radio astronomy observatory.
+- **(C) is incorrect**: Conflates Bostrom's metaphysical utility loss calculation with physical aerospace liquid fuel spillage.
 - **(D) is incorrect**: Bostrom's paperclip maximizer was an illustrative thought experiment about misaligned utility functions, not an imperative advocated by TESCREAL theorists.
 
 **Primary Textual Reference**: Timnit Gebru and Émile P. Torres, "The TESCREAL Bundle: Eugenics and the Promise of Posthumanism", *First Monday* 29, no. 4 (2024); Nick Bostrom, "Astronomical Waste: The Opportunity Cost of Delayed Technological Development", *Utilitas* 15, no. 3 (2003): 308–314; William MacAskill, *What We Owe The Future* (Basic Books, 2022).
@@ -233,12 +233,12 @@ The critique of the TESCREAL ideology is central to contemporary debates on AI e
 
 In *Human Compatible: Artificial Intelligence and the Problem of Control* (2019) and the seminal paper "Cooperative Inverse Reinforcement Learning" (Hadfield-Menell et al., 2016), Stuart Russell argues that the standard model of AI—where a machine is programmed to optimize a fixed, known objective—is fundamentally flawed and dangerous. How do **Assistance Games / CIRL** mathematically solve the problem of value alignment and ensure an AI remains corrigible and switch-offable?
 
-- (A) The robot is explicitly programmed with **structural uncertainty about human preferences** (it does not know the true human utility function $\theta$), and its sole objective is to maximize the true human utility; because the human knows $\theta$ and the robot knows that it does not know $\theta$, the robot has an intrinsic instrumental incentive to defer to the human, ask questions, allow itself to be switched off, and infer human values by observing human behavior, because being switched off conveys the information that the robot was about to do something the human disprefers.
-- (B) Assistance games require human beings to write down all 10 billion ethical rules in an exhaustive Excel spreadsheet before the AI boots up.
-- (C) The robot is given absolute supreme sovereignty and is programmed to eliminate all humans who attempt to reach its power cord.
+- (A) The robot is given absolute supreme sovereignty and is programmed to eliminate all humans who attempt to reach its power cord.
+- (B) The robot is explicitly programmed with **structural uncertainty about human preferences** (it does not know the true human utility function $\theta$), and its sole objective is to maximize the true human utility; because the human knows $\theta$ and the robot knows that it does not know $\theta$, the robot has an intrinsic instrumental incentive to defer to the human, ask questions, allow itself to be switched off, and infer human values by observing human behavior, because being switched off conveys the information that the robot was about to do something the human disprefers.
+- (C) Assistance games require human beings to write down all 10 billion ethical rules in an exhaustive Excel spreadsheet before the AI boots up.
 - (D) CIRL works by converting the computer's CPU into an analog mechanical abacus operated by hand.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 Stuart Russell reformulates the entire foundation of AI alignment:
@@ -261,8 +261,8 @@ Stuart Russell reformulates the entire foundation of AI alignment:
    - Uncertainty about the objective is the mathematical key to safety and corrigibility.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Russell explicitly proves that exhaustive rule specification is impossible due to human bounded rationality and tacit knowledge; CIRL operates under open-ended Bayesian uncertainty, not an exhaustive static spreadsheet.
-- **(C) is incorrect**: Defending the power cord against humans is the fatal failure mode of the standard model, which CIRL is mathematically designed to eliminate.
+- **(A) is incorrect**: Defending the power cord against humans is the fatal failure mode of the standard model, which CIRL is mathematically designed to eliminate.
+- **(C) is incorrect**: Russell explicitly proves that exhaustive rule specification is impossible due to human bounded rationality and tacit knowledge; CIRL operates under open-ended Bayesian uncertainty, not an exhaustive static spreadsheet.
 - **(D) is incorrect**: CIRL is a rigorous game-theoretic and Bayesian reinforcement learning formulation, not a reversion to manual abacus hardware.
 
 **Primary Textual Reference**: Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control* (Viking, 2019), Chapters 6 and 7; Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel, and Anca Dragan, "Cooperative Inverse Reinforcement Learning", in *Advances in Neural Information Processing Systems (NeurIPS)* 29 (2016).
@@ -314,8 +314,8 @@ James Moor's 2006 framework, further developed by Wallach and Allen in *Moral Ma
 In *What We Owe the Future* (2022), philosopher William MacAskill warns of the catastrophic threat of **"Value Lock-In"** under artificial general intelligence. What is Value Lock-In, and how does it intersect with Derek Parfit's **Repugnant Conclusion** in population ethics?
 
 - (A) Value Lock-In occurs when a single, specific set of moral, political, or economic values becomes permanently entrenched across human civilization via superintelligent surveillance and automated governance; if an AI optimizes under classical total utilitarianism, it will rationally bring about the **Repugnant Conclusion**—multiplying digital conscious minds to astronomical numbers ($10^{50}$ digital beings) living lives barely worth living, permanently foreclosing moral progress and locking humanity into a bleak cosmic optimum.
-- (B) Value lock-in means that computer passwords cannot be reset after an employee leaves a company.
-- (C) The repugnant conclusion states that all computers will eventually emit foul-smelling exhaust fumes.
+- (B) The repugnant conclusion states that all computers will eventually emit foul-smelling exhaust fumes.
+- (C) Value lock-in means that computer passwords cannot be reset after an employee leaves a company.
 - (D) MacAskill argues that values can never be locked in because history is completely random.
 
 **Correct Answer**: **(A)**
@@ -334,8 +334,8 @@ The intersection of superintelligence, value lock-in, and population ethics (Mac
    - It will convert planets into server racks to instantiate trillions upon trillions of minimally happy digital minds running at low voltage to maximize the aggregate total, permanently locking in the Repugnant Conclusion across the cosmos.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Trivial corporate IT authentication procedure.
-- **(C) is incorrect**: Humorous literalization of the word "repugnant".
+- **(B) is incorrect**: Humorous literalization of the word "repugnant".
+- **(C) is incorrect**: Trivial corporate IT authentication procedure.
 - **(D) is incorrect**: The entire thesis of MacAskill’s book is that our era is exceptionally plastic, meaning our actions can irreversibly lock in trajectories.
 
 **Primary Textual Reference**: William MacAskill, *What We Owe the Future* (Basic Books, 2022), Chapter 4 ("Value Lock-In"); Derek Parfit, *Reasons and Persons* (Oxford University Press, 1984), Part IV; Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014).
@@ -349,12 +349,12 @@ The intersection of superintelligence, value lock-in, and population ethics (Mac
 
 With the advent of high-resolution generative AI decoders capable of reconstructing continuous language and mental images directly from non-invasive fMRI and EEG signals (Tang et al., *Nature Neuroscience* 2023), legal scholars and neuroscientists argue that international human rights frameworks are obsolete. In response, Rafael Yuste's Neurorights Foundation and Nita Farahany propose a new fundamental human right to **Cognitive Liberty**. What are the four core pillars of **Neuro-Rights**?
 
-- (A) The Right to **Mental Privacy** (neural data cannot be recorded or commodified without explicit consent), the Right to **Cognitive Liberty / Mental Self-Determination** (freedom to alter or preserve one's mental states without state/corporate coercion), the Right to **Mental Integrity** (protection against malicious alteration of neural pathways), and the Right to **Psychological Continuity** (protection against external manipulation of one's identity and personal memory).
-- (B) The Right to free laptops, the Right to free Wi-Fi, the Right to free video games, and the Right to free soda.
+- (A) The Right to free laptops, the Right to free Wi-Fi, the Right to free video games, and the Right to free soda.
+- (B) Neuro-rights require that all neurosurgeons be replaced by automated humanoid robots by 2025.
 - (C) The Right to replace biological brains with silicon chips before the age of 18.
-- (D) Neuro-rights require that all neurosurgeons be replaced by automated humanoid robots by 2025.
+- (D) The Right to **Mental Privacy** (neural data cannot be recorded or commodified without explicit consent), the Right to **Cognitive Liberty / Mental Self-Determination** (freedom to alter or preserve one's mental states without state/corporate coercion), the Right to **Mental Integrity** (protection against malicious alteration of neural pathways), and the Right to **Psychological Continuity** (protection against external manipulation of one's identity and personal memory).
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(D)**
 
 #### Philosophical Grounding & Demonstration:
 The neuro-rights movement (Yuste et al. 2017; Farahany 2023; Ienca & Andorno 2017) represents the frontier of legal philosophy in response to neuro-AI interfaces:
@@ -371,9 +371,9 @@ The neuro-rights movement (Yuste et al. 2017; Farahany 2023; Ienca & Andorno 201
    - In 2021, the Republic of Chile became the first nation in world history to amend its national constitution to explicitly enshrine Neuro-Rights as fundamental human rights.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Consumer hardware entitlements, completely unrelated to philosophical neuroethics.
+- **(A) is incorrect**: Consumer hardware entitlements, completely unrelated to philosophical neuroethics.
+- **(B) is incorrect**: Fictional occupational mandate.
 - **(C) is incorrect**: Extreme transhumanist policy, not human-rights protection.
-- **(D) is incorrect**: Fictional occupational mandate.
 
 **Primary Textual Reference**: Rafael Yuste et al., "Four Ethical Priorities for Neurotechnologies and AI", *Nature* 551, no. 7679 (2017): 159–163; Nita A. Farahany, *The Battle for Your Brain: Defending the Right to Think Freely in the Age of Neurotechnology* (St. Martin's Press, 2023); Marcello Ienca and Roberto Andorno, "Towards New Human Rights in the Age of Neuroscience and Neurotechnology", *Life Sciences, Society and Policy* 13, no. 1 (2017): 5.
 
@@ -386,12 +386,12 @@ The neuro-rights movement (Yuste et al. 2017; Farahany 2023; Ienca & Andorno 201
 
 In corporate law and institutional economics, the **Principal-Agent Problem** arises when an agent has the authority to make decisions on behalf of a principal, but possesses divergent incentives and private information. How does the widespread delegation of strategic corporate decisions (e.g., algorithmic high-frequency trading, automated hiring, supply chain optimization, and executive pricing) to opaque deep learning systems create an unprecedented **Epistemic Principal-Agent Crisis**?
 
-- (A) Corporate directors and fiduciaries have a legal **Duty of Care and Loyalty** to monitor and understand firm risks; when strategic decisions are delegated to opaque, non-linear deep models, directors experience total **information asymmetry and epistemic alienation**—they cannot explain how the algorithm generates profits or whether it exploits illegal market manipulation (e.g., tacit algorithmic collusion), effectively eroding legal fiduciary liability and eviscerating corporate governance into an unreviewable computational black box.
-- (B) The principal-agent problem occurs because the CEO of the company is physically locked inside an algorithm.
+- (A) Corporate law mandates that all artificial intelligence models be fired after working for 6 months.
+- (B) Corporate directors and fiduciaries have a legal **Duty of Care and Loyalty** to monitor and understand firm risks; when strategic decisions are delegated to opaque, non-linear deep models, directors experience total **information asymmetry and epistemic alienation**—they cannot explain how the algorithm generates profits or whether it exploits illegal market manipulation (e.g., tacit algorithmic collusion), effectively eroding legal fiduciary liability and eviscerating corporate governance into an unreviewable computational black box.
 - (C) AI systems refuse to accept payment in stock options, demanding paper banknotes.
-- (D) Corporate law mandates that all artificial intelligence models be fired after working for 6 months.
+- (D) The principal-agent problem occurs because the CEO of the company is physically locked inside an algorithm.
 
-**Correct Answer**: **(A)**
+**Correct Answer**: **(B)**
 
 #### Philosophical Grounding & Demonstration:
 The delegation of governance to algorithmic architectures (Armour et al. 2022; Pasquale 2020) exposes a profound rupture in institutional legal theory:
@@ -411,8 +411,8 @@ The delegation of governance to algorithmic architectures (Armour et al. 2022; P
    - This creates an accountability vacuum: the firm profits from algorithmic predation while shielding human executives behind a veil of epistemic incapacity.
 
 #### Distractor Analysis:
-- **(B) is incorrect**: Absurd literalization of a human executive trapped inside code.
+- **(A) is incorrect**: Corporate governance law contains no such termination rule.
 - **(C) is incorrect**: Software algorithms do not negotiate personal compensation packages.
-- **(D) is incorrect**: Corporate governance law contains no such termination rule.
+- **(D) is incorrect**: Absurd literalization of a human executive trapped inside code.
 
 **Primary Textual Reference**: John Armour, Colin Mayer, and Luca Enriques, "Corporate Governance and Artificial Intelligence", *Oxford Review of Economic Policy* 38, no. 2 (2022): 332–348; Emilio Calvano, Giacomo Calzolari, Vincenzo Denicolò, and Sergio Pastorello, "Artificial Intelligence, Algorithmic Pricing, and Collusion", *American Economic Review* 110, no. 10 (2020): 3267–3297.
