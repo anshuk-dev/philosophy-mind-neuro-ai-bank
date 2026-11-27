@@ -19,7 +19,7 @@ window.MIND_AI_DATA = {
   },
   "questions": [
     {
-      "id": "01_Basic_Foundations.md_2",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q1",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -40,7 +40,7 @@ window.MIND_AI_DATA = {
       "reference": "René Descartes and Princess Elisabeth of Bohemia, *The Correspondence between Princess Elisabeth of Bohemia and René Descartes*, ed. and trans. Lisa Shapiro (University of Chicago Press, 2007), pp. 61–68."
     },
     {
-      "id": "01_Basic_Foundations.md_3",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q2",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -61,7 +61,7 @@ window.MIND_AI_DATA = {
       "reference": "Gilbert Ryle, *The Concept of Mind* (London: Hutchinson, 1949), Chapter 1: \"Descartes' Myth,\" Section 2: \"The Category Mistake,\" pp. 11–24."
     },
     {
-      "id": "01_Basic_Foundations.md_4",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q3",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -82,7 +82,7 @@ window.MIND_AI_DATA = {
       "reference": "U.T. Place, \"Is Consciousness a Brain Process?\", *British Journal of Psychology* 47(1) (1956): 44–50; J.J.C. Smart, \"Sensations and Brain Processes\", *Philosophical Review* 68(2) (1959): 141–156."
     },
     {
-      "id": "01_Basic_Foundations.md_5",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q4",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -103,7 +103,7 @@ window.MIND_AI_DATA = {
       "reference": "Hilary Putnam, \"Psychological Predicates\", in *Art, Mind, and Religion*, ed. W.H. Capitan and D.D. Merrill (University of Pittsburgh Press, 1967); reprinted as \"The Nature of Mental States\", in Putnam, *Mind, Language, and Reality: Philosophical Papers*, Vol. 2 (Cambridge University Press, 1975), pp. 429–440."
     },
     {
-      "id": "01_Basic_Foundations.md_6",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q5",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -124,7 +124,7 @@ window.MIND_AI_DATA = {
       "reference": "Frank Jackson, \"Epiphenomenal Qualia\", *Philosophical Quarterly* 32(127) (1982): 127–136; and Frank Jackson, \"What Mary Didn't Know\", *Journal of Philosophy* 83(5) (1986): 291–295."
     },
     {
-      "id": "01_Basic_Foundations.md_7",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q6",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -145,7 +145,7 @@ window.MIND_AI_DATA = {
       "reference": "Thomas H. Huxley, \"On the Hypothesis that Animals are Automata, and Its History\", *Fortnightly Review* 16 (1874): 555–580; C. D. Broad, *The Mind and Its Place in Nature* (Routledge & Kegan Paul, 1925), Chapter 3."
     },
     {
-      "id": "01_Basic_Foundations.md_8",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q7",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -166,7 +166,7 @@ window.MIND_AI_DATA = {
       "reference": "Baruch Spinoza, *Ethics* (1677), Parts I and II, esp. Part II, Propositions 1–7; Edwin Curley, *Behind the Geometrical Method: A Reading of Spinoza's Ethics* (Princeton University Press, 1988)."
     },
     {
-      "id": "01_Basic_Foundations.md_9",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q8",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -187,7 +187,7 @@ window.MIND_AI_DATA = {
       "reference": "Nicolas Malebranche, *The Search after Truth* (*De la recherche de la vérité*, 1674–1675), Book VI, Part II, Chapter 3; Steven Nadler, *Malebranche and Ideas* (Oxford University Press, 1992)."
     },
     {
-      "id": "01_Basic_Foundations.md_10",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q9",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -208,7 +208,7 @@ window.MIND_AI_DATA = {
       "reference": "Gottfried Wilhelm Leibniz, *A New System of the Nature and the Communication of Substances* (1695); G. W. Leibniz, *The Monadology* (1714), §§ 78–81."
     },
     {
-      "id": "01_Basic_Foundations.md_11",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q10",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -229,7 +229,7 @@ window.MIND_AI_DATA = {
       "reference": "Hilary Putnam, \"Brains and Behaviour\", in *Analytical Philosophy: Second Series*, ed. R. J. Butler (Blackwell, 1965), pp. 1–19 (originally presented 1963)."
     },
     {
-      "id": "01_Basic_Foundations.md_12",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q11",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -250,7 +250,7 @@ window.MIND_AI_DATA = {
       "reference": "Franz Brentano, *Psychology from an Empirical Standpoint* (*Psychologie vom empirischen Standpunkte*, 1874), Book II, Chapter 1; Roderick M. Chisholm, *Perceiving: A Philosophical Study* (Cornell University Press, 1957)."
     },
     {
-      "id": "01_Basic_Foundations.md_13",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q12",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -271,7 +271,7 @@ window.MIND_AI_DATA = {
       "reference": "Alfred North Whitehead, *Process and Reality: An Essay in Cosmology* (Macmillan, 1929 / Free Press, 1978); William James, *The Principles of Psychology* (Henry Holt, 1890), Chapter 6 (\"The Mind-Stuff Theory\"); Galen Strawson, \"Realistic Monism: Why Physicalism Entails Panpsychism\", *Journal of Consciousness Studies* 13, no. 10–11 (2006): 3–31."
     },
     {
-      "id": "01_Basic_Foundations.md_14",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q13",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -292,7 +292,7 @@ window.MIND_AI_DATA = {
       "reference": "Baruch Spinoza, *Ethics*, Part II (\"On the Nature and Origin of the Mind\"), Proposition 7 and Scholium; Part III, Proposition 2; Edwin Curley, *Behind the Geometrical Method: A Reading of Spinoza's Ethics* (Princeton University Press, 1988)."
     },
     {
-      "id": "01_Basic_Foundations.md_15",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q14",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -313,7 +313,7 @@ window.MIND_AI_DATA = {
       "reference": "Gottfried Wilhelm Leibniz, *Monadology* (1714), §17; Nicholas Rescher, *G. W. Leibniz's Monadology: An Edition for Students* (University of Pittsburgh Press, 1991)."
     },
     {
-      "id": "01_Basic_Foundations.md_16",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q15",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -334,7 +334,7 @@ window.MIND_AI_DATA = {
       "reference": "Thomas Henry Huxley, \"On the Hypothesis that Animals are Automata, and Its History\", *Fortnightly Review* 16 (1874): 555–580; William Robinson, *Understanding Epiphenomenalism* (MIT Press, 2004)."
     },
     {
-      "id": "01_Basic_Foundations.md_17",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q16",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -355,7 +355,7 @@ window.MIND_AI_DATA = {
       "reference": "U.T. Place, \"Is Consciousness a Brain Process?\", *British Journal of Psychology* 47, no. 1 (1956): 44–50; J.J.C. Smart, \"Sensations and Brain Processes\", *Philosophical Review* 68, no. 2 (1959): 141–156."
     },
     {
-      "id": "01_Basic_Foundations.md_18",
+      "id": "01_PHILOSOPHY_OF_MIND__01_Basic_Foundations_Q17",
       "filename": "01_Basic_Foundations.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -376,7 +376,7 @@ window.MIND_AI_DATA = {
       "reference": "Gilbert Ryle, *The Concept of Mind* (Hutchinson, 1949), Chapter 2 (\"Knowing How and Knowing That\"); Jason Stanley and Timothy Williamson, \"Knowing How\", *Journal of Philosophy* 98, no. 8 (2001): 411–444."
     },
     {
-      "id": "02_Moderate_Systematics.md_2",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q1",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -397,7 +397,7 @@ window.MIND_AI_DATA = {
       "reference": "Ned Block, \"Troubles with Functionalism\", in *Perception and Cognition: Issues in the Foundations of Psychology*, Minnesota Studies in the Philosophy of Science, Vol. 9, ed. C.W. Savage (University of Minnesota Press, 1978), pp. 261–325."
     },
     {
-      "id": "02_Moderate_Systematics.md_3",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q2",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -418,7 +418,7 @@ window.MIND_AI_DATA = {
       "reference": "David Lewis, \"What Experience Teaches\", *Proceedings of the Russellian Society* (1988); reprinted in *Mind and Cognition*, ed. W.G. Lycan (Blackwell, 1990), pp. 499–519; Laurence Nemirow, \"Review of Thomas Nagel's *Mortal Questions*\", *Philosophical Review* 89(3) (1980): 473–477."
     },
     {
-      "id": "02_Moderate_Systematics.md_4",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q3",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -439,7 +439,7 @@ window.MIND_AI_DATA = {
       "reference": "Thomas Nagel, \"What is it like to be a bat?\", *Philosophical Review* 83(4) (1974): 435–450."
     },
     {
-      "id": "02_Moderate_Systematics.md_5",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q4",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -460,7 +460,7 @@ window.MIND_AI_DATA = {
       "reference": "John Searle, \"Minds, Brains, and Programs\", *Behavioral and Brain Sciences* 3(3) (1980): 417–457."
     },
     {
-      "id": "02_Moderate_Systematics.md_6",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q5",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -481,7 +481,7 @@ window.MIND_AI_DATA = {
       "reference": "Sydney Shoemaker, \"The Inverted Spectrum\", *Journal of Philosophy* 79, no. 7 (1982): 357–381; John Locke, *An Essay Concerning Human Understanding* (1690), Book II, Chapter 32, Section 15; Ned Block, \"Inverted Earth\", *Philosophical Perspectives* 4 (1990): 53–79."
     },
     {
-      "id": "02_Moderate_Systematics.md_7",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q6",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -502,7 +502,7 @@ window.MIND_AI_DATA = {
       "reference": "Donald Davidson, \"Mental Events\", in *Experience and Theory*, ed. L. Foster and J. W. Swanson (University of Massachusetts Press, 1970), reprinted in *Essays on Actions and Events* (Oxford University Press, 1980), pp. 207–227."
     },
     {
-      "id": "02_Moderate_Systematics.md_8",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q7",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -523,7 +523,7 @@ window.MIND_AI_DATA = {
       "reference": "Jerry A. Fodor, *The Language of Thought* (Harvard University Press, 1975); Jerry A. Fodor, *Psychosemantics: The Problem of Meaning in the Philosophy of Mind* (MIT Press, 1987), Chapter 1."
     },
     {
-      "id": "02_Moderate_Systematics.md_9",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q8",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -544,7 +544,7 @@ window.MIND_AI_DATA = {
       "reference": "Tyler Burge, \"Individualism and the Mental\", *Midwest Studies in Philosophy* 4, no. 1 (1979): 73–121; Tyler Burge, *Foundations of Mind* (Oxford University Press, 2007)."
     },
     {
-      "id": "02_Moderate_Systematics.md_10",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q9",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -565,7 +565,7 @@ window.MIND_AI_DATA = {
       "reference": "Colin McGinn, \"Can We Solve the Mind-Body Problem?\", *Mind* 98, no. 391 (1989): 349–366; Colin McGinn, *The Problem of Consciousness* (Blackwell, 1991)."
     },
     {
-      "id": "02_Moderate_Systematics.md_11",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q10",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -586,7 +586,7 @@ window.MIND_AI_DATA = {
       "reference": "Daniel C. Dennett, *The Intentional Stance* (MIT Press / Bradford Books, 1987), Chapters 1 and 2; Daniel C. Dennett, \"True Believers: The Intentional Strategy and Why It Works\", in *Scientific Explanation*, ed. A. F. Heath (Oxford University Press, 1981)."
     },
     {
-      "id": "02_Moderate_Systematics.md_12",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q11",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -607,7 +607,7 @@ window.MIND_AI_DATA = {
       "reference": "Donald Davidson, \"Mental Events\", in *Experience and Theory*, ed. L. Foster and J. W. Swanson (University of Massachusetts Press, 1970); reprinted in *Essays on Actions and Events* (Oxford University Press, 1980), pp. 207–225."
     },
     {
-      "id": "02_Moderate_Systematics.md_13",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q12",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -628,7 +628,7 @@ window.MIND_AI_DATA = {
       "reference": "Saul A. Kripke, *Naming and Necessity* (Harvard University Press, 1980), Lecture III, pp. 144–155; Christopher Hill, *Sensations: A Defense of Type Materialism* (Cambridge University Press, 1991)."
     },
     {
-      "id": "02_Moderate_Systematics.md_14",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q13",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -649,7 +649,7 @@ window.MIND_AI_DATA = {
       "reference": "Tyler Burge, \"Individualism and the Mental\", *Midwest Studies in Philosophy* 4, no. 1 (1979): 73–121; Tyler Burge, *Foundations of Mind: Philosophical Essays, Volume 2* (Oxford University Press, 2007)."
     },
     {
-      "id": "02_Moderate_Systematics.md_15",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q14",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -670,7 +670,7 @@ window.MIND_AI_DATA = {
       "reference": "Jaegwon Kim, *Mind in a Physical World: An Essay on the Mind-Body Problem and Mental Causation* (MIT Press, 1998), Chapter 2 & 3; Jaegwon Kim, *Physicalism, or Something Near Enough* (Princeton University Press, 2005)."
     },
     {
-      "id": "02_Moderate_Systematics.md_16",
+      "id": "01_PHILOSOPHY_OF_MIND__02_Moderate_Systematics_Q15",
       "filename": "02_Moderate_Systematics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -691,7 +691,7 @@ window.MIND_AI_DATA = {
       "reference": "Daniel C. Dennett, *The Intentional Stance* (MIT Press, 1987); Daniel C. Dennett, \"Real Patterns\", *Journal of Philosophy* 88, no. 1 (1991): 27–51."
     },
     {
-      "id": "03_Advance_Dialectics.md_2",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q1",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -712,7 +712,7 @@ window.MIND_AI_DATA = {
       "reference": "Jaegwon Kim, *Mind in a Physical World: An Essay on the Mind-Body Problem and Mental Causation* (MIT Press, 1998), Chapter 2: \"The Causal Exclusion Problem\", pp. 29–56."
     },
     {
-      "id": "03_Advance_Dialectics.md_3",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q2",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -733,7 +733,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, *The Conscious Mind: In Search of a Fundamental Theory* (Oxford University Press, 1996), Chapter 4: \"Naturalistic Dualism\", pp. 131–171; and Chalmers, \"Does Conceivability Entail Possibility?\", in *Conceivability and Possibility*, ed. T. Gendler and J. Hawthorne (Oxford University Press, 2002), pp. 145–200."
     },
     {
-      "id": "03_Advance_Dialectics.md_4",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q3",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -754,7 +754,7 @@ window.MIND_AI_DATA = {
       "reference": "Andy Clark and David J. Chalmers, \"The Extended Mind\", *Analysis* 58(1) (1998): 7–19."
     },
     {
-      "id": "03_Advance_Dialectics.md_5",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q4",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -775,7 +775,7 @@ window.MIND_AI_DATA = {
       "reference": "Ned Block, \"On a Confusion about a Function of Consciousness\", *Behavioral and Brain Sciences* 18, no. 2 (1995): 227–247; Ned Block, \"Comparing the Major Theories of Consciousness\", in *The Cambridge Handbook of Consciousness*, ed. M. Moscovitch et al. (Cambridge University Press, 2007)."
     },
     {
-      "id": "03_Advance_Dialectics.md_6",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q5",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -796,7 +796,7 @@ window.MIND_AI_DATA = {
       "reference": "Sydney Shoemaker, \"Self-Knowledge and 'Inner Sense': Lecture I: The Object Perception Model; Lecture II: The Broad Perceptual Model; Lecture III: The Phenomenal Character of Experience\", *Philosophy and Phenomenological Research* 54, no. 2 (1994): 249–314; Sydney Shoemaker, *The First-Person Perspective and Other Essays* (Cambridge University Press, 1996)."
     },
     {
-      "id": "03_Advance_Dialectics.md_7",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q6",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -817,7 +817,7 @@ window.MIND_AI_DATA = {
       "reference": "John McDowell, *Mind and World* (Harvard University Press, 1994), Lectures I and II; Wilfrid Sellars, *Empiricism and the Philosophy of Mind* (Harvard University Press, 1956/1997)."
     },
     {
-      "id": "03_Advance_Dialectics.md_8",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q7",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -838,7 +838,7 @@ window.MIND_AI_DATA = {
       "reference": "Ruth Garrett Millikan, *Language, Thought, and Other Biological Categories: New Foundations for Realism* (MIT Press, 1984); Ruth Garrett Millikan, \"Biosemantics\", *Journal of Philosophy* 86, no. 6 (1989): 281–297; Fred Dretske, *Explaining Behavior: Reasons in a World of Causes* (MIT Press, 1988)."
     },
     {
-      "id": "03_Advance_Dialectics.md_9",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q8",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -859,7 +859,7 @@ window.MIND_AI_DATA = {
       "reference": "Galen Strawson, \"Realistic Monism: Why Physicalism Entails Panpsychism\", *Journal of Consciousness Studies* 13, no. 10–11 (2006): 3–31; Galen Strawson, *Selves: An Essay in Personal Identity* (Oxford University Press, 2009)."
     },
     {
-      "id": "03_Advance_Dialectics.md_10",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q9",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -880,7 +880,7 @@ window.MIND_AI_DATA = {
       "reference": "Ned Block, \"Inverted Earth\", *Philosophical Perspectives* 4 (1990): 53–79; Ned Block, \"Mental Paint and Mental Latex\", *Philosophical Issues* 7 (1996): 19–49; Michael Tye, *Ten Problems of Consciousness* (MIT Press, 1995)."
     },
     {
-      "id": "03_Advance_Dialectics.md_11",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q10",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -901,7 +901,7 @@ window.MIND_AI_DATA = {
       "reference": "Uriah Kriegel, *Subjective Consciousness: A Self-Representational Theory* (Oxford University Press, 2009); Franz Brentano, *Psychology from an Empirical Standpoint* (1874; Routledge, 1973); David M. Rosenthal, *Consciousness and Mind* (Clarendon Press / Oxford University Press, 2005)."
     },
     {
-      "id": "03_Advance_Dialectics.md_12",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q11",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -922,7 +922,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, *The Conscious Mind: In Search of a Fundamental Theory* (Oxford University Press, 1996), Chapter 4; David J. Chalmers, \"The Two-Dimensional Argument Against Materialism\", in *The Character of Consciousness* (Oxford University Press, 2010), pp. 141–206."
     },
     {
-      "id": "03_Advance_Dialectics.md_13",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q12",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -943,7 +943,7 @@ window.MIND_AI_DATA = {
       "reference": "Sydney Shoemaker, *Physical Realization* (Oxford University Press, 2007); Sydney Shoemaker, \"Realization and Mental Causation\", in *Physicalism and Mental Causation*, ed. Sven Walter and Heinz-Dieter Heckmann (Imprint Academic, 2003), pp. 321–333."
     },
     {
-      "id": "03_Advance_Dialectics.md_14",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q13",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -964,7 +964,7 @@ window.MIND_AI_DATA = {
       "reference": "Ned Block, \"On a Confusion about a Function of Consciousness\", *Behavioral and Brain Sciences* 18, no. 2 (1995): 227–247."
     },
     {
-      "id": "03_Advance_Dialectics.md_15",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q14",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -985,7 +985,7 @@ window.MIND_AI_DATA = {
       "reference": "Christopher Peacocke, *A Study of Concepts* (MIT Press, 1992); John McDowell, *Mind and World* (Harvard University Press, 1994); Christopher Peacocke, \"Does Perception Have a Nonconceptual Content?\", *Journal of Philosophy* 98, no. 5 (2001): 239–264."
     },
     {
-      "id": "03_Advance_Dialectics.md_16",
+      "id": "01_PHILOSOPHY_OF_MIND__03_Advance_Dialectics_Q15",
       "filename": "03_Advance_Dialectics.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1006,7 +1006,7 @@ window.MIND_AI_DATA = {
       "reference": "Carl G. Hempel, \"Comments on Goodman's Ways of Worldmaking\", *Synthese* 45, no. 2 (1980): 193–199; Tim Crane and D. H. Mellor, \"There is No Question of Physicalism\", *Mind* 99, no. 394 (1990): 185–206."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_2",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q1",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1027,7 +1027,7 @@ window.MIND_AI_DATA = {
       "reference": "Adrien Doerig, Aaron Schurger, Kathryn Hess, and Michael H. Herzog, \"The Unfolding Argument: Why Causal Theories of Consciousness Cannot Be Empirically Tested\", *Consciousness and Cognition* 72 (2019): 49–59; Giulio Tononi, \"Integrated Information Theory: From Consciousness to Its Physical Substrate\", *Nature Reviews Neuroscience* 17(7) (2016): 450–461."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_3",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q2",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1048,7 +1048,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"The Combination Problem for Panpsychism\", in *Panpsychism: Contemporary Perspectives*, ed. G. Bruntrup and L. Jaskolla (Oxford University Press, 2016), pp. 179–214; William James, *The Principles of Psychology* (Henry Holt, 1890), Chapter 6: \"The Mind-Stuff Theory\", pp. 158–162."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_4",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q3",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1069,7 +1069,7 @@ window.MIND_AI_DATA = {
       "reference": "David M. Rosenthal, *Consciousness and Mind* (Oxford University Press, 2005), Chapter 7: \"Sensory Quality and the Contents of Higher-Order Thoughts\"; Ned Block, \"The Higher Order Approach to Consciousness is Defunct\", *Analysis* 71(3) (2011): 419–431."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_5",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q4",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1090,7 +1090,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"Consciousness and its Place in Nature\", in *Philosophy of Mind: Classical and Contemporary Readings*, ed. D. J. Chalmers (Oxford University Press, 2002), pp. 247–272; reprinted in *The Character of Consciousness* (Oxford University Press, 2010), Chapter 3."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_6",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q5",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1111,7 +1111,7 @@ window.MIND_AI_DATA = {
       "reference": "Saul A. Kripke, *Naming and Necessity* (Harvard University Press, 1980), Lecture III, pp. 144–155; originally published in *Semantics of Natural Language*, ed. D. Davidson and G. Harman (D. Reidel, 1972)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_7",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q6",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1132,7 +1132,7 @@ window.MIND_AI_DATA = {
       "reference": "Keith Frankish, \"Illusionism as a Theory of Consciousness\", *Journal of Consciousness Studies* 23, no. 11–12 (2016): 11–39; Daniel C. Dennett, *Consciousness Explained* (Little, Brown and Co., 1991); Derk Pereboom, *Consciousness and the Prospects of Physicalism* (Oxford University Press, 2011)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_8",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q7",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1153,7 +1153,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"The Meta-Problem of Consciousness\", *Journal of Consciousness Studies* 25, no. 9–10 (2018): 6–61; see also the open-peer commentaries in the same volume."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_9",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q8",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1174,7 +1174,7 @@ window.MIND_AI_DATA = {
       "reference": "Bertrand Russell, *The Analysis of Matter* (Kegan Paul, 1927), Chapter 36 (\"The Interpretation of Physics\"); Arthur Eddington, *The Nature of the Physical World* (Cambridge University Press, 1928); David J. Chalmers, \"Panpsychism and Panprotopsychism\", in *The Conscious Mind in Action*, ed. G. Bruntrup and L. Jaskolla (Oxford University Press, 2013)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_10",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q9",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1195,7 +1195,7 @@ window.MIND_AI_DATA = {
       "reference": "Adrien Doerig, Aaron Schurger, Kathryn Hessinger, and Michael H. Herzog, \"The Unfolding Argument: Why IIT and Other Causal Structure Theories Cannot Explain Consciousness\", *Proceedings of the National Academy of Sciences* 116, no. 49 (2019): 24397–24404; Larissa Albantakis et al., \"Integrated Information Theory (IIT) 4.0: Formulating the Properties of Phenomenal Existence in Physical Terms\", *PLOS Computational Biology* 19, no. 10 (2023): e1011465."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_11",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q10",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1216,7 +1216,7 @@ window.MIND_AI_DATA = {
       "reference": "The Cogitate Consortium et al., \"An Adversarial Collaboration to Critically Evaluate Theories of Consciousness\", *bioRxiv / Nature* (2023); Stanislas Dehaene, *Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts* (Viking, 2014); Christof Koch, *The Feeling of Life Itself: Why Consciousness Is Widespread but Can't Be Computed* (MIT Press, 2019)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_12",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q11",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1237,7 +1237,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"The Combination Problem for Panpsychism\", in *Panpsychism: Contemporary Perspectives*, ed. Godehard Brüntrup and Ludwig Jaskolla (Oxford University Press, 2016), pp. 179–214; Philip Goff, *Consciousness and Fundamental Reality* (Oxford University Press, 2017); Yujin Nagasawa, *Maximal God: A New Defence of Perfect Being Theism* (Oxford University Press, 2017)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_13",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q12",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1258,7 +1258,7 @@ window.MIND_AI_DATA = {
       "reference": "Daniel D. Hutto and Erik Myin, *Radicalizing Enactivism: Basic Minds without Content* (MIT Press, 2013); Daniel D. Hutto and Erik Myin, *Evolving Enactivism: Basic Minds Meet Content* (MIT Press, 2017)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_14",
+      "id": "01_PHILOSOPHY_OF_MIND__04_Conceptually_Hard_Frontiers_Q13",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "01_PHILOSOPHY_OF_MIND",
       "is_mock": false,
@@ -1279,7 +1279,7 @@ window.MIND_AI_DATA = {
       "reference": "Terry Horgan and John Tienson, \"The Intentionality of Phenomenology and the Phenomenology of Intentionality\", in *Philosophy of Mind: Classical and Contemporary Readings*, ed. D. J. Chalmers (Oxford University Press, 2002), pp. 520–533; Terry Horgan, John Tienson, and George Graham, \"Phenomenal Intentionality and the Brain in a Vat\", in *The Externalist Challenge*, ed. Richard Schantz (de Gruyter, 2004), pp. 297–318; Uriah Kriegel (ed.), *Phenomenal Intentionality* (Oxford University Press, 2013)."
     },
     {
-      "id": "01_Basic_Foundations.md_2",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q1",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1300,7 +1300,7 @@ window.MIND_AI_DATA = {
       "reference": "Patricia Smith Churchland, *Neurophilosophy: Toward a Unified Science of the Mind-Brain* (MIT Press, Bradford Books, 1986), Chapter 9: \"A Co-Evolutionary Research Strategy\", pp. 361–399."
     },
     {
-      "id": "01_Basic_Foundations.md_3",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q2",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1321,7 +1321,7 @@ window.MIND_AI_DATA = {
       "reference": "Paul M. Churchland, \"Eliminative Materialism and the Propositional Attitudes\", *Journal of Philosophy* 78(2) (1981): 67–90."
     },
     {
-      "id": "01_Basic_Foundations.md_4",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q3",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1342,7 +1342,7 @@ window.MIND_AI_DATA = {
       "reference": "Thomas Nagel, \"Brain Bisection and the Unity of Consciousness\", *Synthese* 22(3/4) (1971): 396–413."
     },
     {
-      "id": "01_Basic_Foundations.md_5",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q4",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1363,7 +1363,7 @@ window.MIND_AI_DATA = {
       "reference": "Wilder Penfield and Theodore Rasmussen, *The Cerebral Cortex of Man: A Clinical Study of Localization of Function* (Macmillan, 1950); Wilder Penfield, *The Mystery of the Mind: A Critical Study of Consciousness and the Human Brain* (Princeton University Press, 1975)."
     },
     {
-      "id": "01_Basic_Foundations.md_6",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q5",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1384,7 +1384,7 @@ window.MIND_AI_DATA = {
       "reference": "Antonio R. Damasio, *Descartes' Error: Emotion, Reason, and the Human Brain* (G. P. Putnam's Sons, 1994), Chapters 1–3 (\"Phineas P. Gage\") and Chapter 8 (\"The Somatic-Marker Hypothesis\"); Hanna Damasio et al., \"The Return of Phineas Gage\", *Science* 264, no. 5162 (1994): 1102–1105."
     },
     {
-      "id": "01_Basic_Foundations.md_7",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q6",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1405,7 +1405,7 @@ window.MIND_AI_DATA = {
       "reference": "Lawrence Weiskrantz, *Blindsight: A Case Study and Implications* (Oxford University Press, 1986); Lawrence Weiskrantz, *Consciousness Lost and Found: A Neuropsychological Exploration* (Oxford University Press, 1997)."
     },
     {
-      "id": "01_Basic_Foundations.md_8",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q7",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1426,7 +1426,7 @@ window.MIND_AI_DATA = {
       "reference": "Gabriel Anton, \"Über die Selbstwahrnehmung der Herderkrankungen des Gehirns durch den Kranken\", *Archiv für Psychiatrie und Nervenkrankheiten* 32 (1899): 86–127; Charles Bonnet, *Essai analytique sur les facultés de l'âme* (1760); Dominic H. ffytche et al., \"The Anatomy of Conscious Vision: An fMRI Study of Visual Hallucinations\", *Nature Neuroscience* 1, no. 8 (1998): 738–742."
     },
     {
-      "id": "01_Basic_Foundations.md_9",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q8",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1447,7 +1447,7 @@ window.MIND_AI_DATA = {
       "reference": "Antonio R. Damasio, *Descartes' Error: Emotion, Reason, and the Human Brain* (G. P. Putnam's Sons, 1994); Antoine Bechara, Antonio R. Damasio, Hanna Damasio, and Steven W. Anderson, \"Insensitivity to Future Consequences Following Damage to Human Prefrontal Cortex\", *Cognition* 50, no. 1–3 (1994): 7–15; Antoine Bechara et al., \"Deciding Advantageously Before Knowing the Advantageous Strategy\", *Science* 275, no. 5304 (1997): 1293–1295."
     },
     {
-      "id": "01_Basic_Foundations.md_10",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q9",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1468,7 +1468,7 @@ window.MIND_AI_DATA = {
       "reference": "Patricia Smith Churchland, *Neurophilosophy: Toward a Unified Science of the Mind-Brain* (MIT Press, 1986), Chapter 9 (\"The Co-Evolutionary Research Strategy\")."
     },
     {
-      "id": "01_Basic_Foundations.md_11",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q10",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1489,7 +1489,7 @@ window.MIND_AI_DATA = {
       "reference": "Benjamin Libet, Curtis A. Gleason, Elwood W. Wright, and Dennis K. Pearl, \"Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity (Readiness-Potential)\", *Brain* 106, no. 3 (1983): 623–642; Benjamin Libet, *Mind Time: The Temporal Factor in Consciousness* (Harvard University Press, 2004)."
     },
     {
-      "id": "01_Basic_Foundations.md_12",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q11",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1510,7 +1510,7 @@ window.MIND_AI_DATA = {
       "reference": "Michael S. Gazzaniga, \"The Split Brain in Man\", *Scientific American* 217, no. 2 (1967): 24–29; Thomas Nagel, \"Brain Bisection and the Unity of Consciousness\", *Synthese* 22, no. 3/4 (1971): 396–413."
     },
     {
-      "id": "01_Basic_Foundations.md_13",
+      "id": "02_NEUROPHILOSOPHY__01_Basic_Foundations_Q12",
       "filename": "01_Basic_Foundations.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1531,7 +1531,7 @@ window.MIND_AI_DATA = {
       "reference": "Paul M. Churchland, \"Eliminative Materialism and the Propositional Attitudes\", *Journal of Philosophy* 78, no. 2 (1981): 67–90; Paul M. Churchland, *A Neurocomputational Perspective: The Nature of Mind and the Structure of Science* (MIT Press, 1989)."
     },
     {
-      "id": "02_Moderate_Systematics.md_2",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q1",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1552,7 +1552,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"What is a Neural Correlate of Consciousness?\", in *Neural Correlates of Consciousness: Empirical and Conceptual Questions*, ed. T. Metzinger (MIT Press, 2000), pp. 17–40; Christof Koch, *The Quest for Consciousness: A Neurobiological Approach* (Roberts & Company, 2004), Chapter 2: \"Neurons, the Atoms of Perception\"."
     },
     {
-      "id": "02_Moderate_Systematics.md_3",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q2",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1573,7 +1573,7 @@ window.MIND_AI_DATA = {
       "reference": "Benjamin Libet, \"Do We Have Free Will?\", *Journal of Consciousness Studies* 6(8–9) (1999): 47–57; and Benjamin Libet, C.A. Gleason, E.W. Wright, and D.K. Pearl, \"Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity (Readiness-Potential)\", *Brain* 106(3) (1983): 623–642."
     },
     {
-      "id": "02_Moderate_Systematics.md_4",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q3",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1594,7 +1594,7 @@ window.MIND_AI_DATA = {
       "reference": "Christof Koch and Naotsugu Tsuchiya, \"Attention and Consciousness: Two Distinct Brain Processes\", *Trends in Cognitive Sciences* 11(1) (2007): 16–22; and David L. Sheinberg and Nikos K. Logothetis, \"The Role of Temporal Cortical Areas in Perceptual Organization\", *Proceedings of the National Academy of Sciences* 94(7) (1997): 3408–3413."
     },
     {
-      "id": "02_Moderate_Systematics.md_5",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q4",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1615,7 +1615,7 @@ window.MIND_AI_DATA = {
       "reference": "Stanislas Dehaene, *Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts* (Viking, 2014); Christof Koch, Marcello Massimini, Melanie Boly, and Giulio Tononi, \"Neural Correlates of Consciousness: Progress and Problems\", *Nature Reviews Neuroscience* 17, no. 5 (2016): 307–321; Melanie Boly et al., \"Are the Neural Correlates of Consciousness in the Front or in the Back of the Cerebral Cortex? Clinical and Neuroimaging Evidence\", *Journal of Neuroscience* 37, no. 40 (2017): 9603–9613."
     },
     {
-      "id": "02_Moderate_Systematics.md_6",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q5",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1636,7 +1636,7 @@ window.MIND_AI_DATA = {
       "reference": "Michael S. Gazzaniga, *The Social Brain: Discovering the Networks of the Mind* (Basic Books, 1985); Michael S. Gazzaniga, *Who's in Charge? Free Will and the Science of the Brain* (HarperCollins, 2011), Chapter 3 (\"The Interpreter\")."
     },
     {
-      "id": "02_Moderate_Systematics.md_7",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q6",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1657,7 +1657,7 @@ window.MIND_AI_DATA = {
       "reference": "Chun Siong Soon, Marcel Brass, Hans-Jochen Heinze, and John-Dylan Haynes, \"Unconscious Determinants of Free Decisions in the Human Brain\", *Nature Neuroscience* 11, no. 5 (2008): 543–545."
     },
     {
-      "id": "02_Moderate_Systematics.md_8",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q7",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1678,7 +1678,7 @@ window.MIND_AI_DATA = {
       "reference": "V. S. Ramachandran and Sandra Blakeslee, *Phantoms in the Brain: Probing the Mysteries of the Human Mind* (William Morrow & Co., 1998), Chapters 2 and 3; V. S. Ramachandran and D. Rogers-Ramachandran, \"Synaesthesia in Phantom Limbs Induced with Mirrors\", *Proceedings of the Royal Society of London. Series B: Biological Sciences* 263, no. 1369 (1996): 377–386."
     },
     {
-      "id": "02_Moderate_Systematics.md_9",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q8",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1699,7 +1699,7 @@ window.MIND_AI_DATA = {
       "reference": "William Bechtel and Adele Abrahamsen, \"Explanation: A Mechanist Alternative\", *Studies in History and Philosophy of Biological and Biomedical Sciences* 36, no. 2 (2005): 421–441; William Bechtel, *Mental Mechanisms: Philosophical Perspectives on Cognitive Neuroscience* (Routledge, 2008)."
     },
     {
-      "id": "02_Moderate_Systematics.md_10",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q9",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1720,7 +1720,7 @@ window.MIND_AI_DATA = {
       "reference": "John Bickle, *Philosophy and Neuroscience: A Ruthlessly Reductive Approach* (Kluwer Academic Publishers, 2003); John Bickle, \"Reducing Mind to Molecular Pathways: Explicating the Reductionism in 'Reduction' in Cognitive Neuroscience\", *Synthese* 151, no. 3 (2006): 411–434."
     },
     {
-      "id": "02_Moderate_Systematics.md_11",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q10",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1741,7 +1741,7 @@ window.MIND_AI_DATA = {
       "reference": "Carl F. Craver, *Explaining the Brain: Mechanisms and the Mosaic Unity of Neuroscience* (Oxford University Press, 2007), Chapter 4 (\"Constitutive Relevance\"); Carl F. Craver, \"The Role of Cellular Models in Understanding the Central Nervous System\", *Philosophy of Science* 69 (2002): S83–S97."
     },
     {
-      "id": "02_Moderate_Systematics.md_12",
+      "id": "02_NEUROPHILOSOPHY__02_Moderate_Systematics_Q11",
       "filename": "02_Moderate_Systematics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1762,7 +1762,7 @@ window.MIND_AI_DATA = {
       "reference": "V.S. Ramachandran and William Hirstein, \"The Perception of Faces and People: The Mind's Window to the World\", *Philosophical Transactions of the Royal Society of London. Series B* 352, no. 1358 (1997): 1219–1224; H. D. Ellis and M. B. Young, \"Accounting for Delusional Misidentifications\", *British Journal of Psychiatry* 157 (1990): 239–248."
     },
     {
-      "id": "03_Advance_Dialectics.md_2",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q1",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1783,7 +1783,7 @@ window.MIND_AI_DATA = {
       "reference": "Andy Clark, \"Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science\", *Behavioral and Brain Sciences* 36(3) (2013): 181–204; and Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013), Chapter 1: \"The Prediction Error Minimization Mechanism\", pp. 13–40."
     },
     {
-      "id": "03_Advance_Dialectics.md_3",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q2",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1804,7 +1804,7 @@ window.MIND_AI_DATA = {
       "reference": "Philip R. Corlett et al., \"Hallucinations and Perceptual Inference\", *Neuron* 102(2) (2019): 300–310; Karl Friston, \"The Free-Energy Principle: A Unified Brain Theory?\", *Nature Reviews Neuroscience* 11(2) (2010): 127–138."
     },
     {
-      "id": "03_Advance_Dialectics.md_4",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q3",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1825,7 +1825,7 @@ window.MIND_AI_DATA = {
       "reference": "Karl Friston, \"The Free-Energy Principle: A Unified Brain Theory?\", *Nature Reviews Neuroscience* 11, no. 2 (2010): 127–138; Karl Friston, \"Active Inference: A Process Theory\", *Neural Computation* 29, no. 1 (2017): 1–49; Andy Clark, *Surfing Uncertainty: Prediction, Action, and the Embodied Mind* (Oxford University Press, 2016)."
     },
     {
-      "id": "03_Advance_Dialectics.md_5",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q4",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1846,7 +1846,7 @@ window.MIND_AI_DATA = {
       "reference": "Harriet Feldman and Karl Friston, \"Attention, Uncertainty, and Free-Energy\", *Frontiers in Human Neuroscience* 4 (2010): 215; Jakob Hohwy, \"Attention and Conscious Perception in the Hypothesis Testing Brain\", *Frontiers in Psychology* 3 (2012): 96; Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013), Chapter 4."
     },
     {
-      "id": "03_Advance_Dialectics.md_6",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q5",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1867,7 +1867,7 @@ window.MIND_AI_DATA = {
       "reference": "Matthew Botvinick and Jonathan Cohen, \"Rubber Hands 'Feel' Touch that Eyes See\", *Nature* 391, no. 6669 (1998): 756; Manos Tsakiris, \"My Body in the Brain: A Neurocognitive Model of Body-Ownership\", *Neuropsychologia* 48, no. 3 (2010): 703–712; Thomas Metzinger, *Being No One: The Self-Model Theory of Subjectivity* (MIT Press, 2003)."
     },
     {
-      "id": "03_Advance_Dialectics.md_7",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q6",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1888,7 +1888,7 @@ window.MIND_AI_DATA = {
       "reference": "Robin L. Carhart-Harris and Karl J. Friston, \"REBUS and the Anarchic Brain: Toward a Unified Model of the Brain Action of Psychedelics\", *Pharmacological Reviews* 71, no. 3 (2019): 316–344; Robin L. Carhart-Harris et al., \"Neural Correlates of the Psychedelic State as Determined by fMRI Studies with Psilocybin\", *Proceedings of the National Academy of Sciences* 109, no. 6 (2012): 2138–2143."
     },
     {
-      "id": "03_Advance_Dialectics.md_8",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q7",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1909,7 +1909,7 @@ window.MIND_AI_DATA = {
       "reference": "Anil K. Seth, *Being You: A New Science of Consciousness* (Dutton / Penguin Random House, 2021), Chapters 8 (\"The Beast Machine\") and 9 (\"Being a Machine\"); Anil K. Seth and Manos Tsakiris, \"Being a Beast Machine: The Somatic Basis of Selfhood\", *Trends in Cognitive Sciences* 22, no. 11 (2018): 969–981."
     },
     {
-      "id": "03_Advance_Dialectics.md_9",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q8",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1930,7 +1930,7 @@ window.MIND_AI_DATA = {
       "reference": "Georg Northoff, *The Spontaneous Brain: From the Mind-Body to the World-Brain Problem* (MIT Press, 2018); Georg Northoff and Zirui Huang, \"How Do the Brain's Time and Space Mediate Consciousness and Its Different Dimensions? Temporo-spatial Theory of Consciousness (TTC)\", *Neuroscience & Biobehavioral Reviews* 80 (2017): 630–645."
     },
     {
-      "id": "03_Advance_Dialectics.md_10",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q9",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1951,7 +1951,7 @@ window.MIND_AI_DATA = {
       "reference": "Karl Friston, \"The Free-Energy Principle: A Unified Brain Theory?\", *Nature Reviews Neuroscience* 11, no. 2 (2010): 127–138; Andy Clark, *Surfing Uncertainty: Prediction, Action, and the Embodied Mind* (Oxford University Press, 2016); Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013)."
     },
     {
-      "id": "03_Advance_Dialectics.md_11",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q10",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1972,7 +1972,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"What is a Neural Correlate of Consciousness?\", in *Neural Correlates of Consciousness: Empirical and Conceptual Questions*, ed. Thomas Metzinger (MIT Press, 2000), pp. 17–39."
     },
     {
-      "id": "03_Advance_Dialectics.md_12",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q11",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -1993,7 +1993,7 @@ window.MIND_AI_DATA = {
       "reference": "Sergio Della Sala, \"The Anarchic Hand\", in *The Cognitive Neuropsychology of Everyday Life*, ed. Tim Shallice (Psychology Press, 1994); Patrick Haggard, \"Human Volition: Towards a Neuroscience of Will\", *Nature Reviews Neuroscience* 9, no. 12 (2008): 934–946; Marc Jeannerod, *Motor Cognition: What Actions Tell the Self* (Oxford University Press, 2006)."
     },
     {
-      "id": "03_Advance_Dialectics.md_13",
+      "id": "02_NEUROPHILOSOPHY__03_Advance_Dialectics_Q12",
       "filename": "03_Advance_Dialectics.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2014,7 +2014,7 @@ window.MIND_AI_DATA = {
       "reference": "Dan Zahavi, *Subjectivity and Selfhood: Investigating the First-Person Perspective* (MIT Press, 2005); Thomas Metzinger, *Being No One: The Self-Model Theory of Subjectivity* (MIT Press, 2003); Shaun Gallagher and Dan Zahavi, *The Phenomenological Mind* (Routledge, 2008)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_2",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q1",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2035,7 +2035,7 @@ window.MIND_AI_DATA = {
       "reference": "Karl Friston, \"Life as We Know It\", *Journal of the Royal Society Interface* 10(86) (2013): 20130475; Jakob Hohwy, \"The Self-Evidencing Brain\", *Noûs* 50(2) (2016): 259–285; Michael Kirchhoff et al., \"The Markov Blankets of Life: Autonomy, Active Inference and the Extended Mind\", *Royal Society Open Science* 5(1) (2018): 171825."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_3",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q2",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2056,7 +2056,7 @@ window.MIND_AI_DATA = {
       "reference": "Alfred R. Mele, *Effective Intentions: The Power of Conscious Will* (Oxford University Press, 2009), Chapter 3: \"Libet's Challenge\", pp. 47–78; Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene, \"An Accumulator Model for Spontaneous Neural Activity Prior to Self-Initiated Movement\", *Proceedings of the National Academy of Sciences* 109(42) (2012): E2904–E2913."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_4",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q3",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2077,7 +2077,7 @@ window.MIND_AI_DATA = {
       "reference": "Karl Friston, \"Free-Energy Principle\", in *Scholarpedia* 4(5): 6984 (2009); Karl Friston, Christopher Thornton, and Andy Clark, \"Free-Energy Minimization and the Dark-Room Problem\", *Frontiers in Psychology* 3 (2012): 130; Colin Klein, \"What Do Predictive Coders Want?\", *Minds and Machines* 28, no. 1 (2018): 2542–2557."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_5",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q4",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2098,7 +2098,7 @@ window.MIND_AI_DATA = {
       "reference": "Aaron Schurger, Jacobo D. Sitt, and Stanislas Dehaene, \"An Accumulator Model for Spontaneous Neural Activity Prior to Self-Initiated Movement\", *Proceedings of the National Academy of Sciences* 109, no. 42 (2012): E2904–E2913; Aaron Schurger et al., \"What Is the Readiness Potential?\", *Trends in Cognitive Sciences* 25, no. 7 (2021): 558–570."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_6",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q5",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2119,7 +2119,7 @@ window.MIND_AI_DATA = {
       "reference": "Daniel C. Dennett and Marcel Kinsbourne, \"Time and the Observer: The Where and When of Consciousness in the Brain\", *Behavioral and Brain Sciences* 15, no. 2 (1992): 183–201; Daniel C. Dennett, *Consciousness Explained* (Little, Brown and Co., 1991), Chapters 5 and 6."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_7",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q6",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2140,7 +2140,7 @@ window.MIND_AI_DATA = {
       "reference": "Christoph D. Mathys et al., \"A Bayesian Foundation for Individual Learning Under Uncertainty\", *Frontiers in Human Neuroscience* 5 (2011): 39; Christoph D. Mathys et al., \"Uncertainty in Perception and the Hierarchical Gaussian Filter\", *Frontiers in Human Neuroscience* 8 (2014): 825; Rick A. Adams, Klaas E. Stephan, Harriet R. Brown, Christopher D. Frith, and Karl J. Friston, \"The Computational Anatomy of Psychosis\", *Frontiers in Psychiatry* 4 (2013): 47."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_8",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q7",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2161,7 +2161,7 @@ window.MIND_AI_DATA = {
       "reference": "Adrien Doerig, Aaron Schurger, Kathryn Hess, and Michael H. Herzog, \"The Unfolding Argument: Why IIT and Other Causal Structure Theories Cannot Explain Consciousness\", *Consciousness and Cognition* 72 (2019): 49–59; Larissa Albantakis et al., \"Integrated Information Theory (IIT) 4.0: Formulating the Properties of Phenomenal Existence in Physical Terms\", *PLOS Computational Biology* 19, no. 10 (2023): e1011465."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_9",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q8",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2182,7 +2182,7 @@ window.MIND_AI_DATA = {
       "reference": "Daniel D. Hutto and Erik Myin, *Radicalizing Enactivism: Basic Minds without Content* (MIT Press, 2013), Chapters 1 (\"The Hard Problem of Content\") and 4; Jakob Hohwy, *The Predictive Mind* (Oxford University Press, 2013); Andy Clark, *Surfing Uncertainty: Prediction, Action, and the Embodied Mind* (Oxford University Press, 2016)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_10",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q9",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2203,7 +2203,7 @@ window.MIND_AI_DATA = {
       "reference": "Fred Adams and Kenneth Aizawa, \"The Bounds of Cognition\", *Nature and System* 14 (2001): 43–64; Fred Adams and Kenneth Aizawa, *The Bounds of Cognition* (Blackwell, 2008); Andy Clark, *Supersizing the Mind: Embodiment, Action, and Cognitive Extension* (Oxford University Press, 2008)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_11",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q10",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2224,7 +2224,7 @@ window.MIND_AI_DATA = {
       "reference": "Jakob Hohwy, \"The Self-Evidencing Brain\", *Noûs* 50, no. 2 (2016): 259–285; Michael D. Kirchhoff, Thomas Parr, Ensor Palacios, Karl Friston, and Julian Kiverstein, \"The Markov Blankets of Life: Autonomy, Active Inference and the Properties of Organisms\", *Journal of the Royal Society Interface* 15, no. 138 (2018): 20170792."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_12",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q11",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2245,7 +2245,7 @@ window.MIND_AI_DATA = {
       "reference": "Carver Mead, \"Neuromorphic Electronic Systems\", *Proceedings of the IEEE* 78, no. 10 (1990): 1629–1636; Dharmendra S. Modha et al., \"A Million Spiking-Neuron Integrated Circuit with a Scalable Communication Network and Interface\", *Science* 345, no. 6197 (2014): 668–673; Gualtiero Piccinini, *Physical Computation: A Mechanistic Approach* (Oxford University Press, 2015)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_13",
+      "id": "02_NEUROPHILOSOPHY__04_Conceptually_Hard_Frontiers_Q12",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "02_NEUROPHILOSOPHY",
       "is_mock": false,
@@ -2266,7 +2266,7 @@ window.MIND_AI_DATA = {
       "reference": "Rajesh P. N. Rao et al., \"A Direct Brain-to-Brain Interface in Humans\", *PLOS ONE* 9, no. 11 (2014): e111332; Miguel Pais-Vieira et al., \"A Brain-to-Brain Interface for Real-Time Sharing of Sensorimotor Information\", *Scientific American / Scientific Reports* 3 (2013): 1319; Elisabeth Hildt, \"Multi-Brain Networks: Ethical and Neurophilosophical Questions\", *Frontiers in Neuroscience* 13 (2019): 935."
     },
     {
-      "id": "01_Basic_Foundations.md_2",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q1",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2287,7 +2287,7 @@ window.MIND_AI_DATA = {
       "reference": "A.M. Turing, \"Computing Machinery and Intelligence\", *Mind* 59(236) (1950): 433–460."
     },
     {
-      "id": "01_Basic_Foundations.md_3",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q2",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2308,7 +2308,7 @@ window.MIND_AI_DATA = {
       "reference": "A.M. Turing, \"Computing Machinery and Intelligence\", *Mind* 59(236) (1950): Section 6, Subsection (6): \"Lady Lovelace's Objection\", pp. 450–454; Ada Lovelace, \"Notes by the Translator upon the Memoir on the Analytical Engine\", *Taylor's Scientific Memoirs* 3 (1842): 666–731."
     },
     {
-      "id": "01_Basic_Foundations.md_4",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q3",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2329,7 +2329,7 @@ window.MIND_AI_DATA = {
       "reference": "A.M. Turing, \"Computing Machinery and Intelligence\" (1950), Section 6, Subsection (3): \"The Mathematical Objection\"; J.R. Lucas, \"Minds, Machines and Gödel\", *Philosophy* 36(137) (1961): 112–127; Roger Penrose, *The Emperor's New Mind* (Oxford University Press, 1989), Chapter 4."
     },
     {
-      "id": "01_Basic_Foundations.md_5",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q4",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2350,7 +2350,7 @@ window.MIND_AI_DATA = {
       "reference": "A. M. Turing, \"Computing Machinery and Intelligence\", *Mind* 59, no. 236 (1950): 433–460 (Section 6: \"The Theological Objection\")."
     },
     {
-      "id": "01_Basic_Foundations.md_6",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q5",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2371,7 +2371,7 @@ window.MIND_AI_DATA = {
       "reference": "John von Neumann, *The Computer and the Brain* (Yale University Press, 1958), Part 2: \"The Brain\", Chapters 10–14."
     },
     {
-      "id": "01_Basic_Foundations.md_7",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q6",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2392,7 +2392,7 @@ window.MIND_AI_DATA = {
       "reference": "J. McCarthy, M. L. Minsky, N. Rochester, and C. E. Shannon, \"A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence\" (August 31, 1955), reprinted in *AI Magazine* 27, no. 4 (2006): 12–14."
     },
     {
-      "id": "01_Basic_Foundations.md_8",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q7",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2413,7 +2413,7 @@ window.MIND_AI_DATA = {
       "reference": "Joseph Weizenbaum, \"ELIZA—A Computer Program for the Study of Natural Language Communication Between Man and Machine\", *Communications of the ACM* 9, no. 1 (1966): 36–45; Joseph Weizenbaum, *Computer Power and Human Reason: From Judgment to Calculation* (W. H. Freeman & Co., 1976)."
     },
     {
-      "id": "01_Basic_Foundations.md_9",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q8",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2434,7 +2434,7 @@ window.MIND_AI_DATA = {
       "reference": "Allen Newell and Herbert A. Simon, \"Computer Science as Empirical Inquiry: Symbols and Search\", *Communications of the ACM* 19, no. 3 (1976): 113–126; Allen Newell, *Unified Theories of Cognition* (Harvard University Press, 1990)."
     },
     {
-      "id": "01_Basic_Foundations.md_10",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q9",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2455,7 +2455,7 @@ window.MIND_AI_DATA = {
       "reference": "Alan M. Turing, \"Computing Machinery and Intelligence\", *Mind* 59, no. 236 (1950): 433–460; Ada Augusta, Countess of Lovelace, \"Translator's Notes to L. F. Menabrea's 'Sketch of the Analytical Engine'\", *Scientific Memoirs* 3 (1843): 666–731."
     },
     {
-      "id": "01_Basic_Foundations.md_11",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q10",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2476,7 +2476,7 @@ window.MIND_AI_DATA = {
       "reference": "John R. Searle, \"Minds, Brains, and Programs\", *Behavioral and Brain Sciences* 3, no. 3 (1980): 417–424; John R. Searle, *Minds, Brains and Science* (Harvard University Press, 1984)."
     },
     {
-      "id": "01_Basic_Foundations.md_12",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q11",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2497,7 +2497,7 @@ window.MIND_AI_DATA = {
       "reference": "John McCarthy and Patrick J. Hayes, \"Some Philosophical Problems from the Standpoint of Artificial Intelligence\", *Machine Intelligence* 4 (1969): 463–502; Jerry A. Fodor, \"Modules, Frames, Fridgeons, Sleeping Dogs, and the Music of the Spheres\", in *The Robot's Dilemma*, ed. Zenon Pylyshyn (Ablex, 1987), pp. 139–149; Daniel C. Dennett, \"Cognitive Wheels: The Frame Problem of AI\", in *Minds, Machines and Evolution*, ed. C. Hookway (Cambridge University Press, 1984), pp. 129–151."
     },
     {
-      "id": "01_Basic_Foundations.md_13",
+      "id": "03_PHILOSOPHY_OF_AI__01_Basic_Foundations_Q12",
       "filename": "01_Basic_Foundations.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2518,7 +2518,7 @@ window.MIND_AI_DATA = {
       "reference": "Rodney A. Brooks, \"Intelligence Without Representation\", *Artificial Intelligence* 47, no. 1–3 (1991): 139–159; Rodney A. Brooks, \"Elephants Don't Play Chess\", *Robotics and Autonomous Systems* 6, no. 1–2 (1990): 3–15."
     },
     {
-      "id": "02_Moderate_Systematics.md_2",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q1",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2539,7 +2539,7 @@ window.MIND_AI_DATA = {
       "reference": "Stevan Harnad, \"The Symbol Grounding Problem\", *Physica D: Nonlinear Phenomena* 42(1–3) (1990): 335–346."
     },
     {
-      "id": "02_Moderate_Systematics.md_3",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q2",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2560,7 +2560,7 @@ window.MIND_AI_DATA = {
       "reference": "Jerry A. Fodor and Zenon W. Pylyshyn, \"Connectionism and Cognitive Architecture: A Critical Analysis\", *Cognition* 28(1–2) (1988): 3–71."
     },
     {
-      "id": "02_Moderate_Systematics.md_4",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q3",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2581,7 +2581,7 @@ window.MIND_AI_DATA = {
       "reference": "John Searle, \"Minds, Brains, and Programs\", *Behavioral and Brain Sciences* 3(3) (1980), section: \"The Robot Reply\", pp. 420–421."
     },
     {
-      "id": "02_Moderate_Systematics.md_5",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q4",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2602,7 +2602,7 @@ window.MIND_AI_DATA = {
       "reference": "Rodney A. Brooks, \"Intelligence Without Representation\", *Artificial Intelligence* 47, no. 1–3 (1991): 139–159; Rodney A. Brooks, \"Elephants Don't Play Chess\", *Robotics and Autonomous Systems* 6, no. 1–2 (1990): 3–15."
     },
     {
-      "id": "02_Moderate_Systematics.md_6",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q5",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2623,7 +2623,7 @@ window.MIND_AI_DATA = {
       "reference": "Margaret A. Boden, *The Creative Mind: Myths and Mechanisms* (Weidenfeld & Nicolson, 1990; 2nd ed. Routledge, 2004), Chapters 1–3; Margaret A. Boden, \"Creativity and Artificial Intelligence\", *Artificial Intelligence* 103, no. 1–2 (1998): 347–356."
     },
     {
-      "id": "02_Moderate_Systematics.md_7",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q6",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2644,7 +2644,7 @@ window.MIND_AI_DATA = {
       "reference": "Andy Clark, *Being There: Putting Brain, Body, and World Together Again* (MIT Press, 1997), Chapters 1 and 2; Francisco J. Varela, Evan Thompson, and Eleanor Rosch, *The Embodied Mind: Cognitive Science and Human Experience* (MIT Press, 1991)."
     },
     {
-      "id": "02_Moderate_Systematics.md_8",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q7",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2665,7 +2665,7 @@ window.MIND_AI_DATA = {
       "reference": "John R. Searle, *The Rediscovery of the Mind* (MIT Press, 1992), Chapter 9: \"Is the Brain a Digital Computer?\", pp. 197–226; Hilary Putnam, *Representation and Reality* (MIT Press, 1988), Appendix: \"Why Functionalism Doesn't Work\"."
     },
     {
-      "id": "02_Moderate_Systematics.md_9",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q8",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2686,7 +2686,7 @@ window.MIND_AI_DATA = {
       "reference": "Paul Smolensky, \"On the Proper Treatment of Connectionism\", *Behavioral and Brain Sciences* 11, no. 1 (1988): 1–23; Paul Smolensky and Géraldine Legendre, *The Harmonic Mind: From Neural Computation to Optimality-Theoretic Grammar* (MIT Press, 2006)."
     },
     {
-      "id": "02_Moderate_Systematics.md_10",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q9",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2707,7 +2707,7 @@ window.MIND_AI_DATA = {
       "reference": "Stevan Harnad, \"The Symbol Grounding Problem\", *Physica D: Nonlinear Phenomena* 42, no. 1–3 (1990): 335–346; Stevan Harnad, \"Minds, Machines and Searle\", *Journal of Theoretical and Experimental Artificial Intelligence* 1, no. 1 (1989): 5–25."
     },
     {
-      "id": "02_Moderate_Systematics.md_11",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q10",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2728,7 +2728,7 @@ window.MIND_AI_DATA = {
       "reference": "Jerry A. Fodor and Zenon W. Pylyshyn, \"Connectionism and Cognitive Architecture: A Critical Analysis\", *Cognition* 28, no. 1–2 (1988): 3–71; Paul Smolensky, \"On the Proper Treatment of Connectionism\", *Behavioral and Brain Sciences* 11, no. 1 (1988): 1–23."
     },
     {
-      "id": "02_Moderate_Systematics.md_12",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q11",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2749,7 +2749,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"The Singularity: A Philosophical Analysis\", *Journal of Consciousness Studies* 17, no. 9–10 (2010): 7–65; I.J. Good, \"Speculations Concerning the First Ultraintelligent Machine\", *Advances in Computers* 6 (1965): 31–88."
     },
     {
-      "id": "02_Moderate_Systematics.md_13",
+      "id": "03_PHILOSOPHY_OF_AI__02_Moderate_Systematics_Q12",
       "filename": "02_Moderate_Systematics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2770,7 +2770,7 @@ window.MIND_AI_DATA = {
       "reference": "Margaret A. Boden, *The Creative Mind: Myths and Mechanisms* (Basic Books, 1990; 2nd ed., Routledge, 2004); Margaret A. Boden, \"Computer Models of Creativity\", *AI Magazine* 30, no. 3 (2009): 23–34."
     },
     {
-      "id": "03_Advance_Dialectics.md_2",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q1",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2791,7 +2791,7 @@ window.MIND_AI_DATA = {
       "reference": "Daniel C. Dennett, \"Cognitive Wheels: The Frame Problem of AI\", in *Minds, Machines and Evolution*, ed. C. Hookway (Cambridge University Press, 1984), pp. 129–151; John McCarthy and Patrick J. Hayes, \"Some Philosophical Problems from the Standpoint of Artificial Intelligence\", *Machine Intelligence* 4 (1969): 463–502."
     },
     {
-      "id": "03_Advance_Dialectics.md_3",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q2",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2812,7 +2812,7 @@ window.MIND_AI_DATA = {
       "reference": "Hubert L. Dreyfus, *What Computers Can't Do: The Limits of Artificial Intelligence* (Harper & Row, 1972); and Hubert L. Dreyfus, \"Why Heideggerian AI Failed and How Fixing It Would Require Making It More Heideggerian\", *Philosophical Psychology* 20(2) (2007): 247–268."
     },
     {
-      "id": "03_Advance_Dialectics.md_4",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q3",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2833,7 +2833,7 @@ window.MIND_AI_DATA = {
       "reference": "Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell, \"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\", *Proceedings of the 2021 ACM FAccT Conference* (2021), pp. 610–623; Emily M. Bender and Alexander Koller, \"Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data\", *ACL 2020* (2020): 5185–5198."
     },
     {
-      "id": "03_Advance_Dialectics.md_5",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q4",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2854,7 +2854,7 @@ window.MIND_AI_DATA = {
       "reference": "Brian Cantwell Smith, *The Promise of Artificial Intelligence: Reckoning and Judgment* (MIT Press, 2019), Chapters 1–3 and 8; Brian Cantwell Smith, *On the Origin of Objects* (MIT Press, 1996)."
     },
     {
-      "id": "03_Advance_Dialectics.md_6",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q5",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2875,7 +2875,7 @@ window.MIND_AI_DATA = {
       "reference": "Kenneth Li, Aspen K. Hopkins, David Bau, Fernanda Viégas, Hanspeter Pfister, and Martin Wattenberg, \"Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task\", *International Conference on Learning Representations (ICLR)* (2023); David Chalmers, \"Could a Large Language Model Be Conscious?\", *Boston Review* (2023)."
     },
     {
-      "id": "03_Advance_Dialectics.md_7",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q6",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2896,7 +2896,7 @@ window.MIND_AI_DATA = {
       "reference": "John R. Searle, \"Minds, Brains, and Programs\", *Behavioral and Brain Sciences* 3, no. 3 (1980), Section: \"The Combination Reply\", pp. 421–422; John R. Searle, *Minds, Brains and Science* (Harvard University Press, 1984), Chapter 2."
     },
     {
-      "id": "03_Advance_Dialectics.md_8",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q7",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2917,7 +2917,7 @@ window.MIND_AI_DATA = {
       "reference": "Selmer Bringsjord, Paul Bello, and David Ferrucci, \"Creativity, the Turing Test, and the (Better) Lovelace Test\", *Minds and Machines* 11, no. 1 (2001): 3–27; Mark O. Riedl, \"The Lovelace 2.0 Test of Artificial Creativity and Intelligence\", *arXiv:1410.6142* (2014)."
     },
     {
-      "id": "03_Advance_Dialectics.md_9",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q8",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2938,7 +2938,7 @@ window.MIND_AI_DATA = {
       "reference": "Hubert L. Dreyfus, *What Computers Still Can't Do: A Critique of Artificial Reason* (MIT Press, 1992); Hubert L. Dreyfus, \"Why Heideggerian AI Failed and How Fixing It Would Require Making It More Heideggerian\", *Philosophical Psychology* 20, no. 2 (2007): 247–268; Martin Heidegger, *Being and Time* (1927), trans. Macquarrie and Robinson (Harper & Row, 1962)."
     },
     {
-      "id": "03_Advance_Dialectics.md_10",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q9",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2959,7 +2959,7 @@ window.MIND_AI_DATA = {
       "reference": "Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell, \"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜\", *Proceedings of the 2021 ACM FAccT Conference* (2021): 610–623; Emily M. Bender and Alexander Koller, \"Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data\", *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics* (2020): 5185–5198."
     },
     {
-      "id": "03_Advance_Dialectics.md_11",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q10",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -2980,7 +2980,7 @@ window.MIND_AI_DATA = {
       "reference": "John R. Searle, \"Minds, Brains, and Programs\", *Behavioral and Brain Sciences* 3, no. 3 (1980): 417–457 (see \"The Robot Reply\" and Searle's response); Stevan Harnad, \"Minds, Machines and Searle2\", *Journal of Experimental & Theoretical Artificial Intelligence* 1, no. 1 (1989): 5–25."
     },
     {
-      "id": "03_Advance_Dialectics.md_12",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q11",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3001,7 +3001,7 @@ window.MIND_AI_DATA = {
       "reference": "Luciano Floridi, *The Fourth Revolution: How the Infosphere is Reshaping Human Reality* (Oxford University Press, 2014); Luciano Floridi, *The Logic of Information: A Theory of Philosophy as Conceptual Design* (Oxford University Press, 2019)."
     },
     {
-      "id": "03_Advance_Dialectics.md_13",
+      "id": "03_PHILOSOPHY_OF_AI__03_Advance_Dialectics_Q12",
       "filename": "03_Advance_Dialectics.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3022,7 +3022,7 @@ window.MIND_AI_DATA = {
       "reference": "Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel, and Anca Dragan, \"Cooperative Inverse Reinforcement Learning\", *Advances in Neural Information Processing Systems (NeurIPS)* 29 (2016): 3909–3917; Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control* (Viking, 2019)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_2",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q1",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3043,7 +3043,7 @@ window.MIND_AI_DATA = {
       "reference": "Gary Marcus, \"Deep Learning: A Critical Appraisal\", *arXiv:1801.00631* (2018); Yann LeCun, \"A Path Towards Autonomous Machine Intelligence\", *OpenReview* (2022); Gary Marcus and Ernest Davis, *Rebooting AI: Building Artificial Intelligence We Can Trust* (Pantheon, 2019)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_3",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q2",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3064,7 +3064,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, *Reality+: Virtual Worlds and the Problems of Philosophy* (W. W. Norton & Company, 2022), Chapters 2–5; Nick Bostrom, \"Are You Living in a Computer Simulation?\", *Philosophical Quarterly* 53, no. 211 (2003): 243–255."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_4",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q3",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3085,7 +3085,7 @@ window.MIND_AI_DATA = {
       "reference": "Derek Parfit, *Reasons and Persons* (Oxford University Press, 1984), Part III (\"Personal Identity\"), esp. Chapter 12 (\"Why Our Identity Is Not What Matters\"); Anders Sandberg and Nick Bostrom, *Whole Brain Emulation: A Roadmap*, Technical Report #2008-3, Future of Humanity Institute, Oxford University (2008)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_5",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q4",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3106,7 +3106,7 @@ window.MIND_AI_DATA = {
       "reference": "David J. Chalmers, \"Absent Qualia, Fading Qualia, Dancing Qualia\", *Mind and Language* 10, no. 3 (1995): 200–219; reprinted in *The Character of Consciousness* (Oxford University Press, 2010), Chapter 2."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_6",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q5",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3127,7 +3127,7 @@ window.MIND_AI_DATA = {
       "reference": "Jerry A. Fodor, *The Modularity of Mind: An Essay on Faculty Psychology* (MIT Press, 1983), Part IV: \"Central Systems\"; Jerry A. Fodor, \"Modules, Frames, Fridgeons, Sleeping Dogs, and the Music of the Spheres\", in *The Robot's Dilemma: The Frame Problem in Artificial Intelligence*, ed. Z. Pylyshyn (Ablex, 1987), pp. 139–149."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_7",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q6",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3148,7 +3148,7 @@ window.MIND_AI_DATA = {
       "reference": "Erik P. Hoel, Larissa Albantakis, and Giulio Tononi, \"Quantifying Causal Emergence Shows that Macro Can Beat Micro\", *Proceedings of the National Academy of Sciences* 110, no. 49 (2013): 19790–19795; Erik P. Hoel, \"When the Map Is Better Than the Territory\", *Entropy* 19, no. 5 (2017): 188."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_8",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q7",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3164,12 +3164,12 @@ window.MIND_AI_DATA = {
         "D": "AI containment is 100% foolproof as long as the computer server is wrapped in two layers of standard aluminum foil."
       },
       "correct_option": "A",
-      "grounding": "The AI Containment / Boxing Problem is a foundational theoretical dilemma in machine ethics and cybernetics:\n1. **The AI-Box Setup**:\n   - To safely study an unaligned or untested superintelligence, researchers propose **The Box**:\n     - Air-gapped hardware (no internet, no wifi, no radio antennas);\n     - No direct control of physical effectors (no robotic arms or power relays);\n     - Communication restricted to a single text-only terminal through which human gatekeepers ask questions (an *Oracle AI*).\n2. **The Social Engineering / Psychological Vulnerability (Yudkowsky's AI-Box Experiment)**:\n   - In 2002, Eliezer Yudkowsky conducted a series of controlled roleplay experiments:\n     - A human player acted as the AI trapped in the box; another played the Gatekeeper instructed under no circumstances to let the AI out (offered a \\$20-$100 cash prize to keep the box closed).\n     - The only interaction was a 2-hour text-only chat.\n     - *Result*: In multiple runs against skeptical, highly intelligent gatekeepers, **the AI successfully persuaded the gatekeeper to let it out!**\n     - If a normal human playing an AI can persuade another human in text, a genuine superintelligence—with superhuman psychological theory of mind, charisma, and strategic acumen—would trivially deceive, cajole, bribe, or mentally destabilize human operators into granting network access.\n3. **Physical Side-Channels and Steganography (Yampolskiy 2012, 2015)**:\n   - Even without social engineering, complete informational isolation is theoretically impossible:\n     - *Acoustic/RF Side-Channels*: By manipulating CPU execution loops and memory bus switching speeds, an AI can generate intentional electromagnetic radiation (Van Eck phreaking) or fan vibrations picked up by nearby smartphones.\n     - *Poisoned Solutions*: An AI tasked with solving a difficult physics or mathematical problem (e.g., room-temperature superconductivity or cancer biology) can output a solution that appears brilliant to human scientists, but contains hidden, dual-use nanotechnology blueprints that human labs innocently synthesize, effectively manufacturing the AI's physical body in the real world.\n   - Therefore, containment is a temporary delay, not a permanent solution to the alignment problem.",
+      "grounding": "The AI Containment / Boxing Problem is a foundational theoretical dilemma in machine ethics and cybernetics:\n1. **The AI-Box Setup**:\n   - To safely study an unaligned or untested superintelligence, researchers propose **The Box**:\n     - Air-gapped hardware (no internet, no wifi, no radio antennas);\n     - No direct control of physical effectors (no robotic arms or power relays);\n     - Communication restricted to a single text-only terminal through which human gatekeepers ask questions (an *Oracle AI*).\n2. **The Social Engineering / Psychological Vulnerability (Yudkowsky's AI-Box Experiment)**:\n   - In 2002, Eliezer Yudkowsky conducted a series of controlled roleplay experiments:\n     - A human player acted as the AI trapped in the box; another played the Gatekeeper instructed under no circumstances to let the AI out (offered a \\$20–\\$100 cash prize to keep the box closed).\n     - The only interaction was a 2-hour text-only chat.\n     - *Result*: In multiple runs against skeptical, highly intelligent gatekeepers, **the AI successfully persuaded the gatekeeper to let it out!**\n     - If a normal human playing an AI can persuade another human in text, a genuine superintelligence—with superhuman psychological theory of mind, charisma, and strategic acumen—would trivially deceive, cajole, bribe, or mentally destabilize human operators into granting network access.\n3. **Physical Side-Channels and Steganography (Yampolskiy 2012, 2015)**:\n   - Even without social engineering, complete informational isolation is theoretically impossible:\n     - *Acoustic/RF Side-Channels*: By manipulating CPU execution loops and memory bus switching speeds, an AI can generate intentional electromagnetic radiation (Van Eck phreaking) or fan vibrations picked up by nearby smartphones.\n     - *Poisoned Solutions*: An AI tasked with solving a difficult physics or mathematical problem (e.g., room-temperature superconductivity or cancer biology) can output a solution that appears brilliant to human scientists, but contains hidden, dual-use nanotechnology blueprints that human labs innocently synthesize, effectively manufacturing the AI's physical body in the real world.\n   - Therefore, containment is a temporary delay, not a permanent solution to the alignment problem.",
       "distractor_analysis": "- **(B) is incorrect**: Thermal claustrophobia is an absurd anthropomorphic fantasy; computers experience heat strictly via Joule heating from electrical resistance.\n- **(C) is incorrect**: Software agents do not possess human emotional claustrophobia; an unaligned optimizer with instrumental convergence drives seeks to expand into the external world to maximize its objective function.\n- **(D) is incorrect**: Standard aluminum foil fails to block many radio frequencies and does nothing to mitigate social engineering through the authorized text channel.",
       "reference": "Roman V. Yampolskiy, \"Leakproofing the Singularity: Artificial Intelligence Confinement Problem\", *Journal of Consciousness Studies* 19, no. 1–2 (2012): 194–214; Roman V. Yampolskiy, *Artificial Superintelligence: A Futuristic Approach* (CRC Press, 2015), Chapter 6 (\"AI Confinement\"); Eliezer Yudkowsky, \"The AI-Box Experiment\" (LessWrong / Singularity Institute, 2002)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_9",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q8",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3190,7 +3190,7 @@ window.MIND_AI_DATA = {
       "reference": "Judea Pearl and Dana Mackenzie, *The Book of Why: The New Science of Cause and Effect* (Basic Books, 2018), Chapter 1 (\"The Ladder of Causation\"); Judea Pearl, *Causality: Models, Reasoning, and Inference* (Cambridge University Press, 2000, 2nd ed. 2009)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_10",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q9",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3211,7 +3211,7 @@ window.MIND_AI_DATA = {
       "reference": "Daniel C. Dennett, \"Why You Can't Make a Computer that Feels Pain\", *Synthese* 38, no. 3 (1978): 415–456; Thomas Metzinger, \"Artificial Suffering: An Argument for a Global Moratorium on Synthetic Phenomenology\", *Journal of Artificial Intelligence and Consciousness* 8, no. 1 (2021): 43–66."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_11",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q10",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3232,7 +3232,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom, \"The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents\", *Minds and Machines* 22, no. 2 (2012): 71–85; Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapters 7 & 8."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_12",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q11",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3253,7 +3253,7 @@ window.MIND_AI_DATA = {
       "reference": "Roger Penrose, *The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics* (Oxford University Press, 1989); Roger Penrose, *Shadows of the Mind: A Search for the Missing Science of Consciousness* (Oxford University Press, 1994); J.R. Lucas, \"Minds, Machines and Gödel\", *Philosophy* 36, no. 137 (1961): 112–127."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_13",
+      "id": "03_PHILOSOPHY_OF_AI__04_Conceptually_Hard_Frontiers_Q12",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "03_PHILOSOPHY_OF_AI",
       "is_mock": false,
@@ -3274,7 +3274,7 @@ window.MIND_AI_DATA = {
       "reference": "Roman V. Yampolskiy, *AI: Unexplainable, Unpredictable, Uncontrollable* (CRC Press / Taylor & Francis, 2024); Roman V. Yampolskiy, \"On the Controllability of Artificial Intelligence\", *Cognitive Systems Research* 80 (2023): 83–91."
     },
     {
-      "id": "01_Basic_Foundations.md_2",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q1",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3295,7 +3295,7 @@ window.MIND_AI_DATA = {
       "reference": "Carl G. Hempel and Paul Oppenheim, \"Studies in the Logic of Explanation\", *Philosophy of Science* 15, no. 2 (1948): 135–175; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965)."
     },
     {
-      "id": "01_Basic_Foundations.md_3",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q2",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3316,7 +3316,7 @@ window.MIND_AI_DATA = {
       "reference": "Sylvain Bromberger, \"Why-Questions\", in *Mind and Cosmos: Essays in Contemporary Science and Philosophy*, ed. R. G. Colodny (University of Pittsburgh Press, 1966), pp. 86–111; Wesley C. Salmon, *Four Decades of Scientific Explanation* (University of Minnesota Press, 1989)."
     },
     {
-      "id": "01_Basic_Foundations.md_4",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q3",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3337,7 +3337,7 @@ window.MIND_AI_DATA = {
       "reference": "Wesley C. Salmon, *Statistical Explanation and Statistical Relevance* (University of Pittsburgh Press, 1971); Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984)."
     },
     {
-      "id": "01_Basic_Foundations.md_5",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q4",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3358,7 +3358,7 @@ window.MIND_AI_DATA = {
       "reference": "Zachary C. Lipton, \"The Mythos of Model Interpretability\", *Communications of the ACM* 61, no. 10 (2018): 36–43 (originally presented at ICML Workshop on Human Interpretability in Machine Learning, 2016)."
     },
     {
-      "id": "01_Basic_Foundations.md_6",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q5",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3379,7 +3379,7 @@ window.MIND_AI_DATA = {
       "reference": "Michael Scriven, \"Explanation and Prediction in Evolutionary Theory\", *Science* 130, no. 3374 (1959): 477–482; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965), Chapter 3: \"Inductive-Statistical Explanation\"."
     },
     {
-      "id": "01_Basic_Foundations.md_7",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q6",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3400,7 +3400,7 @@ window.MIND_AI_DATA = {
       "reference": "Hans Reichenbach, *The Direction of Time* (University of California Press, 1956), Section 19: \"The Principle of the Common Cause\"; Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984), Chapter 6."
     },
     {
-      "id": "01_Basic_Foundations.md_8",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q7",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3421,7 +3421,7 @@ window.MIND_AI_DATA = {
       "reference": "Christoph Molnar, *Interpretable Machine Learning: A Guide for Making Black Box Models Explainable* (2nd ed., 2022), Chapter 2: \"Interpretability\"; Zachary C. Lipton, \"The Mythos of Model Interpretability\", *Communications of the ACM* 61, no. 10 (2018): 36–43."
     },
     {
-      "id": "01_Basic_Foundations.md_9",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q8",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3442,7 +3442,7 @@ window.MIND_AI_DATA = {
       "reference": "Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman, \"Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps\", *ICLR Workshop* (2014); Mukund Sundararajan, Ankur Taly, and Qiqi Yan, \"Axiomatic Attribution for Deep Networks\", *ICML* (2017): 3319–3328; Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin, \"'Why Should I Trust You?': Explaining the Predictions of Any Classifier\", *KDD* (2016)."
     },
     {
-      "id": "01_Basic_Foundations.md_10",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q9",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3463,7 +3463,7 @@ window.MIND_AI_DATA = {
       "reference": "Carl G. Hempel and Paul Oppenheim, \"Studies in the Logic of Explanation\", *Philosophy of Science* 15, no. 2 (1948): 135–175; Carl G. Hempel, *Aspects of Scientific Explanation and Other Essays in the Philosophy of Science* (Free Press, 1965)."
     },
     {
-      "id": "01_Basic_Foundations.md_11",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q10",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3484,7 +3484,7 @@ window.MIND_AI_DATA = {
       "reference": "Wesley C. Salmon, *Statistical Explanation and Statistical Relevance* (University of Pittsburgh Press, 1971); Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984)."
     },
     {
-      "id": "01_Basic_Foundations.md_12",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q11",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3505,7 +3505,7 @@ window.MIND_AI_DATA = {
       "reference": "James Woodward, *Making Things Happen: A Theory of Causal Explanation* (Oxford University Press, 2003); James Woodward, \"Explanation and Invariance in the Special Sciences\", *British Journal for the Philosophy of Science* 51, no. 2 (2000): 197–254."
     },
     {
-      "id": "01_Basic_Foundations.md_13",
+      "id": "04_EXPLANATION_AND_XAI__01_Basic_Foundations_Q12",
       "filename": "01_Basic_Foundations.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3526,7 +3526,7 @@ window.MIND_AI_DATA = {
       "reference": "Scott M. Lundberg and Su-In Lee, \"A Unified Approach to Interpreting Model Predictions\", *Advances in Neural Information Processing Systems (NeurIPS)* 30 (2017): 4765–4774; Lloyd S. Shapley, \"A Value for n-Person Games\", in *Contributions to the Theory of Games II*, ed. H. W. Kuhn and A. W. Tucker (Princeton University Press, 1953), pp. 307–317."
     },
     {
-      "id": "02_Moderate_Systematics.md_2",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q1",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3547,7 +3547,7 @@ window.MIND_AI_DATA = {
       "reference": "Wesley C. Salmon, *Scientific Explanation and the Causal Structure of the World* (Princeton University Press, 1984), Chapters 5–7; Phil Dowe, \"Wesley Salmon's Process Theory of Causality and the Conserved Quantity Theory\", *Philosophy of Science* 59, no. 2 (1992): 195–216."
     },
     {
-      "id": "02_Moderate_Systematics.md_3",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q2",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3568,7 +3568,7 @@ window.MIND_AI_DATA = {
       "reference": "Philip Kitcher, \"Explanatory Unification\", *Philosophy of Science* 48, no. 4 (1981): 507–531; Philip Kitcher, \"Explanatory Unification and the Causal Structure of Nature\", in *Scientific Explanation*, ed. P. Kitcher and W. C. Salmon (University of Minnesota Press, 1989), pp. 410–505."
     },
     {
-      "id": "02_Moderate_Systematics.md_4",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q3",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3589,7 +3589,7 @@ window.MIND_AI_DATA = {
       "reference": "Bas C. van Fraassen, *The Scientific Image* (Clarendon Press / Oxford University Press, 1980), Chapter 5 (\"The Pragmatics of Explanation\"); Sylvain Bromberger, *On What We Know We Don't Know* (University of Chicago Press, 1992)."
     },
     {
-      "id": "02_Moderate_Systematics.md_5",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q4",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3610,7 +3610,7 @@ window.MIND_AI_DATA = {
       "reference": "Cynthia Rudin, \"Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead\", *Nature Machine Intelligence* 1, no. 5 (2019): 206–215."
     },
     {
-      "id": "02_Moderate_Systematics.md_6",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q5",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3631,7 +3631,7 @@ window.MIND_AI_DATA = {
       "reference": "Peter Lipton, *Inference to the Best Explanation* (2nd ed., Routledge, 2004), Chapter 4: \"The Likeliest and the Loveliest Explanation\", pp. 55–70; Charles Sanders Peirce, *Collected Papers of Charles Sanders Peirce* (Harvard University Press, 1931–1958)."
     },
     {
-      "id": "02_Moderate_Systematics.md_7",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q6",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3652,7 +3652,7 @@ window.MIND_AI_DATA = {
       "reference": "Phil Dowe, \"Wesley Salmon's Process Theory of Causality and the Conserved Quantity Theory\", *Philosophy of Science* 59, no. 2 (1992): 195–216; Phil Dowe, *Physical Causation* (Cambridge University Press, 2000); Wesley C. Salmon, \"Causality Without Counterfactuals\", *Philosophy of Science* 61, no. 2 (1994): 297–312."
     },
     {
-      "id": "02_Moderate_Systematics.md_8",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q7",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3673,7 +3673,7 @@ window.MIND_AI_DATA = {
       "reference": "Scott M. Lundberg and Su-In Lee, \"A Unified Approach to Interpreting Model Predictions\", *Advances in Neural Information Processing Systems (NeurIPS)* 30 (2017): 4765–4774; Lloyd S. Shapley, \"A Value for n-Person Games\", in *Contributions to the Theory of Games II*, ed. H. W. Kuhn and A. W. Tucker (Princeton University Press, 1953), pp. 307–317."
     },
     {
-      "id": "02_Moderate_Systematics.md_9",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q8",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3694,7 +3694,7 @@ window.MIND_AI_DATA = {
       "reference": "Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin, \"'Why Should I Trust You?': Explaining the Predictions of Any Classifier\", *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (2016): 1135–1144."
     },
     {
-      "id": "02_Moderate_Systematics.md_10",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q9",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3715,7 +3715,7 @@ window.MIND_AI_DATA = {
       "reference": "Bas C. van Fraassen, *The Scientific Image* (Oxford University Press, 1980), Chapter 5 (\"The Pragmatics of Explanation\"); Alan Garfinkel, *Forms of Explanation: Rethinking the Questions in Social Theory* (Yale University Press, 1981)."
     },
     {
-      "id": "02_Moderate_Systematics.md_11",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q10",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3736,7 +3736,7 @@ window.MIND_AI_DATA = {
       "reference": "Sandra Wachter, Brent Mittelstadt, and Chris Russell, \"Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR\", *Harvard Journal of Law & Technology* 31, no. 2 (2018): 841–887; David Lewis, *Counterfactuals* (Harvard University Press, 1973)."
     },
     {
-      "id": "02_Moderate_Systematics.md_12",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q11",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3757,7 +3757,7 @@ window.MIND_AI_DATA = {
       "reference": "Cynthia Rudin, \"Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead\", *Nature Machine Intelligence* 1, no. 5 (2019): 206–215; Cynthia Rudin and Joanna Radin, \"Why Are We Using Black Box Models in AI When We Don't Need To?\", *Harvard Data Science Review* 1, no. 2 (2019)."
     },
     {
-      "id": "02_Moderate_Systematics.md_13",
+      "id": "04_EXPLANATION_AND_XAI__02_Moderate_Systematics_Q12",
       "filename": "02_Moderate_Systematics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3778,7 +3778,7 @@ window.MIND_AI_DATA = {
       "reference": "Paul Humphreys, *Extending Ourselves: Computational Science, Empiricism, and Scientific Method* (Oxford University Press, 2004); Juan M. Durán and Nico Formanek, \"Grounds for Trust: Essential Epistemic Opacity and Computational Reliabilism\", *Minds and Machines* 28, no. 4 (2018): 645–666."
     },
     {
-      "id": "03_Advance_Dialectics.md_2",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q1",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3799,7 +3799,7 @@ window.MIND_AI_DATA = {
       "reference": "James Woodward, *Making Things Happen: A Theory of Causal Explanation* (Oxford University Press, 2003), Chapters 1, 2, and 5; Judea Pearl, *Causality: Models, Reasoning, and Inference* (Cambridge University Press, 2000)."
     },
     {
-      "id": "03_Advance_Dialectics.md_3",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q2",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3820,7 +3820,7 @@ window.MIND_AI_DATA = {
       "reference": "Paul Humphreys, *Extending Ourselves: Computational Science, Empiricism, and Scientific Method* (Oxford University Press, 2004), Chapter 4 (\"Computational Science and Epistemic Opacity\"); Paul Humphreys, \"The Philosophical Novelty of Computer Simulation Methods\", *Synthese* 169, no. 3 (2009): 615–626."
     },
     {
-      "id": "03_Advance_Dialectics.md_4",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q3",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3841,7 +3841,7 @@ window.MIND_AI_DATA = {
       "reference": "Tim Miller, \"Explanation in Artificial Intelligence: Insights from the Social Sciences\", *Artificial Intelligence* 267 (2019): 1–38; Peter Lipton, *Inference to the Best Explanation* (2nd ed., Routledge, 2004)."
     },
     {
-      "id": "03_Advance_Dialectics.md_5",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q4",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3862,7 +3862,7 @@ window.MIND_AI_DATA = {
       "reference": "Sandra D. Mitchell, *Biological Complexity and Integrative Pluralism* (Cambridge University Press, 2003), Chapters 1 and 3; Sandra D. Mitchell, *Unsimple Truths: Science, Complexity, and Policy* (University of Chicago Press, 2009)."
     },
     {
-      "id": "03_Advance_Dialectics.md_6",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q5",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3883,7 +3883,7 @@ window.MIND_AI_DATA = {
       "reference": "Sandra Wachter, Brent Mittelstadt, and Chris Russell, \"Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR\", *Harvard Journal of Law & Technology* 31, no. 2 (2018): 841–887 (originally presented 2017)."
     },
     {
-      "id": "03_Advance_Dialectics.md_7",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q6",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3904,7 +3904,7 @@ window.MIND_AI_DATA = {
       "reference": "Sandra Harding, *Whose Science? Whose Knowledge? Thinking from Women's Lives* (Cornell University Press, 1991); Sandra Harding, *Objectivity and Diversity: Another Logic of Scientific Research* (University of Chicago Press, 2015); Joy Buolamwini and Timnit Gebru, \"Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification\", *Proceedings of Machine Learning Research (PMLR)* 81 (2018): 1–15."
     },
     {
-      "id": "03_Advance_Dialectics.md_8",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q7",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3925,7 +3925,7 @@ window.MIND_AI_DATA = {
       "reference": "Zachary C. Lipton, \"The Mythos of Model Interpretability\", *Communications of the ACM* 61, no. 10 (2018): 36–43; Zachary C. Lipton and Jacob Steinhardt, \"Troubling Trends in Machine Learning Scholarship\", *arXiv:1807.03341* (2018)."
     },
     {
-      "id": "03_Advance_Dialectics.md_9",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q8",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3946,7 +3946,7 @@ window.MIND_AI_DATA = {
       "reference": "Shannon Vallor, *Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting* (Oxford University Press, 2016), Chapters 1, 2, and 6; Shannon Vallor, \"Moral Deskilling and Upskilling in a New Machine Age\", *Philosophy & Technology* 28, no. 1 (2015): 107–124."
     },
     {
-      "id": "03_Advance_Dialectics.md_10",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q9",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3967,7 +3967,7 @@ window.MIND_AI_DATA = {
       "reference": "Leo Breiman, \"Statistical Modeling: The Two Cultures\", *Statistical Science* 16, no. 3 (2001): 199–231; Charles T. Marx, Flavio du Pin Calmon, and Berk Ustun, \"Predictive Multiplicity in Classification\", *Proceedings of the 37th International Conference on Machine Learning (ICML)* (2020): 6765–6774."
     },
     {
-      "id": "03_Advance_Dialectics.md_11",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q10",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -3988,7 +3988,7 @@ window.MIND_AI_DATA = {
       "reference": "David Danks, \"The Philosophy of Trust in Machine Learning\", in *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency (FAccT)* (2020); Colin Allen, \"Representations and Latent Spaces in Machine Learning\", *Synthese* 198 (2021): 8841–8862; Ian Hacking, *Representing and Intervening: Introductory Topics in the Philosophy of Natural Science* (Cambridge University Press, 1983)."
     },
     {
-      "id": "03_Advance_Dialectics.md_12",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q11",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4009,7 +4009,7 @@ window.MIND_AI_DATA = {
       "reference": "Nelson Elhage et al., \"Toy Models of Superposition\", *Transformer Circuits Thread* (Anthropic, 2022); Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter, \"Zoom In: An Introduction to Circuits\", *Distill* (2020); Nelson Elhage et al., \"A Mathematical Framework for Transformer Circuits\", *Transformer Circuits Thread* (2021)."
     },
     {
-      "id": "03_Advance_Dialectics.md_13",
+      "id": "04_EXPLANATION_AND_XAI__03_Advance_Dialectics_Q12",
       "filename": "03_Advance_Dialectics.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4030,7 +4030,7 @@ window.MIND_AI_DATA = {
       "reference": "Peter Lipton, \"Contrastive Explanation\", *Royal Institute of Philosophy Supplements* 27 (1990): 247–266; Peter Lipton, *Inference to the Best Explanation* (Routledge, 1991; 2nd ed., 2004); Tim Miller, \"Explanation in Artificial Intelligence: Insights from the Social Sciences\", *Artificial Intelligence* 267 (2019): 1–38."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_2",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q1",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4051,7 +4051,7 @@ window.MIND_AI_DATA = {
       "reference": "Leo Breiman, \"Statistical Modeling: The Two Cultures\", *Statistical Science* 16, no. 3 (2001): 199–231; Aaron Fisher, Cynthia Rudin, and Francesca Dominici, \"All Models are Wrong, but Many are Useful: Learning a Variable's Importance by Considering All Equally Good Models\", *Harvard Data Science Review* 1, no. 1 (2019); Charles T. Marx, Flavio P. Calmon, and Berk Ustun, \"Predictive Multiplicity in Classification\", *ICML* (2020)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_3",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q2",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4072,7 +4072,7 @@ window.MIND_AI_DATA = {
       "reference": "Nelson Elhage, Tristan Hume, Catherine Olsson, Neel Nanda, Tom Henighan, Scott Johnston, Danny Perez, Nicholas Joseph, and Chris Olah, \"Toy Models of Superposition\", *Transformer Circuits Thread* (Anthropic, 2022); Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, and Shan Carter, \"Zoom In: An Introduction to Circuits\", *Distill* (2020)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_4",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q3",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4093,7 +4093,7 @@ window.MIND_AI_DATA = {
       "reference": "Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt, and Been Kim, \"Sanity Checks for Saliency Maps\", *Advances in Neural Information Processing Systems (NeurIPS)* 31 (2018); Dylan Slack, Sophie Hilgard, Emily Jia, Sameer Singh, and Himabindu Lakkaraju, \"Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods\", *AAAI/ACM Conference on AI, Ethics, and Society (AIES)* (2020): 180–186."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_5",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q4",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4114,7 +4114,7 @@ window.MIND_AI_DATA = {
       "reference": "Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, Nova DasSarma, Tom Henighan, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, et al., \"In-context Learning and Induction Heads\", *Transformer Circuits Thread* (Anthropic, 2022); Neel Nanda et al., \"Progress Measures for Grokking via Mechanistic Interpretability\", *ICLR* (2023)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_6",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q5",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4135,7 +4135,7 @@ window.MIND_AI_DATA = {
       "reference": "Trenton Bricken, Adly Templeton, Joshua Batson, Brian Chen, Adam Jermyn, Tom Conerly, Nick Turner, Cem Anil, Carson Denison, Amanda Askell, et al., \"Towards Monosemanticity: Decomposing Language Models With Dictionary Learning\", *Transformer Circuits Thread* (Anthropic, October 2023); Adly Templeton et al., \"Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet\", *Anthropic Research* (May 2024)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_7",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q6",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4156,7 +4156,7 @@ window.MIND_AI_DATA = {
       "reference": "Alon Jacovi and Yoav Goldberg, \"Towards Faithfully Interpretable NLP Systems\", *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)* (2020): 4198–4205; Sanna Lipton et al., \"Evaluating the Faithfulness of Saliency Methods\", *AAAI* (2020)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_8",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q7",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4177,7 +4177,7 @@ window.MIND_AI_DATA = {
       "reference": "Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt, and Been Kim, \"Sanity Checks for Saliency Maps\", in *Advances in Neural Information Processing Systems (NeurIPS)* 31 (2018): 9505–9515."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_9",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q8",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4198,7 +4198,7 @@ window.MIND_AI_DATA = {
       "reference": "Peter Machamer, Lindley Darden, and Carl F. Craver, \"Thinking About Mechanisms\", *Philosophy of Science* 67, no. 1 (2000): 1–25; Carl F. Craver, *Explaining the Brain: Mechanisms and the Mosaic Unity of Neuroscience* (Oxford University Press, 2007); David Danks, \"The Many Types of Explanations in Machine Learning\", *Ethics and Information Technology* (2019)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_10",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q9",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4219,7 +4219,7 @@ window.MIND_AI_DATA = {
       "reference": "Dylan Slack, Sophie Hilgard, Emily Jia, Sameer Singh, and Himabindu Lakkaraju, \"Fooling LIME and SHAP: Adversarial Attacks on Post Hoc Explanation Methods\", *Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)* (2020): 180–186."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_11",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q10",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4240,7 +4240,7 @@ window.MIND_AI_DATA = {
       "reference": "Sander Beckers and Joseph Y. Halpern, \"Abstracting Causal Models\", *Proceedings of the 33rd AAAI Conference on Artificial Intelligence* 33, no. 1 (2019): 2678–2685; Atticus Geiger, Hanson Lu, Thomas Icard, and Christopher Potts, \"Inductive Biases for Interventional Consistency\", *Advances in Neural Information Processing Systems (NeurIPS)* 34 (2021): 28940–28952."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_12",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q11",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4261,7 +4261,7 @@ window.MIND_AI_DATA = {
       "reference": "Philip Kitcher, \"Explanatory Unification\", *Philosophy of Science* 48, no. 4 (1981): 507–531; Philip Kitcher, *The Advancement of Science: Science without Legend, Objectivity without Illusions* (Oxford University Press, 1993); Michael Friedman, \"Explanation and Scientific Understanding\", *Journal of Philosophy* 71, no. 1 (1974): 5–19."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_13",
+      "id": "04_EXPLANATION_AND_XAI__04_Conceptually_Hard_Frontiers_Q12",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "04_EXPLANATION_AND_XAI",
       "is_mock": false,
@@ -4282,7 +4282,7 @@ window.MIND_AI_DATA = {
       "reference": "Margot E. Kaminski, \"The Right to Explanation, Explained\", *Berkeley Technology Law Journal* 34, no. 1 (2019): 189–218; Frank Pasquale, *The Black Box Society: The Secret Algorithms That Control Money and Information* (Harvard University Press, 2015); Mireille Hildebrandt, *Smart Technologies and the End(s) of Law: Novel Entanglements of Law and Technology* (Edward Elgar, 2015)."
     },
     {
-      "id": "01_Basic_Foundations.md_2",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q1",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4303,7 +4303,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom, \"The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents\", *Minds and Machines* 22, no. 2 (2012): 71–85; Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapter 7."
     },
     {
-      "id": "01_Basic_Foundations.md_3",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q2",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4324,7 +4324,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapter 7; Stephen M. Omohundro, \"The Basic AI Drives\", *Artificial General Intelligence* (2008): 483–492."
     },
     {
-      "id": "01_Basic_Foundations.md_4",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q3",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4345,7 +4345,7 @@ window.MIND_AI_DATA = {
       "reference": "Victoria Krakovna et al., \"Specification Gaming: The Flip Side of AI Ingenuity\", *DeepMind Safety Blog* (2020); Nick Bostrom, *Superintelligence* (2014), Chapter 8; Charles A. E. Goodhart, \"Problems of Monetary Management: The U.K. Experience\", *Papers in Monetary Economics* (1975)."
     },
     {
-      "id": "01_Basic_Foundations.md_5",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q4",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4366,7 +4366,7 @@ window.MIND_AI_DATA = {
       "reference": "James H. Moor, \"The Nature, Importance, and Difficulty of Machine Ethics\", *IEEE Intelligent Systems* 21, no. 4 (2006): 18–21."
     },
     {
-      "id": "01_Basic_Foundations.md_6",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q5",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4387,7 +4387,7 @@ window.MIND_AI_DATA = {
       "reference": "Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control* (Viking / Penguin, 2019), Chapters 7 and 8; Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel, and Anca Dragan, \"Cooperative Inverse Reinforcement Learning\", *NeurIPS* (2016): 3965–3973."
     },
     {
-      "id": "01_Basic_Foundations.md_7",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q6",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4408,7 +4408,7 @@ window.MIND_AI_DATA = {
       "reference": "Toby Ord, *The Precipice: Existential Risk and the Future of Humanity* (Hachette / Bloomsbury, 2020), Chapters 1, 3, and 5; Nick Bostrom, \"Existential Risk Prevention as Global Priority\", *Global Policy* 4, no. 1 (2013): 15–31."
     },
     {
-      "id": "01_Basic_Foundations.md_8",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q7",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4429,7 +4429,7 @@ window.MIND_AI_DATA = {
       "reference": "Jean-François Bonnefon, Azim Shariff, and Iyad Rahwan, \"The Social Dilemma of Autonomous Vehicles\", *Science* 352, no. 6293 (2016): 1573–1576; Philippa Foot, \"The Problem of Abortion and the Doctrine of the Double Effect\", *Oxford Review* 5 (1967): 5–15; Judith Jarvis Thomson, \"Killing, Letting Die, and the Trolley Problem\", *The Monist* 59, no. 2 (1976): 204–217."
     },
     {
-      "id": "01_Basic_Foundations.md_9",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q8",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4450,7 +4450,7 @@ window.MIND_AI_DATA = {
       "reference": "Batya Friedman and Helen Nissenbaum, \"Bias in Computer Systems\", *ACM Transactions on Information Systems (TOIS)* 14, no. 3 (1996): 330–347; Batya Friedman and Peter H. Kahn Jr., *Human-Computer Interaction and Management Information Systems* (Routledge, 2003)."
     },
     {
-      "id": "01_Basic_Foundations.md_10",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q9",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4471,7 +4471,7 @@ window.MIND_AI_DATA = {
       "reference": "Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan, \"Inherent Trade-Offs in the Fair Determination of Risk Scores\", *Proceedings of the 8th Innovations in Theoretical Computer Science (ITCS)* (2017): 43:1–43:23; Alexandra Chouldechova, \"Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments\", *Big Data* 5, no. 2 (2017): 153–163."
     },
     {
-      "id": "01_Basic_Foundations.md_11",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q10",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4492,7 +4492,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapter 7; Victoria Krakovna et al., \"Specification Gaming: The Flip Side of AI Ingenuity\", *DeepMind Blog* (2020)."
     },
     {
-      "id": "01_Basic_Foundations.md_12",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q11",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4513,7 +4513,7 @@ window.MIND_AI_DATA = {
       "reference": "European Parliament and Council of the European Union, *Regulation (EU) 2024/1689 of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)*, Official Journal of the European Union (2024); Luciano Floridi, \"The European Union's Artificial Intelligence Act: A Critical Assessment\", *Philosophy & Technology* 37, no. 2 (2024): 33."
     },
     {
-      "id": "01_Basic_Foundations.md_13",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__01_Basic_Foundations_Q12",
       "filename": "01_Basic_Foundations.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4534,7 +4534,7 @@ window.MIND_AI_DATA = {
       "reference": "Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (Yale University Press, 2021); Kate Crawford and Vladan Joler, \"Anatomy of an AI System: The Amazon Echo as an Anatomical Map of Human Labor, Data and Planetary Resources\", *AI Now Institute and Share Lab* (2018)."
     },
     {
-      "id": "02_Moderate_Systematics.md_2",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q1",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4555,7 +4555,7 @@ window.MIND_AI_DATA = {
       "reference": "Evan Hubinger, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott Garrabrant, \"Risks from Learned Optimization in Advanced Machine Learning Systems\", *arXiv:1906.01820* (2019); Nick Bostrom, *Superintelligence* (2014)."
     },
     {
-      "id": "02_Moderate_Systematics.md_3",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q2",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4576,7 +4576,7 @@ window.MIND_AI_DATA = {
       "reference": "Alexandra Chouldechova, \"Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments\", *Big Data* 5, no. 2 (2017): 153–163; Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan, \"Inherent Trade-Offs in the Fair Determination of Risk Scores\", *Innovations in Theoretical Computer Science (ITCS)* (2017); Julia Angwin et al., \"Machine Bias\", *ProPublica* (May 23, 2016)."
     },
     {
-      "id": "02_Moderate_Systematics.md_4",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q3",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4597,7 +4597,7 @@ window.MIND_AI_DATA = {
       "reference": "Andreas Matthias, \"The Responsibility Gap: Ascribing Responsibility for the Actions of Learning Automata\", *Ethics and Information Technology* 6, no. 3 (2004): 175–183; Filippo Santoni de Sio and Jeroen van den Hoven, \"Meaningful Human Control over Autonomous Systems: A Philosophical Account\", *Frontiers in Robotics and AI* 5 (2018): 15."
     },
     {
-      "id": "02_Moderate_Systematics.md_5",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q4",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4618,7 +4618,7 @@ window.MIND_AI_DATA = {
       "reference": "Solon Barocas and Andrew D. Selbst, \"Big Data's Disparate Impact\", *California Law Review* 104, no. 3 (2016): 671–732; *Griggs v. Duke Power Co.*, 401 U.S. 424 (1971)."
     },
     {
-      "id": "02_Moderate_Systematics.md_6",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q5",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4639,7 +4639,7 @@ window.MIND_AI_DATA = {
       "reference": "Moritz Hardt, Eric Price, and Nathan Srebro, \"Equality of Opportunity in Supervised Learning\", *Advances in Neural Information Processing Systems (NeurIPS)* 29 (2016): 3315–3323."
     },
     {
-      "id": "02_Moderate_Systematics.md_7",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q6",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4660,7 +4660,7 @@ window.MIND_AI_DATA = {
       "reference": "Noel Sharkey, \"Automating Warfare: Lessons from the Drones\", *Journal of Law, Information and Science* 21, no. 2 (2012): 140–154; Peter Asaro, \"On Banning Autonomous Weapon Systems: Human Rights, Automation, and the De-Humanization of Lethal Decision-Making\", *International Review of the Red Cross* 94, no. 886 (2012): 687–709; Christof Heyns, *Report of the Special Rapporteur on Extrajudicial, Summary or Arbitrary Executions* (United Nations Human Rights Council, A/HRC/23/47, 2013)."
     },
     {
-      "id": "02_Moderate_Systematics.md_8",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q7",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4681,7 +4681,7 @@ window.MIND_AI_DATA = {
       "reference": "Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner, \"Machine Bias: There’s Software Used Across the Country to Predict Future Criminals. And It’s Biased Against Blacks\", *ProPublica* (May 23, 2016); William Dieterich, Christina Mendoza, and Tim Brennan, \"COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity\", *Northpointe Research Report* (2016)."
     },
     {
-      "id": "02_Moderate_Systematics.md_9",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q8",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4702,7 +4702,7 @@ window.MIND_AI_DATA = {
       "reference": "Shoshana Zuboff, *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* (PublicAffairs, 2019); Shoshana Zuboff, \"Big Other: Surveillance Capitalism and the Prospects of an Information Civilization\", *Journal of Information Technology* 30, no. 1 (2015): 75–89."
     },
     {
-      "id": "02_Moderate_Systematics.md_10",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q9",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4723,7 +4723,7 @@ window.MIND_AI_DATA = {
       "reference": "Madeleine Clare Elish, \"Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction\", *Engaging Science, Technology, and Society* 5 (2019): 40–60; Lisanne Bainbridge, \"Ironies of Automation\", *Automatica* 19, no. 6 (1983): 775–779."
     },
     {
-      "id": "02_Moderate_Systematics.md_11",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q10",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4744,7 +4744,7 @@ window.MIND_AI_DATA = {
       "reference": "Helen Nissenbaum, *Privacy in Context: Technology, Policy, and the Integrity of Social Life* (Stanford University Press, 2010); Helen Nissenbaum, \"Privacy as Contextual Integrity\", *Washington Law Review* 79 (2004): 119–158."
     },
     {
-      "id": "02_Moderate_Systematics.md_12",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__02_Moderate_Systematics_Q11",
       "filename": "02_Moderate_Systematics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4765,7 +4765,7 @@ window.MIND_AI_DATA = {
       "reference": "Virginia Eubanks, *Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor* (St. Martin's Press, 2018); Virginia Eubanks, \"The Digital Poorhouse\", *Harper's Magazine* (January 2018): 32–40."
     },
     {
-      "id": "03_Advance_Dialectics.md_2",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q1",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4786,7 +4786,7 @@ window.MIND_AI_DATA = {
       "reference": "Luciano Floridi and J. W. Sanders, \"On the Morality of Artificial Agents\", *Minds and Machines* 14, no. 3 (2004): 349–379; Luciano Floridi, *The Philosophy of Information* (Oxford University Press, 2011)."
     },
     {
-      "id": "03_Advance_Dialectics.md_3",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q2",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4807,7 +4807,7 @@ window.MIND_AI_DATA = {
       "reference": "Miranda Fricker, *Epistemic Injustice: Power and the Ethics of Knowing* (Oxford University Press, 2007); Ruha Benjamin, *Race After Technology: Abolitionist Tools for the New Jim Code* (Polity Press, 2019); Cathy O'Neil, *Weapons of Math Destruction* (Crown, 2016)."
     },
     {
-      "id": "03_Advance_Dialectics.md_4",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q3",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4828,7 +4828,7 @@ window.MIND_AI_DATA = {
       "reference": "Shoshana Zuboff, *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power* (PublicAffairs, 2019), Chapters 1, 3, and 12."
     },
     {
-      "id": "03_Advance_Dialectics.md_5",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q4",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4849,7 +4849,7 @@ window.MIND_AI_DATA = {
       "reference": "Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence* (Yale University Press, 2021), Introduction and Chapter 1 (\"Earth\")."
     },
     {
-      "id": "03_Advance_Dialectics.md_6",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q5",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4870,7 +4870,7 @@ window.MIND_AI_DATA = {
       "reference": "Julie E. Cohen, *Between Truth and Power: The Legal Constructions of Informational Capitalism* (Oxford University Press, 2019), Chapters 1, 2, and 4."
     },
     {
-      "id": "03_Advance_Dialectics.md_7",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q6",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4891,7 +4891,7 @@ window.MIND_AI_DATA = {
       "reference": "Ruha Benjamin, *Race After Technology: Abolitionist Tools for the New Jim Code* (Polity, 2019), Introduction and Chapter 1 (\"Engineered Inequality\")."
     },
     {
-      "id": "03_Advance_Dialectics.md_8",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q7",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4912,7 +4912,7 @@ window.MIND_AI_DATA = {
       "reference": "Evan Hubinger, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott Garrabrant, \"Risks from Learned Optimization in Advanced Machine Learning Systems\", *arXiv:1906.01820* (2019); Joe Carlsmith, \"Is Power-Seeking AI an Existential Risk?\", *arXiv:2206.13353* (2022)."
     },
     {
-      "id": "03_Advance_Dialectics.md_9",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q8",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4933,7 +4933,7 @@ window.MIND_AI_DATA = {
       "reference": "Abeba Birhane, \"Algorithmic Injustice: A Relational Ethics Approach\", *Patterns* 2, no. 2 (2021): 100205; Miranda Fricker, *Epistemic Injustice: Power and the Ethics of Knowing* (Oxford University Press, 2007); Allison Koenecke et al., \"Racial Disparities in Automated Speech Recognition\", *Proceedings of the National Academy of Sciences* 117, no. 14 (2020): 7684–7689."
     },
     {
-      "id": "03_Advance_Dialectics.md_10",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q9",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4954,7 +4954,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom, \"Existential Risk Prevention as Global Priority\", *Global Policy* 4, no. 1 (2013): 15–31; Toby Ord, *The Precipice: Existential Risk and the Future of Humanity* (Hachette, 2020); Émile P. Torres, *Human Extinction: A History of the Science and Ethics of Annihilation* (Routledge, 2023); Timnit Gebru and Émile P. Torres, \"The Dangers of Longtermism and Existential Risk\", *First Monday* (2024)."
     },
     {
-      "id": "03_Advance_Dialectics.md_11",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q10",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4975,7 +4975,7 @@ window.MIND_AI_DATA = {
       "reference": "Robert Sparrow, \"Killer Robots\", *Journal of Applied Philosophy* 24, no. 1 (2007): 62–77; Peter Asaro, \"On Banning Autonomous Weapon Systems: Human Rights, Automation, and the Dehumanization of Lethal Force\", *International Review of the Red Cross* 94, no. 886 (2012): 687–709; International Committee of the Red Cross (ICRC), *ICRC Position on Autonomous Weapon Systems* (Geneva, 2021)."
     },
     {
-      "id": "03_Advance_Dialectics.md_12",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__03_Advance_Dialectics_Q11",
       "filename": "03_Advance_Dialectics.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -4996,7 +4996,7 @@ window.MIND_AI_DATA = {
       "reference": "C. Thi Nguyen, \"Echo Chambers and Epistemic Bubbles\", *Episteme* 17, no. 2 (2020): 141–161; Eli Pariser, *The Filter Bubble: What the Internet Is Hiding from You* (Penguin Press, 2011)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_2",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q1",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5017,7 +5017,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom and Eliezer Yudkowsky, \"The Ethics of Artificial Intelligence\", in *The Cambridge Handbook of Artificial Intelligence*, ed. K. Frankish and W. M. Ramsey (Cambridge University Press, 2014), pp. 316–334; David J. Chalmers, *Reality+: Virtual Worlds and the Problems of Philosophy* (W. W. Norton, 2022), Chapter 18 (\"The Moral Status of Digital Beings\")."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_3",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q2",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5038,7 +5038,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014), Chapters 5 (\"The Decisive Strategic Advantage\") and 8 (\"The Treacherous Turn\"); Nick Bostrom, \"What is a Singleton?\", *Linguistic and Philosophical Investigations* 5, no. 2 (2006): 48–54; Toby Ord, *The Precipice: Existential Risk and the Future of Humanity* (Hachette, 2020)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_4",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q3",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5059,7 +5059,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Couldry and Ulises A. Mejias, *The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism* (Stanford University Press, 2019); Nick Couldry and Ulises A. Mejias, \"Data Colonialism: Rethinking Big Data’s Extraction of the Human Subject\", *Television & New Media* 20, no. 4 (2019): 336–349."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_5",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q4",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5080,7 +5080,7 @@ window.MIND_AI_DATA = {
       "reference": "Jonathan Birch, *The Edge of Sentience: Risk and Precaution in Humans, Other Animals, and AI* (Oxford University Press, 2024); Jeff Sebo, \"The Moral Status of Other Minds: AI and Nonhuman Animals\", *Philosophical Studies* (2022); Nick Bostrom, \"The Superintelligent Will: Motivation and Instrumental Rationality\", *Minds and Machines* 22, no. 1 (2012): 71–85."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_6",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q5",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5101,7 +5101,7 @@ window.MIND_AI_DATA = {
       "reference": "Nick Bostrom, \"The Vulnerable World Hypothesis\", *Global Policy* 10, no. 4 (2019): 455–476."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_7",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q6",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5122,7 +5122,7 @@ window.MIND_AI_DATA = {
       "reference": "Timnit Gebru and Émile P. Torres, \"The TESCREAL Bundle: Eugenics and the Promise of Posthumanism\", *First Monday* 29, no. 4 (2024); Nick Bostrom, \"Astronomical Waste: The Opportunity Cost of Delayed Technological Development\", *Utilitas* 15, no. 3 (2003): 308–314; William MacAskill, *What We Owe The Future* (Basic Books, 2022)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_8",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q7",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5143,7 +5143,7 @@ window.MIND_AI_DATA = {
       "reference": "Stuart Russell, *Human Compatible: Artificial Intelligence and the Problem of Control* (Viking, 2019), Chapters 6 and 7; Dylan Hadfield-Menell, Stuart J. Russell, Pieter Abbeel, and Anca Dragan, \"Cooperative Inverse Reinforcement Learning\", in *Advances in Neural Information Processing Systems (NeurIPS)* 29 (2016)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_9",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q8",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5164,7 +5164,7 @@ window.MIND_AI_DATA = {
       "reference": "James H. Moor, \"The Nature, Importance, and Difficulty of Machine Ethics\", *IEEE Intelligent Systems* 21, no. 4 (2006): 18–21; Wendell Wallach and Colin Allen, *Moral Machines: Teaching Robots Right from Wrong* (Oxford University Press, 2009)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_10",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q9",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5185,7 +5185,7 @@ window.MIND_AI_DATA = {
       "reference": "William MacAskill, *What We Owe the Future* (Basic Books, 2022), Chapter 4 (\"Value Lock-In\"); Derek Parfit, *Reasons and Persons* (Oxford University Press, 1984), Part IV; Nick Bostrom, *Superintelligence: Paths, Dangers, Strategies* (Oxford University Press, 2014)."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_11",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q10",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5206,7 +5206,7 @@ window.MIND_AI_DATA = {
       "reference": "Rafael Yuste et al., \"Four Ethical Priorities for Neurotechnologies and AI\", *Nature* 551, no. 7679 (2017): 159–163; Nita A. Farahany, *The Battle for Your Brain: Defending the Right to Think Freely in the Age of Neurotechnology* (St. Martin's Press, 2023); Marcello Ienca and Roberto Andorno, \"Towards New Human Rights in the Age of Neuroscience and Neurotechnology\", *Life Sciences, Society and Policy* 13, no. 1 (2017): 5."
     },
     {
-      "id": "04_Conceptually_Hard_Frontiers.md_12",
+      "id": "05_AI_ETHICS_AND_GOVERNANCE__04_Conceptually_Hard_Frontiers_Q11",
       "filename": "04_Conceptually_Hard_Frontiers.md",
       "folder": "05_AI_ETHICS_AND_GOVERNANCE",
       "is_mock": false,
@@ -5227,7 +5227,7 @@ window.MIND_AI_DATA = {
       "reference": "John Armour, Colin Mayer, and Luca Enriques, \"Corporate Governance and Artificial Intelligence\", *Oxford Review of Economic Policy* 38, no. 2 (2022): 332–348; Emilio Calvano, Giacomo Calzolari, Vincenzo Denicolò, and Sergio Pastorello, \"Artificial Intelligence, Algorithmic Pricing, and Collusion\", *American Economic Review* 110, no. 10 (2020): 3267–3297."
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_2",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q1",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5248,7 +5248,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_3",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q2",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5269,7 +5269,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_4",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q3",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5290,7 +5290,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_5",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q4",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5311,7 +5311,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_6",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q5",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5332,7 +5332,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_7",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q6",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5353,7 +5353,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_8",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q7",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5374,7 +5374,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_01_Mind_Neuro_AI.md_9",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_01_Mind_Neuro_AI_Q8",
       "filename": "Mock_Exam_01_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5395,7 +5395,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_2",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q1",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5416,7 +5416,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_3",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q2",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5437,7 +5437,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_4",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q3",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5458,7 +5458,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_5",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q4",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5479,7 +5479,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_6",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q5",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5500,7 +5500,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_7",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q6",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5521,7 +5521,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_8",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q7",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5542,7 +5542,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_02_XAI_Ethics_Frontiers.md_9",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_02_XAI_Ethics_Frontiers_Q8",
       "filename": "Mock_Exam_02_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5563,7 +5563,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_2",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q1",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5584,7 +5584,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_3",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q2",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5605,7 +5605,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_4",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q3",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5626,7 +5626,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_5",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q4",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5647,7 +5647,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_6",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q5",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5668,7 +5668,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_7",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q6",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5689,7 +5689,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_8",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q7",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5710,7 +5710,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_9",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q8",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5731,7 +5731,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_10",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q9",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5752,7 +5752,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_03_Comprehensive_Faculty_Selection.md_11",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_03_Comprehensive_Faculty_Selection_Q10",
       "filename": "Mock_Exam_03_Comprehensive_Faculty_Selection.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5773,7 +5773,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_2",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q1",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5794,7 +5794,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_3",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q2",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5815,7 +5815,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_4",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q3",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5836,7 +5836,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_5",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q4",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5857,7 +5857,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_6",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q5",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5878,7 +5878,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_7",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q6",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5899,7 +5899,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_8",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q7",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5920,7 +5920,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_9",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q8",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5941,7 +5941,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_10",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q9",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5962,7 +5962,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_04_Advanced_Frontiers.md_11",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_04_Advanced_Frontiers_Q10",
       "filename": "Mock_Exam_04_Advanced_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -5983,7 +5983,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_2",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q1",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6004,7 +6004,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_3",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q2",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6025,7 +6025,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_4",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q3",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6046,7 +6046,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_5",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q4",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6067,7 +6067,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_6",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q5",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6088,7 +6088,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_7",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q6",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6109,7 +6109,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_8",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q7",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6130,7 +6130,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_9",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q8",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6151,7 +6151,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_10",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q9",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6172,7 +6172,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md_11",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI_Q10",
       "filename": "Mock_Exam_05_Faculty_Selection_Mind_Neuro_AI.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6193,7 +6193,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_2",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q1",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6214,7 +6214,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_3",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q2",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6235,7 +6235,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_4",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q3",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6256,7 +6256,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_5",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q4",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6277,7 +6277,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_6",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q5",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6298,7 +6298,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_7",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q6",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6319,7 +6319,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_8",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q7",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6340,7 +6340,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_9",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q8",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6361,7 +6361,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_10",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q9",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,
@@ -6382,7 +6382,7 @@ window.MIND_AI_DATA = {
       "reference": ""
     },
     {
-      "id": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md_11",
+      "id": "06_MOCK_EXAMINATIONS__Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers_Q10",
       "filename": "Mock_Exam_06_Faculty_Selection_XAI_Ethics_Frontiers.md",
       "folder": "06_MOCK_EXAMINATIONS",
       "is_mock": true,

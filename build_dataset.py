@@ -3,7 +3,7 @@ import re
 import json
 import glob
 
-BASE_DIR = "/Users/anshu_macmini/Downloads/Mind_Neuro_AI_Philosophy_Question_Bank"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_FILE = os.path.join(BASE_DIR, "webapp_data.js")
 
 DOMAIN_MAP = {
@@ -62,15 +62,17 @@ def parse_markdown_file(filepath):
     # Split by questions: ### Question
     raw_questions = re.split(r'\n(?=### Question\s*\d+:)', content)
     questions = []
+    q_num = 0
 
     for idx, raw_q in enumerate(raw_questions):
         if not raw_q.strip().startswith("### Question"):
             continue
+        q_num += 1
 
         lines = raw_q.strip().split("\n")
         title_line = lines[0]
         title_match = re.search(r'### Question\s*\d+:\s*(.*)', title_line)
-        title = title_match.group(1).strip() if title_match else f"Question {idx+1}"
+        title = title_match.group(1).strip() if title_match else f"Question {q_num}"
 
         rest = "\n".join(lines[1:])
 
@@ -147,7 +149,7 @@ def parse_markdown_file(filepath):
         ref_match = re.search(r'\*\*Primary Textual Reference\*\*:\s*([^\n]+)', rest)
         reference = ref_match.group(1).strip() if ref_match else ""
 
-        q_id = f"{filename}_{idx+1}"
+        q_id = f"{domain_folder}__{os.path.splitext(filename)[0]}_Q{q_num}"
 
         questions.append({
             "id": q_id,
